@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick Start Guides on ActiveState Platform Documentation</title>
+    <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/</link>
+    <description>Recent content in Quick Start Guides on ActiveState Platform Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://davetlewis-van.github.io/activepython38docs/start/quick-start/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ActiveState-managed projects</title>
+      <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/managed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davetlewis-van.github.io/activepython38docs/start/quick-start/managed/</guid>
+      <description>Getting started with Managed Projects Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.
+The distributions available to your Organization, and how you can use them in production, depend on the type ActiveState customer you are. Customers of ActiveState prior to the launch of the ActiveState Platform can continue to get their language builds and installers, previously available through Connect or My Account, from the Platform.</description>
+    </item>
+    
+    <item>
+      <title>Create a custom language build</title>
+      <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/build/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davetlewis-van.github.io/activepython38docs/start/quick-start/build/</guid>
+      <description>Important: Customizing language builds is a work-in-progress feature. We&amp;rsquo;re working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.
+ Open your web browser and navigate to http://platform.activestate.comand sign in. To create a project for your personal use, click the Projects tab on your dashboard page.</description>
+    </item>
+    
+    <item>
+      <title>Security and Compliance</title>
+      <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davetlewis-van.github.io/activepython38docs/start/quick-start/security/</guid>
+      <description>Note: Security &amp;amp; Compliance is available for Organizations on the Business and Enterprise tiers.
+The Security &amp;amp; Compliance tab in each organization provides access to the security features of the Platform. Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.</description>
+    </item>
+    
+  </channel>
+</rss>

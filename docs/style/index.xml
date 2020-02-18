@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Style Guide on ActiveState Platform Documentation</title>
+    <link>https://davetlewis-van.github.io/activepython38docs/style/</link>
+    <description>Recent content in Style Guide on ActiveState Platform Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2020 09:26:12 -0800</lastBuildDate>
+    
+	<atom:link href="https://davetlewis-van.github.io/activepython38docs/style/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

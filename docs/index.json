@@ -1,0 +1,253 @@
+[
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/start/",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/prefs/",
+	"title": "Preferences",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/",
+	"title": "State Tool",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/",
+	"title": "Command Reference",
+	"tags": [],
+	"description": "",
+	"content": "  activate   auth   events   export   fork   help   init   organizations   packages   projects   pull   push   run   scripts   secrets   show   update   "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/ci/",
+	"title": "Using State Tool on CI/CD",
+	"tags": [],
+	"description": "",
+	"content": "To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.\nInstall without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):\ninstall.sh|install.ps1 [-b \u0026lt;branch\u0026gt;] [-n] [-f ] [-t \u0026lt;dir\u0026gt;] [-e \u0026lt;file\u0026gt;] [-h] [--activate] Flags: -b \u0026lt;branch\u0026gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite. Overwrites the existing State Tool. -t \u0026lt;dir\u0026gt; Install into target directory \u0026lt;dir\u0026gt;. -e \u0026lt;file\u0026gt; Filename to use. The default name is `state`. --activate \u0026lt;project\u0026gt; Activate a project upon successful installation of the State Tool. For example: `--activate ActiveState/ActivePython-3.6` -h Shows usage information. When installing for CI you will want to pass the -n flag to bypass any prompts and use default answers. You can further supplement this with the -t and -e flags to manually specify the target directory and executable name. You cannot use the --activate command in combination with the -n flag.\nIf you don\u0026rsquo;t specify the -t or -e flags, the executable is named state and it is installed in /usr/local/bin (Linux) or C:\\Users\\\u0026lt;username\u0026gt;\\AppData\\Roaming\\ActiveState\\bin\\ (Windows).\nAlternatively, you can use the force overwrite -f to ensure that any existing copy of the State Tool is replaced with the version you are installing.\nExample Execute the following commands in your terminal to download the State Tool installation script and silently install the executable as /opt/state_tool/state_cli.exe.\ncurl -O -s https://platform.activestate.com/dl/cli/install.sh chmod +x install.sh ./install.sh -b master -n -t /opt/state_tool -e state_cli.exe Authenticate without prompts or passwords The State Tool will use the following environment variables if they are defined:\n ACTIVESTATE_API_KEY: The API key to use for authentication (this is not sufficient if you\u0026rsquo;re using secrets). ACTIVESTATE_PRIVATE_KEY: The private key to use for decrypting secrets.  Obtaining the API Key Currently, you can only generate an API Key by calling our API directly. You can use the following curl one liner:\ncurl -X POST \u0026#34;https://platform.activestate.com/api/v1/apikeys\u0026#34; \\ -H \u0026#34;accept: application/json\u0026#34; -H \u0026#34;Content-Type: application/json\u0026#34; \\ -H \u0026#34;Authorization: Bearer `state export jwt`\u0026#34; \\ -d \u0026#34;{ \\\u0026#34;name\\\u0026#34;: \\\u0026#34;APIKeyForCI\\\u0026#34;}\u0026#34; Notice the APIKeyForCI value, you are free to customize it to something more uniquely applicable to your use-case.\nAlso note that this command uses the State Tool to obtain the authentication token. You need to ensure that you run this from a terminal where the State Tool is installed and you are authenticated as the user for which you want to generate an API key.\nObtaining the Private Key Like the API Key you will need to use a terminal that has the State Tool installed, and the intended user authenticated.\nOnce authenticated, you can find the private key value at \u0026lt;configdir\u0026gt;/activestate/cli-unstable/private.key.\nThe configdir varies per platform, but in most cases will be at one of:\n Windows: %HOME%\\AppData\\Roaming\\activestate\\cli-unstable\\ Linux: ~/config/activestate/cli-unstable/ macOS: ~/Library/Application\\ Support/activestate/cli-unstable/  The private key environment variable expects the actual private key value, not the filepath.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/start/",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": "The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.\nTo install the state tool refer to the installation guide.\nCreating Your First Project The state tool cannot do anything without a project, everything lives under your project.\nYou can create your project either via the state tool itself via the state new command or by going directly to the ActiveState Platform and creating it there. Since you probably still need an account let’s go with the latter.\nHead over to http://platform.activestate.com and create an account if you don’t already have one, otherwise just login.\nOnce logged in go ahead and create a new project. You will be asked for a platform and language for your project, simply use the most fitting answers. For more information on project check out the Projects documentation.\nActivating Your Project It’s time to activate your project! Go ahead and switch back to your command prompt. Before we can do anything we need to make sure that we’re authenticated, to do this simply run the state auth command:\nstate auth You will be prompted for your username and password, and if all goes well it should show a friendly “You have authenticated” message.\nNow we’re ready to activate our project. Run the state activate command:\nstate activate owner/projectName The owner would be your username or if you created your project in an organization then instead of your username you can use the organization name.\nThis will create a new project folder under the current working directory containing an “activestate.yaml” file with some essentials. The State tool will “activate” under this new project directory. This is a brand new project though and being in an “activated state” doesn’t mean much yet, so let’s deactivate by executing the exit command (or hit Ctrl+D).\nNow when you want to work on your project again you can run the same state activate owner/projectName command again from anywhere and you’ll be entered into an activated state under your project directory. Alternatively you can manually enter into your project directory and run state activate without any other arguments.\nConfiguring Your Projects “Activated State” So we have the basics in place, now it’s time to actually put everything to good use. What’s the point of all this if it’s not actually doing anything but changing a directory? Think of it as moving into a brand new house that’s completely empty; now it’s time to decorate.\nConstants You can define constants in your activestate.yaml file and reuse them throughout the file. Constants are defined in a constants section using name/value pairs:\nconstants: - name: LOCATION value: World You can use the constants you define in other constants, scripts, events, and other configuration fields. The following example defines the same LOCATION constant, and references it in the subsequent entry as $constants.Location. Constants are referenced this way wherever you use them in your activestate.yaml file.\nconstants: - name: LOCATION value: World - name: HELLO value: Hello $constants.LOCATION Using configuration values as variables it supported for many different fields, not just constants. You can also wrap your \u0026ldquo;variables\u0026rdquo; in brackets in case you\u0026rsquo;re using them in more advanced scenario\u0026rsquo;s where the variable parser might otherwise get confused, so for example you could use your constant like so:\nconstants: - name: LOCATION value: World - name: HELLO value: Hello ${constants.LOCATION} Secrets Constants are great if you just want to reuse certain values throughout your activestate.yaml file, but what if you want to store values that are sensitive, and which shouldn’t be stored in version control or in any plain text format? This is what “secrets” (or “state secrets”\u0026hellip; get it?) are meant for; the state tool has built into it a very useful secret management solution. You should store any database passwords, API keys, and other sensitive credentials your project needs access to as secrets.\nA “secret” is similar to a constant, except that its value is securely stored on the ActiveState Platform. It is encrypted using RSA encryption in a manner that no one but you will ever be able to decrypt (unless you start sharing your password - which\u0026hellip; don’t do that!). Not even ActiveState knows the true value of your secrets; we only store the encrypted value. Secrets also have the concept of sharing, meaning you can share a secret with the people on your project.\nSecret Definitions versus Secret Values It\u0026rsquo;s important to differentiate between a secret definition and a secret value. You can define a secret without it having a value assigned yet. When a secret is defined but it has no value then the user will be prompted for a value when the secret is being used.\nSecret Scopes When talking about secrets we need to also talk about secret scopes. A scope describes who the secret value \u0026ldquo;belongs to\u0026rdquo;. Currently we support two scopes, \u0026ldquo;user\u0026rdquo; and \u0026ldquo;project\u0026rdquo;.\nThe \u0026ldquo;user\u0026rdquo; scope denotes a secret value as belonging to a user. This means that when you define a secret that is \u0026ldquo;user scoped\u0026rdquo; that every user will have to set their own value for this secret, to which only they have access.\nThe \u0026ldquo;project\u0026rdquo; scope denotes a secret value as belonging to everyone in the project. This means that when someone defines a secret value for such a secret that everyone in the project will get access to this value.\nSetting secrets To define a secret you use the command line tool, not the activestate.yaml. This is because secrets live on the ActiveState Platform (in client-side encrypted format \u0026ndash; we do not have access to the real values) and not in your local configuration file. We\u0026rsquo;ll want to use the state secrets command to define a new secret:\nstate secrets set project.secret-name secret-value This will create a secret named secret-name with the value secret-value that will be shared with everyone who has permissions for the project.\nIf, instead, you want to define a secret that only you have access to, you need to define a user secret by specifying user.secret-name:\nstate secrets set user.secret-name secret-value This will still define the secret for everyone on the project, but only you will have access to the value you\u0026rsquo;ve set. Anyone else that uses this secret will be prompted for their own value.\nRetrieving secrets Now that we have a secret defined we can start using it. To view secrets that exist for your current project you can run the state secrets command. This will produce a concise list of secrets, their “scope” (user or project) as well as a usage example (what you would use to set or retrieve their value).\nTo retrieve the value of a secret run:\nstate secrets get project.secret-name This will retrieve the value for a secret called secret-name whose value is shared with everyone in the project.\nUsing secrets So we can set and retrieve secrets, what about using them in our config (activestate.yaml)? This is actually very simple, and similar to how you use constants. Let’s use our “HELLO” constant from before but this time instead of referencing a constant called “LOCATION” we’ll reference a secret with that name instead. This syntax would look as follows:\nconstants: - name: HELLO value: Hello $secrets.user.LOCATION What’s happening here is the $secrets. prefix indicates that we want to “expand” our identifier as a secret, and the user.LOCATION bits identify it as a secret named LOCATION stored under the user. This syntax is compatible with the output of the “Usage” column when running state secrets to list your secrets. You can copy and paste that value right after the $secrets. prefix in your activestate.yaml file.\nIt\u0026rsquo;s important to note that you do not need to first define the user.LOCATION secret. If a secret does not yet exist you will instead be prompted for its value when you try to access it.\nScripts Scripts in the State tool can be compared to scripts in NPM, or build targets in a Makefile. You define a script and can then run it whenever you need to. Let’s start with something simple:\nscripts: - name: hello value: echo Hello World This will register a script with the alias “hello”. You can run this outside your “activated state” via the state run command by running state run hello, but once you state activate it becomes much simpler, you simply invoke it by running hello.\nUsing Languages The above script would run under whatever shell the current system defaults to, so Bash on Linux/macOS and Batch on Windows. This is problematic if you are working on a cross-platform project. Sure you could use constraints, but wouldn\u0026rsquo;t it be easier if you could just use one single script for all platforms?\nFor this the State Tool supports languages. You can configure your project on the ActiveState Platform to include a Python or Perl runtime, after which can define a script to use that language, for example:\nscripts: - name: hello language: python3 value: print(\u0026#34;Hello World\u0026#34;) Calling Scripts From Other Scripts Calling one script from another is fairly straight forward, you can access scripts as \u0026ldquo;variables\u0026rdquo; the same as many other activestate.yaml structures. Let\u0026rsquo;s let the code do the talking:\nscripts: - name: hello language: python3 value: print(\u0026#34;Hello World\u0026#34;) - name: greeting language: python3 value: | $scripts.hello print(\u0026#34;How are you doing?\u0026#34;) When you execute state run greeting it will inject the value of the \u0026ldquo;hello\u0026rdquo; script into the \u0026ldquo;greeting\u0026rdquo; script. The resulting code that ends up being ran would look like this\u0026rdquo;\nprint(\u0026#34;Hello World\u0026#34;) print(\u0026#34;How are you doing?\u0026#34;) Calling Scripts by Their Path The above example can be problematic when you are running scripts in various languages. For example the following code would certainly fail:\nscripts: - name: hello language: python3 value: print(\u0026#34;Hello World\u0026#34;) - name: greeting value: | $scripts.hello echo \u0026#34;How are you doing?\u0026#34; Note that the \u0026ldquo;greeting\u0026rdquo; script does not have a language defined, this means it runs as either Bash or Batch depending on your platform. But the \u0026ldquo;hello\u0026rdquo; script is still Python code, which is being embedded in bash code, which will lead to some sort of syntax error.\nYou work around such an issue by calling the script by its file, rather than just embedding the code. To do this you can use the path() method that lives on all scripts. So the above code would become:\nscripts: - name: hello language: python3 value: print(\u0026#34;Hello World\u0026#34;) - name: greeting value: | $scripts.hello.path() echo \u0026#34;How are you doing?\u0026#34; Now the resulting script will look something like this:\n/tmp/7979234.script.py echo \u0026#34;How are you doing?\u0026#34; The file in question will have a shebang with our interpreter defined in it, so you don\u0026rsquo;t need to worry about providing the interpreter unless you are on Windows, which doesn\u0026rsquo;t support shebang. For cross-platform compatibility you could instead use:\n- name: greeting value: | python3 $scripts.hello.path() echo \u0026#34;How are you doing?\u0026#34; That way we\u0026rsquo;re explicitly saying Python is the interpreter for this file.\nUsing Constants \u0026amp; Secrets Scripts can use constants too, so for example you could instead use the following value:\nvalue: echo $constants.HELLO This also works for secrets, so instead of the above you could use echo $secrets.user.HELLO. It gets more interesting though, because in the activestate.yaml EVERYTHING is a “variable”, so you could create another command that references our first command:\nscripts: - name: log-hello value: $scripts.hello \u0026gt; /tmp/hello.txt You can see how used wisely this can quickly become very powerful.\nThe main use-case for scripts is to kick off builds, run tests, etc. But the sky’s the limit.\nScript Arguments Scripts support arguments too! Using the hello world sample again, you could define your script like so:\nscripts: - name: hello value: echo hello $1 Now you can run hello world or hello planet and it should print out the argument you passed.\nConstraining Scripts Scripts will be run as either bash or batch scripts, depending on the shell that you run them from. This can be problematic because bash and batch are two very different languages, and you might have cross-platform requirements. To address this you can constrain a script to only run on certain platforms. For example:\nscripts: - name: env value: printenv constraints: os: linux,macos - name: env value: set constraints: os: windows Now when you run state run env on Windows it will execute the windows constrained script, whereas when you run it on Linux or macOS it will run the script constrained to those platforms.\nConstraints can also be negative, so if you would want to run a script on any platform except windows you could use os: -windows.\nThe possible values for the OS constraint are:\n windows macos linux  These values can be given in a comma separate fashion, and include a minus character to exclude them (e.g. -windows).\nEvents OK so we have constants, secrets and scripts, but your project has some special needs. It might require certain services to be running, or for certain non-language-specific dependencies to be installed. For this you can hook into events, the most important event of which is the ACTIVATE event, as the name implies this event is triggered when you state activate.\nNOTE: Currently, ACTIVATE is the only available event. Additional events will be added in future releases.\nEvents act mostly the same as scripts do, except that they aren’t manually invoked and instead run when their event triggers. For example we could have an ACTIVATE event that looks like this:\nevents - name: ACTIVATE value: systemctl start my-service This would start a service whenever we enter an “activated state”. It’s worth noting that the ACTIVATE event has a special use-case: it is invoked as part of your bashrc (or zshrc, or fishrc, or ..) meaning it can export environment variables, register bash aliases, etc.\nSharing With Your Team Now that you have your activestate.yaml configuration file set up you can share it with your team. You can do this however you prefer, but if your team is using version control we recommend checking in your activestate.yaml file. As we add new capabilities you can update your configuration in the activestate.yaml file and share these capabilities with your team.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/style/",
+	"title": "Style Guide",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/activate/",
+	"title": "activate",
+	"tags": [],
+	"description": "",
+	"content": "The activate command allows you to activate an ActiveState project on your local computer. Activating is the process of downloading the build associated with the project, which includes the language interpreter and the set of packages selected for the project, and creating a virtual environment for the interpreter to run in.\nFor example, when you run state activate ActiveState/ActivePython-3.6, ActivePython 3.6 and all selected packages are installed and configured, and a virtual environment is created. This allows you to run code in the project directory using your specific project configuration.\nIf you have system or other installed versions of Python on the computer they are not affected by the activated project, and the activated project is totally isolated from any existing Python configuration. This ensures that you are working with a clean environment that will not be affected by dependencies in other projects.\nUsage state activate [--path \u0026lt;path\u0026gt;] state activate \u0026lt;owner/projectName\u0026gt; [--path \u0026lt;path\u0026gt;] Use the path flag to specify the directory to activate the project in, so you are not prompted to choose the default location or enter a different directory.\nstate activate You can run state activate without any arguments if you are inside a directory that has an activestate.yaml configuration file in its parent directory structure. This will activate that activatestate.yaml.\nstate activate \u0026lt;owner/projectName\u0026gt; This will activate a project for the first time, or from a directory other than the project directory.\nThe \u0026ldquo;owner\u0026rdquo; argument is your username or the organization name that the project belongs to.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/",
+	"title": "Activator Learn",
+	"tags": [],
+	"description": "Welcome to the website of Acme Corporation, the leading creator of digital shapes on the planet, providing precise shape creations that are ready to use.",
+	"content": "Activator Learn™ is a test site for the ActiveState Platform docs.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/start/quick-start/managed/",
+	"title": "ActiveState-managed projects",
+	"tags": [],
+	"description": "Hello managed.",
+	"content": "Getting started with Managed Projects Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.\nThe distributions available to your Organization, and how you can use them in production, depend on the type ActiveState customer you are. Customers of ActiveState prior to the launch of the ActiveState Platform can continue to get their language builds and installers, previously available through Connect or My Account, from the Platform.\n Enterprise Edition customers: You get access the custom language distribution builds that ActiveState provides on a quarterly basis. These are managed builds created and maintained by ActiveState. Business Edition customers: You get access to a catalog projects for the business edition language you purchased. These are managed builds created and maintained by ActiveState. OEM customers: You get access to the language distribution builds you are licensed to redistribute.  Important: ActiveState language distributions are licensed solely in accordance with the terms of their respective license agreements and or support level agreements, available at https://www.activestate.com/eulas/or by logging in to My Accountfor your account details.\nIf you do not have access to the builds you expect to see, contact support@activestate.com. If you previously accessed your installers through My Account, you can continue to access them there through 2019 at account.activestate.com.\nTo access your managed projects:\n Open your web browser and navigate to http://platform.activestate.comand sign in. Click Your Dashboard at the top of the page. In the Your Organizations panel, select an organization that contains managed projects. Click the Projects tab. In the Managed panel, click the name of the project to view the Overview page. From the Overview page, you can:  Review the list of packages and versions included in the project. Click any of the buttons in the *Download Builds panel to download the installer for your operating system. Copy the command to install the project using the State Tool. Click the Fork It link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see Forking Projects.    "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/auth/",
+	"title": "auth",
+	"tags": [],
+	"description": "",
+	"content": "The auth command allows you to authenticate your account on the ActiveState Platform.\nUsage state auth [--username \u0026lt;value\u0026gt;] [--password \u0026lt;value\u0026gt;] [--token \u0026lt;value\u0026gt;] state auth logout state auth signup state auth If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.\n --username \u0026lt;value\u0026gt;: Manually provide a username. --password \u0026lt;value\u0026gt;: Manually provide a password. --token \u0026lt;value\u0026gt;: Manually provide a token (this cannot be used with --username)  state auth logout Logs you out.\nstate auth signup You can use the signup argument to sign up for an account on the ActiveState Platform. You will be prompted for a username and password, your full name, and your email address. Your account will have limited access to the ActiveState Platform until you click the link in the confirmation email sent from the Platform to validate your email address.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/prefs/password/",
+	"title": "Change Password",
+	"tags": [],
+	"description": "",
+	"content": "You can change your password at any time in the Change Password page.\nTo change your password:\n Click menu at the top right of the page that displays your username, and select Account Settings. Click the Change Password link. Enter the current password you sign in with in Current Password. Enter your new password in New Password and Confirm New Password. Click Save Changes.  If your password is successfully changed a notice is displayed, and the next time you access the Platform you will need to sign in with your new password.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/start/quick-start/build/",
+	"title": "Create a custom language build",
+	"tags": [],
+	"description": "Hello build.",
+	"content": "Important: Customizing language builds is a work-in-progress feature. We\u0026rsquo;re working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.\n Open your web browser and navigate to http://platform.activestate.comand sign in. To create a project for your personal use, click the Projects tab on your dashboard page. To create a project in an Organization, select the Organization in the Your Organizations list and then click the Projects tab. Click Build a Custom Runtime. Enter a meaningful name for the project in Project Name. Projects are public by default. If you belong to an organization on a paid tier, you have the option of selecting Private to create a project that\u0026rsquo;s only visible to members of the selected organization. In Choose a Language, select the language to include and the version for each language. In *Operating Systems, select the operating system(s) where you will be installing the language distributions for your project. Click Create Project.  To add packages to your new project:\n Click Add Packages to customize the packages included in your build. In the Add Packages dialog box, type in part of a package name and click Search. Click Add next to the package name to add a package from the search results. Repeat steps 2 and 3 to add additional packages, and click Done when you are finished adding packages. Click Commit Changes. This is the step that starts the build in our server farm. The time it takes for the build to complete depends on the complexity of the build and the available resources to complete the build. Click View Status. If the build status is In Progress, you can come back later to verify that the build completed successfully. In some cases, the build will fail immediately and you may need to adjust your settings and try again. Once your build completes successfully, you can download the installer from the Download Builds tab or use the commands listed on the Overview page to activate your project using the State Tool.  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/prefs/datetime/",
+	"title": "Date &amp; Time",
+	"tags": [],
+	"description": "",
+	"content": "You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.\n Click menu at the top right of the page that displays your username, and select Account Settings. Click the Date \u0026amp; Time Format link. From Date \u0026amp; Time Format, select the date/time format to use from the available options. From Time Zone, select the time zone to use from the drop-down list. You can start typing the time zone name to filter the list of options displayed. Click Submit to save your changes.  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/prefs/email/",
+	"title": "Email Addresses",
+	"tags": [],
+	"description": "",
+	"content": "You can add or change the email addresses associated with your ActiveState Platform account. For example, if you switch jobs you can maintain access to the Platform by setting your personal email or the the email for your new job as your primary email for the Platform.\n  Click menu at the top right of the page that displays your username, and select Account Settings.\n  Manage your email addresses in the Email panel:\n To add an additional email, enter the email address and click Add. To delete an email, click the Delete link on the same line as the email to remove. To set an email as the primary email for your account, click the Set as Primary link on the same line as the email.    Email alerts and other correspondence will be sent to the primary email account. You can use any of the emails associated with your account as your username to log in to the ActiveState Platform.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/events/",
+	"title": "events",
+	"tags": [],
+	"description": "",
+	"content": "The events command lists the configured events for your project. Events are scripts or commands that run when particular State Tool application events occur. For example, you can run a command to start your local web server each time you state activate your project.\nUsage state events Related Information Events\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/export/",
+	"title": "export",
+	"tags": [],
+	"description": "",
+	"content": "The export command allows you to export the contents of the JSON Web Token (JWT) you are using to authenticate with the Platform, or the build recipe (the set of packages and operating system settings) used by your project.\nUsage To print your JWT credentials:\nstate export jwt To print a JSON formatted recipe:\nstate export recipe To print the recipe for a particular commit:\nstate export recipe \u0026lt;commitID\u0026gt; You must run the state export command from the directory for the Platform project you want to export the build recipe for.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/fork/",
+	"title": "fork",
+	"tags": [],
+	"description": "",
+	"content": "The fork command allows you to create a fork of an existing Platform project. A fork is a copy of a project that you can edit.\nSyntax state fork --name \u0026lt;project_name\u0026gt; --org \u0026lt;owner\u0026gt; ActiveState-Recipes/Core [--private] The \u0026ldquo;owner\u0026rdquo; argument is your username or the organization name for your copy of the forked project. If you do not specify the --org flag, you will be prompted to select the owner, from the orgs you belong to, interactively at the command prompt.\nThe \u0026ldquo;project\u0026rdquo; argument is the name of the project for your copy of the forked project. If you don\u0026rsquo;t specify the --name flag, the name of the forked project is used.\nIf you belong to a organization on a paid tier, you can use the --private flag to fork the project as a private project.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/help/",
+	"title": "help",
+	"tags": [],
+	"description": "",
+	"content": "The help command allows you to view documentation for the individual state commands.\nUsage To view help for the auth command:\nstate help auth To view help for the auth logout subcommand:\nstate help auth logout "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/init/",
+	"title": "init",
+	"tags": [],
+	"description": "",
+	"content": "The init command enables you to create a new empty project on your local machine. Once the project is created locally, use the push command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.\nUsage state init \u0026lt;owner\u0026gt;/\u0026lt;project_name\u0026gt; [--language \u0026lt;language\u0026gt;] [--path \u0026lt;path\u0026gt;] The \u0026ldquo;owner\u0026rdquo; argument is your username or the organization name that the project belongs to.\nUse the --language flag to specify the language distribution the project should use.\nUse the --path flag to specify the local directory where the project will be created.\nExample You can use the state init command followed by the state push command to create a new project on the ActiveState Platform.\nstate init jsmith/johnspython3.6 --language python3 --path C:\\state_projects\\mypython cd C:\\state_projects\\mypython state push Related Information push Command\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/prefs/organizations/",
+	"title": "Organizations",
+	"tags": [],
+	"description": "",
+	"content": "You can add new Organizations or leave Organizations you are a member of in the Organizations account settings page.\nCreating organizations To create a new Organization:\n  Click menu at the top right of the page that displays your username, and select Account Settings.\n  Click the Organizations link.\n  Enter the Organization Name to display in the ActiveState Platform.\n  Accept the suggested URL, or specify a shorter, easier to remember URL.\n  Click Create Organization.\nWhen you create an organization, you are automatically assigned ownership of the Organization, which allows you to invite and manage users for the Organization.\n  The next step after creating a new Organization is to invite users. For more information, see Sending invites.\n  Leaving organizations To leave an Organization:\n Click menu at the top right of the page that displays your username, and select Account Settings. Click the Organizations link. Click Leave next to the organization you want to leave. Click Yes to confirm your selection.  Related Information  Managing Organizations  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/organizations/",
+	"title": "organizations",
+	"tags": [],
+	"description": "",
+	"content": "The organizations command lists the organizations you are a member of. The Organization name for each Organization you belong to is listed.\nUsage state organizations "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/packages/",
+	"title": "packages",
+	"tags": [],
+	"description": "",
+	"content": "The packages command allows you to manage the packages within an ActiveState Platform project.\nUsage state packages state packages list state packages add \u0026lt;name[@version]\u0026gt; state packages update \u0026lt;name[@version]\u0026gt; state packages remove \u0026lt;name\u0026gt; state packages search \u0026lt;name\u0026gt; state packages list List the packages and versions currently included in your project.\nNote: If you run state packages without additional arguments you will get the same output as state packages list.\n------------- ------------ Name Version ------------- ------------ numpy pluggy 0.12.0 pytest 4.3.0 requests 2.21.0 ------------- ------------ In the example output, specific versions have been specified for pluggy, pytest, and requests. No version was specified for numpy, so the latest version available on the Platform will be used each time the project is built.\nIf you want to view the packages and versions for a particular commit, an earlier saved version of your project, you can specify the --commit flag. Currently, the commit IDs for a project are only available in the History tab for the Project in the Dashboard.\nFor example:\nstate packages list --commit 17167a9b-40f0-4bdf-b3ec-b2755badeb50\nstate packages add Add a specific package to your project by name. You can optionally specify a specific version to use.\nExamples:\nstate packages add requests state packages add requests@2.21.0 If you do not specify the package version, the latest version available on the ActiveState Platform will be used each time a new build is created. Specifying the version \u0026ldquo;pins\u0026rdquo; the package to that version until you change it on the Platform or using the state packages update subcommand.\nstate packages remove Remove a specific package from your project by name.\nExample: state packages remove requests\nstate packages search Search for available packages by name or partial string.\nExample: state packages search requests\nstate packages update Update a package in your project by name. By default the package is updated to the latest available version, but you can optionally specify a specific version to use.\nExamples:\nstate packages update requests state packages update requests@2.21.0 "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/projects/",
+	"title": "projects",
+	"tags": [],
+	"description": "",
+	"content": "The projects command lists the projects you have access to from all of the Organizations you belong to. The information listed for each project includes Project name, Organization name, and a project description (if available).\nUsage state projects "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/pull/",
+	"title": "pull",
+	"tags": [],
+	"description": "",
+	"content": "The pull command will update your activestate.yaml so that it references the latest version of your platform runtime environment. When you update the packages in your project on the Platform and successfully created a new build, you need to run the pull command to make the updated build available in your local environment.\nWhen you state activate your project, and there is a newer commit available, you will be notified that you need to run the pull command to get the up-to-date version of your Platform project.\nUsage state pull "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/push/",
+	"title": "push",
+	"tags": [],
+	"description": "",
+	"content": "The push command enables you to push your local changes to the ActiveState Platform. For example, you can use the init command to create a new project locally using the State Tool, and then push this change to the Platform so it shows up in your account, and is accessible in the Dashboard.\nUsage state push "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/start/quick-start/",
+	"title": "Quick Start Guides",
+	"tags": [],
+	"description": "",
+	"content": "  ActiveState-managed projects  Hello managed.\n Create a custom language build  Hello build.\n Security and Compliance  Hello security.\n "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/run/",
+	"title": "run",
+	"tags": [],
+	"description": "",
+	"content": "The run command allows you to manually run scripts you have defined for your projects by name. Script names are case-sensitive.\nUsage state run \u0026lt;script_name\u0026gt; You can also pass arguments to your scripts, the same way you would to any command. Let\u0026rsquo;s say you have a script called \u0026ldquo;hello\u0026rdquo; which takes an argument for who/what it is greeting, you could call it like this:\nstate run hello world Finally, if you are in an activated state (i.e. you\u0026rsquo;ve ran state activate) you don\u0026rsquo;t need to use state run at all, you can run your scripts directly instead. So using the above \u0026ldquo;hello\u0026rdquo; example you could simply run\nhello world Related Information  Scripts scripts Command  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/scripts/",
+	"title": "scripts",
+	"tags": [],
+	"description": "",
+	"content": "The state scripts command allows you to quickly list all available scripts. Running it produces a list of script names and descriptions.\nYou can use this output to run the state run command.\nUsage state scripts Related Information  Scripts run Command  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/secrets/",
+	"title": "secrets",
+	"tags": [],
+	"description": "",
+	"content": "The secrets command allows a user to manage their secrets within a Project. For more information on secrets, what they represent and how they fit into the wider picture of the State Tool and the Platform check out Getting Started.\nUsage state secrets state secrets set \u0026lt;secret-namespace\u0026gt; \u0026lt;secret-value\u0026gt; state secrets get \u0026lt;secret-namespace\u0026gt; state secrets sync state secrets Lists available secrets for the current project.\nstate secrets set Sets the value for the given secret.\n \u0026lt;secret-namespace\u0026gt; the namespace is in the format of \u0026lt;scope\u0026gt;.\u0026lt;name\u0026gt;, where \u0026lt;scope\u0026gt; is one of user or project and name is the name of the secret. secret-value the value that you want to assign to this secret  state secrets get Retrieves the value for the given secret.\n secret-namespace the namespace is in the format of \u0026lt;scope\u0026gt;.\u0026lt;name\u0026gt;, where \u0026lt;scope\u0026gt; is one of user or project and name is the name of the secret.  state secrets sync This will sync all secret values that you have access to with project members that should also have access to these secrets. This is mainly intended for when new members join a project.\nRelated Information  Secrets  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/start/quick-start/security/",
+	"title": "Security and Compliance",
+	"tags": [],
+	"description": "Hello security.",
+	"content": "Note: Security \u0026amp; Compliance is available for Organizations on the Business and Enterprise tiers.\nThe Security \u0026amp; Compliance tab in each organization provides access to the security features of the Platform. Security \u0026amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.\nConfiguring Security \u0026amp; Compliance Security \u0026amp; Compliance requires configuration to map the ActivePython interpreter you want to scan for vulnerabilities with the identity in the ActiveState Platform where you want to record the packages scanned and any details for any vulnerabilities identified.\n  Create an identity: An identity is a tracking identifier that organizes the results of security scans performed for one or more Python interpreters. For example, you could create a \u0026ldquo;Development\u0026rdquo; identity to track all security scans performed on development servers.\n Select an organization in the Your Organizations list. Click the Security \u0026amp; Compliance tab. Click Identities. Enter a meaningful name for the identity and click Create. Create a new plain text file with the contents of the sample configuration file and save it as activestate.config. For more information, see Configuring Identities and Where to place your activestate.config file?.    Download the Security \u0026amp; Compliance plugin\n In the Security \u0026amp; Compliance tab, click Get Started. Click the ActiveState-SecurityScanner-0.5.5 button to begin the download.    Configure the Security \u0026amp; Compliance plugin on systems where interpreters run that you want to record scan data for. This involves two configuration steps:\n Use the pip package manager to install the plugin. For example, for Python3 with pip3 installed, at the command prompt where you downloaded the plugin enter: python3 -m pip install ActiveState-SecurityScanner-0.5.1.tar.gz For more detailed instructions, see Installing the Security \u0026amp; Compliance Plugin. Download the activestate.config file to direct your security scan output to a specific identity. For details, see Configuring Identities On Linux or macOS, copy the file to the /etc directory if you want all security scans run on that computer to use the same identity. On Windows, create an ACTIVESTATE_CONFIG environment variable that points to your activestate.config file. For more information on configuration options, see Configuring Identities.    Run your applications and scripts with ActivePython interpreters that have the Security \u0026amp; Compliance plugin installed, and then check the Dashboard to see updates in Your Latest Activity. When the first security scan is complete you can view details in Security \u0026amp; Compliance tab for the organization associated with the identity.\n  "
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/show/",
+	"title": "show",
+	"tags": [],
+	"description": "",
+	"content": "The show command displays information about the current project, or a specified remote project. The following information is displayed:\n the name of the project the organization the project belongs to all scripts associated with the project all events associated with the project  Usage state show state show \u0026lt;owner/projectName\u0026gt; The \u0026ldquo;owner\u0026rdquo; argument is your username or the organization name that the project belongs to.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/prefs/twofactor/",
+	"title": "Two-factor Authentication",
+	"tags": [],
+	"description": "",
+	"content": "You can use two-factor authentication to secure your ActiveState Platform account. Choosing to use both your password and the two-factor authentication code to access your account secures your account against unauthorized access if your password is compromised.\nBefore you begin: You must have an app on your mobile device to scan the QR code displayed on screen. You can use Google Authenticate (iOS/Android), Authy (iOS/Android), or any similar app that provides the required QR code reading functionality.\nEnabling two-factor authentication To turn on two-factor authentication:\n Click menu at the top right of the page that displays your username, and select Account Settings. Click the Two-factor Authentication link and then click Enable. Open the two-factor authentication app on your mobile device and scan the QR code that is displayed on screen.  Enter your six-digit code in the text box and click Confirm.  If you six-digit code is validated, two-factor authentication is enabled for your account. Two-factor authentication requires that you enter both your password and the current six-digit code displayed in your two-factor authentication app each time you log in.\nDisabling two-factor authentication You can turn off two-factor authentication at any time.\nTo turn off two-factor authentication:\n Log into the Platform using your two-factor authentication code. Click menu at the top right of the page that displays your username, and select Account Settings. Click the Two-factor Authentication link and then click Disable.  You will not be prompted for a two-factor code the next time you log in.\n"
+},
+{
+	"uri": "https://davetlewis-van.github.io/activepython38docs/state/commands/update/",
+	"title": "update",
+	"tags": [],
+	"description": "",
+	"content": "Updates the State Tool to the latest available version.\nThe update command allows you to download the latest release of the State Tool on demand. By default, the state tool checks for an updated version on a regular basis.\nYou can disable automatic updates by running state update with the --lock flag. If you disable automatic updates you can force an update by manually running state update.\nUsage state update state update --lock state update Checks for a new version and updates the state tool.\nstate update \u0026ndash;lock Turns off automatic updates for individual projects. The version will remain locked at current version for the project when the command runs. The State Tool will still update itself for other projects\nWhen automatic updates are turned off you can still manually update by running the state update command.\n"
+}]

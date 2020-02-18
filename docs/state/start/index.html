@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.63.2" />
+    <meta name="description" content="Documentation for the ActiveState Platform">
+<meta name="author" content="ActiveState">
+
+    <link rel="icon" href="/activepython38docs/images/favicon.png" type="image/png">
+
+    <title>Getting Started :: ActiveState Platform Documentation</title>
+
+    
+    <link href="/activepython38docs/css/nucleus.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/fontawesome-all.min.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/hybrid.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/featherlight.min.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/perfect-scrollbar.min.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/auto-complete.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/atom-one-dark-reasonable.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/theme.css?1582060935" rel="stylesheet">
+    <link href="/activepython38docs/css/hugo-theme.css?1582060935" rel="stylesheet">
+    
+      <link href="/activepython38docs/css/theme-blue.css?1582060935" rel="stylesheet">
+    
+
+    <script src="/activepython38docs/js/jquery-3.3.1.min.js?1582060935"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/activepython38docs/state/start/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 116.2 20.9" style="enable-background:new 0 0 116.2 20.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ffffff;}
+	.st1{fill:#ffffff;}
+</style>
+<title>activestate-logo</title>
+<g id="Layer_1-2">
+	<path class="st0" d="M4,0h6.5l3.9,20.5H9.2l-0.5-3.7H5.4l-0.5,3.7H0L4,0z M8.3,13.1L7.5,6.8C7.4,5.7,7.3,4.5,7.2,3.3
+		C7.1,4.4,6.9,5.6,6.8,6.9l-0.8,6.3H8.3z"/>
+	<path class="st0" d="M20.2,6.4c-0.8,0-1,0.5-1,1.4v8.4c0,0.9,0.2,1.4,1,1.4s1-0.5,1-1.4v-2.9h4.6v2.2c0,3.6-1.8,5.3-5.6,5.3
+		s-5.6-1.8-5.6-5.3V8.4c0-3.6,1.8-5.3,5.6-5.3s5.6,1.8,5.6,5.3v1.5h-4.6V7.8C21.2,6.9,21,6.4,20.2,6.4z"/>
+	<path class="st0" d="M33.2,20.7c-0.6,0.1-1.2,0.2-1.8,0.2c-3.5,0-3.9-1.5-3.9-5V7h-1.1V3.7h1.1V0.1h4.4v3.6h1.2V7h-1.3v9.5
+		c0,0.6,0.4,0.9,1.2,0.9h0.1L33.2,20.7z"/>
+	<path class="st0" d="M34.4,0h4.5v2.6h-4.5V0z M34.4,3.7h4.5v16.8h-4.5V3.7z"/>
+	<path class="st0" d="M40.1,3.7h4.8l0.6,6.7c0,0.7,0.2,2.5,0.4,5.3c0.2-2.8,0.3-4.5,0.4-5.3L47,3.7h4.6l-3.1,16.8h-5.3L40.1,3.7z"/>
+	<path class="st0" d="M57.7,17.6c0.8,0,1-0.5,1-1.4v-2h4.6v1.4c0,3.6-1.8,5.3-5.6,5.3s-5.6-1.8-5.6-5.3V8.4c0-3.6,1.8-5.3,5.6-5.3
+		s5.6,1.8,5.6,5.3v4.3h-6.6v3.4C56.7,17.1,57,17.6,57.7,17.6z M56.7,9.6h2V7.8c0-0.9-0.2-1.4-1-1.4s-1,0.5-1,1.4V9.6z"/>
+	<path class="st1" d="M69.1,14.2v1c0,1.4,0.5,2,1.6,2c0.8,0,1.6-0.6,1.6-1.4c0-0.1,0-0.1,0-0.2c-0.1-1.1-0.7-2-1.7-2.5
+		c-1.5-1.1-3-2.2-4.4-3.4c-1.1-1.1-1.7-2.6-1.7-4.2C64.6,2,66.9,0,70.9,0s6,1.7,6,5.2V7h-4.6V5.5c0-1.3-0.5-1.9-1.5-1.9
+		c-0.8,0-1.4,0.6-1.4,1.3c0,0.1,0,0.1,0,0.2c0,1.2,1.2,2.1,3.3,3.7c1.8,1.4,3.2,2.4,3.8,3.5c0.5,0.9,0.8,2,0.8,3.1
+		c0,3.5-2.4,5.5-6.6,5.5s-6.3-2-6.3-5.8v-0.9H69.1z"/>
+	<path class="st1" d="M84.7,20.7c-0.6,0.1-1.2,0.2-1.8,0.2c-3.5,0-3.9-1.5-3.9-5V7h-1.1V3.7H79V0.1h4.4v3.6h1.2V7h-1.3v9.5
+		c0,0.6,0.4,0.9,1.2,0.9h0.1L84.7,20.7z"/>
+	<path class="st1" d="M89,20.9c-2.2,0-3.5-1.6-3.5-4.1v-1.4c-0.1-2.1,1.2-4,3.2-4.7c2.1-1,3.5-1.4,3.5-2.8V7.2c0-0.6-0.4-1.1-1-1.1
+		c-0.6,0-1.1,0.6-1.1,1.7v1.1h-4.2V7.8c0-2.9,2-4.7,5.4-4.7c4,0,5.4,1.7,5.4,5.1v12.4h-4.2l-0.1-1.2C91.5,20.3,90.3,20.9,89,20.9z
+		 M90,14.8v1.7c0,1,0,1.6,0.8,1.6s1.3-0.7,1.3-2.1V12C90.6,12.9,90.1,13.4,90,14.8L90,14.8z"/>
+	<path class="st1" d="M104.3,20.7c-0.6,0.1-1.2,0.2-1.8,0.2c-3.5,0-3.9-1.5-3.9-5V7h-1.1V3.7h1.1V0.1h4.4v3.6h1.2V7H103v9.5
+		c0,0.6,0.4,0.9,1.2,0.9h0.1L104.3,20.7z"/>
+	<path class="st1" d="M110.6,17.6c0.8,0,1-0.5,1-1.4v-2h4.6v1.4c0,3.6-1.8,5.3-5.6,5.3s-5.6-1.8-5.6-5.3V8.4c0-3.6,1.8-5.3,5.6-5.3
+		s5.6,1.8,5.6,5.3v4.3h-6.6v3.4C109.6,17.1,109.8,17.6,110.6,17.6z M109.6,9.6h2V7.8c0-0.9-0.2-1.4-1-1.4s-1,0.5-1,1.4V9.6z"/>
+</g>
+</svg>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/activepython38docs/js/lunr.min.js?1582060935"></script>
+<script type="text/javascript" src="/activepython38docs/js/auto-complete.js?1582060935"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/davetlewis-van.github.io\/activepython38docs\/";
+    
+</script>
+<script type="text/javascript" src="/activepython38docs/js/search.js?1582060935"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/activepython38docs/start/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/activepython38docs/start/">
+          Getting Started
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/activepython38docs/start/quick-start/" title="Quick Start Guides" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/activepython38docs/start/quick-start/">
+          Quick Start Guides
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/start/quick-start/managed/" title="ActiveState-managed projects" class="dd-item ">
+        <a href="/activepython38docs/start/quick-start/managed/">
+        ActiveState-managed projects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/start/quick-start/build/" title="Create a custom language build" class="dd-item ">
+        <a href="/activepython38docs/start/quick-start/build/">
+        Create a custom language build
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/start/quick-start/security/" title="Security and Compliance" class="dd-item ">
+        <a href="/activepython38docs/start/quick-start/security/">
+        Security and Compliance
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/activepython38docs/prefs/" title="Preferences" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/activepython38docs/prefs/">
+          Preferences
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/prefs/password/" title="Change Password" class="dd-item ">
+        <a href="/activepython38docs/prefs/password/">
+        Change Password
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/prefs/datetime/" title="Date &amp; Time" class="dd-item ">
+        <a href="/activepython38docs/prefs/datetime/">
+        Date &amp; Time
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/prefs/email/" title="Email Addresses" class="dd-item ">
+        <a href="/activepython38docs/prefs/email/">
+        Email Addresses
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/prefs/organizations/" title="Organizations" class="dd-item ">
+        <a href="/activepython38docs/prefs/organizations/">
+        Organizations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/prefs/twofactor/" title="Two-factor Authentication" class="dd-item ">
+        <a href="/activepython38docs/prefs/twofactor/">
+        Two-factor Authentication
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/activepython38docs/state/" title="State Tool" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/activepython38docs/state/">
+          State Tool
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/activepython38docs/state/commands/" title="Command Reference" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/activepython38docs/state/commands/">
+          Command Reference
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/activate/" title="activate" class="dd-item ">
+        <a href="/activepython38docs/state/commands/activate/">
+        activate
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/auth/" title="auth" class="dd-item ">
+        <a href="/activepython38docs/state/commands/auth/">
+        auth
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/events/" title="events" class="dd-item ">
+        <a href="/activepython38docs/state/commands/events/">
+        events
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/export/" title="export" class="dd-item ">
+        <a href="/activepython38docs/state/commands/export/">
+        export
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/fork/" title="fork" class="dd-item ">
+        <a href="/activepython38docs/state/commands/fork/">
+        fork
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/help/" title="help" class="dd-item ">
+        <a href="/activepython38docs/state/commands/help/">
+        help
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/init/" title="init" class="dd-item ">
+        <a href="/activepython38docs/state/commands/init/">
+        init
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/organizations/" title="organizations" class="dd-item ">
+        <a href="/activepython38docs/state/commands/organizations/">
+        organizations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/packages/" title="packages" class="dd-item ">
+        <a href="/activepython38docs/state/commands/packages/">
+        packages
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/projects/" title="projects" class="dd-item ">
+        <a href="/activepython38docs/state/commands/projects/">
+        projects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/pull/" title="pull" class="dd-item ">
+        <a href="/activepython38docs/state/commands/pull/">
+        pull
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/push/" title="push" class="dd-item ">
+        <a href="/activepython38docs/state/commands/push/">
+        push
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/run/" title="run" class="dd-item ">
+        <a href="/activepython38docs/state/commands/run/">
+        run
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/scripts/" title="scripts" class="dd-item ">
+        <a href="/activepython38docs/state/commands/scripts/">
+        scripts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/secrets/" title="secrets" class="dd-item ">
+        <a href="/activepython38docs/state/commands/secrets/">
+        secrets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/show/" title="show" class="dd-item ">
+        <a href="/activepython38docs/state/commands/show/">
+        show
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/commands/update/" title="update" class="dd-item ">
+        <a href="/activepython38docs/state/commands/update/">
+        update
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/ci/" title="Using State Tool on CI/CD" class="dd-item ">
+        <a href="/activepython38docs/state/ci/">
+        Using State Tool on CI/CD
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/activepython38docs/state/start/" title="Getting Started" class="dd-item active">
+        <a href="/activepython38docs/state/start/">
+        Getting Started
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/activepython38docs/style/" title="Style Guide" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/activepython38docs/style/">
+          Style Guide
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://platform.activestate.com/">ActiveState Platform</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://gohugo.io/">Hugo</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/state/start.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/activepython38docs/'>Activator Learn</a> > <a href='/activepython38docs/state/'>State Tool</a> > Getting Started
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#creating-your-first-project">Creating Your First Project</a></li>
+    <li><a href="#activating-your-project">Activating Your Project</a></li>
+    <li><a href="#configuring-your-projects-activated-state">Configuring Your Projects “Activated State”</a></li>
+    <li><a href="#constants">Constants</a></li>
+    <li><a href="#secrets">Secrets</a>
+      <ul>
+        <li><a href="#secret-definitions-versus-secret-values">Secret Definitions versus Secret Values</a></li>
+        <li><a href="#secret-scopes">Secret Scopes</a></li>
+        <li><a href="#setting-secrets">Setting secrets</a></li>
+        <li><a href="#retrieving-secrets">Retrieving secrets</a></li>
+        <li><a href="#using-secrets">Using secrets</a></li>
+      </ul>
+    </li>
+    <li><a href="#scripts">Scripts</a>
+      <ul>
+        <li><a href="#using-languages">Using Languages</a></li>
+        <li><a href="#calling-scripts-from-other-scripts">Calling Scripts From Other Scripts</a></li>
+        <li><a href="#using-constants--secrets">Using Constants & Secrets</a></li>
+        <li><a href="#script-arguments">Script Arguments</a></li>
+        <li><a href="#constraining-scripts">Constraining Scripts</a></li>
+      </ul>
+    </li>
+    <li><a href="#events">Events</a>
+      <ul>
+        <li><a href="#sharing-with-your-team">Sharing With Your Team</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Getting Started
+            </h1>
+          
+
+        
+
+
+
+<p>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.</p>
+<p>To install the state tool refer to the <a href="/state#installation">installation guide</a>.</p>
+<h2 id="creating-your-first-project">Creating Your First Project</h2>
+<p>The state tool cannot do anything without a project, everything lives under your project.</p>
+<p>You can create your project either via the state tool itself via the <a href="new.html">state new</a> command or by going directly to the ActiveState Platform and creating it there. Since you probably still need an account let’s go with the latter.</p>
+<p>Head over to <a href="http://platform.activestate.com">http://platform.activestate.com</a> and create an account if you don’t already have one, otherwise just login.</p>
+<p>Once logged in go ahead and create a new project. You will be asked for a platform and language for your project, simply use the most fitting answers. For more information on project check out the <a href="/projects">Projects documentation</a>.</p>
+<h2 id="activating-your-project">Activating Your Project</h2>
+<p>It’s time to activate your project! Go ahead and switch back to your command prompt. Before we can do anything we need to make sure that we’re authenticated, to do this simply run the <a href="auth.html">state auth</a> command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth
+</code></pre></div><p>You will be prompted for your username and password, and if all goes well it should show a friendly “You have authenticated” message.</p>
+<p>Now we’re ready to activate our project. Run the <a href="activate.html">state activate</a> command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state activate owner/projectName
+</code></pre></div><p>The owner would be your username or if you created your project in an organization then instead of your username you can use the organization name.</p>
+<p>This will create a new project folder under the current working directory containing an “activestate.yaml” file with some essentials. The State tool will “activate” under this new project directory. This is a brand new project though and being in an “activated state” doesn’t mean much yet, so let’s deactivate by executing the <code>exit</code> command (or hit <code>Ctrl+D</code>).</p>
+<p>Now when you want to work on your project again you can run the same <code>state activate owner/projectName</code> command again from anywhere and you’ll be entered into an activated state under your project directory. Alternatively you can manually enter into your project directory and run <code>state activate</code> without any other arguments.</p>
+<h2 id="configuring-your-projects-activated-state">Configuring Your Projects “Activated State”</h2>
+<p>So we have the basics in place, now it’s time to actually put everything to good use. What’s the point of all this if it’s not actually doing anything but changing a directory? Think of it as moving into a brand new house that’s completely empty; now it’s time to decorate.</p>
+<h2 id="constants">Constants</h2>
+<p>You can define constants in your <code>activestate.yaml</code> file and reuse them throughout the file. Constants are defined in a <code>constants</code> section using name/value pairs:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">constants:
+  - name: LOCATION
+    value: World
+</code></pre></div><p>You can use the constants you define in other constants, scripts, events, and other configuration fields. The following example defines the same LOCATION constant, and references it in the subsequent entry as <code>$constants.Location</code>. Constants are referenced this way wherever you use them in your <code>activestate.yaml</code> file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">constants:
+  - name: LOCATION
+    value: World
+  - name: HELLO
+    value: Hello $constants.LOCATION
+</code></pre></div><p>Using configuration values as variables it supported for many different fields, not just constants. You can also wrap your &ldquo;variables&rdquo; in brackets in case you&rsquo;re using them in more advanced scenario&rsquo;s where the variable parser might otherwise get confused, so for example you could use your constant like so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">constants:
+  - name: LOCATION
+    value: World
+  - name: HELLO
+    value: Hello ${constants.LOCATION}
+</code></pre></div><h2 id="secrets">Secrets</h2>
+<p>Constants are great if you just want to reuse certain values throughout your <code>activestate.yaml</code> file, but what if you want to store values that are sensitive, and which shouldn’t be stored in version control or in any plain text format? This is what “secrets” (or “state secrets”&hellip; get it?) are meant for; the state tool has built into it a very useful secret management solution. You should store any database passwords, API keys, and other sensitive credentials your project needs access to as secrets.</p>
+<p>A “secret” is similar to a constant, except that its value is securely stored on the ActiveState Platform. It is encrypted using RSA encryption in a manner that no one but you will ever be able to decrypt (unless you start sharing your password - which&hellip; don’t do that!). Not even ActiveState knows the true value of your secrets; we only store the encrypted value. Secrets also have the concept of sharing, meaning you can share a secret with the people on your project.</p>
+<h3 id="secret-definitions-versus-secret-values">Secret Definitions versus Secret Values</h3>
+<p>It&rsquo;s important to differentiate between a secret definition and a secret value. You can define a secret without it having a value assigned yet. When a secret is defined but it has no value then the user will be prompted for a value when the secret is being used.</p>
+<h3 id="secret-scopes">Secret Scopes</h3>
+<p>When talking about secrets we need to also talk about secret scopes. A scope describes who the secret value &ldquo;belongs to&rdquo;. Currently we support two scopes, &ldquo;user&rdquo; and &ldquo;project&rdquo;.</p>
+<p>The &ldquo;user&rdquo; scope denotes a secret value as belonging to a user. This means that when you define a secret that is &ldquo;user scoped&rdquo; that every user will have to set their own value for this secret, to which only they have access.</p>
+<p>The &ldquo;project&rdquo; scope denotes a secret value as belonging to everyone in the project. This means that when someone defines a secret value for such a secret that everyone in the project will get access to this value.</p>
+<h3 id="setting-secrets">Setting secrets</h3>
+<p>To define a secret you use the command line tool, not the <code>activestate.yaml</code>. This is because secrets live on the ActiveState Platform (in client-side encrypted format &ndash; we do not have access to the real values) and not in your local configuration file. We&rsquo;ll want to use the <a href="secrets.html">state secrets</a> command to define a new secret:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state secrets set project.secret-name secret-value
+</code></pre></div><p>This will create a secret named secret-name with the value secret-value that will be shared with everyone who has permissions for the project.</p>
+<p>If, instead, you want to define a secret that only you have access to, you need to define a user secret by specifying <code>user.secret-name</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state secrets set user.secret-name secret-value
+</code></pre></div><p>This will still define the secret for everyone on the project, but only you will have access to the value you&rsquo;ve set. Anyone else that uses this secret will be prompted for their own value.</p>
+<h3 id="retrieving-secrets">Retrieving secrets</h3>
+<p>Now that we have a secret defined we can start using it. To view secrets that exist for your current project you can run the <a href="secrets.html">state secrets</a> command. This will produce a concise list of secrets, their “scope” (user or project) as well as a usage example (what you would use to set or retrieve their value).</p>
+<p>To retrieve the value of a secret run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state secrets get project.secret-name
+</code></pre></div><p>This will retrieve the value for a secret called <code>secret-name</code> whose value is shared with everyone in the project.</p>
+<h3 id="using-secrets">Using secrets</h3>
+<p>So we can set and retrieve secrets, what about using them in our config (activestate.yaml)? This is actually very simple, and similar to how you use constants. Let’s use our “HELLO” constant from before but this time instead of referencing a constant called “LOCATION” we’ll reference a secret with that name instead. This syntax would look as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">constants:
+ - name: HELLO
+   value: Hello $secrets.user.LOCATION
+</code></pre></div><p>What’s happening here is the <code>$secrets.</code> prefix indicates that we want to “expand” our identifier as a secret, and the <code>user.LOCATION</code> bits identify it as a secret named LOCATION stored under the user. This syntax is compatible with the output of the “Usage” column when running <code>state secrets</code> to list your secrets. You can copy and paste that value right after the <code>$secrets.</code> prefix in your <code>activestate.yaml</code> file.</p>
+<p>It&rsquo;s important to note that you do not need to first define the <code>user.LOCATION</code> secret. If a secret does not yet exist you will instead be prompted for its value when you try to access it.</p>
+<h2 id="scripts">Scripts</h2>
+<p>Scripts in the State tool can be compared to scripts in NPM, or build targets in a Makefile. You define a script and can then run it whenever you need to. Let’s start with something simple:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+ - name: hello
+   value: echo Hello World
+</code></pre></div><p>This will register a script with the alias “hello”. You can run this outside your “activated state” via the <a href="run.html">state run</a> command by running <code>state run hello</code>, but once you state activate it becomes much simpler, you simply invoke it by running hello.</p>
+<h3 id="using-languages">Using Languages</h3>
+<p>The above script would run under whatever shell the current system defaults to, so Bash on Linux/macOS and Batch on Windows. This is problematic if you are working on a cross-platform project. Sure you could use <a href="#constraining-scripts">constraints</a>, but wouldn&rsquo;t it be easier if you could just use one single script for all platforms?</p>
+<p>For this the State Tool supports languages. You can configure your project on the <a href="https://platform.activestate.com">ActiveState Platform</a> to include a Python or Perl runtime, after which can define a script to use that language, for example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+  - name: hello
+    language: python3
+    value: print(&#34;Hello World&#34;)
+</code></pre></div><h3 id="calling-scripts-from-other-scripts">Calling Scripts From Other Scripts</h3>
+<p>Calling one script from another is fairly straight forward, you can access scripts as &ldquo;variables&rdquo; the same as many other activestate.yaml structures. Let&rsquo;s let the code do the talking:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+  - name: hello
+    language: python3
+    value: print(&#34;Hello World&#34;)
+  - name: greeting
+    language: python3
+    value: |
+      $scripts.hello
+      print(&#34;How are you doing?&#34;)
+</code></pre></div><p>When you execute <code>state run greeting</code> it will inject the value of the &ldquo;hello&rdquo; script into the &ldquo;greeting&rdquo; script. The resulting code that ends up being ran would look like this&rdquo;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Hello World</span><span style="color:#e6db74">&#34;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">How are you doing?</span><span style="color:#e6db74">&#34;</span>)
+</code></pre></div><h4 id="calling-scripts-by-their-path">Calling Scripts by Their Path</h4>
+<p>The above example can be problematic when you are running scripts in various languages. For example the following code would certainly fail:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+  - name: hello
+    language: python3
+    value: print(&#34;Hello World&#34;)
+  - name: greeting
+    value: |
+      $scripts.hello
+      echo &#34;How are you doing?&#34;
+</code></pre></div><p>Note that the &ldquo;greeting&rdquo; script does not have a language defined, this means it runs as either Bash or Batch depending on your platform. But the &ldquo;hello&rdquo; script is still Python code, which is being embedded in bash code, which will lead to some sort of syntax error.</p>
+<p>You work around such an issue by calling the script by its file, rather than just embedding the code. To do this you can use the <code>path()</code> method that lives on all scripts. So the above code would become:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+  - name: hello
+    language: python3
+    value: print(&#34;Hello World&#34;)
+  - name: greeting
+    value: |
+      $scripts.hello.path()
+      echo &#34;How are you doing?&#34;
+</code></pre></div><p>Now the resulting script will look something like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">/tmp/7979234.script.py
+echo &#34;How are you doing?&#34;
+</code></pre></div><p>The file in question will have a shebang with our interpreter defined in it, so you don&rsquo;t need to worry about providing the interpreter unless you are on Windows, which doesn&rsquo;t support shebang. For cross-platform compatibility you could instead use:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">  - name: greeting
+    value: |
+      python3 $scripts.hello.path()
+      echo &#34;How are you doing?&#34;
+</code></pre></div><p>That way we&rsquo;re explicitly saying Python is the interpreter for this file.</p>
+<h3 id="using-constants--secrets">Using Constants &amp; Secrets</h3>
+<p>Scripts can use constants too, so for example you could instead use the following value:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">value: echo $constants.HELLO
+</code></pre></div><p>This also works for secrets, so instead of the above you could use <code>echo $secrets.user.HELLO</code>. It gets more interesting though, because in the <code>activestate.yaml</code> EVERYTHING is a “variable”, so you could create another command that references our first command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+ - name: log-hello
+   value: $scripts.hello &gt; /tmp/hello.txt
+</code></pre></div><p>You can see how used wisely this can quickly become very powerful.</p>
+<p>The main use-case for scripts is to kick off builds, run tests, etc. But the sky’s the limit.</p>
+<h3 id="script-arguments">Script Arguments</h3>
+<p>Scripts support arguments too! Using the hello world sample again, you could define your script like so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+ - name: hello
+   value: echo hello $1
+</code></pre></div><p>Now you can run <code>hello world</code> or <code>hello planet</code> and it should print out the argument you passed.</p>
+<h3 id="constraining-scripts">Constraining Scripts</h3>
+<p>Scripts will be run as either bash or batch scripts, depending on the shell that you run them from. This can be problematic because bash and batch are two very different languages, and you might have cross-platform requirements. To address this you can constrain a script to only run on certain platforms. For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">scripts:
+ - name: env
+   value: printenv
+   constraints: 
+       os: linux,macos
+ - name: env
+   value: set
+   constraints: 
+       os: windows
+</code></pre></div><p>Now when you run <code>state run env</code> on Windows it will execute the windows constrained script, whereas when you run it on Linux or macOS it will run the script constrained to those platforms.</p>
+<p>Constraints can also be negative, so if you would want to run a script on any platform except windows you could use <code>os: -windows</code>.</p>
+<p>The possible values for the OS constraint are:</p>
+<ul>
+<li>windows</li>
+<li>macos</li>
+<li>linux</li>
+</ul>
+<p>These values can be given in a comma separate fashion, and include a minus character to exclude them (e.g. <code>-windows</code>).</p>
+<h2 id="events">Events</h2>
+<p>OK so we have constants, secrets and scripts, but your project has some special needs. It might require certain services to be running, or for certain non-language-specific dependencies to be installed. For this you can hook into events, the most important event of which is the ACTIVATE event, as the name implies this event is triggered when you state activate.</p>
+<p><strong>NOTE</strong>: Currently, ACTIVATE is the only available event. Additional events will be added in future releases.</p>
+<p>Events act mostly the same as scripts do, except that they aren’t manually invoked and instead run when their event triggers. For example we could have an ACTIVATE event that looks like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">events
+ - name: ACTIVATE
+   value: systemctl start my-service
+</code></pre></div><p>This would start a service whenever we enter an “activated state”. It’s worth noting that the ACTIVATE event has a special use-case: it is invoked as part of your bashrc (or zshrc, or fishrc, or ..) meaning it can export environment variables, register bash aliases, etc.</p>
+<h3 id="sharing-with-your-team">Sharing With Your Team</h3>
+<p>Now that you have your <code>activestate.yaml</code> configuration file set up you can share it with your team. You can do this however you prefer, but if your team is using version control we recommend checking in your <code>activestate.yaml</code> file. As we add new capabilities you can update your configuration in the <code>activestate.yaml</code> file and share these capabilities with your team.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/activepython38docs/state/ci/" title="Using State Tool on CI/CD"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/activepython38docs/style/" title="Style Guide" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/activepython38docs/js/clipboard.min.js?1582060935"></script>
+    <script src="/activepython38docs/js/perfect-scrollbar.min.js?1582060935"></script>
+    <script src="/activepython38docs/js/perfect-scrollbar.jquery.min.js?1582060935"></script>
+    <script src="/activepython38docs/js/jquery.sticky.js?1582060935"></script>
+    <script src="/activepython38docs/js/featherlight.min.js?1582060935"></script>
+    <script src="/activepython38docs/js/highlight.pack.js?1582060935"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/activepython38docs/js/modernizr.custom-3.6.0.js?1582060935"></script>
+    <script src="/activepython38docs/js/learn.js?1582060935"></script>
+    <script src="/activepython38docs/js/hugo-learn.js?1582060935"></script>
+
+    <link href="/activepython38docs/mermaid/mermaid.css?1582060935" rel="stylesheet" />
+    <script src="/activepython38docs/mermaid/mermaid.js?1582060935"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>State Tool on ActiveState Platform Documentation</title>
+    <link>https://davetlewis-van.github.io/activepython38docs/state/</link>
+    <description>Recent content in State Tool on ActiveState Platform Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2020 17:26:27 -0800</lastBuildDate>
+    
+	<atom:link href="https://davetlewis-van.github.io/activepython38docs/state/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using State Tool on CI/CD</title>
+      <link>https://davetlewis-van.github.io/activepython38docs/state/ci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davetlewis-van.github.io/activepython38docs/state/ci/</guid>
+      <description>To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.
+Install without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):
+install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&amp;gt;] [-e &amp;lt;file&amp;gt;] [-h] [--activate] Flags: -b &amp;lt;branch&amp;gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://davetlewis-van.github.io/activepython38docs/state/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davetlewis-van.github.io/activepython38docs/state/start/</guid>
+      <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
+To install the state tool refer to the installation guide.
+Creating Your First Project The state tool cannot do anything without a project, everything lives under your project.
+You can create your project either via the state tool itself via the state new command or by going directly to the ActiveState Platform and creating it there.</description>
+    </item>
+    
+  </channel>
+</rss>
