@@ -1,0 +1,9 @@
+shortcuts:                                       # external links
+- name: "ActiveState Platform"
+  identifier: "platform"
+  url: "https://platform.activestate.com/"
+  weight: 10
+- name: "Hugo"
+  identifier: "hugodoc"
+  url: "https://gohugo.io/"
+  weight: 20
