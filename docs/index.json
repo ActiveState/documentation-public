@@ -60,7 +60,7 @@
 	"title": "ActiveState Platform documentation home",
 	"tags": [],
 	"description": "",
-	"content": "Welcome to the documentation site for the ActiveState Platform.\nThe ActiveState Platform is ActiveState\u0026rsquo;s open source languages platform.\n* [Change Log](/changes/) * [Terms of Use and Service Agreement](/license/)  Getting Started These are some resources for getting started with the ActiveState Platform:\n* [Platform quick start guide](/start/) * [State Tool quick start guide](/state/quick/) * [Working with projects](/projects/) * [Managing your organization](/organizations/) * [Security \u0026amp; Compliance overview](/security/)  "
+	"content": "Welcome to the documentation site for the ActiveState Platform.\nThe ActiveState Platform is ActiveState\u0026rsquo;s open source languages platform.\n Change Log Terms of Use and Service Agreement  Getting Started These are some resources for getting started with the ActiveState Platform:\n Platform quick start guide State Tool quick start guide Working with projects Managing your organization Security \u0026amp; Compliance overview  "
 },
 {
 	"uri": "https://activestate.github.io/documentation-public/start/quick-start/managed/",

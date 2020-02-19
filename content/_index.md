@@ -7,15 +7,15 @@ Welcome to the documentation site for the ActiveState Platform.
 
 The ActiveState Platform is ActiveState's open source languages platform.
 
-    * [Change Log](/changes/)
-    * [Terms of Use and Service Agreement](/license/)
+* [Change Log](/changes/)
+* [Terms of Use and Service Agreement](/license/)
 
 ## Getting Started
 
 These are some resources for getting started with the ActiveState Platform:
 
-    * [Platform quick start guide](/start/)
-    * [State Tool quick start guide](/state/quick/)
-    * [Working with projects](/projects/)
-    * [Managing your organization](/organizations/)
-    * [Security & Compliance overview](/security/)
+* [Platform quick start guide](/start/)
+* [State Tool quick start guide](/state/quick/)
+* [Working with projects](/projects/)
+* [Managing your organization](/organizations/)
+* [Security & Compliance overview](/security/)
