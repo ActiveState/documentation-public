@@ -2,6 +2,7 @@ languageCode: en-us
 title: ActiveState Platform Documentation
 theme: github.com/matcornic/hugo-theme-learn
 publishDir: docs
+enableGitInfo: true
 
 outputs:
   home: 
