@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/documentation-public/images/favicon.png" type="image/png">
 
-    <title>auth :: ActiveState Platform Documentation</title>
+    <title>Platform Quick Start :: ActiveState Platform Documentation</title>
 
     
     <link href="/documentation-public/css/nucleus.css?1582084230" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/documentation-public/state/commands/auth/">
+  <body class="" data-url="/documentation-public/start/platform/">
     <nav id="sidebar" class="">
 
 
@@ -235,7 +235,7 @@
   
     
     <li data-nav-id="/documentation-public/state/" title="State Tool" class="dd-item 
-        parent
+        
         
         
         ">
@@ -262,7 +262,7 @@
   
     
     <li data-nav-id="/documentation-public/state/commands/" title="Command Reference" class="dd-item 
-        parent
+        
         
         
         ">
@@ -305,7 +305,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item active">
+      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item ">
         <a href="/documentation-public/state/commands/auth/">
         auth
         
@@ -686,7 +686,7 @@
   
     
     <li data-nav-id="/documentation-public/start/" title="Quick Start Guides" class="dd-item 
-        
+        parent
         
         
         ">
@@ -710,7 +710,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/start/platform/" title="Platform Quick Start" class="dd-item ">
+      <li data-nav-id="/documentation-public/start/platform/" title="Platform Quick Start" class="dd-item active">
         <a href="/documentation-public/start/platform/">
         Platform Quick Start
         
@@ -858,7 +858,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/state/commands/auth.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/start/platform.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -889,13 +889,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/state/'>State Tool</a> > <a href='/documentation-public/state/commands/'>Command Reference</a> > auth
-          
-         
+            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/start/'>Quick Start Guides</a> > Platform Quick Start
           
          
           
@@ -910,13 +904,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#state-auth">state auth</a></li>
-        <li><a href="#state-auth-logout">state auth logout</a></li>
-        <li><a href="#state-auth-signup">state auth signup</a></li>
-      </ul>
-    </li>
+    <li><a href="#joining-your-first-organization">Joining your first Organization</a></li>
+    <li><a href="#joining-additional-organizations">Joining additional Organizations</a></li>
+    <li><a href="#viewing-your-dashboard">Viewing your Dashboard</a></li>
   </ul>
 </nav>
     </div>
@@ -934,7 +924,7 @@
           
             <h1>
               
-              auth
+              Platform Quick Start
             </h1>
           
 
@@ -942,22 +932,26 @@
 
 
 
-<p>The <code>auth</code> command allows you to authenticate your account on the ActiveState Platform.</p>
-<h2 id="usage">Usage</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth [--username &lt;value&gt;] [--password &lt;value&gt;] [--token &lt;value&gt;]
-state auth logout
-state auth signup
-</code></pre></div><h3 id="state-auth">state auth</h3>
-<p>If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.</p>
-<ul>
-<li><code>--username &lt;value&gt;</code>: Manually provide a username.</li>
-<li><code>--password &lt;value&gt;</code>: Manually provide a password.</li>
-<li><code>--token &lt;value&gt;</code>: Manually provide a token (this cannot be used with <code>--username</code>)</li>
-</ul>
-<h3 id="state-auth-logout">state auth logout</h3>
-<p>Logs you out.</p>
-<h3 id="state-auth-signup">state auth signup</h3>
-<p>You can use the signup argument to sign up for an account on the ActiveState Platform. You will be prompted for a username and password, your full name, and your email address. Your account will have limited access to the ActiveState Platform until you click the link in the confirmation email sent from the Platform to validate your email address.</p>
+<h2 id="joining-your-first-organization">Joining your first Organization</h2>
+<p>When a colleague or ActiveState employee invites you to join the ActiveState Platform you will receive an email invitation to join a specific organization. You need to create your account for the ActiveState Platform and confirm that you want to join the organization.</p>
+<ol>
+<li>Open the email invite you received from <strong><a href="mailto:notifications@activestate.com">notifications@activestate.com</a></strong> to join the organization.</li>
+<li>Click the link in the email, or copy and paste the link text into your browser address bar. You will be redirected to the ActiveState Platform <strong>Create an Account</strong> page if you are a new user, or <strong>Sign In</strong> page if you have an existing ActiveState Platform account.</li>
+<li>If you are a new user, enter the requested information in the <strong>Create an Account</strong> page, and then click <strong>Create Account</strong>.</li>
+<li>If you already have an account, sign in with your username or email and password.</li>
+<li>In the <strong>You&rsquo;ve been invited</strong> page, click <strong>Accept Invitation</strong> to confirm that you want to join the organization you have been invited to.</li>
+</ol>
+<h2 id="joining-additional-organizations">Joining additional Organizations</h2>
+<p>The ActiveState Platform allows you to link more than one organization to your user account. This means that you can, for example, access your work projects and personal projects using a single user account.</p>
+<ol>
+<li>Open the email invite you received from <strong><a href="mailto:notifications@activestate.com">notifications@activestate.com</a></strong> to join the organization. You will receive a separate email invite for each organization you are invited to.</li>
+<li>Click the link in the email, or copy and paste the link text into your browser address bar.</li>
+<li>If you are prompted to sign in, enter your username or email and password and click <strong>Sign In</strong>.</li>
+<li>In the <strong>You&rsquo;ve been invited</strong> page click <strong>Join</strong> to confirm that you want to join the organization you have been invited to.</li>
+</ol>
+<h2 id="viewing-your-dashboard">Viewing your Dashboard</h2>
+<p>After you first sign in and join an organization, you are redirected to your profile page called <strong>Your Dashboard</strong>.</p>
+<p><strong>Your Dashboard</strong> displays recent activity, the organizations you belong to and the Projects you have access to. You can navigate to pages for working with each organization and for managing the organizations you belong to, and access projects and downloadable installers for ActiveState language distributions and Komodo.</p>
 
 
 <footer class="footline">
@@ -1094,7 +1088,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1110,7 +1103,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1123,9 +1115,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1143,7 +1132,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1159,9 +1147,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1457,6 +1442,7 @@ state auth signup
             
                 
                     
+                    
                 
                 
 
@@ -1469,6 +1455,7 @@ state auth signup
             
             
                 
+                    
                     
                 
                 
@@ -1485,6 +1472,9 @@ state auth signup
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1557,10 +1547,10 @@ state auth signup
 	 
 	 
 		
-			<a class="nav nav-prev" href="/documentation-public/state/commands/activate/" title="activate"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/documentation-public/start/" title="Quick Start Guides"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/documentation-public/state/commands/events/" title="events" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/documentation-public/start/state-tool/" title="State Tool CLI" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

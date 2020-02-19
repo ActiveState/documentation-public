@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/start/platform/</loc>
+    <lastmod>2020-02-05T17:26:16-08:00</lastmod>
   </url>
   
   <url>
@@ -38,18 +38,22 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/start/state-tool/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/state/commands/activate/</loc>
     <lastmod>2020-02-18T12:29:40-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/</loc>
-    <lastmod>2020-02-18T18:18:05-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/start/managed/</loc>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/quick-start/managed/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/</loc>
+    <lastmod>2020-02-18T18:23:45-08:00</lastmod>
   </url>
   
   <url>
@@ -67,8 +71,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/quick-start/build/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/start/build/</loc>
   </url>
   
   <url>
@@ -137,7 +140,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/quick-start/</loc>
+    <loc>https://activestate.github.io/documentation-public/start/</loc>
     <lastmod>2020-02-18T12:29:40-08:00</lastmod>
   </url>
   
@@ -157,8 +160,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/quick-start/security/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/start/security/</loc>
   </url>
   
   <url>

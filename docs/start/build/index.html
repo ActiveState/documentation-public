@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/documentation-public/images/favicon.png" type="image/png">
 
-    <title>auth :: ActiveState Platform Documentation</title>
+    <title>Custom language runtimes :: ActiveState Platform Documentation</title>
 
     
     <link href="/documentation-public/css/nucleus.css?1582084230" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/documentation-public/state/commands/auth/">
+  <body class="" data-url="/documentation-public/start/build/">
     <nav id="sidebar" class="">
 
 
@@ -235,7 +235,7 @@
   
     
     <li data-nav-id="/documentation-public/state/" title="State Tool" class="dd-item 
-        parent
+        
         
         
         ">
@@ -262,7 +262,7 @@
   
     
     <li data-nav-id="/documentation-public/state/commands/" title="Command Reference" class="dd-item 
-        parent
+        
         
         
         ">
@@ -305,7 +305,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item active">
+      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item ">
         <a href="/documentation-public/state/commands/auth/">
         auth
         
@@ -686,7 +686,7 @@
   
     
     <li data-nav-id="/documentation-public/start/" title="Quick Start Guides" class="dd-item 
-        
+        parent
         
         
         ">
@@ -767,7 +767,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/start/build/" title="Custom language runtimes" class="dd-item ">
+      <li data-nav-id="/documentation-public/start/build/" title="Custom language runtimes" class="dd-item active">
         <a href="/documentation-public/start/build/">
         Custom language runtimes
         
@@ -858,7 +858,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/state/commands/auth.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/start/build.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -889,13 +889,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/state/'>State Tool</a> > <a href='/documentation-public/state/commands/'>Command Reference</a> > auth
-          
-         
+            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/start/'>Quick Start Guides</a> > Custom language runtimes
           
          
           
@@ -908,17 +902,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#state-auth">state auth</a></li>
-        <li><a href="#state-auth-logout">state auth logout</a></li>
-        <li><a href="#state-auth-signup">state auth signup</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -934,7 +918,7 @@
           
             <h1>
               
-              auth
+              Custom language runtimes
             </h1>
           
 
@@ -942,23 +926,29 @@
 
 
 
-<p>The <code>auth</code> command allows you to authenticate your account on the ActiveState Platform.</p>
-<h2 id="usage">Usage</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth [--username &lt;value&gt;] [--password &lt;value&gt;] [--token &lt;value&gt;]
-state auth logout
-state auth signup
-</code></pre></div><h3 id="state-auth">state auth</h3>
-<p>If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.</p>
-<ul>
-<li><code>--username &lt;value&gt;</code>: Manually provide a username.</li>
-<li><code>--password &lt;value&gt;</code>: Manually provide a password.</li>
-<li><code>--token &lt;value&gt;</code>: Manually provide a token (this cannot be used with <code>--username</code>)</li>
-</ul>
-<h3 id="state-auth-logout">state auth logout</h3>
-<p>Logs you out.</p>
-<h3 id="state-auth-signup">state auth signup</h3>
-<p>You can use the signup argument to sign up for an account on the ActiveState Platform. You will be prompted for a username and password, your full name, and your email address. Your account will have limited access to the ActiveState Platform until you click the link in the confirmation email sent from the Platform to validate your email address.</p>
-
+<p>You can build a custom language runtime with the language, packages, and platforms you need.</p>
+<p><strong>Important</strong>: Customizing language builds is a work-in-progress feature. We&rsquo;re working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.</p>
+<ol>
+<li>Open your web browser and navigate to <!-- raw HTML omitted --><a href="http://platform.activestate.com">http://platform.activestate.com</a><!-- raw HTML omitted --> and sign in.</li>
+<li>To create a project for your personal use, click the <strong>Projects</strong> tab on your dashboard page.</li>
+<li>To create a project in an Organization, select the Organization in the <strong>Your Organizations</strong> list and then click the <strong>Projects</strong> tab.</li>
+<li>Click <strong>Build a Custom Runtime</strong>.</li>
+<li>Enter a meaningful name for the project in <strong>Project Name</strong>.</li>
+<li>Projects are public by default. If you belong to an organization on a paid tier, you have the option of selecting <strong>Private</strong> to create a project that&rsquo;s only visible to members of the selected organization.</li>
+<li>In <strong>Choose a Language</strong>, select the language to include and the version for each language.</li>
+<li>In *<em>Operating Systems</em>, select the operating system(s) where you will be installing the language distributions for your project.</li>
+<li>Click <strong>Create Project</strong>.</li>
+</ol>
+<p>To add packages to your new project:</p>
+<ol>
+<li>Click <strong>Add Packages</strong> to customize the packages included in your build.</li>
+<li>In the <strong>Add Packages</strong> dialog box, type in part of a package name and click <strong>Search</strong>.</li>
+<li>Click <strong>Add</strong> next to the package name to add a package from the search results.</li>
+<li>Repeat steps 2 and 3 to add additional packages, and click <strong>Done</strong> when you are finished adding packages.</li>
+<li>Click <strong>Commit Changes</strong>. This is the step that starts the build in our server farm. The time it takes for the build to complete depends on the complexity of the build and the available resources to complete the build.</li>
+<li>Click <strong>View Status</strong>. If the build status is In Progress, you can come back later to verify that the build completed successfully. In some cases, the build will fail immediately and you may need to adjust your settings and try again.</li>
+<li>Once your build completes successfully, you can download the installer from the <strong>Download Builds</strong> tab or use the commands listed on the <strong>Overview</strong> page to activate your project using the <a href="/state/start">State Tool</a>.</li>
+</ol>
 
 <footer class="footline">
 	
@@ -1094,7 +1084,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1110,7 +1099,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1123,9 +1111,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1143,7 +1128,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1159,9 +1143,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1457,6 +1438,7 @@ state auth signup
             
                 
                     
+                    
                 
                 
 
@@ -1469,6 +1451,9 @@ state auth signup
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1518,6 +1503,7 @@ state auth signup
             
                 
                     
+                    
                 
                 
 
@@ -1533,6 +1519,9 @@ state auth signup
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1557,10 +1546,10 @@ state auth signup
 	 
 	 
 		
-			<a class="nav nav-prev" href="/documentation-public/state/commands/activate/" title="activate"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/documentation-public/start/managed/" title="ActiveState managed projects"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/documentation-public/state/commands/events/" title="events" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/documentation-public/start/security/" title="Security and Compliance" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

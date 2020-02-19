@@ -1,11 +1,10 @@
 ---
-title: "ActiveState-managed projects"
-description: "Hello managed."
+title: "ActiveState managed projects"
 ---
 
-## Getting started with Managed Projects
+Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.<!--more-->
 
-Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.
+## Getting started with Managed Projects
 
 The distributions available to your Organization, and how you can use them in production, depend on the type ActiveState customer you are. Customers of ActiveState prior to the launch of the ActiveState Platform can continue to get their language builds and installers, previously available through Connect or My Account, from the Platform. 
 

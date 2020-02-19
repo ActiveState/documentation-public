@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/documentation-public/images/favicon.png" type="image/png">
 
-    <title>auth :: ActiveState Platform Documentation</title>
+    <title>Security and Compliance :: ActiveState Platform Documentation</title>
 
     
     <link href="/documentation-public/css/nucleus.css?1582084230" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/documentation-public/state/commands/auth/">
+  <body class="" data-url="/documentation-public/start/security/">
     <nav id="sidebar" class="">
 
 
@@ -235,7 +235,7 @@
   
     
     <li data-nav-id="/documentation-public/state/" title="State Tool" class="dd-item 
-        parent
+        
         
         
         ">
@@ -262,7 +262,7 @@
   
     
     <li data-nav-id="/documentation-public/state/commands/" title="Command Reference" class="dd-item 
-        parent
+        
         
         
         ">
@@ -305,7 +305,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item active">
+      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item ">
         <a href="/documentation-public/state/commands/auth/">
         auth
         
@@ -686,7 +686,7 @@
   
     
     <li data-nav-id="/documentation-public/start/" title="Quick Start Guides" class="dd-item 
-        
+        parent
         
         
         ">
@@ -786,7 +786,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/start/security/" title="Security and Compliance" class="dd-item ">
+      <li data-nav-id="/documentation-public/start/security/" title="Security and Compliance" class="dd-item active">
         <a href="/documentation-public/start/security/">
         Security and Compliance
         
@@ -858,7 +858,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/state/commands/auth.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/start/security.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -889,13 +889,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/state/'>State Tool</a> > <a href='/documentation-public/state/commands/'>Command Reference</a> > auth
-          
-         
+            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/start/'>Quick Start Guides</a> > Security and Compliance
           
          
           
@@ -910,11 +904,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#usage">Usage</a>
+    <li>
       <ul>
-        <li><a href="#state-auth">state auth</a></li>
-        <li><a href="#state-auth-logout">state auth logout</a></li>
-        <li><a href="#state-auth-signup">state auth signup</a></li>
+        <li><a href="#configuring-security--compliance">Configuring Security & Compliance</a></li>
       </ul>
     </li>
   </ul>
@@ -934,7 +926,7 @@
           
             <h1>
               
-              auth
+              Security and Compliance
             </h1>
           
 
@@ -942,22 +934,40 @@
 
 
 
-<p>The <code>auth</code> command allows you to authenticate your account on the ActiveState Platform.</p>
-<h2 id="usage">Usage</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth [--username &lt;value&gt;] [--password &lt;value&gt;] [--token &lt;value&gt;]
-state auth logout
-state auth signup
-</code></pre></div><h3 id="state-auth">state auth</h3>
-<p>If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.</p>
-<ul>
-<li><code>--username &lt;value&gt;</code>: Manually provide a username.</li>
-<li><code>--password &lt;value&gt;</code>: Manually provide a password.</li>
-<li><code>--token &lt;value&gt;</code>: Manually provide a token (this cannot be used with <code>--username</code>)</li>
-</ul>
-<h3 id="state-auth-logout">state auth logout</h3>
-<p>Logs you out.</p>
-<h3 id="state-auth-signup">state auth signup</h3>
-<p>You can use the signup argument to sign up for an account on the ActiveState Platform. You will be prompted for a username and password, your full name, and your email address. Your account will have limited access to the ActiveState Platform until you click the link in the confirmation email sent from the Platform to validate your email address.</p>
+<p>Security &amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.</p>
+<p>Note: The <strong>Security &amp; Compliance</strong> tab provides access to the security features of the Platform. It is available for Organizations on the Business and Enterprise tiers.</p>
+<h3 id="configuring-security--compliance">Configuring Security &amp; Compliance</h3>
+<p>Security &amp; Compliance requires configuration to map the ActivePython interpreter you want to scan for vulnerabilities with the identity in the ActiveState Platform where you want to record the packages scanned and any details for any vulnerabilities identified.</p>
+<ol>
+<li>
+<p>Create an identity: An identity is a tracking identifier that organizes the results of security scans performed for one or more Python interpreters. For example, you could create a &ldquo;Development&rdquo; identity to track all security scans performed on development servers.</p>
+<ol>
+<li>Select an organization in the <strong>Your Organizations</strong> list.</li>
+<li>Click the <strong>Security &amp; Compliance</strong> tab.</li>
+<li>Click <strong>Identities</strong>.</li>
+<li>Enter a meaningful name for the identity and click <strong>Create</strong>.</li>
+<li>Create a new plain text file with the contents of the sample configuration file and save it as <code>activestate.config</code>. For more information, see <a href="/security/create_config.html">Configuring Identities</a> and <a href="/security/config_placement.html">Where to place your <code>activestate.config</code> file?</a>.</li>
+</ol>
+</li>
+<li>
+<p>Download the Security &amp; Compliance plugin</p>
+<ol>
+<li>In the Security &amp; Compliance tab, click <strong>Get Started</strong>.</li>
+<li>Click the <strong>ActiveState-SecurityScanner-0.5.5</strong> button to begin the download.</li>
+</ol>
+</li>
+<li>
+<p>Configure the Security &amp; Compliance plugin on systems where interpreters run that you want to record scan data for. This involves two configuration steps:</p>
+<ol>
+<li>Use the <code>pip</code> package manager to install the plugin. For example, for Python3 with <code>pip3</code> installed, at the command prompt where you downloaded the plugin enter: <code>python3 -m pip install ActiveState-SecurityScanner-0.5.1.tar.gz</code>
+For more detailed instructions, see <a href="/security/install">Installing the Security &amp; Compliance Plugin</a>.</li>
+<li>Download the <code>activestate.config</code> file to direct your security scan output to a specific identity. For details, see <a href="/security/create_config.html">Configuring Identities</a> On Linux or macOS, copy the file to the <code>/etc</code> directory if you want all security scans run on that computer to use the same identity. On Windows, create an <code>ACTIVESTATE_CONFIG</code> environment variable that points to your <code>activestate.config</code> file. For more information on configuration options, see <a href="/security/config_placement.html">Configuring Identities</a>.</li>
+</ol>
+</li>
+<li>
+<p>Run your applications and scripts with ActivePython interpreters that have the Security &amp; Compliance plugin installed, and then check the <strong>Dashboard</strong> to see updates in <strong>Your Latest Activity</strong>. When the first security scan is complete you can view details in <strong>Security &amp; Compliance</strong> tab for the organization associated with the identity.</p>
+</li>
+</ol>
 
 
 <footer class="footline">
@@ -1094,7 +1104,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1110,7 +1119,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1123,9 +1131,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1143,7 +1148,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1159,9 +1163,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1457,6 +1458,7 @@ state auth signup
             
                 
                     
+                    
                 
                 
 
@@ -1469,6 +1471,9 @@ state auth signup
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1533,6 +1538,7 @@ state auth signup
             
             
                 
+                    
                     
                 
                 
@@ -1557,10 +1563,10 @@ state auth signup
 	 
 	 
 		
-			<a class="nav nav-prev" href="/documentation-public/state/commands/activate/" title="activate"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/documentation-public/start/build/" title="Custom language runtimes"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/documentation-public/state/commands/events/" title="events" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/documentation-public/start/platform/" title="Platform Quick Start" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

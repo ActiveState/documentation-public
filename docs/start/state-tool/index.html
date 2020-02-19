@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/documentation-public/images/favicon.png" type="image/png">
 
-    <title>auth :: ActiveState Platform Documentation</title>
+    <title>State Tool CLI :: ActiveState Platform Documentation</title>
 
     
     <link href="/documentation-public/css/nucleus.css?1582084230" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/documentation-public/state/commands/auth/">
+  <body class="" data-url="/documentation-public/start/state-tool/">
     <nav id="sidebar" class="">
 
 
@@ -235,7 +235,7 @@
   
     
     <li data-nav-id="/documentation-public/state/" title="State Tool" class="dd-item 
-        parent
+        
         
         
         ">
@@ -262,7 +262,7 @@
   
     
     <li data-nav-id="/documentation-public/state/commands/" title="Command Reference" class="dd-item 
-        parent
+        
         
         
         ">
@@ -305,7 +305,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item active">
+      <li data-nav-id="/documentation-public/state/commands/auth/" title="auth" class="dd-item ">
         <a href="/documentation-public/state/commands/auth/">
         auth
         
@@ -686,7 +686,7 @@
   
     
     <li data-nav-id="/documentation-public/start/" title="Quick Start Guides" class="dd-item 
-        
+        parent
         
         
         ">
@@ -729,7 +729,7 @@
  
   
     
-      <li data-nav-id="/documentation-public/start/state-tool/" title="State Tool CLI" class="dd-item ">
+      <li data-nav-id="/documentation-public/start/state-tool/" title="State Tool CLI" class="dd-item active">
         <a href="/documentation-public/start/state-tool/">
         State Tool CLI
         
@@ -858,7 +858,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/state/commands/auth.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/start/state-tool.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -889,13 +889,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/state/'>State Tool</a> > <a href='/documentation-public/state/commands/'>Command Reference</a> > auth
-          
-         
+            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/start/'>Quick Start Guides</a> > State Tool CLI
           
          
           
@@ -910,11 +904,17 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#usage">Usage</a>
+    <li>
       <ul>
-        <li><a href="#state-auth">state auth</a></li>
-        <li><a href="#state-auth-logout">state auth logout</a></li>
-        <li><a href="#state-auth-signup">state auth signup</a></li>
+        <li><a href="#install-the-state-tool">Install the State Tool</a></li>
+        <li><a href="#sign-in-to-the-activestate-platform">Sign in to the ActiveState Platform</a></li>
+        <li><a href="#create-a-new-project-locally">Create a new project locally</a></li>
+        <li><a href="#change-directories-into-your-project-folder">Change directories into your project folder</a></li>
+        <li><a href="#push-your-project-to-the-activestate-platform">Push your project to the ActiveState Platform</a></li>
+        <li><a href="#add-required-packages-for-your-project">Add required packages for your project</a></li>
+        <li><a href="#synchronize-your-local-project-with-the-platform-project">Synchronize your local project with the Platform project</a></li>
+        <li><a href="#activate-your-project">Activate your project</a></li>
+        <li><a href="#access-documentation-for-cli-commands">Access documentation for CLI commands</a></li>
       </ul>
     </li>
   </ul>
@@ -934,7 +934,7 @@
           
             <h1>
               
-              auth
+              State Tool CLI
             </h1>
           
 
@@ -942,23 +942,47 @@
 
 
 
-<p>The <code>auth</code> command allows you to authenticate your account on the ActiveState Platform.</p>
-<h2 id="usage">Usage</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth [--username &lt;value&gt;] [--password &lt;value&gt;] [--token &lt;value&gt;]
-state auth logout
-state auth signup
-</code></pre></div><h3 id="state-auth">state auth</h3>
-<p>If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.</p>
-<ul>
-<li><code>--username &lt;value&gt;</code>: Manually provide a username.</li>
-<li><code>--password &lt;value&gt;</code>: Manually provide a password.</li>
-<li><code>--token &lt;value&gt;</code>: Manually provide a token (this cannot be used with <code>--username</code>)</li>
-</ul>
-<h3 id="state-auth-logout">state auth logout</h3>
-<p>Logs you out.</p>
-<h3 id="state-auth-signup">state auth signup</h3>
-<p>You can use the signup argument to sign up for an account on the ActiveState Platform. You will be prompted for a username and password, your full name, and your email address. Your account will have limited access to the ActiveState Platform until you click the link in the confirmation email sent from the Platform to validate your email address.</p>
-
+<p>The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.</p>
+<h3 id="install-the-state-tool">Install the State Tool</h3>
+<p>On Linux:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">sh &lt;(curl -q https://platform.activestate.com/dl/cli/install.sh)
+</code></pre></div><p>On Windows:</p>
+<ol>
+<li>
+<p>Run the following as Administrator in PowerShell:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">IEX(New-Object Net.WebClient).downloadString(&#39;https://platform.activestate.com/dl/cli/install.ps1&#39;)
+</code></pre></div></li>
+<li>
+<p>Start the command prompt (<code>cmd.exe</code>) to use the State Tool.</p>
+</li>
+</ol>
+<h3 id="sign-in-to-the-activestate-platform">Sign in to the ActiveState Platform</h3>
+<p>If you don&rsquo;t have a Platform account yet, you need to sign up:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth signup 
+</code></pre></div><p>Enter the requested information at the prompt to register your account. You will receive an email to verify your account. You have limited permissions to the Platform before you verify it. After registering your account you can sign in.</p>
+<p>If you already have an ActiveState Platform account, or you just created an account you need to sign in:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth
+</code></pre></div><p>Enter your username and password for the Platform at the prompts.</p>
+<h3 id="create-a-new-project-locally">Create a new project locally</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state init &lt;username_or_org_name&gt;/&lt;project_name&gt; --language python3
+</code></pre></div><h3 id="change-directories-into-your-project-folder">Change directories into your project folder</h3>
+<p>Linux:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">cd &lt;username_or_org_name&gt;/&lt;project_name&gt;
+</code></pre></div><p>Windows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">cd &lt;username_or_org_name&gt;\&lt;project_name&gt;
+</code></pre></div><h3 id="push-your-project-to-the-activestate-platform">Push your project to the ActiveState Platform</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state push
+</code></pre></div><h3 id="add-required-packages-for-your-project">Add required packages for your project</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state packages add requests@2.21.0
+state packages add pandas
+</code></pre></div><h3 id="synchronize-your-local-project-with-the-platform-project">Synchronize your local project with the Platform project</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state pull
+</code></pre></div><h3 id="activate-your-project">Activate your project</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state activate
+</code></pre></div><h3 id="access-documentation-for-cli-commands">Access documentation for CLI commands</h3>
+<p>To learn more about the State Tool commands, run state &ndash;help in the terminal.</p>
+<p>For help on individual commands, run <code>state COMMAND --help</code>. For example, <code>state packages --help</code>.</p>
+<p>For more information on the State Tool and the available commands see the <a href="/state/">State Tool section</a>.</p>
 
 <footer class="footline">
 	
@@ -1094,7 +1118,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1110,7 +1133,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1123,9 +1145,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1143,7 +1162,6 @@ state auth signup
             
                 
                     
-                    
                 
                 
 
@@ -1159,9 +1177,6 @@ state auth signup
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1457,6 +1472,7 @@ state auth signup
             
                 
                     
+                    
                 
                 
 
@@ -1469,6 +1485,9 @@ state auth signup
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1486,6 +1505,7 @@ state auth signup
             
                 
                     
+                    
                 
                 
 
@@ -1501,6 +1521,9 @@ state auth signup
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1557,10 +1580,10 @@ state auth signup
 	 
 	 
 		
-			<a class="nav nav-prev" href="/documentation-public/state/commands/activate/" title="activate"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/documentation-public/start/platform/" title="Platform Quick Start"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/documentation-public/state/commands/events/" title="events" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/documentation-public/start/managed/" title="ActiveState managed projects" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

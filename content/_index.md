@@ -14,8 +14,8 @@ The ActiveState Platform is ActiveState's open source languages platform.
 
 These are some resources for getting started with the ActiveState Platform:
 
-* [Platform quick start guide](/start/)
-* [State Tool quick start guide](/state/quick/)
+* [Platform quick start guide](/start)
+* [State Tool quick start guide](/start/quick-start/state-tool/)
 * [Working with projects](/projects/)
 * [Managing your organization](/organizations/)
 * [Security & Compliance overview](/security/)

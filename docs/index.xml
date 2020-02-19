@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Platform Quick Start</title>
+      <link>https://activestate.github.io/documentation-public/start/platform/</link>
+      <pubDate>Wed, 05 Feb 2020 17:26:16 -0800</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
+      <description>Joining your first Organization When a colleague or ActiveState employee invites you to join the ActiveState Platform you will receive an email invitation to join a specific organization. You need to create your account for the ActiveState Platform and confirm that you want to join the organization.
+ Open the email invite you received from notifications@activestate.com to join the organization. Click the link in the email, or copy and paste the link text into your browser address bar.</description>
+    </item>
+    
+    <item>
       <title>Using State Tool on CI/CD</title>
       <link>https://activestate.github.io/documentation-public/state/ci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,6 +44,15 @@ You can create your project either via the state tool itself via the state new c
     </item>
     
     <item>
+      <title>State Tool CLI</title>
+      <link>https://activestate.github.io/documentation-public/start/state-tool/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/start/state-tool/</guid>
+      <description>&lt;p&gt;The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>activate</title>
       <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,13 +63,12 @@ For example, when you run state activate ActiveState/ActivePython-3.6, ActivePyt
     </item>
     
     <item>
-      <title>ActiveState-managed projects</title>
-      <link>https://activestate.github.io/documentation-public/start/quick-start/managed/</link>
+      <title>ActiveState managed projects</title>
+      <link>https://activestate.github.io/documentation-public/start/managed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/quick-start/managed/</guid>
-      <description>Getting started with Managed Projects Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.
-The distributions available to your Organization, and how you can use them in production, depend on the type ActiveState customer you are. Customers of ActiveState prior to the launch of the ActiveState Platform can continue to get their language builds and installers, previously available through Connect or My Account, from the Platform.</description>
+      <guid>https://activestate.github.io/documentation-public/start/managed/</guid>
+      <description>&lt;p&gt;Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -76,13 +94,12 @@ To change your password:
     </item>
     
     <item>
-      <title>Create a custom language build</title>
-      <link>https://activestate.github.io/documentation-public/start/quick-start/build/</link>
+      <title>Custom language runtimes</title>
+      <link>https://activestate.github.io/documentation-public/start/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/quick-start/build/</guid>
-      <description>Important: Customizing language builds is a work-in-progress feature. We&amp;rsquo;re working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.
- Open your web browser and navigate to http://platform.activestate.comand sign in. To create a project for your personal use, click the Projects tab on your dashboard page.</description>
+      <guid>https://activestate.github.io/documentation-public/start/build/</guid>
+      <description>&lt;p&gt;You can build a custom language runtime with the language, packages, and platforms you need.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -262,12 +279,13 @@ state secrets set Sets the value for the given secret.</description>
     
     <item>
       <title>Security and Compliance</title>
-      <link>https://activestate.github.io/documentation-public/start/quick-start/security/</link>
+      <link>https://activestate.github.io/documentation-public/start/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/quick-start/security/</guid>
-      <description>Note: Security &amp;amp; Compliance is available for Organizations on the Business and Enterprise tiers.
-The Security &amp;amp; Compliance tab in each organization provides access to the security features of the Platform. Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.</description>
+      <guid>https://activestate.github.io/documentation-public/start/security/</guid>
+      <description>Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.
+Note: The Security &amp;amp; Compliance tab provides access to the security features of the Platform. It is available for Organizations on the Business and Enterprise tiers.
+Configuring Security &amp;amp; Compliance Security &amp;amp; Compliance requires configuration to map the ActivePython interpreter you want to scan for vulnerabilities with the identity in the ActiveState Platform where you want to record the packages scanned and any details for any vulnerabilities identified.</description>
     </item>
     
     <item>

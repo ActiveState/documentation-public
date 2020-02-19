@@ -1,7 +1,8 @@
 ---
-title: "Create a custom language build"
-description: "Hello build."
+title: "Custom language runtimes"
 ---
+
+You can build a custom language runtime with the language, packages, and platforms you need.<!--more-->
 
 **Important**: Customizing language builds is a work-in-progress feature. We're working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.
 
