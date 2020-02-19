@@ -1,6 +1,5 @@
 ---
-title: "Platform Quick Start"
-date: 2020-02-05T17:26:16-08:00
+title: "ActiveState Platform"
 weight: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "ActiveState managed projects"
+weight: 2
 ---
 
 Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.<!--more-->

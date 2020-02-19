@@ -1,6 +1,6 @@
 ---
 title: "State Tool CLI"
-date: 2020-01-21
+weight: 4
 ---
 
 The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.<!--more-->
@@ -71,6 +71,7 @@ state push
 
 ```text
 state packages add requests@2.21.0
+
 state packages add pandas
 ```
 
@@ -88,7 +89,7 @@ state activate
 
 ### Access documentation for CLI commands
 
-To learn more about the State Tool commands, run state --help in the terminal.
+To learn more about the State Tool commands, run `state --help` in the terminal.
 
 For help on individual commands, run `state COMMAND --help`. For example, `state packages --help`.
 

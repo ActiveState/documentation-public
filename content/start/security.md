@@ -1,5 +1,6 @@
 ---
 title: "Security and Compliance"
+weight: 5
 ---
 
  Security & Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.

@@ -11,22 +11,13 @@
     
     
     <item>
-      <title>Platform Quick Start</title>
+      <title>ActiveState Platform</title>
       <link>https://activestate.github.io/documentation-public/start/platform/</link>
-      <pubDate>Wed, 05 Feb 2020 17:26:16 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
       <description>Joining your first Organization When a colleague or ActiveState employee invites you to join the ActiveState Platform you will receive an email invitation to join a specific organization. You need to create your account for the ActiveState Platform and confirm that you want to join the organization.
  Open the email invite you received from notifications@activestate.com to join the organization. Click the link in the email, or copy and paste the link text into your browser address bar.</description>
-    </item>
-    
-    <item>
-      <title>State Tool CLI</title>
-      <link>https://activestate.github.io/documentation-public/start/state-tool/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/start/state-tool/</guid>
-      <description>&lt;p&gt;The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -45,6 +36,15 @@
       
       <guid>https://activestate.github.io/documentation-public/start/build/</guid>
       <description>&lt;p&gt;You can build a custom language runtime with the language, packages, and platforms you need.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>State Tool CLI</title>
+      <link>https://activestate.github.io/documentation-public/start/state-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/start/state-tool/</guid>
+      <description>&lt;p&gt;The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.&lt;/p&gt;</description>
     </item>
     
     <item>

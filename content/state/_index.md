@@ -1,8 +1,6 @@
 ---
 title: "State Tool"
-date: 2020-02-05T17:26:27-08:00
-draft: true
-weight: 3
+weight: 2
 aliases:
     - /start/state.html
 ---
@@ -80,26 +78,7 @@ You can use the following mechanisms to customize the configuration of your  pro
 - **Scripts**: Name and define scripts that you can run within your project by typing the name of the script. 
 - **Events**: Run scripts or commands when particular State Tool events occur. For example, you can hook into the State Tool ACTIVATE event to start up the database server for your development environment.
 
-For more detailed information and examples, see [Getting Started](/state/start.html). 
-
-## Command Reference
-
-This release of the State Tool includes a number of commands for interacting with the ActiveState Platform and your projects. For the complete list run `state help`, or run `state <command_name> help` for help with a particular command.
-
-- [activate](activate)
-- [auth](auth)
-- [events](events)
-- [export](export)
-- [help](help)
-- [organizations](organizations)
-- [packages](packages)
-- [projects](projects)
-- [pull](pull)
-- [run](run)
-- [scripts](scripts)
-- [secrets](secrets)
-- [show](show)
-- [update](update)
+For more detailed information and examples, see [Getting Started](/state/start/). 
 
 ## Uninstalling the State Tool
 

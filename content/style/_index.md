@@ -1,7 +1,6 @@
 ---
 title: "Style Guide"
-date: 2020-02-06T09:26:12-08:00
-draft: true
+weight: 4
 ---
 
 ## Available shortcodes
