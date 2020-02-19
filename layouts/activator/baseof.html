@@ -1,0 +1,19 @@
+
+{{ partial "header.html" . }}
+<html>
+  <head>
+    {{$title:= default .Site.Title .Page.Title}}
+    {{with $title}}<title>{{.}}</title>{{end}}
+    {{with .Page.Description}}<meta name="description" content="{{.}}" />{{end}}
+  </head>
+  <body>
+  {{block "body" .}} 
+    <section>
+      <main>
+       {{.Content}}
+      </main>
+     <section>
+    {{end}}
+  </body>
+</html>
+{{ partial "footer.html" . }}

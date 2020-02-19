@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ActiveState Platform documentation home on ActiveState Platform Documentation</title>
+    <title>ActiveState Platform documentation on ActiveState Platform Documentation</title>
     <link>https://activestate.github.io/documentation-public/</link>
-    <description>Recent content in ActiveState Platform documentation home on ActiveState Platform Documentation</description>
+    <description>Recent content in ActiveState Platform documentation on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
-      <description>Joining your first Organization When a colleague or ActiveState employee invites you to join the ActiveState Platform you will receive an email invitation to join a specific organization. You need to create your account for the ActiveState Platform and confirm that you want to join the organization.
- Open the email invite you received from notifications@activestate.com to join the organization. Click the link in the email, or copy and paste the link text into your browser address bar.</description>
+      <description>&lt;p&gt;&amp;laquo; Need to add an intro here. &amp;raquo;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,9 +52,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/security/</guid>
-      <description>Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.
-Note: The Security &amp;amp; Compliance tab provides access to the security features of the Platform. It is available for Organizations on the Business and Enterprise tiers.
-Configuring Security &amp;amp; Compliance Security &amp;amp; Compliance requires configuration to map the ActivePython interpreter you want to scan for vulnerabilities with the identity in the ActiveState Platform where you want to record the packages scanned and any details for any vulnerabilities identified.</description>
+      <description>&lt;p&gt;Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -135,9 +132,7 @@ Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&am
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/password/</guid>
-      <description>You can change your password at any time in the Change Password page.
-To change your password:
- Click menu at the top right of the page that displays your username, and select Account Settings. Click the Change Password link. Enter the current password you sign in with in Current Password. Enter your new password in New Password and Confirm New Password. Click Save Changes.  If your password is successfully changed a notice is displayed, and the next time you access the Platform you will need to sign in with your new password.</description>
+      <description>&lt;p&gt;You can change your password at any time in the &lt;strong&gt;Change Password&lt;/strong&gt; page.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -146,8 +141,7 @@ To change your password:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/datetime/</guid>
-      <description>You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.
- Click menu at the top right of the page that displays your username, and select Account Settings. Click the Date &amp;amp; Time Format link. From Date &amp;amp; Time Format, select the date/time format to use from the available options. From Time Zone, select the time zone to use from the drop-down list.</description>
+      <description>&lt;p&gt;You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -156,9 +150,7 @@ To change your password:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/email/</guid>
-      <description>You can add or change the email addresses associated with your ActiveState Platform account. For example, if you switch jobs you can maintain access to the Platform by setting your personal email or the the email for your new job as your primary email for the Platform.
-  Click menu at the top right of the page that displays your username, and select Account Settings.
-  Manage your email addresses in the Email panel:</description>
+      <description>&lt;p&gt;You can add or change the email addresses associated with your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -222,12 +214,7 @@ Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; [--language 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/organizations/</guid>
-      <description>You can add new Organizations or leave Organizations you are a member of in the Organizations account settings page.
-Creating organizations To create a new Organization:
-  Click menu at the top right of the page that displays your username, and select Account Settings.
-  Click the Organizations link.
-  Enter the Organization Name to display in the ActiveState Platform.
-  Accept the suggested URL, or specify a shorter, easier to remember URL.</description>
+      <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -326,13 +313,22 @@ state secrets set Sets the value for the given secret.</description>
     </item>
     
     <item>
+      <title>Terms of Use and Service Agreement</title>
+      <link>https://activestate.github.io/documentation-public/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/terms/</guid>
+      <description> ActiveState Platform Terms of Use and Service Agreement  Community Edition terms  ActiveState Community Edition License Agreement  Additional terms If you have signed up for an addendum then such addendum applies to you, and you agree to its provisions.
+ Business Edition Enterprise Edition Enterprise Edition Limited ActiveState Platform Enterprise Tier ActiveState Platform OEM Distribution License  </description>
+    </item>
+    
+    <item>
       <title>Two-factor Authentication</title>
       <link>https://activestate.github.io/documentation-public/prefs/twofactor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/twofactor/</guid>
-      <description>You can use two-factor authentication to secure your ActiveState Platform account. Choosing to use both your password and the two-factor authentication code to access your account secures your account against unauthorized access if your password is compromised.
-Before you begin: You must have an app on your mobile device to scan the QR code displayed on screen. You can use Google Authenticate (iOS/Android), Authy (iOS/Android), or any similar app that provides the required QR code reading functionality.</description>
+      <description>&lt;p&gt;You can use two-factor authentication to secure your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
     <item>

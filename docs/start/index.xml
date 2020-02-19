@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
-      <description>Joining your first Organization When a colleague or ActiveState employee invites you to join the ActiveState Platform you will receive an email invitation to join a specific organization. You need to create your account for the ActiveState Platform and confirm that you want to join the organization.
- Open the email invite you received from notifications@activestate.com to join the organization. Click the link in the email, or copy and paste the link text into your browser address bar.</description>
+      <description>&lt;p&gt;&amp;laquo; Need to add an intro here. &amp;raquo;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,9 +52,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/security/</guid>
-      <description>Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.
-Note: The Security &amp;amp; Compliance tab provides access to the security features of the Platform. It is available for Organizations on the Business and Enterprise tiers.
-Configuring Security &amp;amp; Compliance Security &amp;amp; Compliance requires configuration to map the ActivePython interpreter you want to scan for vulnerabilities with the identity in the ActiveState Platform where you want to record the packages scanned and any details for any vulnerabilities identified.</description>
+      <description>&lt;p&gt;Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.&lt;/p&gt;</description>
     </item>
     
   </channel>

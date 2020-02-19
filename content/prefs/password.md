@@ -2,7 +2,7 @@
 title: "Change Password" 
 ---
 
-You can change your password at any time in the **Change Password** page. 
+You can change your password at any time in the **Change Password** page.<!--more-->
 
 To change your password:
 

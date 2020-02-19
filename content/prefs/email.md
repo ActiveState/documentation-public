@@ -2,7 +2,7 @@
 title: "Email Addresses"
 ---
 
-You can add or change the email addresses associated with your ActiveState Platform account. For example, if you switch jobs you can maintain access to the Platform by setting your personal email or the the email for your new job as your primary email for the Platform.
+You can add or change the email addresses associated with your ActiveState Platform account.<!--more--> For example, if you switch jobs you can maintain access to the Platform by setting your personal email or the the email for your new job as your primary email for the Platform.
 
 1. Click menu at the top right of the page that displays your username, and select **Account Settings**.
 1. Manage your email addresses in the **Email** panel:

@@ -12,20 +12,20 @@
     <title>State Tool CLI :: ActiveState Platform Documentation</title>
 
     
-    <link href="/documentation-public/css/nucleus.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/fontawesome-all.min.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/hybrid.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/featherlight.min.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/perfect-scrollbar.min.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/auto-complete.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/atom-one-dark-reasonable.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/theme.css?1582090624" rel="stylesheet">
-    <link href="/documentation-public/css/hugo-theme.css?1582090624" rel="stylesheet">
+    <link href="/documentation-public/css/nucleus.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/fontawesome-all.min.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/hybrid.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/featherlight.min.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/perfect-scrollbar.min.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/auto-complete.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/atom-one-dark-reasonable.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/theme.css?1582143969" rel="stylesheet">
+    <link href="/documentation-public/css/hugo-theme.css?1582143969" rel="stylesheet">
     
-      <link href="/documentation-public/css/theme-activestate.css?1582090624" rel="stylesheet">
+      <link href="/documentation-public/css/theme-activestate.css?1582143969" rel="stylesheet">
     
 
-    <script src="/documentation-public/js/jquery-3.3.1.min.js?1582090624"></script>
+    <script src="/documentation-public/js/jquery-3.3.1.min.js?1582143969"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -84,14 +84,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/documentation-public/js/lunr.min.js?1582090624"></script>
-<script type="text/javascript" src="/documentation-public/js/auto-complete.js?1582090624"></script>
+<script type="text/javascript" src="/documentation-public/js/lunr.min.js?1582143969"></script>
+<script type="text/javascript" src="/documentation-public/js/auto-complete.js?1582143969"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/activestate.github.io\/documentation-public\/";
     
 </script>
-<script type="text/javascript" src="/documentation-public/js/search.js?1582090624"></script>
+<script type="text/javascript" src="/documentation-public/js/search.js?1582143969"></script>
 
     
   </div>
@@ -978,7 +978,7 @@
             
           
           
-            <a href='/documentation-public/'>ActiveState Platform documentation home</a> > <a href='/documentation-public/start/'>Quick Start Guides</a> > State Tool CLI
+            <a href='/documentation-public/'>ActiveState Platform documentation</a> > <a href='/documentation-public/start/'>Quick Start Guides</a> > State Tool CLI
           
          
           
@@ -995,14 +995,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#install-the-state-tool">Install the State Tool</a></li>
-        <li><a href="#sign-in-to-the-activestate-platform">Sign in to the ActiveState Platform</a></li>
-        <li><a href="#create-a-new-project-locally">Create a new project locally</a></li>
-        <li><a href="#change-directories-into-your-project-folder">Change directories into your project folder</a></li>
-        <li><a href="#push-your-project-to-the-activestate-platform">Push your project to the ActiveState Platform</a></li>
-        <li><a href="#add-required-packages-for-your-project">Add required packages for your project</a></li>
-        <li><a href="#synchronize-your-local-project-with-the-platform-project">Synchronize your local project with the Platform project</a></li>
-        <li><a href="#activate-your-project">Activate your project</a></li>
+        <li></li>
         <li><a href="#access-documentation-for-cli-commands">Access documentation for CLI commands</a></li>
       </ul>
     </li>
@@ -1032,7 +1025,7 @@
 
 
 <p>The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.</p>
-<h3 id="install-the-state-tool">Install the State Tool</h3>
+<h4 id="1-install-the-state-tool">1. Install the State Tool</h4>
 <p>On Linux:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">sh &lt;(curl -q https://platform.activestate.com/dl/cli/install.sh)
 </code></pre></div><p>On Windows:</p>
@@ -1045,29 +1038,29 @@
 <p>Start the command prompt (<code>cmd.exe</code>) to use the State Tool.</p>
 </li>
 </ol>
-<h3 id="sign-in-to-the-activestate-platform">Sign in to the ActiveState Platform</h3>
+<h4 id="2-sign-in-to-the-activestate-platform">2. Sign in to the ActiveState Platform</h4>
 <p>If you don&rsquo;t have a Platform account yet, you need to sign up:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth signup 
 </code></pre></div><p>Enter the requested information at the prompt to register your account. You will receive an email to verify your account. You have limited permissions to the Platform before you verify it. After registering your account you can sign in.</p>
 <p>If you already have an ActiveState Platform account, or you just created an account you need to sign in:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state auth
 </code></pre></div><p>Enter your username and password for the Platform at the prompts.</p>
-<h3 id="create-a-new-project-locally">Create a new project locally</h3>
+<h4 id="3-create-a-new-project-locally">3. Create a new project locally</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state init &lt;username_or_org_name&gt;/&lt;project_name&gt; --language python3
-</code></pre></div><h3 id="change-directories-into-your-project-folder">Change directories into your project folder</h3>
+</code></pre></div><h4 id="4-change-directories-into-your-project-folder">4. Change directories into your project folder</h4>
 <p>Linux:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">cd &lt;username_or_org_name&gt;/&lt;project_name&gt;
 </code></pre></div><p>Windows:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">cd &lt;username_or_org_name&gt;\&lt;project_name&gt;
-</code></pre></div><h3 id="push-your-project-to-the-activestate-platform">Push your project to the ActiveState Platform</h3>
+</code></pre></div><h4 id="5-push-your-project-to-the-activestate-platform">5. Push your project to the ActiveState Platform</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state push
-</code></pre></div><h3 id="add-required-packages-for-your-project">Add required packages for your project</h3>
+</code></pre></div><h4 id="6-add-required-packages-for-your-project">6. Add required packages for your project</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state packages add requests@2.21.0
 
 state packages add pandas
-</code></pre></div><h3 id="synchronize-your-local-project-with-the-platform-project">Synchronize your local project with the Platform project</h3>
+</code></pre></div><h4 id="7-synchronize-your-local-project-with-the-platform-project">7. Synchronize your local project with the Platform project</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state pull
-</code></pre></div><h3 id="activate-your-project">Activate your project</h3>
+</code></pre></div><h4 id="8-activate-your-project">8. Activate your project</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state activate
 </code></pre></div><h3 id="access-documentation-for-cli-commands">Access documentation for CLI commands</h3>
 <p>To learn more about the State Tool commands, run <code>state --help</code> in the terminal.</p>
@@ -1744,19 +1737,19 @@ state packages add pandas
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/documentation-public/js/clipboard.min.js?1582090624"></script>
-    <script src="/documentation-public/js/perfect-scrollbar.min.js?1582090624"></script>
-    <script src="/documentation-public/js/perfect-scrollbar.jquery.min.js?1582090624"></script>
-    <script src="/documentation-public/js/jquery.sticky.js?1582090624"></script>
-    <script src="/documentation-public/js/featherlight.min.js?1582090624"></script>
-    <script src="/documentation-public/js/highlight.pack.js?1582090624"></script>
+    <script src="/documentation-public/js/clipboard.min.js?1582143969"></script>
+    <script src="/documentation-public/js/perfect-scrollbar.min.js?1582143969"></script>
+    <script src="/documentation-public/js/perfect-scrollbar.jquery.min.js?1582143969"></script>
+    <script src="/documentation-public/js/jquery.sticky.js?1582143969"></script>
+    <script src="/documentation-public/js/featherlight.min.js?1582143969"></script>
+    <script src="/documentation-public/js/highlight.pack.js?1582143969"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/documentation-public/js/modernizr.custom-3.6.0.js?1582090624"></script>
-    <script src="/documentation-public/js/learn.js?1582090624"></script>
-    <script src="/documentation-public/js/hugo-learn.js?1582090624"></script>
+    <script src="/documentation-public/js/modernizr.custom-3.6.0.js?1582143969"></script>
+    <script src="/documentation-public/js/learn.js?1582143969"></script>
+    <script src="/documentation-public/js/hugo-learn.js?1582143969"></script>
 
-    <link href="/documentation-public/mermaid/mermaid.css?1582090624" rel="stylesheet" />
-    <script src="/documentation-public/mermaid/mermaid.js?1582090624"></script>
+    <link href="/documentation-public/mermaid/mermaid.css?1582143969" rel="stylesheet" />
+    <script src="/documentation-public/mermaid/mermaid.js?1582143969"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

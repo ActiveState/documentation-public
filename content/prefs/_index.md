@@ -3,4 +3,4 @@ title: "Preferences"
 weight: 2
 ---
 
-{{% children %}}
+{{% children description=true %}}

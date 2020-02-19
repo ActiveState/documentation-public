@@ -2,7 +2,7 @@
 title: "Date & Time"
 ---
 
-You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.
+You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.<!--more-->
 
 1. Click menu at the top right of the page that displays your username, and select **Account Settings**.
 1. Click the **Date & Time Format** link.

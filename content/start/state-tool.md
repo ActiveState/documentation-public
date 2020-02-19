@@ -5,7 +5,7 @@ weight: 4
 
 The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.<!--more-->
 
-### Install the State Tool
+#### 1. Install the State Tool
 
 On Linux:
 
@@ -23,7 +23,7 @@ On Windows:
 
 2. Start the command prompt (`cmd.exe`) to use the State Tool.
 
-### Sign in to the ActiveState Platform
+#### 2. Sign in to the ActiveState Platform
 
 If you don't have a Platform account yet, you need to sign up:
 
@@ -41,13 +41,13 @@ state auth
 
 Enter your username and password for the Platform at the prompts.
 
-### Create a new project locally
+#### 3. Create a new project locally
 
 ```text
 state init <username_or_org_name>/<project_name> --language python3
 ```
 
-### Change directories into your project folder 
+#### 4. Change directories into your project folder 
 
 Linux:
 
@@ -61,13 +61,13 @@ Windows:
 cd <username_or_org_name>\<project_name>
 ```
 
-### Push your project to the ActiveState Platform
+#### 5. Push your project to the ActiveState Platform
 
 ```text
 state push
 ```
 
-### Add required packages for your project 
+#### 6. Add required packages for your project 
 
 ```text
 state packages add requests@2.21.0
@@ -75,13 +75,13 @@ state packages add requests@2.21.0
 state packages add pandas
 ```
 
-### Synchronize your local project with the Platform project
+#### 7. Synchronize your local project with the Platform project
 
 ```text
 state pull
 ```
 
-### Activate your project
+#### 8. Activate your project
 
 ```text
 state activate

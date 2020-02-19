@@ -16,9 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/password/</guid>
-      <description>You can change your password at any time in the Change Password page.
-To change your password:
- Click menu at the top right of the page that displays your username, and select Account Settings. Click the Change Password link. Enter the current password you sign in with in Current Password. Enter your new password in New Password and Confirm New Password. Click Save Changes.  If your password is successfully changed a notice is displayed, and the next time you access the Platform you will need to sign in with your new password.</description>
+      <description>&lt;p&gt;You can change your password at any time in the &lt;strong&gt;Change Password&lt;/strong&gt; page.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,8 +25,7 @@ To change your password:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/datetime/</guid>
-      <description>You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.
- Click menu at the top right of the page that displays your username, and select Account Settings. Click the Date &amp;amp; Time Format link. From Date &amp;amp; Time Format, select the date/time format to use from the available options. From Time Zone, select the time zone to use from the drop-down list.</description>
+      <description>&lt;p&gt;You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,9 +34,7 @@ To change your password:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/email/</guid>
-      <description>You can add or change the email addresses associated with your ActiveState Platform account. For example, if you switch jobs you can maintain access to the Platform by setting your personal email or the the email for your new job as your primary email for the Platform.
-  Click menu at the top right of the page that displays your username, and select Account Settings.
-  Manage your email addresses in the Email panel:</description>
+      <description>&lt;p&gt;You can add or change the email addresses associated with your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -48,12 +43,7 @@ To change your password:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/organizations/</guid>
-      <description>You can add new Organizations or leave Organizations you are a member of in the Organizations account settings page.
-Creating organizations To create a new Organization:
-  Click menu at the top right of the page that displays your username, and select Account Settings.
-  Click the Organizations link.
-  Enter the Organization Name to display in the ActiveState Platform.
-  Accept the suggested URL, or specify a shorter, easier to remember URL.</description>
+      <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,8 +52,7 @@ Creating organizations To create a new Organization:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/twofactor/</guid>
-      <description>You can use two-factor authentication to secure your ActiveState Platform account. Choosing to use both your password and the two-factor authentication code to access your account secures your account against unauthorized access if your password is compromised.
-Before you begin: You must have an app on your mobile device to scan the QR code displayed on screen. You can use Google Authenticate (iOS/Android), Authy (iOS/Android), or any similar app that provides the required QR code reading functionality.</description>
+      <description>&lt;p&gt;You can use two-factor authentication to secure your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
   </channel>

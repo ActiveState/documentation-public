@@ -2,7 +2,7 @@
 title: "Two-factor Authentication"
 ---
 
-You can use two-factor authentication to secure your ActiveState Platform account. Choosing to use both your password and the two-factor authentication code to access your account secures your account against unauthorized access if your password is compromised.
+You can use two-factor authentication to secure your ActiveState Platform account.<!--more--> Choosing to use both your password and the two-factor authentication code to access your account secures your account against unauthorized access if your password is compromised.
 
 **Before you begin**: You must have an app on your mobile device to scan the QR code displayed on screen. You can use Google Authenticate (<a href="https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8" target="\_blank">iOS</a>/<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2" target="\_blank">Android</a>), Authy (<a href="https://itunes.apple.com/us/app/authy/id494168017" target="\_blank">iOS</a>/<a href="https://play.google.com/store/apps/details?id=com.authy.authy" target="\_blank">Android</a>), or any similar app that provides the required QR code reading functionality.
 

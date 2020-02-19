@@ -2,7 +2,7 @@
 title: "Organizations"
 ---
 
-You can add new Organizations or leave Organizations you are a member of in the **Organizations** account settings page. 
+You can add new Organizations or leave Organizations you are a member of in the **Organizations** account settings page.<!--more--> 
 
 ### Creating organizations
 

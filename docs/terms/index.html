@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
   <head>
@@ -9,7 +10,7 @@
 
     <link rel="icon" href="/documentation-public/images/favicon.png" type="image/png">
 
-    <title>State Tool :: ActiveState Platform Documentation</title>
+    <title>Terms of Use and Service Agreement :: ActiveState Platform Documentation</title>
 
     
     <link href="/documentation-public/css/nucleus.css?1582143969" rel="stylesheet">
@@ -35,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/documentation-public/state/">
+  <body class="" data-url="/documentation-public/terms/">
     <nav id="sidebar" class="">
 
 
@@ -362,8 +363,8 @@
   
     
     <li data-nav-id="/documentation-public/state/" title="State Tool" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/documentation-public/state/">
@@ -947,7 +948,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content/state/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/ActiveState/documentation-public/tree/master/content//terms.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -974,7 +975,7 @@
             
           
           
-            <a href='/documentation-public/'>ActiveState Platform documentation</a> > State Tool
+            <a href='/documentation-public/'>ActiveState Platform documentation</a> > Terms of Use and Service Agreement
           
          
           
@@ -987,20 +988,12 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#introducing-the-state-tool-beta">Introducing the State Tool (Beta)</a></li>
-    <li><a href="#installing-the-state-tool">Installing the State Tool</a>
+    <li>
       <ul>
-        <li><a href="#installation-on-linux">Installation on Linux</a></li>
-        <li><a href="#installation-on-windows">Installation on Windows</a></li>
+        <li><a href="#community-edition-terms">Community Edition terms</a></li>
+        <li><a href="#additional-terms">Additional terms</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#working-with-your-activated-project">Working with your activated project</a></li>
-        <li><a href="#using-your-project">Using Your Project</a></li>
-      </ul>
-    </li>
-    <li><a href="#uninstalling-the-state-tool">Uninstalling the State Tool</a></li>
   </ul>
 </nav>
     </div>
@@ -1018,96 +1011,45 @@
           
             <h1>
               
-              State Tool
+              Terms of Use and Service Agreement
             </h1>
           
 
         
 
 
-
-
-	<h2 id="introducing-the-state-tool-beta">Introducing the State Tool (Beta)</h2>
-<p>Wouldn’t it be great if any developer could run a single command and immediately get started contributing code to your project? And wouldn&rsquo;t it be even better to automate all of the tedious configuration workflow you usually go through? This is exactly what ActiveState is working to facilitate with our State Tool.</p>
-<p>Once you have set up your runtime environment, by creating a Project on the ActiveState Platform and are getting successful builds, you can instantly deploy your runtime environment locally using the State Tool. The State Tool creates a virtual environment, similar to <code>virtualenv</code> and <code>pipenv</code>, and will not contaminate any of the preexisting Python installations or environments you have configured.</p>
-<h2 id="installing-the-state-tool">Installing the State Tool</h2>
-<p><strong>Note</strong>: Currently, the State Tool is supported for ActivePython and ActivePerl projects on Linux and Windows. Upcoming releases will support macOS and additional languages.</p>
-<h3 id="installation-on-linux">Installation on Linux</h3>
-<p>You should have <code>curl</code> installed before you can run the script to install the State Tool. Alternatively, you can manually download and run the <code>install.sh</code> file.</p>
-<ol>
-<li>
-<p>Open your command prompt and enter the following command on one line:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">sh &lt;(curl -q https://platform.activestate.com/dl/cli/install.sh)
-</code></pre></div><p>The latest version of the State Tool will be downloaded, verified, and installed.</p>
-</li>
-</ol>
-<h3 id="installation-on-windows">Installation on Windows</h3>
-<ol>
-<li>
-<p>Start PowerShell as an Administrator. Click the <strong>Start</strong> menu, search for <strong>Windows PowerShell</strong>, right click it and select <strong>Run as Administrator</strong>.</p>
-</li>
-<li>
-<p>At the prompt, enter the following command:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">IEX(New-Object Net.WebClient).downloadString(&#39;https://platform.activestate.com/dl/cli/install.ps1&#39;)
-</code></pre></div><p>The latest version of the State Tool will be downloaded, verified, and installed.</p>
-</li>
-<li>
-<p>Start your command prompt (<code>cmd.exe</code>) to use the State Tool. Click the Start menu, search for Command Prompt, and click the menu item.</p>
-</li>
-</ol>
-<p><strong>Important</strong>: Currently, you cannot run the State Tool in PowerShell. You must use the command prompt (<code>cmd.exe</code>). Support for PowerShell is coming soon.</p>
-<h2 id="usage">Usage</h2>
-<p>The basic usage for setting up a local virtual environment with your project is:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">$ state activate owner/projectName
-</code></pre></div><p>Where &ldquo;owner&rdquo; refers to your username or the organization name that the project belongs to.</p>
-<h3 id="working-with-your-activated-project">Working with your activated project</h3>
-<p>There are two ways to reactivate an existing project:</p>
-<ul>
-<li>Enter <code>state activate owner/projectName</code> anywhere on your system and you will be given the option to reuse your previously used directory and enter into an activated state.</li>
-<li>Open your terminal and navigate to the directory that contains the <code>activestate.yaml</code> file for the project  and enter <code>state activate</code> without any additional arguments.</li>
+<html>
+  <head>
+    
+    <title>Terms of Use and Service Agreement</title>
+    
+  </head>
+  <body>
+   
+    <section>
+      <main>
+       <ul>
+<li><a href="https://www.activestate.com/wp-content/uploads/2018/10/activestate_platform_terms_service_agreement.pdf">ActiveState Platform Terms of Use and Service Agreement</a></li>
 </ul>
-<p>To verify that your environment is &ldquo;activated&rdquo;:</p>
+<h3 id="community-edition-terms">Community Edition terms</h3>
 <ul>
-<li>When in an activated state the “ACTIVESTATE_ACTIVATED” environment variable will be defined. Also if your terminal shell allows for it, an informational message starting with <strong>Active State:</strong> will be printed after each command is executed. On Linux, you can check the value of the environment variable by entering the following command:</li>
+<li><a href="https://www.activestate.com/wp-content/uploads/2018/10/activestate_community_edition_software_license_agreement.pdf">ActiveState Community Edition License Agreement</a></li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">printenv | grep ACTIVESTATE_ACTIVATED
-</code></pre></div><h3 id="using-your-project">Using Your Project</h3>
-<p>Whenever you are in an “activated state”, your shell will be configured to use the runtime environment you created on the ActiveState Platform. Any preexisting Python installations you have will be overridden ONLY while using the “activated state”.</p>
-<p>The State Tool provides a number of ways to configure your ActiveState Platform project to integrate it with your development environment. You can customize your configuration by editing the <code>activestate.yaml</code> configuration file in your project&rsquo;s root directory.</p>
-<p>You can use the following mechanisms to customize the configuration of your  project:</p>
+<h3 id="additional-terms">Additional terms</h3>
+<p>If you have signed up for an addendum then such addendum applies to you, and you agree to its provisions.</p>
 <ul>
-<li><strong>Constants</strong>: Define constant values that can be reused throughout your configuration file. For example, you can define a hostname that&rsquo;s used repeatedly as a constant and then use the constant name for subsequent references.</li>
-<li><strong>Secrets</strong>: Securely save and retrieve sensitive values for use in your configuration file, either at the project or user level.</li>
-<li><strong>Scripts</strong>: Name and define scripts that you can run within your project by typing the name of the script.</li>
-<li><strong>Events</strong>: Run scripts or commands when particular State Tool events occur. For example, you can hook into the State Tool ACTIVATE event to start up the database server for your development environment.</li>
+<li><a href="https://www.activestate.com/wp-content/uploads/2018/10/activestate_business_edition_license_support_agreement.pdf">Business Edition</a></li>
+<li><a href="%22https://www.activestate.com/sites/default/files/pdf/eula/activestate_enterprise_product_terms.pdf">Enterprise Edition</a></li>
+<li><a href="https://www.activestate.com/sites/default/files/pdf/eula/activestate_enterprise_product_terms_limited.pdf">Enterprise Edition Limited</a></li>
+<li><a href="https://www.activestate.com/wp-content/uploads/2018/11/activestate_platform_enterprise_tier_addendum.pdf">ActiveState Platform Enterprise Tier</a></li>
+<li><a href="https://www.activestate.com/wp-content/uploads/2018/11/activestate_platform_oem_license.pdf">ActiveState Platform OEM Distribution License</a></li>
 </ul>
-<p>For more detailed information and examples, see <a href="/state/start/">Getting Started</a>.</p>
-<h2 id="uninstalling-the-state-tool">Uninstalling the State Tool</h2>
-<p>To uninstall the State Tool on Linux:</p>
-<ol>
-<li>Open your command prompt and enter the following command:</li>
-</ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">rm $(which state)
-</code></pre></div><p>The command locates the State Tool executable and removes it. If you installed the State Tool in a non-default directory, and you updated your PATH to point to a new folder for the State Tool, you should also edit your PATH to remove this directory.</p>
-<p>To uninstall the State Tool on Windows:</p>
-<ol start="2">
-<li>Open your command prompt and enter the following command to locate the <code>state</code> executable:</li>
-</ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">where state
-</code></pre></div><ol start="3">
-<li>Copy the path to the state tool and enter the following command to remove the <code>state</code> executable. Replace <code>&lt;path_to_state_tool&gt;</code> with the full path to the executable:</li>
-</ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">del &lt;path_to_state_tool&gt;
-</code></pre></div><p>Alternatively, you can search for <code>state.exe</code> in Windows Explorer and then delete it.</p>
 
-
-
-
-
-<footer class=" footline" >
-	
-</footer>
-
+      </main>
+     <section>
+    
+  </body>
+</html>
         
         </div> 
         
@@ -1334,7 +1276,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1349,9 +1290,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1760,10 +1698,8 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/documentation-public/prefs/twofactor/" title="Two-factor Authentication"> <i class="fa fa-chevron-left"></i></a>
 		
-		
-			<a class="nav nav-next" href="/documentation-public/state/start/" title="Getting Started" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/documentation-public/start/" title="Quick Start Guides" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1793,3 +1729,4 @@
 
   </body>
 </html>
+
