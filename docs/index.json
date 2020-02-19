@@ -60,7 +60,7 @@
 	"title": "Contributing",
 	"tags": [],
 	"description": "",
-	"content": "  "
+	"content": "  Opening pull requests   Code contributions   Documentation contributions   "
 },
 {
 	"uri": "https://activestate.github.io/documentation-public/start/security/",
@@ -89,6 +89,27 @@
 	"tags": [],
 	"description": "",
 	"content": "  activate   auth   events   export   fork   help   init   organizations   packages   projects   pull   push   run   scripts   secrets   show   update   "
+},
+{
+	"uri": "https://activestate.github.io/documentation-public/contributions/pull-requests/",
+	"title": "Opening pull requests",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://activestate.github.io/documentation-public/contributions/code/",
+	"title": "Code contributions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://activestate.github.io/documentation-public/contributions/documentation/",
+	"title": "Documentation contributions",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://activestate.github.io/documentation-public/state/commands/activate/",
