@@ -11,3 +11,7 @@ shortcuts:                                       # external links
   identifier: "theme"
   url: "https://github.com/matcornic/hugo-theme-learn/"
   weight: 30
+- name: "<i class='fab fa-fw fa-github'></i> GitHub repo"
+  identifier: "repo"
+  url: "https://github.com/activestate/documentation-public"
+  weight: 40
