@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ActiveState Platform documentation home on ActiveState Platform Documentation</title>
-    <link>https://davetlewis-van.github.io/activepython38docs/</link>
+    <link>https://activestate.github.io/documentation-public/</link>
     <description>Recent content in ActiveState Platform documentation home on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://davetlewis-van.github.io/activepython38docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://activestate.github.io/documentation-public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using State Tool on CI/CD</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/ci/</link>
+      <link>https://activestate.github.io/documentation-public/state/ci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/ci/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/ci/</guid>
       <description>To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.
 Install without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):
 install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&amp;gt;] [-e &amp;lt;file&amp;gt;] [-h] [--activate] Flags: -b &amp;lt;branch&amp;gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite.</description>
@@ -23,10 +23,10 @@ install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&am
     
     <item>
       <title>Getting Started</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/start/</link>
+      <link>https://activestate.github.io/documentation-public/state/start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/start/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/start/</guid>
       <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
 To install the state tool refer to the installation guide.
 Creating Your First Project The state tool cannot do anything without a project, everything lives under your project.
@@ -35,30 +35,30 @@ You can create your project either via the state tool itself via the state new c
     
     <item>
       <title>activate</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/activate/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/activate/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/activate/</guid>
       <description>The activate command allows you to activate an ActiveState project on your local computer. Activating is the process of downloading the build associated with the project, which includes the language interpreter and the set of packages selected for the project, and creating a virtual environment for the interpreter to run in.
 For example, when you run state activate ActiveState/ActivePython-3.6, ActivePython 3.6 and all selected packages are installed and configured, and a virtual environment is created.</description>
     </item>
     
     <item>
       <title>ActiveState-managed projects</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/managed/</link>
+      <link>https://activestate.github.io/documentation-public/start/quick-start/managed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/start/quick-start/managed/</guid>
+      <guid>https://activestate.github.io/documentation-public/start/quick-start/managed/</guid>
       <description>Getting started with Managed Projects Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.
 The distributions available to your Organization, and how you can use them in production, depend on the type ActiveState customer you are. Customers of ActiveState prior to the launch of the ActiveState Platform can continue to get their language builds and installers, previously available through Connect or My Account, from the Platform.</description>
     </item>
     
     <item>
       <title>auth</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/auth/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/auth/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/auth/</guid>
       <description>The auth command allows you to authenticate your account on the ActiveState Platform.
 Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&amp;gt;] [--token &amp;lt;value&amp;gt;] state auth logout state auth signup state auth If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.
  --username &amp;lt;value&amp;gt;: Manually provide a username. --password &amp;lt;value&amp;gt;: Manually provide a password. --token &amp;lt;value&amp;gt;: Manually provide a token (this cannot be used with --username)  state auth logout Logs you out.</description>
@@ -66,10 +66,10 @@ Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&am
     
     <item>
       <title>Change Password</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/prefs/password/</link>
+      <link>https://activestate.github.io/documentation-public/prefs/password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/prefs/password/</guid>
+      <guid>https://activestate.github.io/documentation-public/prefs/password/</guid>
       <description>You can change your password at any time in the Change Password page.
 To change your password:
  Click menu at the top right of the page that displays your username, and select Account Settings. Click the Change Password link. Enter the current password you sign in with in Current Password. Enter your new password in New Password and Confirm New Password. Click Save Changes.  If your password is successfully changed a notice is displayed, and the next time you access the Platform you will need to sign in with your new password.</description>
@@ -77,30 +77,30 @@ To change your password:
     
     <item>
       <title>Create a custom language build</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/build/</link>
+      <link>https://activestate.github.io/documentation-public/start/quick-start/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/start/quick-start/build/</guid>
+      <guid>https://activestate.github.io/documentation-public/start/quick-start/build/</guid>
       <description>Important: Customizing language builds is a work-in-progress feature. We&amp;rsquo;re working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.
  Open your web browser and navigate to http://platform.activestate.comand sign in. To create a project for your personal use, click the Projects tab on your dashboard page.</description>
     </item>
     
     <item>
       <title>Date &amp; Time</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/prefs/datetime/</link>
+      <link>https://activestate.github.io/documentation-public/prefs/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/prefs/datetime/</guid>
+      <guid>https://activestate.github.io/documentation-public/prefs/datetime/</guid>
       <description>You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.
  Click menu at the top right of the page that displays your username, and select Account Settings. Click the Date &amp;amp; Time Format link. From Date &amp;amp; Time Format, select the date/time format to use from the available options. From Time Zone, select the time zone to use from the drop-down list.</description>
     </item>
     
     <item>
       <title>Email Addresses</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/prefs/email/</link>
+      <link>https://activestate.github.io/documentation-public/prefs/email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/prefs/email/</guid>
+      <guid>https://activestate.github.io/documentation-public/prefs/email/</guid>
       <description>You can add or change the email addresses associated with your ActiveState Platform account. For example, if you switch jobs you can maintain access to the Platform by setting your personal email or the the email for your new job as your primary email for the Platform.
   Click menu at the top right of the page that displays your username, and select Account Settings.
   Manage your email addresses in the Email panel:</description>
@@ -108,20 +108,20 @@ To change your password:
     
     <item>
       <title>events</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/events/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/events/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/events/</guid>
       <description>The events command lists the configured events for your project. Events are scripts or commands that run when particular State Tool application events occur. For example, you can run a command to start your local web server each time you state activate your project.
 Usage state events Related Information Events</description>
     </item>
     
     <item>
       <title>export</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/export/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/export/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/export/</guid>
       <description>The export command allows you to export the contents of the JSON Web Token (JWT) you are using to authenticate with the Platform, or the build recipe (the set of packages and operating system settings) used by your project.
 Usage To print your JWT credentials:
 state export jwt To print a JSON formatted recipe:
@@ -131,20 +131,20 @@ state export recipe &amp;lt;commitID&amp;gt; You must run the state export comma
     
     <item>
       <title>fork</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/fork/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/fork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/fork/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/fork/</guid>
       <description>The fork command allows you to create a fork of an existing Platform project. A fork is a copy of a project that you can edit.
 Syntax state fork --name &amp;lt;project_name&amp;gt; --org &amp;lt;owner&amp;gt; ActiveState-Recipes/Core [--private] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name for your copy of the forked project. If you do not specify the --org flag, you will be prompted to select the owner, from the orgs you belong to, interactively at the command prompt.</description>
     </item>
     
     <item>
       <title>help</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/help/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/help/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/help/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/help/</guid>
       <description>The help command allows you to view documentation for the individual state commands.
 Usage To view help for the auth command:
 state help auth To view help for the auth logout subcommand:
@@ -153,20 +153,20 @@ state help auth logout </description>
     
     <item>
       <title>init</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/init/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/init/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/init/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/init/</guid>
       <description>The init command enables you to create a new empty project on your local machine. Once the project is created locally, use the push command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.
 Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; [--language &amp;lt;language&amp;gt;] [--path &amp;lt;path&amp;gt;] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
     </item>
     
     <item>
       <title>Organizations</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/prefs/organizations/</link>
+      <link>https://activestate.github.io/documentation-public/prefs/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/prefs/organizations/</guid>
+      <guid>https://activestate.github.io/documentation-public/prefs/organizations/</guid>
       <description>You can add new Organizations or leave Organizations you are a member of in the Organizations account settings page.
 Creating organizations To create a new Organization:
   Click menu at the top right of the page that displays your username, and select Account Settings.
@@ -177,20 +177,20 @@ Creating organizations To create a new Organization:
     
     <item>
       <title>organizations</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/organizations/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/organizations/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/organizations/</guid>
       <description>The organizations command lists the organizations you are a member of. The Organization name for each Organization you belong to is listed.
 Usage state organizations </description>
     </item>
     
     <item>
       <title>packages</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/packages/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/packages/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/packages/</guid>
       <description>The packages command allows you to manage the packages within an ActiveState Platform project.
 Usage state packages state packages list state packages add &amp;lt;name[@version]&amp;gt; state packages update &amp;lt;name[@version]&amp;gt; state packages remove &amp;lt;name&amp;gt; state packages search &amp;lt;name&amp;gt; state packages list List the packages and versions currently included in your project.
 Note: If you run state packages without additional arguments you will get the same output as state packages list.
@@ -199,40 +199,40 @@ Note: If you run state packages without additional arguments you will get the sa
     
     <item>
       <title>projects</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/projects/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/projects/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/projects/</guid>
       <description>The projects command lists the projects you have access to from all of the Organizations you belong to. The information listed for each project includes Project name, Organization name, and a project description (if available).
 Usage state projects </description>
     </item>
     
     <item>
       <title>pull</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/pull/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/pull/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/pull/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/pull/</guid>
       <description>The pull command will update your activestate.yaml so that it references the latest version of your platform runtime environment. When you update the packages in your project on the Platform and successfully created a new build, you need to run the pull command to make the updated build available in your local environment.
 When you state activate your project, and there is a newer commit available, you will be notified that you need to run the pull command to get the up-to-date version of your Platform project.</description>
     </item>
     
     <item>
       <title>push</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/push/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/push/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/push/</guid>
       <description>The push command enables you to push your local changes to the ActiveState Platform. For example, you can use the init command to create a new project locally using the State Tool, and then push this change to the Platform so it shows up in your account, and is accessible in the Dashboard.
 Usage state push </description>
     </item>
     
     <item>
       <title>run</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/run/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/run/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/run/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/run/</guid>
       <description>The run command allows you to manually run scripts you have defined for your projects by name. Script names are case-sensitive.
 Usage state run &amp;lt;script_name&amp;gt; You can also pass arguments to your scripts, the same way you would to any command. Let&amp;rsquo;s say you have a script called &amp;ldquo;hello&amp;rdquo; which takes an argument for who/what it is greeting, you could call it like this:
 state run hello world Finally, if you are in an activated state (i.</description>
@@ -240,10 +240,10 @@ state run hello world Finally, if you are in an activated state (i.</description
     
     <item>
       <title>scripts</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/scripts/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/scripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/scripts/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/scripts/</guid>
       <description>The state scripts command allows you to quickly list all available scripts. Running it produces a list of script names and descriptions.
 You can use this output to run the state run command.
 Usage state scripts Related Information  Scripts run Command  </description>
@@ -251,10 +251,10 @@ Usage state scripts Related Information  Scripts run Command  </description>
     
     <item>
       <title>secrets</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/secrets/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/secrets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/secrets/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/secrets/</guid>
       <description>The secrets command allows a user to manage their secrets within a Project. For more information on secrets, what they represent and how they fit into the wider picture of the State Tool and the Platform check out Getting Started.
 Usage state secrets state secrets set &amp;lt;secret-namespace&amp;gt; &amp;lt;secret-value&amp;gt; state secrets get &amp;lt;secret-namespace&amp;gt; state secrets sync state secrets Lists available secrets for the current project.
 state secrets set Sets the value for the given secret.</description>
@@ -262,40 +262,40 @@ state secrets set Sets the value for the given secret.</description>
     
     <item>
       <title>Security and Compliance</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/start/quick-start/security/</link>
+      <link>https://activestate.github.io/documentation-public/start/quick-start/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/start/quick-start/security/</guid>
+      <guid>https://activestate.github.io/documentation-public/start/quick-start/security/</guid>
       <description>Note: Security &amp;amp; Compliance is available for Organizations on the Business and Enterprise tiers.
 The Security &amp;amp; Compliance tab in each organization provides access to the security features of the Platform. Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.</description>
     </item>
     
     <item>
       <title>show</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/show/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/show/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/show/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/show/</guid>
       <description>The show command displays information about the current project, or a specified remote project. The following information is displayed:
  the name of the project the organization the project belongs to all scripts associated with the project all events associated with the project  Usage state show state show &amp;lt;owner/projectName&amp;gt; The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
     </item>
     
     <item>
       <title>Two-factor Authentication</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/prefs/twofactor/</link>
+      <link>https://activestate.github.io/documentation-public/prefs/twofactor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/prefs/twofactor/</guid>
+      <guid>https://activestate.github.io/documentation-public/prefs/twofactor/</guid>
       <description>You can use two-factor authentication to secure your ActiveState Platform account. Choosing to use both your password and the two-factor authentication code to access your account secures your account against unauthorized access if your password is compromised.
 Before you begin: You must have an app on your mobile device to scan the QR code displayed on screen. You can use Google Authenticate (iOS/Android), Authy (iOS/Android), or any similar app that provides the required QR code reading functionality.</description>
     </item>
     
     <item>
       <title>update</title>
-      <link>https://davetlewis-van.github.io/activepython38docs/state/commands/update/</link>
+      <link>https://activestate.github.io/documentation-public/state/commands/update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://davetlewis-van.github.io/activepython38docs/state/commands/update/</guid>
+      <guid>https://activestate.github.io/documentation-public/state/commands/update/</guid>
       <description>Updates the State Tool to the latest available version.
 The update command allows you to download the latest release of the State Tool on demand. By default, the state tool checks for an updated version on a regular basis.
 You can disable automatic updates by running state update with the --lock flag. If you disable automatic updates you can force an update by manually running state update.

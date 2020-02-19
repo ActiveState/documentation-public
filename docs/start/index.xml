@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting Started on ActiveState Platform Documentation</title>
-    <link>https://davetlewis-van.github.io/activepython38docs/start/</link>
+    <link>https://activestate.github.io/documentation-public/start/</link>
     <description>Recent content in Getting Started on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Feb 2020 17:26:16 -0800</lastBuildDate>
     
-	<atom:link href="https://davetlewis-van.github.io/activepython38docs/start/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://activestate.github.io/documentation-public/start/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
