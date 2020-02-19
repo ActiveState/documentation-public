@@ -3,7 +3,11 @@ shortcuts:                                       # external links
   identifier: "platform"
   url: "https://platform.activestate.com/"
   weight: 10
-- name: "Hugo"
+- name: "Hugo docs"
   identifier: "hugodoc"
-  url: "https://gohugo.io/"
+  url: "https://gohugo.io/documentation/"
   weight: 20
+- name: "Learn theme"
+  identifier: "theme"
+  url: "https://github.com/matcornic/hugo-theme-learn/"
+  weight: 30
