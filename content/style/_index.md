@@ -3,8 +3,7 @@ title: "Style Guide"
 weight: 4
 ---
 
-## Available shortcodes
-
+### Admonitions
 
 {{% notice tip %}}
 This is a tip.
@@ -18,3 +17,14 @@ This is an informational message.
 This is a note.
 {{% /notice %}}
 
+### Syntax highlighting
+
+{{< highlight html "linenos=table,hl_lines=3-4,linenostart=1080" >}} <!-- Generated Youtube source code for video -->
+{{</* youtube nLAVanlu5js */>}}
+<!-- Output -->
+{{< youtube nLAVanlu5js >}} {{</ highlight >}}
+
+
+### YouTube
+
+{{< youtube OLMp4GKGQnM >}}

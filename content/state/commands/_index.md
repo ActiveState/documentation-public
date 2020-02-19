@@ -1,6 +1,6 @@
 ---
 title: "Command Reference"
-weight: 1
+weight: 40
 ---
 
 {{% children %}}

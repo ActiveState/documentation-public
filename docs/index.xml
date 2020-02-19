@@ -30,35 +30,12 @@
     </item>
     
     <item>
-      <title>Getting Started</title>
-      <link>https://activestate.github.io/documentation-public/state/start/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/start/</guid>
-      <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
-To install the state tool refer to the installation guide.
-Creating Your First Project The state tool cannot do anything without a project, everything lives under your project.
-You can create your project either via the state tool itself via the state new command or by going directly to the ActiveState Platform and creating it there.</description>
-    </item>
-    
-    <item>
       <title>Custom language runtimes</title>
       <link>https://activestate.github.io/documentation-public/start/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/build/</guid>
       <description>&lt;p&gt;You can build a custom language runtime with the language, packages, and platforms you need.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Using State Tool on CI/CD</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/ci/</guid>
-      <description>To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.
-Install without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):
-install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&amp;gt;] [-e &amp;lt;file&amp;gt;] [-h] [--activate] Flags: -b &amp;lt;branch&amp;gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite.</description>
     </item>
     
     <item>
@@ -79,6 +56,29 @@ install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&am
       <description>Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.
 Note: The Security &amp;amp; Compliance tab provides access to the security features of the Platform. It is available for Organizations on the Business and Enterprise tiers.
 Configuring Security &amp;amp; Compliance Security &amp;amp; Compliance requires configuration to map the ActivePython interpreter you want to scan for vulnerabilities with the identity in the ActiveState Platform where you want to record the packages scanned and any details for any vulnerabilities identified.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://activestate.github.io/documentation-public/state/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/start/</guid>
+      <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
+To install the state tool refer to the installation guide.
+Creating Your First Project The state tool cannot do anything without a project, everything lives under your project.
+You can create your project either via the state tool itself via the state new command or by going directly to the ActiveState Platform and creating it there.</description>
+    </item>
+    
+    <item>
+      <title>Using State Tool on CI/CD</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/</guid>
+      <description>To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.
+Install without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):
+install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&amp;gt;] [-e &amp;lt;file&amp;gt;] [-h] [--activate] Flags: -b &amp;lt;branch&amp;gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite.</description>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 ---
 title: "Using State Tool on CI/CD"
-weight: 3
+weight: 30
 ---
 
 To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.

@@ -19,3 +19,4 @@ These are some resources for getting started with the ActiveState Platform:
 * [Working with projects](/projects/)
 * [Managing your organization](/organizations/)
 * [Security & Compliance overview](/security/)
+
