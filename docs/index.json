@@ -57,10 +57,10 @@
 },
 {
 	"uri": "https://davetlewis-van.github.io/activepython38docs/",
-	"title": "Activator Learn",
+	"title": "ActiveState Platform documentation home",
 	"tags": [],
-	"description": "Welcome to the website of Acme Corporation, the leading creator of digital shapes on the planet, providing precise shape creations that are ready to use.",
-	"content": "Activator Learn™ is a test site for the ActiveState Platform docs.\n"
+	"description": "",
+	"content": "Welcome to the documentation site for the ActiveState Platform.\n"
 },
 {
 	"uri": "https://davetlewis-van.github.io/activepython38docs/start/quick-start/managed/",
