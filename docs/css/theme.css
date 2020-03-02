@@ -22,7 +22,7 @@
 @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto-Light.ttf");
-    font-style: normal;b
+    font-style: normal;
     font-weight: 300;
 }
 @font-face {
@@ -1009,7 +1009,6 @@ td {
     text-overflow: ellipsis;
     width: 70%;
     display: inline-block;
-    float: left;
 }
 #body #breadcrumbs span {
     padding: 0 0.1rem;
