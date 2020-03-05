@@ -8,7 +8,7 @@
     --MAIN-TEXT-color: #2C353A; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#2D52BD; /* Color of links */
-    --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
+    --MAIN-LINK-HOVER-color:#2D52BD; /* Color of hovered links */
     --MAIN-ANCHOR-color: #2D52BD; /* color of anchors on titles */
 
     --MENU-HEADER-BG-color:#FF2F4C; /* Background color of menu header */
@@ -54,9 +54,65 @@ h1, h2, h3, h4, h5 {
     text-transform: capitalize;
 }
 
+h4 {
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+#sidebar #shortcuts h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white ;
+    margin-top:1rem;
+    padding-left: 1rem;
+}
+
+.children-li p {
+    font-size: small;
+    font-style: normal !important;
+    margin-top: -24px !important;
+    padding-bottom: 24px !important;
+}
+
+li {
+    padding: 0 0 1.5rem 0;
+}
+
+
+ol{
+    padding-top: 0;
+}
+
+pre {
+    padding: 1rem;
+    margin: 0;
+    background: #DAEAFF !important;
+    border: 0;
+    border-radius: 2px;
+    line-height: 1.15;
+
+}
+
+pre code {
+    color: #2D52BD;
+}
+
 code {
     background: #E8ECFE;
     border: 1px solid #E8ECFE;
+}
+
+pre .copy-to-clipboard {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #ACCBF3;
+    color: #498FEC !important;
+    border-radius: 2px;
+}
+
+pre .copy-to-clipboard:hover {
+    background-color: #77A2DB;
+    color: #fff;
 }
 
 .copy-to-clipboard {
@@ -87,10 +143,10 @@ a:hover {
     content: "";
     height: 1px;
     width: 0%;
-    -webkit-transition: width 0.5s ease;
-    -moz-transition: width 0.5s ease;
+    -webkit-transition: width 0s ease;
+    -moz-transition: width 0s ease;
     -ms-transition: width 0.5s ease;
-    transition: width 0.5s ease;
+    transition: 0
     background-color: var(--MAIN-LINK-HOVER-color);
 }
 #sidebar {
