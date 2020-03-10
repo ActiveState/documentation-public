@@ -19,12 +19,11 @@
 .button:active, .button-secondary:active {
     margin: 2px 0 -2px 0;
 }
-@font-face {
-    font-family: 'Roboto';
-    src: url("../fonts/Roboto-Light.ttf");
-    font-style: normal;
-    font-weight: 300;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+
 @font-face {
     font-family: 'Work Sans';
     font-style: normal;
