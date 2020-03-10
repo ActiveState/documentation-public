@@ -3,6 +3,8 @@
   See https://learn.netlify.com/en/basics/style-customization/#yours-variant for details 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
 :root{
     
     --MAIN-TEXT-color: #2C353A; /* Color of text by default */
@@ -26,8 +28,7 @@
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */
-    
+    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */ 
 }
 
 body {
@@ -77,7 +78,6 @@ li {
     padding: 0 0 1.5rem 0;
 }
 
-
 ol{
     padding-top: 0;
 }
@@ -89,7 +89,6 @@ pre {
     border: 0;
     border-radius: 2px;
     line-height: 1.15;
-
 }
 
 pre code {
