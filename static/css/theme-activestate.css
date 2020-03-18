@@ -3,7 +3,7 @@
   See https://learn.netlify.com/en/basics/style-customization/#yours-variant for details 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@100;700&display=swap');
 
 :root{
     
@@ -54,11 +54,40 @@ h1, h2, h3, h4, h5 {
     text-align: left !important;
     text-transform: capitalize;
 }
+h3 {
+    padding-top: 3rem;
+}
 
 h4 {
     font-weight: bold;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
+
+b, strong, label, th  {
+    font-weight: bold;
+}
+
+.progress ul{
+    padding: 10px 15px 10px 30px; 
+}
+
+#TableOfContents {
+    font-size: 13px !important;
+    max-height: 85vh;
+    overflow: auto;
+    padding: 0 !important;
+}
+
+#TableOfContents li {
+    list-style-type: disc;
+    padding: 0;
+}
+
+#TableOfContents > ul > li > a {
+    font-weight: bold;
+
+}
+
 
 #sidebar #shortcuts h3 {
     font-family: 'Roboto', sans-serif;
@@ -83,12 +112,13 @@ ol{
 }
 
 pre {
-    padding: 1rem;
+    padding: 1.25rem;
     margin: 0;
+    margin-top: 1.5rem;
     background: #DAEAFF !important;
     border: 0;
     border-radius: 2px;
-    line-height: 1.15;
+    line-height: 1.5;
 }
 
 pre code {
@@ -96,22 +126,23 @@ pre code {
 }
 
 code {
-    background: #E8ECFE;
-    border: 1px solid #E8ECFE;
+    background: #DAEAFF;
+    color: #2D52BD;
+    border: 1px solid #DAEAFF;
 }
 
 pre .copy-to-clipboard {
     position: absolute;
     right: 4px;
     top: 4px;
-    background-color: #ACCBF3;
-    color: #498FEC !important;
+    background-color: #DAEAFF;
+    color: #DAEAFF!important;
     border-radius: 2px;
 }
 
 pre .copy-to-clipboard:hover {
-    background-color: #77A2DB;
-    color: #fff;
+    background-color: #ACCBF3;
+    color: #ffffff !important;
 }
 
 .copy-to-clipboard {
