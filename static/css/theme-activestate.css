@@ -12,6 +12,7 @@
     --MAIN-LINK-color:#2D52BD; /* Color of links */
     --MAIN-LINK-HOVER-color:#2D52BD; /* Color of hovered links */
     --MAIN-ANCHOR-color: #2D52BD; /* color of anchors on titles */
+    --MAIN-BG-color: #DAEAFF; /*color of code snippet backgrounds */
 
     --MENU-HEADER-BG-color:#FF2F4C; /* Background color of menu header */
     --MENU-HEADER-BORDER-color:#FF2F4C; /*Color of menu header border */ 
@@ -54,6 +55,7 @@ h1, h2, h3, h4, h5 {
     text-align: left !important;
     text-transform: capitalize;
 }
+
 h3 {
     padding-top: 3rem;
 }
@@ -67,7 +69,7 @@ b, strong, label, th  {
     font-weight: bold;
 }
 
-.progress ul{
+.progress ul {
     padding: 10px 15px 10px 30px; 
 }
 
@@ -85,7 +87,6 @@ b, strong, label, th  {
 
 #TableOfContents > ul > li > a {
     font-weight: bold;
-
 }
 
 
@@ -113,9 +114,8 @@ ol{
 
 pre {
     padding: 1.25rem;
-    margin: 0;
-    margin-top: 1.5rem;
-    background: #DAEAFF !important;
+    margin: 1.5rem 0 0 0;
+    background: var(--MAIN-BG-color)  !important;
     border: 0;
     border-radius: 2px;
     line-height: 1.5;
@@ -126,17 +126,17 @@ pre code {
 }
 
 code {
-    background: #DAEAFF;
+    background: var(--MAIN-BG-color);
     color: #2D52BD;
-    border: 1px solid #DAEAFF;
+    border: 1px solid var(--MAIN-BG-color);
 }
 
 pre .copy-to-clipboard {
     position: absolute;
     right: 4px;
     top: 4px;
-    background-color: #DAEAFF;
-    color: #DAEAFF!important;
+    background-color: var(--MAIN-BG-color);
+    color: var(--MAIN-BG-color) !important;
     border-radius: 2px;
 }
 
