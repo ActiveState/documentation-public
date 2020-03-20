@@ -3,9 +3,9 @@ title: "State Tool CLI"
 weight: 4
 ---
 
-The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.<!--more-->
+This quick start is for intermediate or advanced developers who want to get up and running right away.
 
-#### 1. Install the State Tool
+### Install the State Tool
 
 On Linux:
 
@@ -23,7 +23,7 @@ On Windows:
 
 2. Start the command prompt (`cmd.exe`) to use the State Tool.
 
-#### 2. Sign in to the ActiveState Platform
+### Sign in to the ActiveState Platform
 
 If you don't have a Platform account yet, you need to sign up:
 
@@ -41,13 +41,17 @@ state auth
 
 Enter your username and password for the Platform at the prompts.
 
-#### 3. Create a new project locally
+### Create a new project locally
 
 ```text
-state init <username_or_org_name>/<project_name> --language python3
+state init <username_or_org_name>/<project_name> language@version
 ```
 
-#### 4. Change directories into your project folder 
+For example:
+
+state init jsmith/python-3-6 python3@3.6.6
+
+### Change directories into your project folder 
 
 Linux:
 
@@ -61,27 +65,32 @@ Windows:
 cd <username_or_org_name>\<project_name>
 ```
 
-#### 5. Push your project to the ActiveState Platform
+### Push your project to the ActiveState Platform
 
 ```text
 state push
 ```
 
-#### 6. Add required packages for your project 
+### Add required packages for your project 
 
 ```text
 state packages add requests@2.21.0
-
 state packages add pandas
 ```
 
-#### 7. Synchronize your local project with the Platform project
+If you have a `requirements.txt` file for your Python project, you can alternatively import all your packages using the file.
+
+```text
+state packages import --file requirements.txt
+```
+
+### Synchronize your local project with the Platform project
 
 ```text
 state pull
 ```
 
-#### 8. Activate your project
+### Activate your project
 
 ```text
 state activate
@@ -89,8 +98,8 @@ state activate
 
 ### Access documentation for CLI commands
 
-To learn more about the State Tool commands, run `state --help` in the terminal.
+To learn more about the State Tool commands, run state --help in the terminal.
 
 For help on individual commands, run `state COMMAND --help`. For example, `state packages --help`.
 
-For more information on the State Tool and the available commands see the [State Tool section](/state/).
+For more information on the State Tool and the available commands see the [State Tool section](/state/) of the docs.

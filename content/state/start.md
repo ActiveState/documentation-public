@@ -1,21 +1,20 @@
 ---
 title: "Getting Started"
-weight: 20
 ---
 
 The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment. 
 
-To install the state tool refer to the [installation guide](/state#installation).
+For information on installing the State Tool, see [installation guide](/state#installation).
 
 ## Creating Your First Project
 
-The state tool cannot do anything without a project, everything lives under your project.
+The State Tool cannot do anything without a project, everything lives under your project.
 
-You can create your project either via the state tool itself via the [state new](new.html) command or by going directly to the ActiveState Platform and creating it there. Since you probably still need an account let’s go with the latter.
+You can create your project either via the State Tool itself via the [state init](/state/init.html) command or by going directly to the ActiveState Platform Dashboard and creating it there. Since you probably still need an account let’s go with the latter.
 
 Head over to http://platform.activestate.com and create an account if you don’t already have one, otherwise just login.
 
-Once logged in go ahead and create a new project. You will be asked for a platform and language for your project, simply use the most fitting answers. For more information on project check out the [Projects documentation](/projects).
+Once logged in go ahead and create a new project. You will be asked for a platform and language for your project, simply use the most fitting answers. For more information on projects check out the [Projects documentation](/projects).
 
 ## Activating Your Project
 
@@ -35,7 +34,7 @@ state activate owner/projectName
 
 The owner would be your username or if you created your project in an organization then instead of your username you can use the organization name.
 
-This will create a new project folder under the current working directory containing an “activestate.yaml” file with some essentials. The State tool will “activate” under this new project directory. This is a brand new project though and being in an “activated state” doesn’t mean much yet, so let’s deactivate by executing the `exit` command (or hit `Ctrl+D`).
+This will create a new project folder under the current working directory containing an “activestate.yaml” file with some essentials. The State Tool will “activate” under this new project directory. This is a brand new project though and being in an “activated state” doesn’t mean much yet, so let’s deactivate by executing the `exit` command (or hit `Ctrl+D`).
 
 Now when you want to work on your project again you can run the same `state activate owner/projectName` command again from anywhere and you’ll be entered into an activated state under your project directory. Alternatively you can manually enter into your project directory and run `state activate` without any other arguments.
 
@@ -75,7 +74,7 @@ constants:
 
 ## Secrets
 
-Constants are great if you just want to reuse certain values throughout your `activestate.yaml` file, but what if you want to store values that are sensitive, and which shouldn’t be stored in version control or in any plain text format? This is what “secrets” (or “state secrets”... get it?) are meant for; the state tool has built into it a very useful secret management solution. You should store any database passwords, API keys, and other sensitive credentials your project needs access to as secrets.
+Constants are great if you just want to reuse certain values throughout your `activestate.yaml` file, but what if you want to store values that are sensitive, and which shouldn’t be stored in version control or in any plain text format? This is what “secrets” (or “state secrets”... get it?) are meant for; the State Tool has built into it a very useful secret management solution. You should store any database passwords, API keys, and other sensitive credentials your project needs access to as secrets.
 
 A “secret” is similar to a constant, except that its value is securely stored on the ActiveState Platform. It is encrypted using RSA encryption in a manner that no one but you will ever be able to decrypt (unless you start sharing your password - which... don’t do that!). Not even ActiveState knows the true value of your secrets; we only store the encrypted value. Secrets also have the concept of sharing, meaning you can share a secret with the people on your project.
 
@@ -137,7 +136,7 @@ It's important to note that you do not need to first define the `user.LOCATION` 
 
 ## Scripts
 
-Scripts in the State tool can be compared to scripts in NPM, or build targets in a Makefile. You define a script and can then run it whenever you need to. Let’s start with something simple:
+Scripts in the State Tool can be compared to scripts in NPM, or build targets in a Makefile. You define a script and can then run it whenever you need to. Let’s start with something simple:
 
 ```text
 scripts:
@@ -159,6 +158,21 @@ scripts:
     language: python3
     value: print("Hello World")
 ```
+
+The following `language` settings are supported:
+
+| Language | Description |
+|----|----| 
+| bash | For scripts that use `bash` (Bourne again shell).|
+| sh | For script that use `sh` (Bourne shell). |
+| batch | For scripts that use `cmd.exe` on Windows. |
+| perl | For scripts that use your Perl runtime environment. |
+| python2 | For scripts that use your Python 2 runtime environment. |
+| python3 | For scripts that use your Python 3 runtime environment. |
+
+**Note**: Support for specifying Tcl as the script language is not yet available. 
+
+See the section on [Constraining Scripts](#constraining-scripts) for information on limiting language to the appropriate operating system. For example, only running batch scripts on Microsoft Windows.
 
 ### Calling Scripts From Other Scripts
 
@@ -265,7 +279,7 @@ Now you can run `hello world` or `hello planet` and it should print out the argu
 
 ### Constraining Scripts
 
-Scripts will be run as either bash or batch scripts, depending on the shell that you run them from. This can be problematic because bash and batch are two very different languages, and you might have cross-platform requirements. To address this you can constrain a script to only run on certain platforms. For example:
+You can constrain scripts to only run on certain platforms. If a language is not specified for the script, they will be run as either bash or batch scripts, depending on the shell that you run them from. This can be problematic because bash and batch are two very different languages, and you might have cross-platform requirements. You can add constraints to your script entries to ensure that the correct command runs based on the operating system identified at run time. For example:
 
 ```text
 scripts:

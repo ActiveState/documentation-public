@@ -1,5 +1,5 @@
 ---
-title: "update"
+title: "Command: update"
 ---
 
 Updates the State Tool to the latest available version.

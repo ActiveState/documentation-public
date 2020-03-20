@@ -1,5 +1,5 @@
 ---
-title: "scripts"
+title: "Command: scripts"
 ---
 
 The `state scripts` command allows you to quickly list all available scripts. Running it produces a list of script names and descriptions.

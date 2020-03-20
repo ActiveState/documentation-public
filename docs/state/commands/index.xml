@@ -11,7 +11,7 @@
     
     
     <item>
-      <title>activate</title>
+      <title>Command: activate</title>
       <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -21,18 +21,33 @@ For example, when you run state activate ActiveState/ActivePython-3.6, ActivePyt
     </item>
     
     <item>
-      <title>auth</title>
+      <title>Command: auth</title>
       <link>https://activestate.github.io/documentation-public/state/commands/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/state/commands/auth/</guid>
       <description>The auth command allows you to authenticate your account on the ActiveState Platform.
-Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&amp;gt;] [--token &amp;lt;value&amp;gt;] state auth logout state auth signup state auth If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.
- --username &amp;lt;value&amp;gt;: Manually provide a username. --password &amp;lt;value&amp;gt;: Manually provide a password. --token &amp;lt;value&amp;gt;: Manually provide a token (this cannot be used with --username)  state auth logout Logs you out.</description>
+Usage To authorize your account:
+state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&amp;gt;] [--token &amp;lt;value&amp;gt;] To sign out from the Platform:
+state auth logout To start the sign up process on the command line:
+state auth signup state auth If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.
+ --username &amp;lt;value&amp;gt;: Manually provide a username.</description>
     </item>
     
     <item>
-      <title>events</title>
+      <title>Command: clean</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/clean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/clean/</guid>
+      <description>The clean command enables you to completely remove the State Tool, any installed languages, and any configuration files.
+Usage state clean You can use the optional --force or &#39;-f flag to execute the command without any confirmation prompts.
+If you want to access the latest version, you do not have to uninstall the current version. You just need to run the state update command.
+Related Information update Command</description>
+    </item>
+    
+    <item>
+      <title>Command: events</title>
       <link>https://activestate.github.io/documentation-public/state/commands/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -42,7 +57,7 @@ Usage state events Related Information Events</description>
     </item>
     
     <item>
-      <title>export</title>
+      <title>Command: export</title>
       <link>https://activestate.github.io/documentation-public/state/commands/export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -55,7 +70,7 @@ state export recipe &amp;lt;commitID&amp;gt; You must run the state export comma
     </item>
     
     <item>
-      <title>fork</title>
+      <title>Command: fork</title>
       <link>https://activestate.github.io/documentation-public/state/commands/fork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -65,29 +80,44 @@ Syntax state fork --name &amp;lt;project_name&amp;gt; --org &amp;lt;owner&amp;gt
     </item>
     
     <item>
-      <title>help</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/help/</link>
+      <title>Command: history</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/help/</guid>
-      <description>The help command allows you to view documentation for the individual state commands.
-Usage To view help for the auth command:
-state help auth To view help for the auth logout subcommand:
-state help auth logout </description>
+      <guid>https://activestate.github.io/documentation-public/state/commands/history/</guid>
+      <description>The history command allows you to view the commit history for your project. It is limited to the past 10 commits.
+This is the same as the information displayed in the Project History list in the History tab for your project on the ActiveState Platform.
+Usage To view history for the current project:
+state history To view history for a specified project by &amp;lt;owner&amp;gt;/&amp;lt;projectname&amp;gt;:
+state history --namespace ActiveState/ActivePython-3.6.6 Example The following information is displayed in the output for each commit.</description>
     </item>
     
     <item>
-      <title>init</title>
+      <title>Command: init</title>
       <link>https://activestate.github.io/documentation-public/state/commands/init/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/state/commands/init/</guid>
       <description>The init command enables you to create a new empty project on your local machine. Once the project is created locally, use the push command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.
-Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; [--language &amp;lt;language&amp;gt;] [--path &amp;lt;path&amp;gt;] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
+Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; &amp;lt;Language[@version]&amp;gt; [--path &amp;lt;path&amp;gt;] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
     </item>
     
     <item>
-      <title>organizations</title>
+      <title>Command: languages</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/languages/</guid>
+      <description>The languages command lists the languages in your project, and allows you to update the specified languages.
+IMPORTANT: In order to build your project successfully, only one language can be specified.
+Usage To list the languages in your project:
+state languages To update a language:
+state languages update &amp;lt;Language[@version]&amp;gt; Use the Language argument to specify the language distribution the project should use. You must specify one of the following:
+ perl python  You can also optionally specify the version to use by appending @version to the language with the specific version number you want to use.</description>
+    </item>
+    
+    <item>
+      <title>Command: organizations</title>
       <link>https://activestate.github.io/documentation-public/state/commands/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -97,19 +127,30 @@ Usage state organizations </description>
     </item>
     
     <item>
-      <title>packages</title>
+      <title>Command: packages</title>
       <link>https://activestate.github.io/documentation-public/state/commands/packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/state/commands/packages/</guid>
       <description>The packages command allows you to manage the packages within an ActiveState Platform project.
-Usage state packages state packages list state packages add &amp;lt;name[@version]&amp;gt; state packages update &amp;lt;name[@version]&amp;gt; state packages remove &amp;lt;name&amp;gt; state packages search &amp;lt;name&amp;gt; state packages list List the packages and versions currently included in your project.
-Note: If you run state packages without additional arguments you will get the same output as state packages list.
-------------- ------------ Name Version ------------- ------------ numpy pluggy 0.</description>
+Usage state packages state packages add &amp;lt;name[@version]&amp;gt; state packages import --file &amp;lt;filename&amp;gt; state packages update &amp;lt;name[@version]&amp;gt; state packages remove &amp;lt;name&amp;gt; state packages search &amp;lt;name&amp;gt; state packages List the packages and versions currently included in your project.
+------------- ------------ Name Version ------------- ------------ numpy pluggy 0.12.0 pytest 4.3.0 requests 2.21.0 ------------- ------------ In the example output, specific versions have been specified for pluggy, pytest, and requests.</description>
     </item>
     
     <item>
-      <title>projects</title>
+      <title>Command: platforms</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/platforms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/platforms/</guid>
+      <description>The platforms command lists the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform.
+Usage To list the platforms in your project:
+state platforms Search all of the platforms available on the ActiveState Platform:
+state platforms search The output lists the Name (Windows, Linux, etc.), Version, and Bit Width for each Platform. Bit Width indicates whether the platform supports the 32-bit or 64-bit version of an operating system.</description>
+    </item>
+    
+    <item>
+      <title>Command: projects</title>
       <link>https://activestate.github.io/documentation-public/state/commands/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -119,7 +160,7 @@ Usage state projects </description>
     </item>
     
     <item>
-      <title>pull</title>
+      <title>Command: pull</title>
       <link>https://activestate.github.io/documentation-public/state/commands/pull/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -129,7 +170,7 @@ When you state activate your project, and there is a newer commit available, you
     </item>
     
     <item>
-      <title>push</title>
+      <title>Command: push</title>
       <link>https://activestate.github.io/documentation-public/state/commands/push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -139,7 +180,7 @@ Usage state push </description>
     </item>
     
     <item>
-      <title>run</title>
+      <title>Command: run</title>
       <link>https://activestate.github.io/documentation-public/state/commands/run/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -150,7 +191,7 @@ state run hello world Finally, if you are in an activated state (i.</description
     </item>
     
     <item>
-      <title>scripts</title>
+      <title>Command: scripts</title>
       <link>https://activestate.github.io/documentation-public/state/commands/scripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -161,7 +202,7 @@ Usage state scripts Related Information  Scripts run Command  </description>
     </item>
     
     <item>
-      <title>secrets</title>
+      <title>Command: secrets</title>
       <link>https://activestate.github.io/documentation-public/state/commands/secrets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -172,7 +213,7 @@ state secrets set Sets the value for the given secret.</description>
     </item>
     
     <item>
-      <title>show</title>
+      <title>Command: show</title>
       <link>https://activestate.github.io/documentation-public/state/commands/show/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -182,7 +223,7 @@ state secrets set Sets the value for the given secret.</description>
     </item>
     
     <item>
-      <title>update</title>
+      <title>Command: update</title>
       <link>https://activestate.github.io/documentation-public/state/commands/update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

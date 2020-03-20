@@ -43,7 +43,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/state-tool/</guid>
-      <description>&lt;p&gt;The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.&lt;/p&gt;</description>
+      <description>This quick start is for intermediate or advanced developers who want to get up and running right away.
+Install the State Tool On Linux:
+sh &amp;lt;(curl -q https://platform.activestate.com/dl/cli/install.sh) On Windows:
+  Run the following as Administrator in PowerShell:
+IEX(New-Object Net.WebClient).downloadString(&amp;#39;https://platform.activestate.com/dl/cli/install.ps1&amp;#39;)   Start the command prompt (cmd.exe) to use the State Tool.
+  Sign in to the ActiveState Platform If you don&amp;rsquo;t have a Platform account yet, you need to sign up:</description>
     </item>
     
     <item>
@@ -53,29 +58,6 @@
       
       <guid>https://activestate.github.io/documentation-public/start/security/</guid>
       <description>&lt;p&gt;Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://activestate.github.io/documentation-public/state/start/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/start/</guid>
-      <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
-To install the state tool refer to the installation guide.
-Creating Your First Project The state tool cannot do anything without a project, everything lives under your project.
-You can create your project either via the state tool itself via the state new command or by going directly to the ActiveState Platform and creating it there.</description>
-    </item>
-    
-    <item>
-      <title>Using State Tool on CI/CD</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/ci/</guid>
-      <description>To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.
-Install without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):
-install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&amp;gt;] [-e &amp;lt;file&amp;gt;] [-h] [--activate] Flags: -b &amp;lt;branch&amp;gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite.</description>
     </item>
     
     <item>
@@ -106,24 +88,13 @@ install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&am
     </item>
     
     <item>
-      <title>activate</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
+      <title>AppVeyor</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/appveyor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/activate/</guid>
-      <description>The activate command allows you to activate an ActiveState project on your local computer. Activating is the process of downloading the build associated with the project, which includes the language interpreter and the set of packages selected for the project, and creating a virtual environment for the interpreter to run in.
-For example, when you run state activate ActiveState/ActivePython-3.6, ActivePython 3.6 and all selected packages are installed and configured, and a virtual environment is created.</description>
-    </item>
-    
-    <item>
-      <title>auth</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/auth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/auth/</guid>
-      <description>The auth command allows you to authenticate your account on the ActiveState Platform.
-Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&amp;gt;] [--token &amp;lt;value&amp;gt;] state auth logout state auth signup state auth If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.
- --username &amp;lt;value&amp;gt;: Manually provide a username. --password &amp;lt;value&amp;gt;: Manually provide a password. --token &amp;lt;value&amp;gt;: Manually provide a token (this cannot be used with --username)  state auth logout Logs you out.</description>
+      <guid>https://activestate.github.io/documentation-public/state/ci/appveyor/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process with AppVeyor, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
+Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
@@ -133,6 +104,230 @@ Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&am
       
       <guid>https://activestate.github.io/documentation-public/prefs/password/</guid>
       <description>&lt;p&gt;You can change your password at any time in the &lt;strong&gt;Change Password&lt;/strong&gt; page.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Command: activate</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/activate/</guid>
+      <description>The activate command allows you to activate an ActiveState project on your local computer. Activating is the process of downloading the build associated with the project, which includes the language interpreter and the set of packages selected for the project, and creating a virtual environment for the interpreter to run in.
+For example, when you run state activate ActiveState/ActivePython-3.6, ActivePython 3.6 and all selected packages are installed and configured, and a virtual environment is created.</description>
+    </item>
+    
+    <item>
+      <title>Command: auth</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/auth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/auth/</guid>
+      <description>The auth command allows you to authenticate your account on the ActiveState Platform.
+Usage To authorize your account:
+state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&amp;gt;] [--token &amp;lt;value&amp;gt;] To sign out from the Platform:
+state auth logout To start the sign up process on the command line:
+state auth signup state auth If no username, password or token is provided you will be prompted for your ActiveState Platform username and password.
+ --username &amp;lt;value&amp;gt;: Manually provide a username.</description>
+    </item>
+    
+    <item>
+      <title>Command: clean</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/clean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/clean/</guid>
+      <description>The clean command enables you to completely remove the State Tool, any installed languages, and any configuration files.
+Usage state clean You can use the optional --force or &#39;-f flag to execute the command without any confirmation prompts.
+If you want to access the latest version, you do not have to uninstall the current version. You just need to run the state update command.
+Related Information update Command</description>
+    </item>
+    
+    <item>
+      <title>Command: events</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/events/</guid>
+      <description>The events command lists the configured events for your project. Events are scripts or commands that run when particular State Tool application events occur. For example, you can run a command to start your local web server each time you state activate your project.
+Usage state events Related Information Events</description>
+    </item>
+    
+    <item>
+      <title>Command: export</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/export/</guid>
+      <description>The export command allows you to export the contents of the JSON Web Token (JWT) you are using to authenticate with the Platform, or the build recipe (the set of packages and operating system settings) used by your project.
+Usage To print your JWT credentials:
+state export jwt To print a JSON formatted recipe:
+state export recipe To print the recipe for a particular commit:
+state export recipe &amp;lt;commitID&amp;gt; You must run the state export command from the directory for the Platform project you want to export the build recipe for.</description>
+    </item>
+    
+    <item>
+      <title>Command: fork</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/fork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/fork/</guid>
+      <description>The fork command allows you to create a fork of an existing Platform project. A fork is a copy of a project that you can edit.
+Syntax state fork --name &amp;lt;project_name&amp;gt; --org &amp;lt;owner&amp;gt; ActiveState-Recipes/Core [--private] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name for your copy of the forked project. If you do not specify the --org flag, you will be prompted to select the owner, from the orgs you belong to, interactively at the command prompt.</description>
+    </item>
+    
+    <item>
+      <title>Command: history</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/history/</guid>
+      <description>The history command allows you to view the commit history for your project. It is limited to the past 10 commits.
+This is the same as the information displayed in the Project History list in the History tab for your project on the ActiveState Platform.
+Usage To view history for the current project:
+state history To view history for a specified project by &amp;lt;owner&amp;gt;/&amp;lt;projectname&amp;gt;:
+state history --namespace ActiveState/ActivePython-3.6.6 Example The following information is displayed in the output for each commit.</description>
+    </item>
+    
+    <item>
+      <title>Command: init</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/init/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/init/</guid>
+      <description>The init command enables you to create a new empty project on your local machine. Once the project is created locally, use the push command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.
+Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; &amp;lt;Language[@version]&amp;gt; [--path &amp;lt;path&amp;gt;] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
+    </item>
+    
+    <item>
+      <title>Command: languages</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/languages/</guid>
+      <description>The languages command lists the languages in your project, and allows you to update the specified languages.
+IMPORTANT: In order to build your project successfully, only one language can be specified.
+Usage To list the languages in your project:
+state languages To update a language:
+state languages update &amp;lt;Language[@version]&amp;gt; Use the Language argument to specify the language distribution the project should use. You must specify one of the following:
+ perl python  You can also optionally specify the version to use by appending @version to the language with the specific version number you want to use.</description>
+    </item>
+    
+    <item>
+      <title>Command: organizations</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/organizations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/organizations/</guid>
+      <description>The organizations command lists the organizations you are a member of. The Organization name for each Organization you belong to is listed.
+Usage state organizations </description>
+    </item>
+    
+    <item>
+      <title>Command: packages</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/packages/</guid>
+      <description>The packages command allows you to manage the packages within an ActiveState Platform project.
+Usage state packages state packages add &amp;lt;name[@version]&amp;gt; state packages import --file &amp;lt;filename&amp;gt; state packages update &amp;lt;name[@version]&amp;gt; state packages remove &amp;lt;name&amp;gt; state packages search &amp;lt;name&amp;gt; state packages List the packages and versions currently included in your project.
+------------- ------------ Name Version ------------- ------------ numpy pluggy 0.12.0 pytest 4.3.0 requests 2.21.0 ------------- ------------ In the example output, specific versions have been specified for pluggy, pytest, and requests.</description>
+    </item>
+    
+    <item>
+      <title>Command: platforms</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/platforms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/platforms/</guid>
+      <description>The platforms command lists the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform.
+Usage To list the platforms in your project:
+state platforms Search all of the platforms available on the ActiveState Platform:
+state platforms search The output lists the Name (Windows, Linux, etc.), Version, and Bit Width for each Platform. Bit Width indicates whether the platform supports the 32-bit or 64-bit version of an operating system.</description>
+    </item>
+    
+    <item>
+      <title>Command: projects</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/projects/</guid>
+      <description>The projects command lists the projects you have access to from all of the Organizations you belong to. The information listed for each project includes Project name, Organization name, and a project description (if available).
+Usage state projects </description>
+    </item>
+    
+    <item>
+      <title>Command: pull</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/pull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/pull/</guid>
+      <description>The pull command will update your activestate.yaml so that it references the latest version of your platform runtime environment. When you update the packages in your project on the Platform and successfully created a new build, you need to run the pull command to make the updated build available in your local environment.
+When you state activate your project, and there is a newer commit available, you will be notified that you need to run the pull command to get the up-to-date version of your Platform project.</description>
+    </item>
+    
+    <item>
+      <title>Command: push</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/push/</guid>
+      <description>The push command enables you to push your local changes to the ActiveState Platform. For example, you can use the init command to create a new project locally using the State Tool, and then push this change to the Platform so it shows up in your account, and is accessible in the Dashboard.
+Usage state push </description>
+    </item>
+    
+    <item>
+      <title>Command: run</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/run/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/run/</guid>
+      <description>The run command allows you to manually run scripts you have defined for your projects by name. Script names are case-sensitive.
+Usage state run &amp;lt;script_name&amp;gt; You can also pass arguments to your scripts, the same way you would to any command. Let&amp;rsquo;s say you have a script called &amp;ldquo;hello&amp;rdquo; which takes an argument for who/what it is greeting, you could call it like this:
+state run hello world Finally, if you are in an activated state (i.</description>
+    </item>
+    
+    <item>
+      <title>Command: scripts</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/scripts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/scripts/</guid>
+      <description>The state scripts command allows you to quickly list all available scripts. Running it produces a list of script names and descriptions.
+You can use this output to run the state run command.
+Usage state scripts Related Information  Scripts run Command  </description>
+    </item>
+    
+    <item>
+      <title>Command: secrets</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/secrets/</guid>
+      <description>The secrets command allows a user to manage their secrets within a Project. For more information on secrets, what they represent and how they fit into the wider picture of the State Tool and the Platform check out Getting Started.
+Usage state secrets state secrets set &amp;lt;secret-namespace&amp;gt; &amp;lt;secret-value&amp;gt; state secrets get &amp;lt;secret-namespace&amp;gt; state secrets sync state secrets Lists available secrets for the current project.
+state secrets set Sets the value for the given secret.</description>
+    </item>
+    
+    <item>
+      <title>Command: show</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/show/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/show/</guid>
+      <description>The show command displays information about the current project, or a specified remote project. The following information is displayed:
+ the name of the project the organization the project belongs to all scripts associated with the project all events associated with the project  Usage state show state show &amp;lt;owner/projectName&amp;gt; The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
+    </item>
+    
+    <item>
+      <title>Command: update</title>
+      <link>https://activestate.github.io/documentation-public/state/commands/update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/commands/update/</guid>
+      <description>Updates the State Tool to the latest available version.
+The update command allows you to download the latest release of the State Tool on demand. By default, the state tool checks for an updated version on a regular basis.
+You can disable automatic updates by running state update with the --lock flag. If you disable automatic updates you can force an update by manually running state update.
+Usage state update state update --lock state update Checks for a new version and updates the state tool.</description>
     </item>
     
     <item>
@@ -154,58 +349,25 @@ Usage state auth [--username &amp;lt;value&amp;gt;] [--password &amp;lt;value&am
     </item>
     
     <item>
-      <title>events</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/events/</link>
+      <title>Getting Started</title>
+      <link>https://activestate.github.io/documentation-public/state/start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/events/</guid>
-      <description>The events command lists the configured events for your project. Events are scripts or commands that run when particular State Tool application events occur. For example, you can run a command to start your local web server each time you state activate your project.
-Usage state events Related Information Events</description>
+      <guid>https://activestate.github.io/documentation-public/state/start/</guid>
+      <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
+For information on installing the State Tool, see installation guide.
+Creating Your First Project The State Tool cannot do anything without a project, everything lives under your project.
+You can create your project either via the State Tool itself via the state init command or by going directly to the ActiveState Platform Dashboard and creating it there.</description>
     </item>
     
     <item>
-      <title>export</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/export/</link>
+      <title>Jenkins</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/export/</guid>
-      <description>The export command allows you to export the contents of the JSON Web Token (JWT) you are using to authenticate with the Platform, or the build recipe (the set of packages and operating system settings) used by your project.
-Usage To print your JWT credentials:
-state export jwt To print a JSON formatted recipe:
-state export recipe To print the recipe for a particular commit:
-state export recipe &amp;lt;commitID&amp;gt; You must run the state export command from the directory for the Platform project you want to export the build recipe for.</description>
-    </item>
-    
-    <item>
-      <title>fork</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/fork/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/fork/</guid>
-      <description>The fork command allows you to create a fork of an existing Platform project. A fork is a copy of a project that you can edit.
-Syntax state fork --name &amp;lt;project_name&amp;gt; --org &amp;lt;owner&amp;gt; ActiveState-Recipes/Core [--private] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name for your copy of the forked project. If you do not specify the --org flag, you will be prompted to select the owner, from the orgs you belong to, interactively at the command prompt.</description>
-    </item>
-    
-    <item>
-      <title>help</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/help/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/help/</guid>
-      <description>The help command allows you to view documentation for the individual state commands.
-Usage To view help for the auth command:
-state help auth To view help for the auth logout subcommand:
-state help auth logout </description>
-    </item>
-    
-    <item>
-      <title>init</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/init/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/init/</guid>
-      <description>The init command enables you to create a new empty project on your local machine. Once the project is created locally, use the push command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.
-Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; [--language &amp;lt;language&amp;gt;] [--path &amp;lt;path&amp;gt;] The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
+      <guid>https://activestate.github.io/documentation-public/state/ci/jenkins/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Jenkins, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
+Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
@@ -215,101 +377,6 @@ Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; [--language 
       
       <guid>https://activestate.github.io/documentation-public/prefs/organizations/</guid>
       <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>organizations</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/organizations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/organizations/</guid>
-      <description>The organizations command lists the organizations you are a member of. The Organization name for each Organization you belong to is listed.
-Usage state organizations </description>
-    </item>
-    
-    <item>
-      <title>packages</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/packages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/packages/</guid>
-      <description>The packages command allows you to manage the packages within an ActiveState Platform project.
-Usage state packages state packages list state packages add &amp;lt;name[@version]&amp;gt; state packages update &amp;lt;name[@version]&amp;gt; state packages remove &amp;lt;name&amp;gt; state packages search &amp;lt;name&amp;gt; state packages list List the packages and versions currently included in your project.
-Note: If you run state packages without additional arguments you will get the same output as state packages list.
-------------- ------------ Name Version ------------- ------------ numpy pluggy 0.</description>
-    </item>
-    
-    <item>
-      <title>projects</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/projects/</guid>
-      <description>The projects command lists the projects you have access to from all of the Organizations you belong to. The information listed for each project includes Project name, Organization name, and a project description (if available).
-Usage state projects </description>
-    </item>
-    
-    <item>
-      <title>pull</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/pull/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/pull/</guid>
-      <description>The pull command will update your activestate.yaml so that it references the latest version of your platform runtime environment. When you update the packages in your project on the Platform and successfully created a new build, you need to run the pull command to make the updated build available in your local environment.
-When you state activate your project, and there is a newer commit available, you will be notified that you need to run the pull command to get the up-to-date version of your Platform project.</description>
-    </item>
-    
-    <item>
-      <title>push</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/push/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/push/</guid>
-      <description>The push command enables you to push your local changes to the ActiveState Platform. For example, you can use the init command to create a new project locally using the State Tool, and then push this change to the Platform so it shows up in your account, and is accessible in the Dashboard.
-Usage state push </description>
-    </item>
-    
-    <item>
-      <title>run</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/run/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/run/</guid>
-      <description>The run command allows you to manually run scripts you have defined for your projects by name. Script names are case-sensitive.
-Usage state run &amp;lt;script_name&amp;gt; You can also pass arguments to your scripts, the same way you would to any command. Let&amp;rsquo;s say you have a script called &amp;ldquo;hello&amp;rdquo; which takes an argument for who/what it is greeting, you could call it like this:
-state run hello world Finally, if you are in an activated state (i.</description>
-    </item>
-    
-    <item>
-      <title>scripts</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/scripts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/scripts/</guid>
-      <description>The state scripts command allows you to quickly list all available scripts. Running it produces a list of script names and descriptions.
-You can use this output to run the state run command.
-Usage state scripts Related Information  Scripts run Command  </description>
-    </item>
-    
-    <item>
-      <title>secrets</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/secrets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/secrets/</guid>
-      <description>The secrets command allows a user to manage their secrets within a Project. For more information on secrets, what they represent and how they fit into the wider picture of the State Tool and the Platform check out Getting Started.
-Usage state secrets state secrets set &amp;lt;secret-namespace&amp;gt; &amp;lt;secret-value&amp;gt; state secrets get &amp;lt;secret-namespace&amp;gt; state secrets sync state secrets Lists available secrets for the current project.
-state secrets set Sets the value for the given secret.</description>
-    </item>
-    
-    <item>
-      <title>show</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/show/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/show/</guid>
-      <description>The show command displays information about the current project, or a specified remote project. The following information is displayed:
- the name of the project the organization the project belongs to all scripts associated with the project all events associated with the project  Usage state show state show &amp;lt;owner/projectName&amp;gt; The &amp;ldquo;owner&amp;rdquo; argument is your username or the organization name that the project belongs to.</description>
     </item>
     
     <item>
@@ -323,24 +390,22 @@ state secrets set Sets the value for the given secret.</description>
     </item>
     
     <item>
+      <title>Travis</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/travis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/travis/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
+NOTE: Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
+    </item>
+    
+    <item>
       <title>Two-factor Authentication</title>
       <link>https://activestate.github.io/documentation-public/prefs/twofactor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/twofactor/</guid>
       <description>&lt;p&gt;You can use two-factor authentication to secure your ActiveState Platform account.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>update</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/update/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/commands/update/</guid>
-      <description>Updates the State Tool to the latest available version.
-The update command allows you to download the latest release of the State Tool on demand. By default, the state tool checks for an updated version on a regular basis.
-You can disable automatic updates by running state update with the --lock flag. If you disable automatic updates you can force an update by manually running state update.
-Usage state update state update --lock state update Checks for a new version and updates the state tool.</description>
     </item>
     
   </channel>

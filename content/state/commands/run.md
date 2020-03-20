@@ -1,5 +1,5 @@
 ---
-title: "run"
+title: "Command: run"
 ---
 
 The `run` command allows you to manually run scripts you have defined for your projects by name. Script names are case-sensitive.

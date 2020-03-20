@@ -1,14 +1,26 @@
 ---
-title: "auth"
+title: "Command: auth"
 ---
 
 The `auth` command allows you to authenticate your account on the ActiveState Platform.
 
 ## Usage
 
+To authorize your account:
+
 ```text
 state auth [--username <value>] [--password <value>] [--token <value>]
+```
+
+To sign out from the Platform:
+
+```text
 state auth logout
+```
+
+To start the sign up process on the command line:
+
+```text
 state auth signup
 ```
 

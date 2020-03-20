@@ -43,7 +43,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/state-tool/</guid>
-      <description>&lt;p&gt;The State Tool is the command line interface for the ActiveState Platform. This quick start is for intermediate or advanced developers who want to get up and running right away.&lt;/p&gt;</description>
+      <description>This quick start is for intermediate or advanced developers who want to get up and running right away.
+Install the State Tool On Linux:
+sh &amp;lt;(curl -q https://platform.activestate.com/dl/cli/install.sh) On Windows:
+  Run the following as Administrator in PowerShell:
+IEX(New-Object Net.WebClient).downloadString(&amp;#39;https://platform.activestate.com/dl/cli/install.ps1&amp;#39;)   Start the command prompt (cmd.exe) to use the State Tool.
+  Sign in to the ActiveState Platform If you don&amp;rsquo;t have a Platform account yet, you need to sign up:</description>
     </item>
     
     <item>

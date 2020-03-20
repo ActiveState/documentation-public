@@ -1,5 +1,5 @@
 ---
-title: "secrets"
+title: "Command: secrets"
 ---
 
 The `secrets` command allows a user to manage their secrets within a Project. For more information on secrets, what they represent and how they fit into the wider picture of the State Tool and the Platform check out [Getting Started](start.html).

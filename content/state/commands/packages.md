@@ -1,5 +1,5 @@
 ---
-title: "packages"
+title: "Command: packages"
 ---
 
 The `packages` command allows you to manage the packages within an ActiveState Platform project. 
@@ -8,20 +8,21 @@ The `packages` command allows you to manage the packages within an ActiveState P
 
 ```
 state packages
-state packages list
 
 state packages add <name[@version]>
+
+state packages import --file <filename>
+
 state packages update <name[@version]>
+
 state packages remove <name>
 
 state packages search <name>
 ```
 
-### state packages list
+### state packages
 
 List the packages and versions currently included in your project. 
-
-**Note**: If you run `state packages` without additional arguments you will get the same output as `state packages list`. 
 
 ```text
 -------------  ------------
@@ -59,6 +60,12 @@ state packages add requests@2.21.0
 ```
 
 If you do not specify the package version, the latest version available on the ActiveState Platform will be used each time a new build is created. Specifying the version "pins" the package to that version until you change it on the Platform or using the `state packages update` subcommand. 
+
+### state packages import
+
+Add a set of packages to you project by specifying a `requirements.txt` file.
+
+**Example**: `state packages import --file requirements.txt`
 
 ### state packages remove
 

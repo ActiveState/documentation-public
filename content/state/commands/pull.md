@@ -1,5 +1,5 @@
 ---
-title: "pull"
+title: "Command: pull"
 ---
 
 The `pull` command will update your `activestate.yaml` so that it references the latest version of your platform runtime environment. When you update the packages in your project on the Platform and successfully created a new build, you need to run the `pull` command to make the updated build available in your local environment.

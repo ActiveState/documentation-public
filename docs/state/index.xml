@@ -17,20 +17,9 @@
       
       <guid>https://activestate.github.io/documentation-public/state/start/</guid>
       <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
-To install the state tool refer to the installation guide.
-Creating Your First Project The state tool cannot do anything without a project, everything lives under your project.
-You can create your project either via the state tool itself via the state new command or by going directly to the ActiveState Platform and creating it there.</description>
-    </item>
-    
-    <item>
-      <title>Using State Tool on CI/CD</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/state/ci/</guid>
-      <description>To use the State Tool on CI you need to install and configure the State Tool to run without any prompting for paths or other information.
-Install without prompts Our install scripts have the same usage on Linux(install.sh) and Windows(install.ps1):
-install.sh|install.ps1 [-b &amp;lt;branch&amp;gt;] [-n] [-f ] [-t &amp;lt;dir&amp;gt;] [-e &amp;lt;file&amp;gt;] [-h] [--activate] Flags: -b &amp;lt;branch&amp;gt; Specify an alternative branch to install from. Default: unstable -n Do not prompt for anything when installing into a new location -f Force overwrite.</description>
+For information on installing the State Tool, see installation guide.
+Creating Your First Project The State Tool cannot do anything without a project, everything lives under your project.
+You can create your project either via the State Tool itself via the state init command or by going directly to the ActiveState Platform Dashboard and creating it there.</description>
     </item>
     
   </channel>

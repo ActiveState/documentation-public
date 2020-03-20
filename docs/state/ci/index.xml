@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Using State Tool on CI/CD on ActiveState Platform Documentation</title>
+    <link>https://activestate.github.io/documentation-public/state/ci/</link>
+    <description>Recent content in Using State Tool on CI/CD on ActiveState Platform Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://activestate.github.io/documentation-public/state/ci/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AppVeyor</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/appveyor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/appveyor/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process with AppVeyor, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
+Gathering environment variable settings Before you begin:</description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/jenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/jenkins/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Jenkins, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
+Gathering environment variable settings Before you begin:</description>
+    </item>
+    
+    <item>
+      <title>Travis</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/travis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/travis/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
+NOTE: Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
+    </item>
+    
+  </channel>
+</rss>

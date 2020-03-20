@@ -28,11 +28,6 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/</loc>
-    <lastmod>2020-02-18T21:16:16-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://activestate.github.io/documentation-public/start/state-tool/</loc>
     <lastmod>2020-02-19T12:26:09-08:00</lastmod>
   </url>
@@ -50,16 +45,6 @@
   <url>
     <loc>https://activestate.github.io/documentation-public/start/security/</loc>
     <lastmod>2020-02-19T12:26:09-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://activestate.github.io/documentation-public/state/start/</loc>
-    <lastmod>2020-02-18T21:16:16-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://activestate.github.io/documentation-public/state/ci/</loc>
-    <lastmod>2020-02-18T21:16:16-08:00</lastmod>
   </url>
   
   <url>
@@ -83,18 +68,12 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/activate/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://activestate.github.io/documentation-public/</loc>
     <lastmod>2020-02-19T12:26:09-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/auth/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/state/ci/appveyor/</loc>
   </url>
   
   <url>
@@ -107,13 +86,17 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/datetime/</loc>
-    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/state/commands/activate/</loc>
+    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/email/</loc>
-    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/state/commands/auth/</loc>
+    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/state/commands/clean/</loc>
   </url>
   
   <url>
@@ -132,8 +115,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/help/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/state/commands/history/</loc>
   </url>
   
   <url>
@@ -142,8 +124,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/organizations/</loc>
-    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/state/commands/languages/</loc>
   </url>
   
   <url>
@@ -154,6 +135,10 @@
   <url>
     <loc>https://activestate.github.io/documentation-public/state/commands/packages/</loc>
     <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/state/commands/platforms/</loc>
   </url>
   
   <url>
@@ -192,6 +177,40 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/state/commands/update/</loc>
+    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/prefs/datetime/</loc>
+    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/prefs/email/</loc>
+    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/state/start/</loc>
+    <lastmod>2020-02-18T21:16:16-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/state/ci/jenkins/</loc>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/prefs/organizations/</loc>
+    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/state/</loc>
+    <lastmod>2020-02-18T21:16:16-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/tags/</loc>
   </url>
   
@@ -201,13 +220,16 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/state/ci/travis/</loc>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/prefs/twofactor/</loc>
     <lastmod>2020-02-19T12:26:09-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/update/</loc>
-    <lastmod>2020-02-18T12:29:40-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/state/ci/</loc>
   </url>
   
 </urlset>

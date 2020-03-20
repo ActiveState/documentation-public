@@ -1,0 +1,1971 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.63.2" />
+    <meta name="description" content="Documentation for the ActiveState Platform">
+<meta name="author" content="ActiveState">
+
+    <link rel="icon" href="/documentation-public/images/favicon.png" type="image/png">
+
+    <title>Command: clean :: ActiveState Platform Documentation</title>
+
+    
+    <link href="/documentation-public/css/nucleus.css?1584724886" rel="stylesheet">
+    <link href="/documentation-public/css/fontawesome-all.min.css?1584724886"
+        rel="stylesheet">
+    <link href="/documentation-public/css/hybrid.css?1584724886" rel="stylesheet">
+    <link href="/documentation-public/css/featherlight.min.css?1584724886" rel="stylesheet">
+    <link href="/documentation-public/css/perfect-scrollbar.min.css?1584724886"
+        rel="stylesheet">
+    <link href="/documentation-public/css/auto-complete.css?1584724886" rel="stylesheet">
+    <link href="/documentation-public/css/atom-one-dark-reasonable.css?1584724886"
+        rel="stylesheet">
+    <link href="/documentation-public/css/theme.css?1584724886" rel="stylesheet">
+    <link href="/documentation-public/css/hugo-theme.css?1584724886" rel="stylesheet">
+    
+    <link href="/documentation-public/css/theme-activestate.css?1584724886"
+        rel="stylesheet">
+    
+
+    <script src="/documentation-public/js/jquery-3.3.1.min.js?1584724886"></script>
+
+    <style>
+        :root #header+#content>#left>#rlblock_left {
+            display: none !important;
+        }
+
+            {
+                {
+                if .Site.Params.disableInlineCopyToClipBoard
+            }
+        }
+
+        :not(pre)>code+span.copy-to-clipboard {
+            display: none;
+        }
+
+            {
+                {
+                end
+            }
+        }
+    </style>
+    
+</head>
+
+<body class="" data-url="/documentation-public/state/commands/clean/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	y="0px" viewBox="0 0 792 265" style="enable-background:new 0 0 792 265;" xml:space="preserve">
+	<style type="text/css">
+		.st0 {
+			fill: #FFFFFF;
+		}
+
+		.st1 {
+			font-family: 'Impact';
+		}
+
+		.st2 {
+			font-size: 120px;
+		}
+
+		.st3 {
+			font-size: 85px;
+		}
+
+		.st4 {
+			font-family: 'Roboto';
+			font-weight: 300;
+		}
+	</style>
+	<text transform="matrix(1 0 0 1 111 134)" class="st0 st1 st2">ActiveState</text>
+	<text transform="matrix(1 0 0 1 107 230)" class="st0 st4 st3">Documentation</text>
+</svg>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/documentation-public/js/lunr.min.js?1584724886"></script>
+<script type="text/javascript" src="/documentation-public/js/auto-complete.js?1584724886"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/activestate.github.io\/documentation-public\/";
+    
+</script>
+<script type="text/javascript" src="/documentation-public/js/search.js?1584724886"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/start/" title="Quick Start Guides" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/documentation-public/start/">
+          Quick Start Guides
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/start/platform/" title="ActiveState Platform" class="dd-item ">
+        <a href="/documentation-public/start/platform/">
+        ActiveState Platform
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/start/managed/" title="ActiveState managed projects" class="dd-item ">
+        <a href="/documentation-public/start/managed/">
+        ActiveState managed projects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/start/build/" title="Custom language runtimes" class="dd-item ">
+        <a href="/documentation-public/start/build/">
+        Custom language runtimes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/start/state-tool/" title="State Tool CLI" class="dd-item ">
+        <a href="/documentation-public/start/state-tool/">
+        State Tool CLI
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/start/security/" title="Security and Compliance" class="dd-item ">
+        <a href="/documentation-public/start/security/">
+        Security and Compliance
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/prefs/" title="Preferences" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/documentation-public/prefs/">
+          Preferences
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/prefs/password/" title="Change Password" class="dd-item ">
+        <a href="/documentation-public/prefs/password/">
+        Change Password
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/prefs/datetime/" title="Date &amp; Time" class="dd-item ">
+        <a href="/documentation-public/prefs/datetime/">
+        Date &amp; Time
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/prefs/email/" title="Email Addresses" class="dd-item ">
+        <a href="/documentation-public/prefs/email/">
+        Email Addresses
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/prefs/organizations/" title="Organizations" class="dd-item ">
+        <a href="/documentation-public/prefs/organizations/">
+        Organizations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/prefs/twofactor/" title="Two-factor Authentication" class="dd-item ">
+        <a href="/documentation-public/prefs/twofactor/">
+        Two-factor Authentication
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/style/" title="Style Guide" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/documentation-public/style/">
+          Style Guide
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/contributions/" title="Contributing" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/documentation-public/contributions/">
+          Contributing
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/contributions/pull-requests/" title="Opening pull requests" class="dd-item ">
+        <a href="/documentation-public/contributions/pull-requests/">
+        Opening pull requests
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/contributions/code/" title="Code contributions" class="dd-item ">
+        <a href="/documentation-public/contributions/code/">
+        Code contributions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/contributions/documentation/" title="Documentation contributions" class="dd-item ">
+        <a href="/documentation-public/contributions/documentation/">
+        Documentation contributions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/state/" title="State Tool" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/documentation-public/state/">
+          State Tool
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/state/commands/" title="Command Reference" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/documentation-public/state/commands/">
+          Command Reference
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/activate/" title="Command: activate" class="dd-item ">
+        <a href="/documentation-public/state/commands/activate/">
+        Command: activate
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/auth/" title="Command: auth" class="dd-item ">
+        <a href="/documentation-public/state/commands/auth/">
+        Command: auth
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/clean/" title="Command: clean" class="dd-item active">
+        <a href="/documentation-public/state/commands/clean/">
+        Command: clean
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/events/" title="Command: events" class="dd-item ">
+        <a href="/documentation-public/state/commands/events/">
+        Command: events
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/export/" title="Command: export" class="dd-item ">
+        <a href="/documentation-public/state/commands/export/">
+        Command: export
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/fork/" title="Command: fork" class="dd-item ">
+        <a href="/documentation-public/state/commands/fork/">
+        Command: fork
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/history/" title="Command: history" class="dd-item ">
+        <a href="/documentation-public/state/commands/history/">
+        Command: history
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/init/" title="Command: init" class="dd-item ">
+        <a href="/documentation-public/state/commands/init/">
+        Command: init
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/languages/" title="Command: languages" class="dd-item ">
+        <a href="/documentation-public/state/commands/languages/">
+        Command: languages
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/organizations/" title="Command: organizations" class="dd-item ">
+        <a href="/documentation-public/state/commands/organizations/">
+        Command: organizations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/packages/" title="Command: packages" class="dd-item ">
+        <a href="/documentation-public/state/commands/packages/">
+        Command: packages
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/platforms/" title="Command: platforms" class="dd-item ">
+        <a href="/documentation-public/state/commands/platforms/">
+        Command: platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/projects/" title="Command: projects" class="dd-item ">
+        <a href="/documentation-public/state/commands/projects/">
+        Command: projects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/pull/" title="Command: pull" class="dd-item ">
+        <a href="/documentation-public/state/commands/pull/">
+        Command: pull
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/push/" title="Command: push" class="dd-item ">
+        <a href="/documentation-public/state/commands/push/">
+        Command: push
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/run/" title="Command: run" class="dd-item ">
+        <a href="/documentation-public/state/commands/run/">
+        Command: run
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/scripts/" title="Command: scripts" class="dd-item ">
+        <a href="/documentation-public/state/commands/scripts/">
+        Command: scripts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/secrets/" title="Command: secrets" class="dd-item ">
+        <a href="/documentation-public/state/commands/secrets/">
+        Command: secrets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/show/" title="Command: show" class="dd-item ">
+        <a href="/documentation-public/state/commands/show/">
+        Command: show
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/commands/update/" title="Command: update" class="dd-item ">
+        <a href="/documentation-public/state/commands/update/">
+        Command: update
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/start/" title="Getting Started" class="dd-item ">
+        <a href="/documentation-public/state/start/">
+        Getting Started
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/state/ci/" title="Using State Tool on CI/CD" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/documentation-public/state/ci/">
+          Using State Tool on CI/CD
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/ci/appveyor/" title="AppVeyor" class="dd-item ">
+        <a href="/documentation-public/state/ci/appveyor/">
+        AppVeyor
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/ci/jenkins/" title="Jenkins" class="dd-item ">
+        <a href="/documentation-public/state/ci/jenkins/">
+        Jenkins
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/documentation-public/state/ci/travis/" title="Travis" class="dd-item ">
+        <a href="/documentation-public/state/ci/travis/">
+        Travis
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://platform.activestate.com/">ActiveState Platform</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://gohugo.io/documentation/">Hugo docs</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://github.com/matcornic/hugo-theme-learn/">Learn theme</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://github.com/activestate/documentation-public"><i class='fab fa-fw fa-github'></i> GitHub repo</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+    <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+            
+            <div>
+                <div id="top-bar">
+                    
+                    
+                    
+                    
+                    <div id="top-github-link">
+                        <a class="github-link" title='Edit this page'
+                            href="https://github.com/ActiveState/documentation-public/tree/master/content/state/commands/clean.md"
+                            target="blank">
+                            <i class="fas fa-pencil-alt"></i>
+                            <span id="top-github-link-text">Edit this page</span>
+                        </a>
+                    </div>
+                    
+                    
+                    
+                    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                        <span id="sidebar-toggle-span">
+                            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </span>
+                        
+                        <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                        
+                        <span class="links">
+                            
+                            
+                            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a href='/documentation-public/'>ActiveState Platform documentation</a> > <a href='/documentation-public/state/'>State Tool</a> > <a href='/documentation-public/state/commands/'>Command Reference</a> > Command: clean
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            
+                        </span>
+                    </div>
+                    
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#related-information">Related Information</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                    
+                </div>
+            </div>
+            
+            <div id="head-tags">
+                
+            </div>
+            
+                <div id="body-inner">
+                    
+                    <h1>
+                        
+                        Command: clean
+                    </h1>
+                    
+
+                    
+
+<p>The <code>clean</code> command enables you to completely remove the State Tool, any installed languages, and any configuration files.</p>
+<h2 id="usage">Usage</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">state clean
+</code></pre></div><p>You can use the optional <code>--force</code> or <code>'-f</code> flag to execute the command without any confirmation prompts.</p>
+<p>If you want to access the latest version, you do not have to uninstall the current version. You just need to run the <code>state update</code> command.</p>
+<h2 id="related-information">Related Information</h2>
+<p><a href="/state/update.html">update Command</a></p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/documentation-public/state/commands/auth/" title="Command: auth"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/documentation-public/state/commands/events/" title="Command: events" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/documentation-public/js/clipboard.min.js?1584724886"></script>
+    <script src="/documentation-public/js/perfect-scrollbar.min.js?1584724886"></script>
+    <script src="/documentation-public/js/perfect-scrollbar.jquery.min.js?1584724886"></script>
+    <script src="/documentation-public/js/jquery.sticky.js?1584724886"></script>
+    <script src="/documentation-public/js/featherlight.min.js?1584724886"></script>
+    <script src="/documentation-public/js/highlight.pack.js?1584724886"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/documentation-public/js/modernizr.custom-3.6.0.js?1584724886"></script>
+    <script src="/documentation-public/js/learn.js?1584724886"></script>
+    <script src="/documentation-public/js/hugo-learn.js?1584724886"></script>
+
+    <link href="/documentation-public/mermaid/mermaid.css?1584724886" rel="stylesheet" />
+    <script src="/documentation-public/mermaid/mermaid.js?1584724886"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

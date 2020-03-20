@@ -1,5 +1,5 @@
 ---
-title: "show"
+title: "Command: show"
 ---
 
 The `show` command displays information about the current project, or a specified remote project. The following information is displayed:
