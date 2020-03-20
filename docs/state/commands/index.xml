@@ -109,8 +109,8 @@ Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; &amp;lt;Lang
       
       <guid>https://activestate.github.io/documentation-public/state/commands/languages/</guid>
       <description>The languages command lists the languages in your project, and allows you to update the specified languages.
-IMPORTANT: In order to build your project successfully, only one language can be specified.
-Usage To list the languages in your project:
+In order to build your project successfully, only one language can be specified.
+ Usage To list the languages in your project:
 state languages To update a language:
 state languages update &amp;lt;Language[@version]&amp;gt; Use the Language argument to specify the language distribution the project should use. You must specify one of the following:
  perl python  You can also optionally specify the version to use by appending @version to the language with the specific version number you want to use.</description>

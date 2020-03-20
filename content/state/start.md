@@ -10,7 +10,7 @@ For information on installing the State Tool, see [installation guide](/state#in
 
 The State Tool cannot do anything without a project, everything lives under your project.
 
-You can create your project either via the State Tool itself via the [state init](/state/init.html) command or by going directly to the ActiveState Platform Dashboard and creating it there. Since you probably still need an account let’s go with the latter.
+You can create your project either via the State Tool itself via the [state init](/state/commands/init) command or by going directly to the ActiveState Platform Dashboard and creating it there. Since you probably still need an account let’s go with the latter.
 
 Head over to http://platform.activestate.com and create an account if you don’t already have one, otherwise just login.
 
@@ -26,7 +26,7 @@ state auth
 
 You will be prompted for your username and password, and if all goes well it should show a friendly “You have authenticated” message. 
 
-Now we’re ready to activate our project. Run the [state activate](activate.html) command:
+Now we’re ready to activate our project. Run the [state activate](/state/commands/activate) command:
 
 ```text
 state activate owner/projectName
@@ -34,7 +34,7 @@ state activate owner/projectName
 
 The owner would be your username or if you created your project in an organization then instead of your username you can use the organization name.
 
-This will create a new project folder under the current working directory containing an “activestate.yaml” file with some essentials. The State Tool will “activate” under this new project directory. This is a brand new project though and being in an “activated state” doesn’t mean much yet, so let’s deactivate by executing the `exit` command (or hit `Ctrl+D`).
+This will create a new project folder under the current working directory containing an `activestate.yaml` file with some essentials. The State Tool will “activate” under this new project directory. This is a brand new project though and being in an “activated state” doesn’t mean much yet, so let’s deactivate by executing the `exit` command (or hit `Ctrl+D`).
 
 Now when you want to work on your project again you can run the same `state activate owner/projectName` command again from anywhere and you’ll be entered into an activated state under your project directory. Alternatively you can manually enter into your project directory and run `state activate` without any other arguments.
 
@@ -110,7 +110,7 @@ This will still define the secret for everyone on the project, but only you will
 
 ### Retrieving secrets
 
-Now that we have a secret defined we can start using it. To view secrets that exist for your current project you can run the [state secrets](secrets.html) command. This will produce a concise list of secrets, their “scope” (user or project) as well as a usage example (what you would use to set or retrieve their value).
+Now that we have a secret defined we can start using it. To view secrets that exist for your current project you can run the [state secrets](/state/commands/secrets) command. This will produce a concise list of secrets, their “scope” (user or project) as well as a usage example (what you would use to set or retrieve their value).
 
 To retrieve the value of a secret run:
 
@@ -176,7 +176,7 @@ See the section on [Constraining Scripts](#constraining-scripts) for information
 
 ### Calling Scripts From Other Scripts
 
-Calling one script from another is fairly straight forward, you can access scripts as "variables" the same as many other activestate.yaml structures. Let's let the code do the talking:
+Calling one script from another is fairly straight forward, you can access scripts as "variables" the same as many other `activestate.yaml` structures. Let's let the code do the talking:
 
 ```text
 scripts:
@@ -192,7 +192,7 @@ scripts:
 
 When you execute `state run greeting` it will inject the value of the "hello" script into the "greeting" script. The resulting code that ends up being ran would look like this"
 
-```python
+```text
 print("Hello World")
 print("How are you doing?")
 ```

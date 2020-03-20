@@ -12,4 +12,4 @@ state events
 
 ## Related Information
 
-[Events](/state/start.html#events)
+[Events](/state/start#events)

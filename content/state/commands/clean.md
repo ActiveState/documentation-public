@@ -16,4 +16,4 @@ If you want to access the latest version, you do not have to uninstall the curre
 
 ## Related Information
 
-[update Command](/state/update.html)
+[update Command](/state/commands/update)

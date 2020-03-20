@@ -23,7 +23,7 @@ You can learn the State Tool command line interactively using the `--help` flag.
 
 For example, the following commands provide increasing detail about the `state secretes set` subcommand:
 
-```
+```text
 # list information about the available commands
 state --help
 
@@ -37,7 +37,9 @@ state secrets set --help
 
 ## Installing the State Tool
 
-**Note**: Currently, the State Tool is supported for ActivePython and ActivePerl projects on Linux and Windows. Upcoming releases will support macOS and additional languages.
+{{% notice note %}}
+Currently, the State Tool is supported for ActivePython and ActivePerl projects on Linux and Windows. Upcoming releases will support macOS and additional languages.
+{{% /notice %}}
 
 ### Installation on Linux
 
@@ -52,7 +54,9 @@ You should have `curl` installed before you can run the script to install the St
 
 ### Installation on Windows
 
-**Important**: The State Tool installation requires PowerShell version 3.0 or higher. On older versions of Windows you will need to manually upgrade PowerShell to a supported version before completing the installation. For more information, see [Upgrading existing Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell?view=powershell-7#upgrading-existing-windows-powershell).
+{{% notice info %}}
+The State Tool installation requires PowerShell version 3.0 or higher. On older versions of Windows you will need to manually upgrade PowerShell to a supported version before completing the installation. For more information, see [Upgrading existing Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell?view=powershell-7#upgrading-existing-windows-powershell).
+{{% /notice %}}
 
 1. Start PowerShell as an Administrator. Click the **Start** menu, search for **Windows PowerShell**, right click it and select **Run as Administrator**.
 2. At the prompt, enter the following command:
@@ -64,7 +68,9 @@ You should have `curl` installed before you can run the script to install the St
     The latest version of the State Tool will be downloaded, verified, and installed.
 3. Start your command prompt (`cmd.exe`) to use the State Tool. Click the Start menu, search for Command Prompt, and click the menu item.
 
-**Important**: Currently, you cannot run the State Tool in PowerShell. You must use the command prompt (`cmd.exe`). Support for PowerShell is coming soon.
+{{% notice note %}}
+Currently, you cannot run the State Tool in PowerShell. You must use the command prompt (`cmd.exe`). Support for PowerShell is coming soon.
+{{% /notice %}}
 
 ## Usage
 
@@ -104,32 +110,32 @@ You can use the following mechanisms to customize the configuration of your  pro
 - **Scripts**: Name and define scripts that you can run within your project by typing the name of the script. 
 - **Events**: Run scripts or commands when particular State Tool events occur. For example, you can hook into the State Tool ACTIVATE event to start up the database server for your development environment.
 
-For more detailed information and examples, see [Getting Started](/state/start.html). 
+For more detailed information and examples, see [Getting Started](/state/start). 
 
 ## Command Reference
 
 This release of the State Tool includes a number of commands for interacting with the ActiveState Platform and your projects. For the complete list run `state help`, or run `state <command_name> help` for help with a particular command.
 
-- [activate](activate.html)
-- [auth](auth.html)
-- [clean](clean.html)
-- [events](events.html)
-- [export](export.html)
-- [fork](fork.html)
-- [history](history.html)
-- [init](init.html)
-- [languages](languages.html)
-- [organizations](organizations.html)
-- [packages](packages.html)
-- [platforms](platforms.html)
-- [projects](projects.html)
-- [pull](pull.html)
-- [push](push.html)
-- [run](run.html)
-- [scripts](scripts.html)
-- [secrets](secrets.html)
-- [show](show.html)
-- [update](update.html)
+- [activate](/state/commands/activate)
+- [auth](/state/commands/auth)
+- [clean](/state/commands/clean)
+- [events](/state/commands/events)
+- [export](/state/commands/export)
+- [fork](/state/commands/fork)
+- [history](/state/commands/history)
+- [init](/state/commands/init)
+- [languages](/state/commands/languages)
+- [organizations](/state/commands/organizations)
+- [packages](/state/commands/packages)
+- [platforms](/state/commands/platforms)
+- [projects](/state/commands/projects)
+- [pull](/state/commands/pull)
+- [push](/state/commands/push)
+- [run](/state/commands/run)
+- [scripts](/state/commands/scripts)
+- [secrets](/state/commands/secrets)
+- [show](/state/commands/show)
+- [update](/state/commands/update)
 
 ## Logging and configuration
 
@@ -154,4 +160,4 @@ The language runtimes used by your activated projects are stored in subfolders u
 
 ## Uninstalling the State Tool
 
-You can uninstall the State Tool by running the `state clean` command. For more information, see the [command reference](/state/clean.html).
+You can uninstall the State Tool by running the `state clean` command. For more information, see the [command reference](/state/commands/clean).

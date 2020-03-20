@@ -4,8 +4,6 @@ title: "Command: platforms"
 
 The `platforms` command lists the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform. 
 
-
-
 ## Usage
 
 To list the platforms in your project:
@@ -34,8 +32,7 @@ To remove a platform:
 state platforms remove [--bit-width 32|64] <platform> <version>
 ```
 
-
-## Examples:
+## Examples
 
 The output of `state platforms` is a list of configured platforms. Bit Width indicates whether the platform supports the 32-bit or 64-bit version of an operating system.
 
@@ -48,12 +45,12 @@ Platforms:
 
 Add a Windows 10 platform:
 
-```
+```text
 state platforms add Windows 10.0.14393
 ```
 
 Remove a Linux platform
 
-```
+```text
 state platforms remove Linux 
 ```

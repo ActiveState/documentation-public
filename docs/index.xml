@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
-      <description>&lt;p&gt;&amp;laquo; Need to add an intro here. &amp;raquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This quick start covers the first steps to take after you sign up for the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,15 +52,6 @@ IEX(New-Object Net.WebClient).downloadString(&amp;#39;https://platform.activesta
     </item>
     
     <item>
-      <title>Security and Compliance</title>
-      <link>https://activestate.github.io/documentation-public/start/security/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/start/security/</guid>
-      <description>&lt;p&gt;Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Opening pull requests</title>
       <link>https://activestate.github.io/documentation-public/contributions/pull-requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -85,6 +76,17 @@ IEX(New-Object Net.WebClient).downloadString(&amp;#39;https://platform.activesta
       
       <guid>https://activestate.github.io/documentation-public/contributions/documentation/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Adding Secrets to your project</title>
+      <link>https://activestate.github.io/documentation-public/projects/secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/projects/secrets/</guid>
+      <description>Secrets are for sensitive information that needs to be shared between environments and people working on a project. For example, you can securely store API keys and database passwords using secrets. Secrets are client-side encrypted values, meaning that they are not stored on our servers and ActiveState cannot access your secret values.
+To add a secret to your project:
+ In Your Dashboard, select the organization that contains the project you want to add a secret to and then click the Projects tab, or click the Projects tab in your dashboard to add a secret to a personal project.</description>
     </item>
     
     <item>
@@ -205,8 +207,8 @@ Usage state init &amp;lt;owner&amp;gt;/&amp;lt;project_name&amp;gt; &amp;lt;Lang
       
       <guid>https://activestate.github.io/documentation-public/state/commands/languages/</guid>
       <description>The languages command lists the languages in your project, and allows you to update the specified languages.
-IMPORTANT: In order to build your project successfully, only one language can be specified.
-Usage To list the languages in your project:
+In order to build your project successfully, only one language can be specified.
+ Usage To list the languages in your project:
 state languages To update a language:
 state languages update &amp;lt;Language[@version]&amp;gt; Use the Language argument to specify the language distribution the project should use. You must specify one of the following:
  perl python  You can also optionally specify the version to use by appending @version to the language with the specific version number you want to use.</description>
@@ -331,6 +333,27 @@ Usage state update state update --lock state update Checks for a new version and
     </item>
     
     <item>
+      <title>Creating custom projects</title>
+      <link>https://activestate.github.io/documentation-public/projects/custom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/projects/custom/</guid>
+      <description>You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.
+ Open your web browser and navigate to http://platform.activestate.comand sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
+    </item>
+    
+    <item>
+      <title>Creating projects from requirements.txt files</title>
+      <link>https://activestate.github.io/documentation-public/projects/requirements-txt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/projects/requirements-txt/</guid>
+      <description>If you have an existing Python project that you want to add to the Platform, you can export a requirements.txt file to get a list of packages and versions to import into your Platform project, or you can type in the list of packages and versions manually.
+Generating requirements.txt files To generate a requirements.txt file:
+  You can write out the requirements for an existing project to a requirements.txt file using one of the following commands at your command prompt:</description>
+    </item>
+    
+    <item>
       <title>Date &amp; Time</title>
       <link>https://activestate.github.io/documentation-public/prefs/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -346,6 +369,28 @@ Usage state update state update --lock state update Checks for a new version and
       
       <guid>https://activestate.github.io/documentation-public/prefs/email/</guid>
       <description>&lt;p&gt;You can add or change the email addresses associated with your ActiveState Platform account.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Featured Projects: ActiveState Community Edition projects</title>
+      <link>https://activestate.github.io/documentation-public/projects/featured-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/projects/featured-projects/</guid>
+      <description>A number of Community Edition language distributions are available on the Featured Projects page for ActivePerl, ActivePython, and ActiveTcl. These are ActiveState Platform projects, maintained by ActiveState.
+  Navigate to the Featured Projects page at https://platform.activestate.com/featured-projects.
+  Browse the list of available projects and click the operating system image for the language distribution you want to download.
+  If you are not signed in to the Platform, you will be redirected to the Sign In page:</description>
+    </item>
+    
+    <item>
+      <title>Forking projects</title>
+      <link>https://activestate.github.io/documentation-public/projects/forks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/projects/forks/</guid>
+      <description>Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.
+To fork a project:</description>
     </item>
     
     <item>
@@ -368,6 +413,16 @@ You can create your project either via the State Tool itself via the state init 
       <guid>https://activestate.github.io/documentation-public/state/ci/jenkins/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Jenkins, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Gathering environment variable settings Before you begin:</description>
+    </item>
+    
+    <item>
+      <title>Managing Organizations</title>
+      <link>https://activestate.github.io/documentation-public/organizations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/</guid>
+      <description>Creating Organizations Organizations allow you to group your projects and the users permitted access to those projects. Every project belongs to an organization, and each organization is separate. An organization has one or more members. You can create, or be invited to, more than one organization. For example, you could create an organization for your personal work or side project, and also be invited to join your company&amp;rsquo;s organization.
+To create an organization:</description>
     </item>
     
     <item>

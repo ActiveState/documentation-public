@@ -61,7 +61,8 @@ The private key environment variable expects the contents of the `private.key` f
     1. Select **Settings** from the top-right menu.
     2. Toggle the switch next to the repository you want to enable.
     3. Click **Settings** next to the repository you want to enable
-    4. Under **Environment Variables**, enter the name and value for each API key you want to use and click **Add**. For information on the required values, see [Generating an API key](#generating-an-api-key) and, if applicable, [Configuring your private key](#configuring-your-private-key).
+    4. Under **Environment Variables**, enter the name and value for each API key you want to use and click **Add**. For information on the required values, see [Obtaining your API key](#obtaining-your-api-key) and, if applicable, [Obtaining your private key](#obtaining
+    -your-private-key).
     **IMPORTANT**: The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.<br><br>
     ![](/images/travis-env-var.png)
 
@@ -81,9 +82,9 @@ The private key environment variable expects the contents of the `private.key` f
 
 You can use either the Dashboard or the State Tool to create a new project and add the language, platforms, and packages your project requires. Set up your project by:
     
-* [Creating a new custom project](/projects/custom-builds/index.html)
-* [Copying and editing (forking) an ActiveState project](/projects/forking/index.html)
-* Use the [state init](/state/init.html) and [state packages](/state/packages.html) commands to create a new project and add the language, platforms (operating systems), and package requirements your code project needs. 
+* [Creating a new custom project](/projects/custom)
+* [Copying and editing (forking) an ActiveState project](/projects/forks)
+* Use the [state init](/state/commands/init) and [state packages](/state/commands/packages) commands to create a new project and add the language, platforms (operating systems), and package requirements your code project needs. 
 
 ## Configure activestate.yaml
 
@@ -92,7 +93,7 @@ After you create an ActiveState project, complete the following steps to activat
 1. Open your command prompt and navigate to the top level folder where you want to create your ActiveState Platform project.
 2. Enter `state activate <owner/project_name>`. For example: `state activate acmetech/python-3-6-6`.
 3. Copy the `activestate.yaml` configuration file to the root directory of your code repository.
-4. Edit the `activestate.yaml` to add any scripts, variables, or secrets you want CI/CD to run or have access to. For more information on these options, see [Getting started](/state/start.html).
+4. Edit the `activestate.yaml` to add any scripts, variables, or secrets you want CI/CD to run or have access to. For more information on these options, see [Getting started](/state/start).
 5. Add `activestate.yaml` to the repository and check in your changes.
 
 ## Add a .travis.yml file

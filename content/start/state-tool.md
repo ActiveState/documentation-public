@@ -98,7 +98,7 @@ state activate
 
 ### Access documentation for CLI commands
 
-To learn more about the State Tool commands, run state --help in the terminal.
+To learn more about the State Tool commands, run `state --help` in the terminal.
 
 For help on individual commands, run `state COMMAND --help`. For example, `state packages --help`.
 

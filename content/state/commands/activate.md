@@ -21,7 +21,7 @@ Use the `path` flag to specify the directory to activate the project in, so you 
 
 You can run `state activate` without any arguments if you are inside a directory that has an `activestate.yaml` configuration file in its parent directory structure. This will activate that `activatestate.yaml`.
 
-### state activate `<owner/projectName>`
+### state activate <owner/projectName>
 
 This will activate a project for the first time, or from a directory other than the project directory.
 

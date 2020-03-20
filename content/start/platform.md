@@ -2,7 +2,8 @@
 title: "ActiveState Platform"
 weight: 1
 ---
-<< Need to add an intro here. >><!--more-->
+This quick start covers the first steps to take after you sign up for the ActiveState Platform.<!--more-->
+
 ## Joining your first Organization
 
 When a colleague or ActiveState employee invites you to join the ActiveState Platform you will receive an email invitation to join a specific organization. You need to create your account for the ActiveState Platform and confirm that you want to join the organization.

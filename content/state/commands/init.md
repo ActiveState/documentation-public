@@ -14,9 +14,9 @@ The "owner" argument is your username or the organization name that the project 
 
 Use the `Language` argument to specify the language distribution the project should use. You must specify one of the following:
 
-- perl
-- python3
-- python2
+* perl
+* python3
+* python2
 
 You can also optionally specify the version to use by appending `@version` to the language with the specific version number you want to use. If you don't specify a version, the latest available version for that language will be used.
 
@@ -34,4 +34,4 @@ state push
 
 ## Related Information
 
-[push Command](/state/push.html)
+[push Command](/state/commands/push)

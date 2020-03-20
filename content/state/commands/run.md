@@ -24,5 +24,5 @@ hello world
 
 ## Related Information
 
-- [Scripts](start.html#scripts)
-- [scripts Command](scripts.html)
+- [Scripts](/state/start#scripts)
+- [scripts Command](/state/commands/scripts)

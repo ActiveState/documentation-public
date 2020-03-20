@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
-      <description>&lt;p&gt;&amp;laquo; Need to add an intro here. &amp;raquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This quick start covers the first steps to take after you sign up for the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,15 +49,6 @@ sh &amp;lt;(curl -q https://platform.activestate.com/dl/cli/install.sh) On Windo
   Run the following as Administrator in PowerShell:
 IEX(New-Object Net.WebClient).downloadString(&amp;#39;https://platform.activestate.com/dl/cli/install.ps1&amp;#39;)   Start the command prompt (cmd.exe) to use the State Tool.
   Sign in to the ActiveState Platform If you don&amp;rsquo;t have a Platform account yet, you need to sign up:</description>
-    </item>
-    
-    <item>
-      <title>Security and Compliance</title>
-      <link>https://activestate.github.io/documentation-public/start/security/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/start/security/</guid>
-      <description>&lt;p&gt;Security &amp;amp; Compliance enables you to automatically identify out-of-date or unsecure Python packages running in your environment. To begin, you need to complete a few configuration steps to specify the applications to scan and how to organize the scan results in the Platform.&lt;/p&gt;</description>
     </item>
     
   </channel>

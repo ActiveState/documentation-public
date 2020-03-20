@@ -6,7 +6,7 @@ The `packages` command allows you to manage the packages within an ActiveState P
 
 ## Usage
 
-```
+```text
 state packages
 
 state packages add <name[@version]>

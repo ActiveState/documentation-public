@@ -11,10 +11,10 @@ You can use two-factor authentication to secure your ActiveState Platform accoun
 To turn on two-factor authentication:
 
 1. Click menu at the top right of the page that displays your username, and select **Account Settings**.
-1. Click the **Two-factor Authentication** link and then click **Enable**.
-1. Open the two-factor authentication app on your mobile device and scan the QR code that is displayed on screen.
+2. Click the **Two-factor Authentication** link and then click **Enable**.
+3. Open the two-factor authentication app on your mobile device and scan the QR code that is displayed on screen.
   ![QR Code Example](/images/qrcode.png)
-1. Enter your six-digit code in the text box and click **Confirm**.
+4. Enter your six-digit code in the text box and click **Confirm**.
 
 If you six-digit code is validated, two-factor authentication is enabled for your account. Two-factor authentication requires that you enter both your password and the current six-digit code displayed in your two-factor authentication app each time you log in.
 
@@ -25,7 +25,7 @@ You can turn off two-factor authentication at any time.
 To turn off two-factor authentication:
 
 1. Log into the Platform using your two-factor authentication code.
-1. Click menu at the top right of the page that displays your username, and select **Account Settings**.
-1. Click the **Two-factor Authentication** link and then click **Disable**.
+2. Click menu at the top right of the page that displays your username, and select **Account Settings**.
+3. Click the **Two-factor Authentication** link and then click **Disable**.
 
 You will not be prompted for a two-factor code the next time you log in.
