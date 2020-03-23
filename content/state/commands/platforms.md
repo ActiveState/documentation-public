@@ -1,8 +1,8 @@
 ---
-title: "Command: platforms"
+title: platforms
 ---
 
-The `platforms` command lists the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform. 
+List the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform.<!--more--> 
 
 ## Usage
 

@@ -1,8 +1,8 @@
 ---
-title: "Command: languages"
+title: languages
 ---
 
-The `languages` command lists the languages in your project, and allows you to update the specified languages.
+List the languages in your project, and allows you to update the specified languages.<!--more-->
 
 {{% notice note %}}
 In order to build your project successfully, only one language can be specified.

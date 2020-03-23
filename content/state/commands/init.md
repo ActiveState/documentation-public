@@ -1,8 +1,8 @@
 ---
-title: "Command: init"
+title: init
 ---
 
-The `init` command enables you to create a new empty project on your local machine. Once the project is created locally, use the `push` command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.
+Create a new ActiveState Platform project.<!--more--> Once the project is created locally, use the `push` command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.
 
 ## Usage
 

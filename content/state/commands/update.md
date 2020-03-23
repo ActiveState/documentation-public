@@ -1,8 +1,8 @@
 ---
-title: "Command: update"
+title: update
 ---
 
-Updates the State Tool to the latest available version.
+Update the State Tool to the latest available version.<!--more-->
 
 The `update` command allows you to download the latest release of the State Tool on demand. By default, the state tool checks for an updated version on a regular basis. 
 

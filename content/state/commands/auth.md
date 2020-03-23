@@ -1,8 +1,8 @@
 ---
-title: "Command: auth"
+title: auth
 ---
 
-The `auth` command allows you to authenticate your account on the ActiveState Platform.
+Authenticate your account on the ActiveState Platform.<!--more-->
 
 ## Usage
 

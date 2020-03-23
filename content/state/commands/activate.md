@@ -1,8 +1,8 @@
 ---
-title: "Command: activate"
+title: "activate"
 ---
 
-The `activate` command allows you to activate an ActiveState project on your local computer. Activating is the process of downloading the build associated with the project, which includes the language interpreter and the set of packages selected for the project, and creating a virtual environment for the interpreter to run in. 
+Activate an ActiveState Platform project on your local computer.<!--more--> Activating is the process of downloading the build associated with the project, which includes the language interpreter and the set of packages selected for the project, and creating a virtual environment for the interpreter to run in. 
 
 For example, when you run `state activate ActiveState/ActivePython-3.6`, ActivePython 3.6 and all selected packages are installed and configured, and a virtual environment is created. This allows you to run code in the project directory using your specific project configuration. 
 

@@ -1,8 +1,8 @@
 ---
-title: "Command: export"
+title: export
 ---
 
-The `export` command allows you to export the contents of the JSON Web Token (JWT) you are using to authenticate with the Platform, or the build recipe (the set of packages and operating system settings) used by your project.
+Export JWT or recipe information.<!--more--> You can export the contents of the JSON Web Token (JWT) you are using to authenticate with the Platform, or the build recipe (the set of packages and operating system settings) used by your project.
 
 ## Usage 
 

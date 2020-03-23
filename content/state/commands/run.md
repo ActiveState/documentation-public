@@ -1,8 +1,8 @@
 ---
-title: "Command: run"
+title: run
 ---
 
-The `run` command allows you to manually run scripts you have defined for your projects by name. Script names are case-sensitive.
+Manually run scripts you have defined for your projects by name.<!--more--> Script names are case-sensitive.
 
 ## Usage
 

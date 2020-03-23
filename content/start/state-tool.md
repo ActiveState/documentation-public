@@ -1,9 +1,9 @@
 ---
 title: "State Tool CLI"
-weight: 4
+weight: 5
 ---
 
-This quick start is for intermediate or advanced developers who want to get up and running right away.
+This quick start is for intermediate or advanced developers who want to get up and running right away.<!--more-->
 
 ### Install the State Tool
 

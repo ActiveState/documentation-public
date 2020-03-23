@@ -1,6 +1,6 @@
 ---
 title: "Custom language runtimes"
-weight: 3
+weight: 4
 ---
 
 You can build a custom language runtime with the language, packages, and platforms you need.<!--more-->
@@ -14,7 +14,7 @@ You can build a custom language runtime with the language, packages, and platfor
 5. Enter a meaningful name for the project in **Project Name**. 
 6. Projects are public by default. If you belong to an organization on a paid tier, you have the option of selecting **Private** to create a project that's only visible to members of the selected organization.
 7. In **Choose a Language**, select the language to include and the version for each language.
-8. In **Operating Systems*, select the operating system(s) where you will be installing the language distributions for your project. 
+8. In **Operating Systems**, select the operating system(s) where you will be installing the language distributions for your project. 
 9. Click **Create Project**.
 
 To add packages to your new project:

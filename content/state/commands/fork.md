@@ -1,8 +1,8 @@
 ---
-title: "Command: fork"
+title: fork
 ---
 
-The `fork` command allows you to create a fork of an existing Platform project. A fork is a copy of a project that you can edit.
+Create a fork of an existing Platform project.<!--more--> A fork is a copy of a project that you can edit.
 
 ## Syntax
 

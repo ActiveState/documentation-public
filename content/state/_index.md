@@ -2,6 +2,7 @@
 title: State Tool
 aliases:
     - /start/state.html
+weight: 60
 ---
 
 ## Introducing the State Tool (Beta)

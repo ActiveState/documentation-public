@@ -2,6 +2,7 @@
 title: Using State Tool on CI/CD
 aliases:
     - /state/ci.html
+weight: 63
 ---
 
 You can use the State Tool with your Continuous Integration/Continuous Delivery (CI/CD) processes and and tools. You can use the State Tool to define simple and reliable processes for building, testing, and deploying your software projects.

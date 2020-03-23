@@ -1,6 +1,7 @@
 ---
 title: "Terms of Use and Service Agreement"
 type: activator
+weight: 9
 ---
 
 * [ActiveState Platform Terms of Use and Service Agreement](https://www.activestate.com/wp-content/uploads/2018/10/activestate_platform_terms_service_agreement.pdf)

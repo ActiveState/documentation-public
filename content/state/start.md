@@ -1,5 +1,6 @@
 ---
 title: "Getting Started"
+weight: 61
 ---
 
 The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment. 

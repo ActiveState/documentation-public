@@ -1,6 +1,6 @@
 ---
 title: "ActiveState Platform"
-weight: 1
+weight: 2
 ---
 This quick start covers the first steps to take after you sign up for the ActiveState Platform.<!--more-->
 

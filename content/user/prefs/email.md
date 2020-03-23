@@ -6,7 +6,6 @@ You can add or change the email addresses associated with your ActiveState Platf
 
 1. Click menu at the top right of the page that displays your username, and select **Account Settings**.
 2. Manage your email addresses in the **Email** panel:
-    
     * To add an additional email, enter the email address and click **Add**.
     * To delete an email, click the **Delete** link on the same line as the email to remove.
     * To set an email as the primary email for your account, click the **Set as Primary** link on the same line as the email.

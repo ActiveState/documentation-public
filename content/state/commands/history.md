@@ -1,8 +1,8 @@
 ---
-title: "Command: history"
+title: history
 ---
 
-The `history` command allows you to view the commit history for your project. It is limited to the past 10 commits.
+List the commit history for your project.<!--more--> It is limited to the past 10 commits.
 
 This is the same as the information displayed in the **Project History** list in the **History** tab for your project on the ActiveState Platform.
 

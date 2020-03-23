@@ -1,9 +1,9 @@
 ---
 title: "ActiveState managed projects"
-weight: 2
+weight: 3
 ---
 
-Managed projects provide access to the ActiveState language distributions that are available to your organization. ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.<!--more-->
+Managed projects provide access to the ActiveState language distributions that are available to your organization.<!--more--> ActiveState manages and updates these language distributions, and packages them as installers you can download and install on your computer.
 
 ## Getting started with Managed Projects
 
@@ -25,8 +25,8 @@ To access your managed projects:
 3. In the **Your Organizations** panel, select an organization that contains managed projects.
 4. Click the **Projects** tab.
 5. In the **Managed** panel, click the name of the project to view the **Overview** page.
-6. From the Overview page, you can:
+6. From the **Overview** page, you can:
    * Review the list of packages and versions included in the project.
-   * Click any of the buttons in the **Download Builds* panel to download the installer for your operating system.
+   * Click any of the buttons in the **Download Builds**  panel to download the installer for your operating system.
    * Copy the command to install the project using the State Tool.
-   * Click the **Fork It** link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see [Forking Projects](/projects/forking/).
+   * Click the **Fork It** link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see [Forking Projects](/projects/forks/).

@@ -1,5 +1,6 @@
 ---
 title: Projects
+weight: 50
 ---
 
 There are several distinct types of projects you can create or access on the ActiveState Platform:

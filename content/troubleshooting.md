@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+weight: 7
 ---
 
 * [Troubleshooting FAQ](#troubleshooting-faq)

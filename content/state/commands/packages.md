@@ -1,8 +1,8 @@
 ---
-title: "Command: packages"
+title: packages
 ---
 
-The `packages` command allows you to manage the packages within an ActiveState Platform project. 
+Manage the packages within an ActiveState Platform project.<!--more--> 
 
 ## Usage
 

@@ -1,5 +1,5 @@
 ---
-title: Quick Start Guides
+title: Quick start guides
 weight: 1
 ---
 

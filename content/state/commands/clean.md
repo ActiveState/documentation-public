@@ -1,8 +1,8 @@
 ---
-title: "Command: clean"
+title: clean
 ---
 
-The `clean` command enables you to completely remove the State Tool, any installed languages, and any configuration files.
+Remove the State Tool, any installed languages, and any configuration files.<!--more-->
 
 ## Usage
 

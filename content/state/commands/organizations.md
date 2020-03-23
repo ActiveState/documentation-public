@@ -1,8 +1,8 @@
 ---
-title: "Command: organizations"
+title: organizations
 ---
 
-The `organizations` command lists the organizations you are a member of. The Organization name for each Organization you belong to is listed. 
+Lists the organizations you are a member of.<!--more--> The Organization name for each Organization you belong to is listed. 
 
 ## Usage
 

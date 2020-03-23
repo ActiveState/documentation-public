@@ -1,5 +1,6 @@
 ---
 title: Creating custom projects
+weight: 40
 ---
 
 You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.

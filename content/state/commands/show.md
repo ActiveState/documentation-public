@@ -1,8 +1,8 @@
 ---
-title: "Command: show"
+title: show
 ---
 
-The `show` command displays information about the current project, or a specified remote project. The following information is displayed:
+Display information about the current project, or a specified remote project.<!--more--> The following information is displayed:
 
 * the name of the project
 * the organization the project belongs to

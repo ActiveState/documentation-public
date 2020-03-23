@@ -13,9 +13,8 @@ To create a new Organization:
 3. Enter the Organization Name to display in the ActiveState Platform.
 4. Accept the suggested URL, or specify a shorter, easier to remember URL.
 5. Click **Create Organization**.
-    
-    When you create an organization, you are automatically assigned ownership of the Organization, which allows you to invite and manage users for the Organization.
 
+	When you create an organization, you are automatically assigned ownership of the Organization, which allows you to invite and manage users for the Organization.
 6. The next step after creating a new Organization is to invite users. For more information, see [Sending invites](/organizations/#sending-invites).   
 
 ### Leaving organizations
