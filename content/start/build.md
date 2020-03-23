@@ -5,7 +5,9 @@ weight: 4
 
 You can build a custom language runtime with the language, packages, and platforms you need.<!--more-->
 
-**Important**: Customizing language builds is a work-in-progress feature. We're working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.
+{{% notice note %}}
+Customizing language builds is an in-progress, beta feature. We're working hard on adding packages and optimizing the build experience. We recommend that you start with a small number of packages on your preferred operating system. Once your project builds successfully, you can experiment with additional options.
+{{% /notice %}}
 
 1. Open your web browser and navigate to <a href ="https://platform.activestate.com" target="\_blank">http://platform.activestate.com</a> and sign in.
 2. To create a project for your personal use, click the **Projects** tab on your dashboard page.

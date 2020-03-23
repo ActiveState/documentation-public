@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Managing Organizations on ActiveState Platform Documentation</title>
+    <title>Manage organizations on ActiveState Platform Documentation</title>
     <link>https://activestate.github.io/documentation-public/organizations/</link>
-    <description>Recent content in Managing Organizations on ActiveState Platform Documentation</description>
+    <description>Recent content in Manage organizations on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://activestate.github.io/documentation-public/organizations/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating Organizations</title>
+      <link>https://activestate.github.io/documentation-public/organizations/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/create/</guid>
+      <description>Organizations allow you to group your projects and the users permitted access to those projects. Every project belongs to an organization, and each organization is separate. An organization has one or more members. You can create, or be invited to, more than one organization. For example, you could create an organization for your personal work or side project, and also be invited to join your company&amp;rsquo;s organization.
+To create an organization:</description>
+    </item>
+    
+    <item>
+      <title>Deleting Organizations</title>
+      <link>https://activestate.github.io/documentation-public/organizations/deleting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/deleting/</guid>
+      <description>You can delete an organization if you are an Owner of the organization.
+ Click Your Dashboard at the top of any page. Click the name of the organization you want to delete in the Your Organizations list. Click Settings. Click Delete this Organization. Click Yes to permanently delete the organization.  </description>
+    </item>
+    
+    <item>
+      <title>Leaving Organizations</title>
+      <link>https://activestate.github.io/documentation-public/organizations/leaving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/leaving/</guid>
+      <description>You can leave any organization you are a member of. If you are the owner of an Organization, you can leave the organization if you are not the user that created the organization.
+ Click menu at the top right of the page that displays your username, and select Account Settings. Click the Organizations link. Click Leave next to the organization you want to leave. Click Yes to confirm your selection.</description>
+    </item>
+    
+    <item>
+      <title>Removing Users</title>
+      <link>https://activestate.github.io/documentation-public/organizations/users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/users/</guid>
+      <description>If you are an Owner of an organization, you can remove users that belong to that organization. Once removed, the user&amp;rsquo;s access to all data associated with the organization will be immediately revoked.
+If you want to remove yourself from the Organization, ensure that the Organization has at least one owner and navigate to the Organizations Account Settings page to leave the Organization.
+  Click Your Dashboard at the top of any page.</description>
+    </item>
+    
+    <item>
+      <title>Sending Invites</title>
+      <link>https://activestate.github.io/documentation-public/organizations/invite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/invite/</guid>
+      <description>You can invite other users to join your organization. Each user you invite will receive an email with a unique link that allows them to accept your invitation and access the data associated with your organization. If they are not already users of the ActiveState Platform they will need to create an account.
+Invited users are listed in the Pending Invites list until they accept the invite to the organization. You can resend the email, if necessary, by clicking the Resend link.</description>
+    </item>
+    
+    <item>
+      <title>Updating Billing Details</title>
+      <link>https://activestate.github.io/documentation-public/organizations/billing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/organizations/billing/</guid>
+      <description>Click Your Dashboard at the top of any page. Click the name of the organization you want to update billing details for. Click the Settings tab. Click Modify. You can add or update billing information including the cardholder name, billing address, contact email, and credit card details. To update or change your credit card information, click Update Card and reenter your credit card number, expiry date, and the CVC number on the back of your card.</description>
+    </item>
     
   </channel>
 </rss>

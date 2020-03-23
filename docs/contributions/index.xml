@@ -37,5 +37,18 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Style guide</title>
+      <link>https://activestate.github.io/documentation-public/contributions/style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/style/</guid>
+      <description>Admonitions This is a note.
+ This is a tip.
+ This is an informational message.
+ This is a note.
+ Diagrams Example 1 graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] Example 2 graph LR A --- B B--&amp;gt;C[fa:fa-ban forbidden] B--&amp;gt;D(fa:fa-spinner); Example 3 sequenceDiagram participant Alice participant Bob Alice-&amp;gt;&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail.</description>
+    </item>
+    
   </channel>
 </rss>
