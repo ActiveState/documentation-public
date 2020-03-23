@@ -3,32 +3,33 @@
   See https://learn.netlify.com/en/basics/style-customization/#yours-variant for details 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@100;700&display=swap');
 
 :root{
     
-    --MAIN-TEXT-color: #2C353A; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:#2D52BD; /* Color of links */
-    --MAIN-LINK-HOVER-color:#2D52BD; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #2D52BD; /* color of anchors on titles */
+    --MAIN-TEXT-color: #2C353A;                      /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #5e5e5e;               /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#2D52BD;                       /* Color of links */
+    --MAIN-LINK-HOVER-color:#2D52BD;                 /* Color of hovered links */
+    --MAIN-ANCHOR-color: #2D52BD;                    /* color of anchors on titles */
+    --MAIN-BG-color: #DAEAFF;                        /* color of code snippet backgrounds */
 
-    --MENU-HEADER-BG-color:#FF2F4C; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#FF2F4C; /*Color of menu header border */ 
+    --MENU-HEADER-BG-color:#FF2F4C;                  /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#FF2F4C;              /*Cnolor of menu header border */ 
 
-    --MENU-SEARCH-BG-color:#fff; /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #fff; /* Override search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #2C353A; /* Override search field icons color */
+    --MENU-SEARCH-BG-color:#fff;                     /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #fff;                   /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #2C353A;          /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#2C353A; /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color:#252c31; /* Background color of other sections */
-    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+    --MENU-SECTIONS-ACTIVE-BG-color:#2C353A;         /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#252c31;                /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #ccc;                /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;       /* Color of links in menu, when hovered*/
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777;      /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff;   /* Color of background for the active category (only) */
 
-    --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #20272b; /* Color of <hr> separator in menu */ 
+    --MENU-VISITED-color: #33a1ff;                   /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #20272b;                /* Color of <hr> separator in menu */ 
 }
 
 body {
@@ -55,10 +56,39 @@ h1, h2, h3, h4, h5 {
     text-transform: capitalize;
 }
 
+h3 {
+    padding-top: 3rem;
+}
+
 h4 {
     font-weight: bold;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
+
+b, strong, label, th  {
+    font-weight: bold;
+}
+
+.progress ul {
+    padding: 10px 15px 10px 30px; 
+}
+
+#TableOfContents {
+    font-size: 13px !important;
+    max-height: 85vh;
+    overflow: auto;
+    padding: 0 !important;
+}
+
+#TableOfContents li {
+    list-style-type: disc;
+    padding: 0;
+}
+
+#TableOfContents > ul > li > a {
+    font-weight: bold;
+}
+
 
 #sidebar #shortcuts h3 {
     font-family: 'Roboto', sans-serif;
@@ -83,12 +113,12 @@ ol{
 }
 
 pre {
-    padding: 1rem;
-    margin: 0;
-    background: #DAEAFF !important;
+    padding: 1.25rem;
+    margin: 1.5rem 0 0 0;
+    background: var(--MAIN-BG-color)  !important;
     border: 0;
     border-radius: 2px;
-    line-height: 1.15;
+    line-height: 1.5;
 }
 
 pre code {
@@ -96,22 +126,23 @@ pre code {
 }
 
 code {
-    background: #E8ECFE;
-    border: 1px solid #E8ECFE;
+    background: var(--MAIN-BG-color);
+    color: #2D52BD;
+    border: 1px solid var(--MAIN-BG-color);
 }
 
 pre .copy-to-clipboard {
     position: absolute;
     right: 4px;
     top: 4px;
-    background-color: #ACCBF3;
-    color: #498FEC !important;
+    background-color: var(--MAIN-BG-color);
+    color: var(--MAIN-BG-color) !important;
     border-radius: 2px;
 }
 
 pre .copy-to-clipboard:hover {
-    background-color: #77A2DB;
-    color: #fff;
+    background-color: #ACCBF3;
+    color: #ffffff !important;
 }
 
 .copy-to-clipboard {
