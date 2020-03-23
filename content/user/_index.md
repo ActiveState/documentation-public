@@ -1,5 +1,5 @@
 ---
-title: Account management
+title: Manage your account
 ---
 
-{{% children description=true %}}
+{{% children description=false %}}

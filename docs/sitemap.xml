@@ -18,8 +18,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/</loc>
-    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/user/prefs/</loc>
   </url>
   
   <url>
@@ -58,10 +57,6 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/</loc>
-  </url>
-  
-  <url>
     <loc>https://activestate.github.io/documentation-public/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
@@ -81,8 +76,7 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/password/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/user/prefs/password/</loc>
   </url>
   
   <url>
@@ -187,6 +181,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/user/create_account/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
@@ -200,13 +195,11 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/datetime/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/user/prefs/datetime/</loc>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/email/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/user/prefs/email/</loc>
   </url>
   
   <url>
@@ -230,17 +223,22 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/user/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/organizations/</loc>
     <lastmod>2020-03-20T16:56:37-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/support/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/organizations/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/user/prefs/organizations/</loc>
   </url>
   
   <url>
@@ -250,14 +248,17 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/user/password_reset/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/user/sign_in/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/user/sign_out/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
@@ -267,7 +268,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/style/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
@@ -281,6 +282,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/trademarks/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
@@ -290,11 +292,11 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/troubleshooting/</loc>
+    <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/prefs/twofactor/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <loc>https://activestate.github.io/documentation-public/user/prefs/twofactor/</loc>
   </url>
   
   <url>

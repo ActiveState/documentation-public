@@ -101,10 +101,10 @@ Gathering environment variable settings Before you begin:</description>
     
     <item>
       <title>Change Password</title>
-      <link>https://activestate.github.io/documentation-public/prefs/password/</link>
+      <link>https://activestate.github.io/documentation-public/user/prefs/password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/prefs/password/</guid>
+      <guid>https://activestate.github.io/documentation-public/user/prefs/password/</guid>
       <description>&lt;p&gt;You can change your password at any time in the &lt;strong&gt;Change Password&lt;/strong&gt; page.&lt;/p&gt;</description>
     </item>
     
@@ -365,19 +365,19 @@ Generating requirements.txt files To generate a requirements.txt file:
     
     <item>
       <title>Date &amp; Time</title>
-      <link>https://activestate.github.io/documentation-public/prefs/datetime/</link>
+      <link>https://activestate.github.io/documentation-public/user/prefs/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/prefs/datetime/</guid>
+      <guid>https://activestate.github.io/documentation-public/user/prefs/datetime/</guid>
       <description>&lt;p&gt;You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Email Addresses</title>
-      <link>https://activestate.github.io/documentation-public/prefs/email/</link>
+      <link>https://activestate.github.io/documentation-public/user/prefs/email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/prefs/email/</guid>
+      <guid>https://activestate.github.io/documentation-public/user/prefs/email/</guid>
       <description>&lt;p&gt;You can add or change the email addresses associated with your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
@@ -438,10 +438,10 @@ Contact support Via messaging If you run into an issue or have a question while 
     
     <item>
       <title>Organizations</title>
-      <link>https://activestate.github.io/documentation-public/prefs/organizations/</link>
+      <link>https://activestate.github.io/documentation-public/user/prefs/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/prefs/organizations/</guid>
+      <guid>https://activestate.github.io/documentation-public/user/prefs/organizations/</guid>
       <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
     </item>
     
@@ -518,10 +518,10 @@ No. The invite email is specific to your email address and your organization. If
     
     <item>
       <title>Two-factor Authentication</title>
-      <link>https://activestate.github.io/documentation-public/prefs/twofactor/</link>
+      <link>https://activestate.github.io/documentation-public/user/prefs/twofactor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/prefs/twofactor/</guid>
+      <guid>https://activestate.github.io/documentation-public/user/prefs/twofactor/</guid>
       <description>&lt;p&gt;You can use two-factor authentication to secure your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
