@@ -333,6 +333,16 @@ Usage state update state update --lock state update Checks for a new version and
     </item>
     
     <item>
+      <title>Creating an account</title>
+      <link>https://activestate.github.io/documentation-public/user/create_account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/user/create_account/</guid>
+      <description>To create an account:
+ Navigate to the Create an Account page: https://platform.activestate.com/create_account. Enter the following information:   Email: Enter a valid email. A confirmation email will be sent to activate your account. Username: Enter a unique username for the ActiveState Platform. Password: Enter a password with at least 8 characters, and then enter the same password in the Confirm Password text box.   Click Create Account. By clicking the &amp;ldquo;Create Account&amp;rdquo; button, you accept the Platform Terms of Use and Service Agreement.</description>
+    </item>
+    
+    <item>
       <title>Creating custom projects</title>
       <link>https://activestate.github.io/documentation-public/projects/custom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -416,12 +426,55 @@ Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
+      <title>Need Help?</title>
+      <link>https://activestate.github.io/documentation-public/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/support/</guid>
+      <description>Documentation Get help with the ActiveState platform by clicking your username in the top-right menu and selecting Documentation. Help for the ActiveState Platform will open in a new browser tab or window.
+You can also access the latest documentation directly at http://docs.activestate.com/platform/.
+Contact support Via messaging If you run into an issue or have a question while you are navigating the ActiveState website, you can open a chat window and send a message by clicking on the messenger at the bottom right of each page.</description>
+    </item>
+    
+    <item>
       <title>Organizations</title>
       <link>https://activestate.github.io/documentation-public/prefs/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://activestate.github.io/documentation-public/prefs/organizations/</guid>
       <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resetting your password</title>
+      <link>https://activestate.github.io/documentation-public/user/password_reset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/user/password_reset/</guid>
+      <description>If you cannot remember your password or you need to reset it for security reasons, you can reset it.
+Note: If you are signed into the Platform and want to change your password, you can do so in the Change Password preferences page.
+To reset your password:
+ Open your browser and navigate to https://platform.activestate.com. On the Sign In page, click the Forgot your password?link. Enter the email address associated with your account and click Send Reset Link.</description>
+    </item>
+    
+    <item>
+      <title>Signing In</title>
+      <link>https://activestate.github.io/documentation-public/user/sign_in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/user/sign_in/</guid>
+      <description>To sign in to the ActiveState Platform:
+ Navigate to platform.activestate.com. In the Sign In page, enter your username or email address and password. Click Sign in. If you have Two-factor authentication enabled, you will be prompted to enter your 6-digit code. Enter your two-factor code and click Sign In again.  Note: If you don&amp;rsquo;t remember your password, you can reset it by clicking the Forgot your password? link on the Sign In page.</description>
+    </item>
+    
+    <item>
+      <title>Signing Out</title>
+      <link>https://activestate.github.io/documentation-public/user/sign_out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/user/sign_out/</guid>
+      <description>To sign out from the ActiveState Platform:
+ Click menu at the top right of the page that displays your username, and select Sign Out.  Your account is signed out, and your browser is redirected to the Sign Inpage.</description>
     </item>
     
     <item>
@@ -435,6 +488,15 @@ Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
+      <title>Trademarks</title>
+      <link>https://activestate.github.io/documentation-public/trademarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/trademarks/</guid>
+      <description>ActiveState®, Komodo®, ActiveState Perl Dev Kit®, ActiveState Tcl Dev Kit®, ActivePerl®, ActivePython®, and ActiveTcl® are registered trademarks of ActiveState. All other marks are property of their respective owners.</description>
+    </item>
+    
+    <item>
       <title>Travis</title>
       <link>https://activestate.github.io/documentation-public/state/ci/travis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -442,6 +504,16 @@ Gathering environment variable settings Before you begin:</description>
       <guid>https://activestate.github.io/documentation-public/state/ci/travis/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://activestate.github.io/documentation-public/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/troubleshooting/</guid>
+      <description>Troubleshooting FAQ Reporting Errors  Troubleshooting FAQ Can I pass my invite on to someone else in my organization?
+No. The invite email is specific to your email address and your organization. If you would like to provide access to other people in your organization you can either 1) sign up for the Platform yourself and invite them, or 2) contact us with the email addresses of the users to invite, and we will send them individual invites.</description>
     </item>
     
     <item>

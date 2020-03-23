@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/start/platform/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/start/managed/</loc>
-    <lastmod>2020-02-18T20:27:14-08:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +29,6 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/start/state-tool/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://activestate.github.io/documentation-public/style/</loc>
     <lastmod>2020-03-20T15:01:58-07:00</lastmod>
   </url>
   
@@ -63,8 +58,12 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/user/</loc>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/</loc>
-    <lastmod>2020-02-19T12:26:09-08:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
@@ -74,7 +73,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/state/ci/appveyor/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
@@ -187,13 +186,17 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/user/create_account/</loc>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/projects/custom/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/projects/requirements-txt/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
@@ -208,7 +211,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/projects/featured-projects/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
@@ -218,17 +221,21 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/state/start/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/state/ci/jenkins/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/organizations/</loc>
     <lastmod>2020-03-20T16:56:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/support/</loc>
   </url>
   
   <url>
@@ -238,11 +245,28 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/projects/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/user/password_reset/</loc>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/user/sign_in/</loc>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/user/sign_out/</loc>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/state/</loc>
+    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/style/</loc>
     <lastmod>2020-03-20T15:01:58-07:00</lastmod>
   </url>
   
@@ -256,8 +280,16 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/trademarks/</loc>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/state/ci/travis/</loc>
-    <lastmod>2020-03-20T15:01:58-07:00</lastmod>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/troubleshooting/</loc>
   </url>
   
   <url>

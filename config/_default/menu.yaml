@@ -3,15 +3,15 @@ shortcuts:                                       # external links
   identifier: "platform"
   url: "https://platform.activestate.com/"
   weight: 10
-- name: "Hugo docs"
-  identifier: "hugodoc"
-  url: "https://gohugo.io/documentation/"
-  weight: 20
-- name: "Learn theme"
-  identifier: "theme"
-  url: "https://github.com/matcornic/hugo-theme-learn/"
-  weight: 30
-- name: "<i class='fab fa-fw fa-github'></i> GitHub repo"
-  identifier: "repo"
-  url: "https://github.com/activestate/documentation-public"
-  weight: 40
+# - name: "Hugo docs"
+#   identifier: "hugodoc"
+#   url: "https://gohugo.io/documentation/"
+#   weight: 20
+# - name: "Learn theme"
+#   identifier: "theme"
+#   url: "https://github.com/matcornic/hugo-theme-learn/"
+#   weight: 30
+# - name: "<i class='fab fa-fw fa-github'></i> GitHub repo"
+#   identifier: "repo"
+#   url: "https://github.com/activestate/documentation-public"
+#   weight: 40
