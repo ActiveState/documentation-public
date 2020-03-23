@@ -9,9 +9,9 @@ Managed projects provide access to the ActiveState language distributions that a
 
 The distributions available to your Organization, and how you can use them in production, depend on the type ActiveState customer you are. Customers of ActiveState prior to the launch of the ActiveState Platform can continue to get their language builds and installers, previously available through Connect or My Account, from the Platform. 
 
-- **Enterprise Edition** customers: You get access the custom language distribution builds that ActiveState provides on a quarterly basis. These are managed builds created and maintained by ActiveState. 
-- **Business Edition** customers: You get access to a catalog projects for the business edition language you purchased. These are managed builds created and maintained by ActiveState.
-- **OEM** customers: You get access to the language distribution builds you are licensed to redistribute.
+* **Enterprise Edition** customers: You get access the custom language distribution builds that ActiveState provides on a quarterly basis. These are managed builds created and maintained by ActiveState. 
+* **Business Edition** customers: You get access to a catalog projects for the business edition language you purchased. These are managed builds created and maintained by ActiveState.
+* **OEM** customers: You get access to the language distribution builds you are licensed to redistribute.
 
 Important: ActiveState language distributions are licensed solely in accordance with the terms of their respective license agreements and or 
 support level agreements, available at <a href="https://www.activestate.com/eulas/" target="\_blank">https://www.activestate.com/eulas/</a> or by logging in to <a href="https://account.activestate.com">My Account</a> for your account details.

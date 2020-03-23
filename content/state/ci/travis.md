@@ -4,7 +4,9 @@ title: "Travis"
 
 The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS. 
 
-**NOTE:** Travis currently provides only limited support for Windows builds, and Windows configuration won't be covered in this guide. We'll add details for this configuration when Windows is fully supported on Travis CI.
+{{% notice note %}}
+Travis currently provides only limited support for Windows builds, and Windows configuration won't be covered in this guide. We'll add details for this configuration when Windows is fully supported on Travis CI.
+{{% /notice %}}
 
 ## Gathering environment variable settings
 
@@ -15,8 +17,8 @@ The following sections describe the tasks you need to complete to set up a CI/CD
 
 The State Tool will use the following environment variables if they are defined:
 
-- **ACTIVESTATE_API_KEY**: This API key is used to authenticate the State Tool with the ActiveState Platform, as required, to download language projects, update packages, etc. If you use ActiveState Platform secrets in your build process or scripts run by the build process, you must also configure the ACTIVESTATE_PRIVATE_KEY.
-- **ACTIVESTATE_PRIVATE_KEY**: Optional. The private key to use for decrypting secrets.
+* **ACTIVESTATE_API_KEY**: This API key is used to authenticate the State Tool with the ActiveState Platform, as required, to download language projects, update packages, etc. If you use ActiveState Platform secrets in your build process or scripts run by the build process, you must also configure the ACTIVESTATE_PRIVATE_KEY.
+* **ACTIVESTATE_PRIVATE_KEY**: Optional. The private key to use for decrypting secrets.
 
 ### Obtaining your API Key
 
@@ -47,9 +49,9 @@ You can find the private key value at `<configdir>/activestate/cli-unstable/priv
 
 The configdir varies per platform, but in most cases will be at one of:
 
-- Windows: `%HOME%\AppData\Roaming\activestate\cli-unstable\`
-- Linux: `~/config/activestate/cli-unstable/`
-- macOS: `~/Library/Application\ Support/activestate/cli-unstable/`
+* Windows: `%HOME%\AppData\Roaming\activestate\cli-unstable\`
+* Linux: `~/config/activestate/cli-unstable/`
+* macOS: `~/Library/Application\ Support/activestate/cli-unstable/`
 
 The private key environment variable expects the contents of the `private.key` file, not the filepath.
 
@@ -61,22 +63,27 @@ The private key environment variable expects the contents of the `private.key` f
     1. Select **Settings** from the top-right menu.
     2. Toggle the switch next to the repository you want to enable.
     3. Click **Settings** next to the repository you want to enable
-    4. Under **Environment Variables**, enter the name and value for each API key you want to use and click **Add**. For information on the required values, see [Obtaining your API key](#obtaining-your-api-key) and, if applicable, [Obtaining your private key](#obtaining
-    -your-private-key).
-    **IMPORTANT**: The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.<br><br>
-    ![](/images/travis-env-var.png)
+    4. Under **Environment Variables**, enter the name and value for each API key you want to use and click **Add**. For information on the required values, see [Obtaining your API key](#obtaining-your-api-key) and, if applicable, [Obtaining your private key](#obtaining-your-private-key).
+    
+{{% notice info %}}
+The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.
+{{% /notice %}}
 
-    **NOTE**: In some cases you may need to escape certain characters in your private key. 
+![](/images/travis-env-var.png)
 
-    You need to open the `private.key` file and copy the contents.
+{{% notice note %}}
+In some cases you may need to escape certain characters in your private key. 
+{{% /notice %}}
 
-    ```text
-    -----BEGIN RSA PRIVATE KEY-----
-    ...
-    3W5OE+S83fcBz1u7pNzgE4UtXJOADW0PtGt7dLnxqxWJbg38mKYMmqwDoD3/HkfH
-    ...
-    -----END RSA PRIVATE KEY-----
-    ```
+You need to open the `private.key` file and copy the contents.
+
+```text
+-----BEGIN RSA PRIVATE KEY-----
+...
+3W5OE+S83fcBz1u7pNzgE4UtXJOADW0PtGt7dLnxqxWJbg38mKYMmqwDoD3/HkfH
+...
+-----END RSA PRIVATE KEY-----
+```
 
 ## ActiveState Platform project setup
 
@@ -96,7 +103,7 @@ After you create an ActiveState project, complete the following steps to activat
 4. Edit the `activestate.yaml` to add any scripts, variables, or secrets you want CI/CD to run or have access to. For more information on these options, see [Getting started](/state/start).
 5. Add `activestate.yaml` to the repository and check in your changes.
 
-## Add a .travis.yml file
+## Add a Travis configuration file
 
 You need to add a `.travis.yml` file to the root of your code repository that includes all of the steps required to build, test, and deploy your code. The example provided demonstrates the State Tool-specific steps for installing the State Tool and running scripts that are defined in the `activestate.yaml` file for the project.
 

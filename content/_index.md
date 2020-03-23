@@ -20,5 +20,4 @@ These are some resources for getting started with the ActiveState Platform:
 * [State Tool quick start](/start/state-tool/)
 * [Working with projects](/projects/)
 * [Managing your organization](/organizations/)
-* [Security & Compliance overview](/security/)
 

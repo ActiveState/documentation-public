@@ -400,7 +400,7 @@ To fork a project:</description>
       
       <guid>https://activestate.github.io/documentation-public/state/start/</guid>
       <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
-For information on installing the State Tool, see installation guide.
+For information on installing the State Tool, see the installation section.
 Creating Your First Project The State Tool cannot do anything without a project, everything lives under your project.
 You can create your project either via the State Tool itself via the state init command or by going directly to the ActiveState Platform Dashboard and creating it there.</description>
     </item>
@@ -413,16 +413,6 @@ You can create your project either via the State Tool itself via the state init 
       <guid>https://activestate.github.io/documentation-public/state/ci/jenkins/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Jenkins, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Gathering environment variable settings Before you begin:</description>
-    </item>
-    
-    <item>
-      <title>Managing Organizations</title>
-      <link>https://activestate.github.io/documentation-public/organizations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://activestate.github.io/documentation-public/organizations/</guid>
-      <description>Creating Organizations Organizations allow you to group your projects and the users permitted access to those projects. Every project belongs to an organization, and each organization is separate. An organization has one or more members. You can create, or be invited to, more than one organization. For example, you could create an organization for your personal work or side project, and also be invited to join your company&amp;rsquo;s organization.
-To create an organization:</description>
     </item>
     
     <item>
@@ -451,7 +441,7 @@ To create an organization:</description>
       
       <guid>https://activestate.github.io/documentation-public/state/ci/travis/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
-NOTE: Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
+Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
     </item>
     
     <item>

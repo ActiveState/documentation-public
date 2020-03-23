@@ -17,7 +17,7 @@
       
       <guid>https://activestate.github.io/documentation-public/state/start/</guid>
       <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
-For information on installing the State Tool, see installation guide.
+For information on installing the State Tool, see the installation section.
 Creating Your First Project The State Tool cannot do anything without a project, everything lives under your project.
 You can create your project either via the State Tool itself via the state init command or by going directly to the ActiveState Platform Dashboard and creating it there.</description>
     </item>

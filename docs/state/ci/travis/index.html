@@ -13,24 +13,24 @@
     <title>Travis :: ActiveState Platform Documentation</title>
 
     
-    <link href="/documentation-public/css/nucleus.css?1584741718" rel="stylesheet">
-    <link href="/documentation-public/css/fontawesome-all.min.css?1584741718"
+    <link href="/documentation-public/css/nucleus.css?1584989204" rel="stylesheet">
+    <link href="/documentation-public/css/fontawesome-all.min.css?1584989204"
         rel="stylesheet">
-    <link href="/documentation-public/css/hybrid.css?1584741718" rel="stylesheet">
-    <link href="/documentation-public/css/featherlight.min.css?1584741718" rel="stylesheet">
-    <link href="/documentation-public/css/perfect-scrollbar.min.css?1584741718"
+    <link href="/documentation-public/css/hybrid.css?1584989204" rel="stylesheet">
+    <link href="/documentation-public/css/featherlight.min.css?1584989204" rel="stylesheet">
+    <link href="/documentation-public/css/perfect-scrollbar.min.css?1584989204"
         rel="stylesheet">
-    <link href="/documentation-public/css/auto-complete.css?1584741718" rel="stylesheet">
-    <link href="/documentation-public/css/atom-one-dark-reasonable.css?1584741718"
+    <link href="/documentation-public/css/auto-complete.css?1584989204" rel="stylesheet">
+    <link href="/documentation-public/css/atom-one-dark-reasonable.css?1584989204"
         rel="stylesheet">
-    <link href="/documentation-public/css/theme.css?1584741718" rel="stylesheet">
-    <link href="/documentation-public/css/hugo-theme.css?1584741718" rel="stylesheet">
+    <link href="/documentation-public/css/theme.css?1584989204" rel="stylesheet">
+    <link href="/documentation-public/css/hugo-theme.css?1584989204" rel="stylesheet">
     
-    <link href="/documentation-public/css/theme-activestate.css?1584741718"
+    <link href="/documentation-public/css/theme-activestate.css?1584989204"
         rel="stylesheet">
     
 
-    <script src="/documentation-public/js/jquery-3.3.1.min.js?1584741718"></script>
+    <script src="/documentation-public/js/jquery-3.3.1.min.js?1584989204"></script>
 
     <style>
         :root #header+#content>#left>#rlblock_left {
@@ -98,14 +98,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/documentation-public/js/lunr.min.js?1584741718"></script>
-<script type="text/javascript" src="/documentation-public/js/auto-complete.js?1584741718"></script>
+<script type="text/javascript" src="/documentation-public/js/lunr.min.js?1584989204"></script>
+<script type="text/javascript" src="/documentation-public/js/auto-complete.js?1584989204"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/activestate.github.io\/documentation-public\/";
     
 </script>
-<script type="text/javascript" src="/documentation-public/js/search.js?1584741718"></script>
+<script type="text/javascript" src="/documentation-public/js/search.js?1584989204"></script>
 
     
   </div>
@@ -455,6 +455,28 @@
           
         
         </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/documentation-public/organizations/" title="Managing Organizations" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/documentation-public/organizations/">
+          Managing Organizations
+          
+      </a>
+      
               
     </li>
   
@@ -1261,7 +1283,7 @@
     <li><a href="#travis-setup">Travis setup</a></li>
     <li><a href="#activestate-platform-project-setup">ActiveState Platform project setup</a></li>
     <li><a href="#configure-activestateyaml">Configure activestate.yaml</a></li>
-    <li><a href="#add-a-travisyml-file">Add a .travis.yml file</a></li>
+    <li><a href="#add-a-travis-configuration-file">Add a Travis configuration file</a></li>
   </ul>
 </nav>
     </div>
@@ -1286,7 +1308,10 @@
                     
 
 <p>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.</p>
-<p><strong>NOTE:</strong> Travis currently provides only limited support for Windows builds, and Windows configuration won&rsquo;t be covered in this guide. We&rsquo;ll add details for this configuration when Windows is fully supported on Travis CI.</p>
+
+<div class="notices note" ><p>Travis currently provides only limited support for Windows builds, and Windows configuration won&rsquo;t be covered in this guide. We&rsquo;ll add details for this configuration when Windows is fully supported on Travis CI.</p>
+</div>
+
 <h2 id="gathering-environment-variable-settings">Gathering environment variable settings</h2>
 <p><strong>Before you begin</strong>:</p>
 <ul>
@@ -1331,21 +1356,26 @@
 <li>Select <strong>Settings</strong> from the top-right menu.</li>
 <li>Toggle the switch next to the repository you want to enable.</li>
 <li>Click <strong>Settings</strong> next to the repository you want to enable</li>
-<li>Under <strong>Environment Variables</strong>, enter the name and value for each API key you want to use and click <strong>Add</strong>. For information on the required values, see <a href="#obtaining-your-api-key">Obtaining your API key</a> and, if applicable, [Obtaining your private key](#obtaining
--your-private-key).
-<strong>IMPORTANT</strong>: The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.<!-- raw HTML omitted --><!-- raw HTML omitted -->
-<img src="/images/travis-env-var.png" alt=""></li>
+<li>Under <strong>Environment Variables</strong>, enter the name and value for each API key you want to use and click <strong>Add</strong>. For information on the required values, see <a href="#obtaining-your-api-key">Obtaining your API key</a> and, if applicable, <a href="#obtaining-your-private-key">Obtaining your private key</a>.</li>
 </ol>
-<p><strong>NOTE</strong>: In some cases you may need to escape certain characters in your private key.</p>
+</li>
+</ol>
+
+<div class="notices info" ><p>The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.</p>
+</div>
+
+<p><img src="/images/travis-env-var.png" alt=""></p>
+
+<div class="notices note" ><p>In some cases you may need to escape certain characters in your private key.</p>
+</div>
+
 <p>You need to open the <code>private.key</code> file and copy the contents.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">-----BEGIN RSA PRIVATE KEY-----
 ...
 3W5OE+S83fcBz1u7pNzgE4UtXJOADW0PtGt7dLnxqxWJbg38mKYMmqwDoD3/HkfH
 ...
 -----END RSA PRIVATE KEY-----
-</code></pre></div></li>
-</ol>
-<h2 id="activestate-platform-project-setup">ActiveState Platform project setup</h2>
+</code></pre></div><h2 id="activestate-platform-project-setup">ActiveState Platform project setup</h2>
 <p>You can use either the Dashboard or the State Tool to create a new project and add the language, platforms, and packages your project requires. Set up your project by:</p>
 <ul>
 <li><a href="/projects/custom">Creating a new custom project</a></li>
@@ -1361,7 +1391,7 @@
 <li>Edit the <code>activestate.yaml</code> to add any scripts, variables, or secrets you want CI/CD to run or have access to. For more information on these options, see <a href="/state/start">Getting started</a>.</li>
 <li>Add <code>activestate.yaml</code> to the repository and check in your changes.</li>
 </ol>
-<h2 id="add-a-travisyml-file">Add a .travis.yml file</h2>
+<h2 id="add-a-travis-configuration-file">Add a Travis configuration file</h2>
 <p>You need to add a <code>.travis.yml</code> file to the root of your code repository that includes all of the steps required to build, test, and deploy your code. The example provided demonstrates the State Tool-specific steps for installing the State Tool and running scripts that are defined in the <code>activestate.yaml</code> file for the project.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># Install the State Tool as a dependency.
 install:
@@ -1680,6 +1710,22 @@ notifications:
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -2245,19 +2291,19 @@ notifications:
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/documentation-public/js/clipboard.min.js?1584741718"></script>
-    <script src="/documentation-public/js/perfect-scrollbar.min.js?1584741718"></script>
-    <script src="/documentation-public/js/perfect-scrollbar.jquery.min.js?1584741718"></script>
-    <script src="/documentation-public/js/jquery.sticky.js?1584741718"></script>
-    <script src="/documentation-public/js/featherlight.min.js?1584741718"></script>
-    <script src="/documentation-public/js/highlight.pack.js?1584741718"></script>
+    <script src="/documentation-public/js/clipboard.min.js?1584989204"></script>
+    <script src="/documentation-public/js/perfect-scrollbar.min.js?1584989204"></script>
+    <script src="/documentation-public/js/perfect-scrollbar.jquery.min.js?1584989204"></script>
+    <script src="/documentation-public/js/jquery.sticky.js?1584989204"></script>
+    <script src="/documentation-public/js/featherlight.min.js?1584989204"></script>
+    <script src="/documentation-public/js/highlight.pack.js?1584989204"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/documentation-public/js/modernizr.custom-3.6.0.js?1584741718"></script>
-    <script src="/documentation-public/js/learn.js?1584741718"></script>
-    <script src="/documentation-public/js/hugo-learn.js?1584741718"></script>
+    <script src="/documentation-public/js/modernizr.custom-3.6.0.js?1584989204"></script>
+    <script src="/documentation-public/js/learn.js?1584989204"></script>
+    <script src="/documentation-public/js/hugo-learn.js?1584989204"></script>
 
-    <link href="/documentation-public/mermaid/mermaid.css?1584741718" rel="stylesheet" />
-    <script src="/documentation-public/mermaid/mermaid.js?1584741718"></script>
+    <link href="/documentation-public/mermaid/mermaid.css?1584989204" rel="stylesheet" />
+    <script src="/documentation-public/mermaid/mermaid.js?1584989204"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

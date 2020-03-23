@@ -13,8 +13,8 @@ The following sections describe the tasks you need to complete to set up a CI/CD
 
 The State Tool will use the following environment variables if they are defined:
 
-- **ACTIVESTATE_API_KEY**: This API key is used to authenticate the State Tool with the ActiveState Platform, as required, to download language projects, update packages, etc. If you use ActiveState Platform secrets in your build process or scripts run by the build process, you must also configure the ACTIVESTATE_PRIVATE_KEY.
-- **ACTIVESTATE_PRIVATE_KEY**: Optional. The private key to use for decrypting secrets.
+* **ACTIVESTATE_API_KEY**: This API key is used to authenticate the State Tool with the ActiveState Platform, as required, to download language projects, update packages, etc. If you use ActiveState Platform secrets in your build process or scripts run by the build process, you must also configure the ACTIVESTATE_PRIVATE_KEY.
+* **ACTIVESTATE_PRIVATE_KEY**: Optional. The private key to use for decrypting secrets.
 
 ### Obtaining your API Key
 
@@ -45,9 +45,9 @@ You can find the private key value at `<configdir>/activestate/cli-unstable/priv
 
 The configdir varies per platform, but in most cases will be at one of:
 
- - Windows: `%HOME%\AppData\Roaming\activestate\cli-unstable\`
- - Linux: `~/config/activestate/cli-unstable/`
- - macOS: `~/Library/Application\ Support/activestate/cli-unstable/`
+* Windows: `%HOME%\AppData\Roaming\activestate\cli-unstable\`
+* Linux: `~/config/activestate/cli-unstable/`
+* macOS: `~/Library/Application\ Support/activestate/cli-unstable/`
 
 The private key environment variable expects the contents of the `private.key` file, not the filepath.
 

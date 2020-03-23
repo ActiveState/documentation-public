@@ -14,8 +14,8 @@ The following sections describe the tasks you need to complete to set up a CI/CD
 
 The State Tool will use the following environment variables if they are defined:
 
-- **ACTIVESTATE_API_KEY**: This API key is used to authenticate the State Tool with the ActiveState Platform, as required, to download language projects, update packages, etc. If you use ActiveState Platform secrets in your build process or scripts run by the build process, you must also configure the ACTIVESTATE_PRIVATE_KEY.
-- **ACTIVESTATE_PRIVATE_KEY**: Optional. The private key to use for decrypting secrets.
+* **ACTIVESTATE_API_KEY**: This API key is used to authenticate the State Tool with the ActiveState Platform, as required, to download language projects, update packages, etc. If you use ActiveState Platform secrets in your build process or scripts run by the build process, you must also configure the ACTIVESTATE_PRIVATE_KEY.
+* **ACTIVESTATE_PRIVATE_KEY**: Optional. The private key to use for decrypting secrets.
 
 ### Obtaining your API Key
 
@@ -46,9 +46,9 @@ You can find the private key value at `<configdir>/activestate/cli-unstable/priv
 
 The configdir varies per platform, but in most cases will be at one of:
 
- - Windows: `%HOME%\AppData\Roaming\activestate\cli-unstable\`
- - Linux: `~/config/activestate/cli-unstable/`
- - macOS: `~/Library/Application\ Support/activestate/cli-unstable/`
+* Windows: `%HOME%\AppData\Roaming\activestate\cli-unstable\`
+* Linux: `~/config/activestate/cli-unstable/`
+* macOS: `~/Library/Application\ Support/activestate/cli-unstable/`
 
 The private key environment variable expects the contents of the `private.key` file, not the filepath.
 
@@ -61,28 +61,31 @@ The private key environment variable expects the contents of the `private.key` f
 5. Select Git or Subversion as your version control system and enter the **URL** for your repository.
 6. Click **Add** > **Jenkins** to add your ACTIVESTATE_API_KEY and enter the following settings:
 
-    - **Kind**: Secret text
-    - **Secret**: The API key generated in [Obtaining your API key](#obtaining-your-api-key).
-    - **ID**: ACTIVESTATE_API_KEY<BR><BR>
+    * **Kind**: Secret text
+    * **Secret**: The API key generated in [Obtaining your API key](#obtaining-your-api-key).
+    * **ID**: ACTIVESTATE_API_KEY<BR><BR>
     ![](/images/jenkins-api-key.png)
 
 7. If you want to use secrets, click **Add** > **Jenkins** to add your ACTIVESTATE_PRIVATE_KEY and enter the following settings:
 
-    - **Kind**: Secret text
-    - **Secret**: The contents of your private.key file from [Obtaining your private key](#obtaining-your-private-key)
-    - **ID**: ACTIVESTATE_PRIVATE_KEY
+    * **Kind**: Secret text
+    * **Secret**: The contents of your private.key file from [Obtaining your private key](#obtaining-your-private-key)
+    * **ID**: ACTIVESTATE_PRIVATE_KEY
 
-    **NOTE**: In some cases you may need to escape certain characters in your private key. 
+{{% notice note %}}
+In some cases you may need to escape certain characters in your private key. 
+{{% /notice %}}
 
-    You need to open the `private.key` file and copy the contents.
 
-    ```text
-    -----BEGIN RSA PRIVATE KEY-----
-    ...
-    3W5OE+S83fcBz1u7pNzgE4UtXJOADW0PtGt7dLnxqxWJbg38mKYMmqwDoD3/HkfH
-    ...
-    -----END RSA PRIVATE KEY-----
-    ```
+You need to open the `private.key` file and copy the contents.
+
+```text
+-----BEGIN RSA PRIVATE KEY-----
+...
+3W5OE+S83fcBz1u7pNzgE4UtXJOADW0PtGt7dLnxqxWJbg38mKYMmqwDoD3/HkfH
+...
+-----END RSA PRIVATE KEY-----
+```
 
 8. If you are setting up a private repository, you will need to configure access for the repository for Jenkins.
 

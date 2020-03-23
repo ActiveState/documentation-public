@@ -4,7 +4,7 @@ title: "Getting Started"
 
 The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment. 
 
-For information on installing the State Tool, see [installation guide](/state#installation).
+For information on installing the State Tool, see the [installation](/state#installation) section.
 
 ## Creating Your First Project
 

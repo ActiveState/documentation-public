@@ -22,7 +22,6 @@ To increase the likelihood of your build completing successfully, start with a r
     * Click **Choose Packages** to search for and add packages individually. 
     * Click **Import from requirements.txt** to add the set of packages and versions required for your project. For more information on specifying your project requirements using a `requirements.txt` file, see [Creating projects from requirements.txt files](/projects/requirements-txt).
 
-    
     The packages you selected are listed in the **Requested Packages** list, and any dependencies of these selected packages are listed in the **Dependencies** list.
 
 9. When you have reviewed the packages and dependencies that are included and you are satisfied, click **Commit Changes** to start the build process.

@@ -70,7 +70,9 @@ Requirement specifier | Name | Description
 `<=` | Less than or equal to | Use any version less than or equal to the specified version.<br>requests<=2.18.4
 `~=` | Compatible version | Use any version greater than or equal to the specified version, but not greater than the current release series.<br>~=1.4.2 matches 1.4.2 through 1.4.9) but does not match 1.5.0
 
-**Note**: Some requirement specifier syntax is not applicable to the ActiveState Platform and is not supported:
+{{% notice note %}}
+Some requirement specifier syntax is not applicable to the ActiveState Platform and is not supported:
 
 * Environment markers (e.g. `SomeProject ==5.4 ; python_version < '2.7'`) are not supported. Instead, you should specify the appropriate package requirement specifier for your Platform project's Python version.
 * Direct references (e.g. `SomeProject @ file:///somewhere/...`) are not supported because all of the requirements for a Platform project must come from the Platform.
+{{% /notice %}}

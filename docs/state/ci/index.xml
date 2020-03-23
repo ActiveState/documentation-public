@@ -37,7 +37,7 @@ Gathering environment variable settings Before you begin:</description>
       
       <guid>https://activestate.github.io/documentation-public/state/ci/travis/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
-NOTE: Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
+Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
     </item>
     
   </channel>
