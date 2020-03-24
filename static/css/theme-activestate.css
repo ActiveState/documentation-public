@@ -14,8 +14,8 @@
 	--MAIN-ANCHOR-color: #2D52BD;					/* color of anchors on titles */
 	--MAIN-BG-color: #DAEAFF;						/* color of code snippet backgrounds */
 
-	--MENU-HEADER-BG-color:#FF2F4C;				  /* Background color of menu header */
-	--MENU-HEADER-BORDER-color:#FF2F4C;			  /*Cnolor of menu header border */ 
+	--MENU-HEADER-BG-color:#2D52BD;				  /* Background color of menu header */
+	--MENU-HEADER-BORDER-color:#2D52BD;			  /*Cnolor of menu header border */ 
 
 	--MENU-SEARCH-BG-color:#fff;					 /* Search field background color (by default borders + icons) */
 	--MENU-SEARCH-BOX-color: #fff;				   /* Override search field border color */
