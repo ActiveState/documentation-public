@@ -25,7 +25,7 @@
 	--MENU-SECTIONS-BG-color:#252c31;				/* Background color of other sections */
 	--MENU-SECTIONS-LINK-color: #ccc;				/* Color of links in menu */
 	--MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;	   /* Color of links in menu, when hovered*/
-	--MENU-SECTION-ACTIVE-CATEGORY-color: #777;	  /* Color of active category text */
+	--MENU-SECTION-ACTIVE-CATEGORY-color: #2C353A;	  /* Color of active category text */
 	--MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff;   /* Color of background for the active category (only) */
 
 	--MENU-VISITED-color: #33a1ff;				   /* Color of 'page visited' icons in menu */
@@ -198,6 +198,10 @@ div.notices.note p {
  background: var(--MAIN-BG-color);
 }
 
+.active a {
+ font-weight: bold;
+}
+
 pre {
 	padding: 1.25rem;
 	background: var(--MAIN-BG-color)  !important;
@@ -288,7 +292,8 @@ a:hover {
 }
 
 #sidebar a {
-	color: var(--MENU-SECTIONS-LINK-color);
+ color: var(--MENU-SECTIONS-LINK-color);
+ 
 }
 
 #sidebar a:hover {
@@ -297,7 +302,9 @@ a:hover {
 
 #sidebar ul li.active > a {
 	background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
-	color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+ color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+ font-weight: bold !important;
+
 }
 
 #sidebar hr {
