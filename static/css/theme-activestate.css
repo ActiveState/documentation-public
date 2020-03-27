@@ -3,7 +3,7 @@
   See https://learn.netlify.com/en/basics/style-customization/#yours-variant for details 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;500&display=swap');
 
 :root{
 	
@@ -57,12 +57,8 @@ h1, h2, h3, h4, h5 {
 	line-height: 1.2;
 }
 
-h2 {
- padding-top: 2.5rem !important;
-}
-
-h3 {
-	padding-top: 2.5rem !important;
+h1, h2, h3 {
+ 	padding-top: 2.5rem !important;
 }
 
 h4 {
@@ -70,13 +66,17 @@ h4 {
 	padding-top: 1rem;
 }
 
+#shortcuts > h3 {
+	color: #ffffff !important;
+}
+
 p {
 	font-size: 1rem !important;
- margin-top: 0 !important;
+ 	margin-top: 0 !important;
 }
 
 b, a, strong, label, th {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .progress ul {
@@ -97,22 +97,22 @@ b, a, strong, label, th {
 
 #TableOfContents > ul > li > a {
 	font-weight: bold;
- margin: 0;
- padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #header-wrapper {
- border-top: 8px solid #9c6fb6;
- border-bottom: 0px !important;
- padding: 1rem;
+	border-top: 8px solid #9c6fb6;
+	border-bottom: 0px !important;
+	padding: 1rem;
 }
 
 #leaving-organizations {
- padding-top: 0rem !important;
+	padding-top: 0rem !important;
 }
 
 #related-information {
- padding-top: 0rem !important;
+	padding-top: 0rem !important;
 }
 
 #sidebar #shortcuts h3 {
@@ -123,31 +123,43 @@ b, a, strong, label, th {
 }
 
 .searchbox {
- border: 0px;
- border-bottom: 3px solid;
- border-radius: 0px !important;
+	border: 0px;
+	border-bottom: 1px solid;
+	border-radius: 0 !important;
 }
 
 .searchbox input {
-    background: var(--MENU-HEADER-BG-color);
+	background: var(--MENU-HEADER-BG-color);
     border: 0px !important;
     border-radius: 0px !important;
 }
 
 #body #breadcrumbs a{
- color: #FF2F4C;
+	color: var(--MENU-HEADER-BORDER-color);
+	text-decoration-color: var(--MENU-HEADER-BORDER-color);
+}
+
+#body #breadcrumbs a:hover{
+	color: var(--MENU-HEADER-BORDER-color);
+	text-decoration: underline;
+	text-decoration-color: var(--MENU-HEADER-BORDER-color) !important;
 }
 
 #top-github-link a {
- color: #ff2f4c;
+	color: var(--MENU-HEADER-BORDER-color);
+}
+
+mark {
+    background: var(--MAIN-BG-color) !important;
+    color: #333;
 }
 
 .nav {
- color: #ff2f4c;
+	color: var(--MENU-HEADER-BORDER-color);
 }
 
 .nav:hover {
- color: #ff2f4c;
+	color: var(--MENU-HEADER-BORDER-color);
 }
 
 .children-li p {
@@ -162,44 +174,40 @@ li {
 }
 
 ol{
- padding-top: 0;
- margin-top: 0;
+	padding-top: 0;
+	margin-top: 0;
 }
 
 ol ul {
- margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .children li a {
- padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .hljs {
- display: block;
- overflow-x: auto;
- padding: 0.5em;
- line-height: 1.3em;
- color: #2D52BD;
- background: var(--MAIN-BG-color);
- border-radius: 5px;
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	line-height: 1.3em;
+	color: #2D52BD;
+	background: var(--MAIN-BG-color);
+	border-radius: 5px;
 }
 
 .hljs-attr, .hljs-string {
- color: #2D52BD;
+	color: #2D52BD;
 }
 
 #sidebar a {
- font-weight: normal !important;
+	font-weight: normal !important;
 }
 
 div.notices.note p {
- border-top: 30px solid #2D52BD;
- color: #2D52BD;
- background: var(--MAIN-BG-color);
-}
-
-.active a {
- font-weight: bold;
+	border-top: 30px solid #2D52BD;
+	color: #2D52BD;
+	background: var(--MAIN-BG-color);
 }
 
 pre {
@@ -211,8 +219,8 @@ pre {
 }
 
 pre code {
- color: #2D52BD;
- line-height: 1.6;
+	color: #2D52BD;
+	line-height: 1.6;
 }
 
 code {
@@ -259,8 +267,12 @@ a:hover {
 	color: var(--MENU-VISITED-color);
 }
 
+#body a.highlight:hover {
+	text-decoration: underline;
+}
+
 #body a.highlight:after {
-	display: block;
+	display: none;
 	content: "";
 	height: 1px;
 	width: 0%;
@@ -292,7 +304,7 @@ a:hover {
 }
 
 #sidebar a {
- color: var(--MENU-SECTIONS-LINK-color);
+	color: var(--MENU-SECTIONS-LINK-color);
  
 }
 
@@ -302,8 +314,8 @@ a:hover {
 
 #sidebar ul li.active > a {
 	background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
- color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
- font-weight: bold !important;
+ 	color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+	font-weight: bold !important;
 
 }
 
