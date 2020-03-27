@@ -7,29 +7,29 @@
 
 :root{
 	
-	--MAIN-TEXT-color: #2C353A;					  /* Color of text by default */
-	--MAIN-TITLES-TEXT-color: #5e5e5e;			   /* Color of titles h2-h3-h4-h5 */
-	--MAIN-LINK-color:#2D52BD;					   /* Color of links */
-	--MAIN-LINK-HOVER-color:#2D52BD;				 /* Color of hovered links */
-	--MAIN-ANCHOR-color: #2D52BD;					/* color of anchors on titles */
-	--MAIN-BG-color: #DAEAFF;						/* color of code snippet backgrounds */
+	--MAIN-TEXT-color: #2C353A;					  		/* Color of text by default */
+	--MAIN-TITLES-TEXT-color: #5E5E5E;			   		/* Color of titles h2-h3-h4-h5 */
+	--MAIN-LINK-color:#2D52BD;					   		/* Color of links */
+	--MAIN-LINK-HOVER-color:#2D52BD;					/* Color of hovered links */
+	--MAIN-ANCHOR-color: #2D52BD;						/* Color of anchors on titles */
+	--MAIN-BG-color: #DAEAFF;							/* color of code snippet backgrounds */
 
-	--MENU-HEADER-BG-color:#252c31;				  /* Background color of menu header */
-	--MENU-HEADER-BORDER-color:#FF2F4C;			  /*Cnolor of menu header border */ 
+	--MENU-HEADER-BG-color:#252C31;				  		/* Background color of menu header */
+	--MENU-HEADER-BORDER-color:#FF2F4C;			  		/* Color of menu header border */ 
 
-	--MENU-SEARCH-BG-color:#fff;					 /* Search field background color (by default borders + icons) */
-	--MENU-SEARCH-BOX-color: #fff;				   /* Override search field border color */
-	--MENU-SEARCH-BOX-ICONS-color: #ffffff;		  /* Override search field icons color */
+	--MENU-SEARCH-BG-color:#FFFFFF;					 	/* Search field background color (by default borders + icons) */
+	--MENU-SEARCH-BOX-color: #FFFFFF;				   	/* Override search field border color */
+	--MENU-SEARCH-BOX-ICONS-color: #FFFFFF;		  		/* Override search field icons color */
 
-	--MENU-SECTIONS-ACTIVE-BG-color:#2C353A;		 /* Background color of the active section and its childs */
-	--MENU-SECTIONS-BG-color:#252c31;				/* Background color of other sections */
-	--MENU-SECTIONS-LINK-color: #ccc;				/* Color of links in menu */
-	--MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;	   /* Color of links in menu, when hovered*/
-	--MENU-SECTION-ACTIVE-CATEGORY-color: #2C353A;	  /* Color of active category text */
-	--MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff;   /* Color of background for the active category (only) */
+	--MENU-SECTIONS-ACTIVE-BG-color:#2C353A;		 	/* Background color of the active section and its childs */
+	--MENU-SECTIONS-BG-color:#252C31;					/* Background color of other sections */
+	--MENU-SECTIONS-LINK-color: #CCCCCC;				/* Color of links in menu */
+	--MENU-SECTIONS-LINK-HOVER-color: #E6E6E6;	   		/* Color of links in menu, when hovered*/
+	--MENU-SECTION-ACTIVE-CATEGORY-color: #2C353A;	  	/* Color of active category text */
+	--MENU-SECTION-ACTIVE-CATEGORY-BG-color: #FFFFFF;   /* Color of background for the active category (only) */
 
-	--MENU-VISITED-color: #33a1ff;				   /* Color of 'page visited' icons in menu */
-	--MENU-SECTION-HR-color: #20272b;				/* Color of <hr> separator in menu */ 
+	--MENU-VISITED-color: #33A1FF;				   		/* Color of 'page visited' icons in menu */
+	--MENU-SECTION-HR-color: #20272b;					/* Color of <hr> separator in menu */ 
 }
 
 body {
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5 {
 	text-rendering: optimizeLegibility;
 	color: #5e5e5e;
 	font-weight: 300;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	text-align: left !important;
 	text-transform: capitalize;
 	line-height: 1.2;
@@ -67,7 +67,7 @@ h4 {
 }
 
 #shortcuts > h3 {
-	color: #ffffff !important;
+	color: #FFFFFF !important;
 }
 
 p {
@@ -102,36 +102,36 @@ b, a, strong, label, th {
 }
 
 #header-wrapper {
-	border-top: 8px solid #9c6fb6;
-	border-bottom: 0px !important;
+	border-top: 8px solid;
+	border-bottom: 0 !important;
 	padding: 1rem;
 }
 
 #leaving-organizations {
-	padding-top: 0rem !important;
+	padding-top: 0 !important;
 }
 
 #related-information {
-	padding-top: 0rem !important;
+	padding-top: 0 !important;
 }
 
 #sidebar #shortcuts h3 {
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #FFFFFF;
 	margin-top:1rem;
 	padding-left: 1rem;
 }
 
 .searchbox {
-	border: 0px;
+	border: 0;
 	border-bottom: 1px solid;
 	border-radius: 0 !important;
 }
 
 .searchbox input {
 	background: var(--MENU-HEADER-BG-color);
-    border: 0px !important;
-    border-radius: 0px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
 }
 
 #body #breadcrumbs a{
@@ -151,7 +151,7 @@ b, a, strong, label, th {
 
 mark {
     background: var(--MAIN-BG-color) !important;
-    color: #333;
+    color: #333333;
 }
 
 .nav {
@@ -240,7 +240,7 @@ pre .copy-to-clipboard {
 
 pre .copy-to-clipboard:hover {
 	background-color: #ACCBF3;
-	color: #ffffff !important;
+	color: #FFFFFF !important;
 }
 
 .copy-to-clipboard {
@@ -275,7 +275,7 @@ a:hover {
 	display: none;
 	content: "";
 	height: 1px;
-	width: 0%;
+	width: 0;
 	transition: none;
 	background-color: var(--MAIN-LINK-HOVER-color);
 }
@@ -316,6 +316,8 @@ a:hover {
 	background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
  	color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
 	font-weight: bold !important;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 
 }
 
