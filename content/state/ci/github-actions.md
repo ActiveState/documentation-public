@@ -94,7 +94,7 @@ After you create an ActiveState project, complete the following steps to activat
 1. Click the Actions tab.
 2. Click **Set up a workflow yourself**.
 
-    [Setup a workflow yourself](/images/github-actions-setup-workflow.png)
+    ![Setup a workflow yourself](/images/github-actions-setup-workflow.png)
 3. Replace the default script with State Tool specific configuration settings. The following example demonstrates how to install the State Tool on both Linux and Windows, and how to run scripts for linting the code and for tests using the State Tool.
 
     ```text
