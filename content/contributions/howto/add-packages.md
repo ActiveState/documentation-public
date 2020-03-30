@@ -1,7 +1,6 @@
 ---
 title: "Add Packages"
-date: 2019-12-14T02:30:38Z
-draft: true
+date: 2019-12-14
 ---
 
 ## Step 1: Get your authentication token/API key and organization id

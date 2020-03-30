@@ -1,6 +1,5 @@
 ---
 title: First principals
-draft: True
 ---
 ##  Ingredient **A** whose source is the content "Hello World!"
 

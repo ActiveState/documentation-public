@@ -1,7 +1,6 @@
 ---
 title: "Getting Started Guide"
-date: 2019-12-13T05:11:42Z
-draft: true
+date: 2019-12-13
 weight: 1
 ---
 

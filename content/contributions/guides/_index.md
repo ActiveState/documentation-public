@@ -1,6 +1,6 @@
 ---
 title: "Guides"
-date: 2019-12-13T05:54:05Z
+date: 2019-12-13
 draft: true
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Builder Fundamentals Guide"
-date: 2019-12-19T05:54:05Z
-draft: true
+date: 2019-12-19
 ---
 
 ## What is the ActiveState Platform Builder?

@@ -1,7 +1,6 @@
 ---
 title: "Glossary"
 date: 2020-01-20
-draft: true
 ---
 
 ### API

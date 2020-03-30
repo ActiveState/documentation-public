@@ -1,5 +1,7 @@
 # Extended toolchain descriptor for an ingredient
+
 ## Composable toolchains
+
 **Note:** This document describes how an ingredient would describe the toolchain(s) required to build it, not how we would define a toolchain within the platform
 
 This is a sample blank ingredient with an example of a possible extended toochain descriptor.  Note it has an `executor` toolchain which should be present on the build image and whose definition should contain the mechanism for running this kind of build.  It also has multiple `adjunct` toolchains which only need to be present on the build image.  Together with any platform restrictions listed here and the platform restrictions which come in via the order, these form a set of constraints for the build image.
@@ -9,7 +11,8 @@ All toolchain definitions should declare multiple platform variants, the variant
 We may want to allow multiple toolchains of the same type to be present in the same image (e.g. `devtoolset-6` and `devtoolset-7`) where this is possible.  In this case, the toolchain definitions should contain mechanisms for selecting themselves for the build (e.g. set `PATH`, use debian `alternatives`, run `vcvars.bat`)
 
 The extended descriptor below has features to supply options to a toolchain in both generic (e.g. `env` vars) and toolchain-specific (e.g. `conf_args`) sections.  The sections applicable to a toolchain should be composed from a generic set and any defined by the toolchain itself.  It also supplies a mechanism (dubbed `translations` below) in which a toolchain descriptor may flesh out (or override) how certain build flags are expressed.  In this example, we state that a request for a debug build should be expressed as a new `configure` argument (`--enable-symbols`) and that a thread-enabled build should be expressed as both a `configure` argument (`--enable-threads`) and an additional environment variable (`LIBS=-lpthread`)
-```
+
+```text
 name: # the name of the ingredient
 primary_namespace: # the namespace the ingredient should belong to
 description: # a short description of the ingredient

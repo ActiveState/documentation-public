@@ -1,7 +1,6 @@
 ---
 title: "Mutations"
-date: 2019-12-14T02:23:34Z
-draft: true
+date: 2019-12-14
 ---
 
 ```text

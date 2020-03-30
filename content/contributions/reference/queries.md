@@ -1,7 +1,6 @@
 ---
 title: "Queries"
-date: 2019-12-14T02:24:16Z
-draft: true
+date: 2019-12-14
 ---
 
 ```text

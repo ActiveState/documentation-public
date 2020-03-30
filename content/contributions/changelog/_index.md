@@ -1,7 +1,6 @@
 ---
 title: "Changelog"
 date: 2019-12-13T06:49:26Z
-draft: true
 weight: 1
 ---
 
