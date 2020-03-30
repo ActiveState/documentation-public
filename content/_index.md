@@ -1,5 +1,5 @@
 ---
-title: ActiveState Platform documentation
+title: Home
 disableNextPrev: true
 disableToc: true
 type: activator

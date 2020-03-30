@@ -18,8 +18,9 @@ The basic process you need to follow is:
 5. Build Setup: Add a configuration file to your repository with the build configuration for your CI/CD tool that installs the State Tool and runs any other build steps. For example, a `Jenkinsfile` for Jenkins, or a `appveyor.yml` file for AppVeyor.
 6. Webhook Setup: Add a webhook to your version control repository if required. In some cases this may be completed automatically when you are integrating your code repository with the CI/CD tool in step 2. In other cases, it may be a manual step you need to complete. 
 
-* [Setup and configuration for Jenkins](/state/ci/jenkins)
-* [Setup and configuration for AppVeyor](/state/ci/appveyor)
-* [Setup and configuration for Travis](/state/ci/travis)
+* [Setup and configuration for Jenkins](jenkins.html)
+* [Setup and configuration for AppVeyor](appveyor.html). Also check out the related [blog post](https://www.activestate.com/blog/how-to-simplify-ci-cd-pipelines-for-windows/)
+* [Setup and configuration for Travis](travis.html). Also check out the related [blog post](https://www.activestate.com/blog/how-to-build-a-ci-cd-pipeline-for-python/)
+* [Setup and configuration for GitHub Actions](github-actions.html). Also check out the related [blog post](https://www.activestate.com/blog/optimizing-ci-cd-pipelines-in-github-actions/)
 
 

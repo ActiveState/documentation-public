@@ -21,6 +21,17 @@ Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
+      <title>GitHub Actions</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/github-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/github-actions/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process for a Python project with GitHub, GitHub Actions, and the ActiveState Platform.
+Gathering environment variable settings Before you begin:
+ You need an ActiveState Platform account. If you do not currently have an account you can sign up for free at: https://platform.activestate.com/create-account. You need to have the State Tool installed on your computer, and authorized with the Platform using the state auth command, in order to run the command to retrieve the API key, and to access your private.</description>
+    </item>
+    
+    <item>
       <title>Jenkins</title>
       <link>https://activestate.github.io/documentation-public/state/ci/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

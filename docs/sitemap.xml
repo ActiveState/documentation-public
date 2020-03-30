@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/start/build/</loc>
-    <lastmod>2020-03-23T16:15:43-07:00</lastmod>
+    <lastmod>2020-03-23T16:20:33-07:00</lastmod>
   </url>
   
   <url>
@@ -123,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/</loc>
-    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://activestate.github.io/documentation-public/glossary/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
@@ -212,8 +207,17 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/state/ci/github-actions/</loc>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/state/commands/history/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/</loc>
+    <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>

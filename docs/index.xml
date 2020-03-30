@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ActiveState Platform documentation on ActiveState Platform Documentation</title>
+    <title>Home on ActiveState Platform Documentation</title>
     <link>https://activestate.github.io/documentation-public/</link>
-    <description>Recent content in ActiveState Platform documentation on ActiveState Platform Documentation</description>
+    <description>Recent content in Home on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -307,6 +307,17 @@ Generating requirements.txt files To generate a requirements.txt file:
       <guid>https://activestate.github.io/documentation-public/projects/forks/</guid>
       <description>Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.
 To fork a project:</description>
+    </item>
+    
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://activestate.github.io/documentation-public/state/ci/github-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/state/ci/github-actions/</guid>
+      <description>The following sections describe the tasks you need to complete to set up a CI/CD process for a Python project with GitHub, GitHub Actions, and the ActiveState Platform.
+Gathering environment variable settings Before you begin:
+ You need an ActiveState Platform account. If you do not currently have an account you can sign up for free at: https://platform.activestate.com/create-account. You need to have the State Tool installed on your computer, and authorized with the Platform using the state auth command, in order to run the command to retrieve the API key, and to access your private.</description>
     </item>
     
     <item>
