@@ -135,6 +135,35 @@ You can create your project either via the State Tool itself via the state init 
     </item>
     
     <item>
+      <title></title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/add-ingredient/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/add-ingredient/</guid>
+      <description>Chapter 1: Adding your first ingredient In order to add a new ingredient, it&amp;rsquo;s easiest to use the state tool to create a template ingredient file which you can add detail to. We&amp;rsquo;ll create an ingredient for a python module called mypymodule which we&amp;rsquo;ll suppose is ready for release. Run
+state ingredient new mypymodule --version 0.0.1 --namespace language/python This will create a mypymodule directory under your current working directory with a single template file mypymodule.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</guid>
+      <description>Chapter 2: Adding dependencies When writing our mypymodule python module, we decided to use some other open source modules to help out, specifically we decided to use the popular numpy and scipy modules. We need to tell the platform that these modules are required by anyone who wants to use mypymodule. If we have been preparing our module for installation with pip and have a requirements.txt, a pipfile or a pyproject.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</guid>
+      <description>Extended toolchain descriptor for an ingredient Composable toolchains Note: This document describes how an ingredient would describe the toolchain(s) required to build it, not how we would define a toolchain within the platform
+This is a sample blank ingredient with an example of a possible extended toochain descriptor. Note it has an executor toolchain which should be present on the build image and whose definition should contain the mechanism for running this kind of build.</description>
+    </item>
+    
+    <item>
       <title>About Your Dashboard</title>
       <link>https://activestate.github.io/documentation-public/user/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -406,6 +435,16 @@ Contact support Via messaging If you run into an issue or have a question while 
     </item>
     
     <item>
+      <title>Packaging</title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</guid>
+      <description>We provide several Packagers that will take Artifacts out of the Build Graph and convert them to a format that you can use natively. Packagers have an number of common required arguments and fields in common. These describe the Artifacts that the packager needs.
+Common query { ; packager using atTime/requirements packager(atTime=1234, platform=&amp;#34;II-X&amp;#34;) { fields... } ; packager referencing an order packager(commitId = &amp;#34;AA7-IXX...&amp;#34;) { fields... } } Common arguments In addition to packager specific arguments all packagers require one of more of the following attributes.</description>
+    </item>
+    
+    <item>
       <title>platforms</title>
       <link>https://activestate.github.io/documentation-public/state/commands/platforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -450,6 +489,15 @@ Contact support Via messaging If you run into an issue or have a question while 
       <description>If you are an Owner of an organization, you can remove users that belong to that organization. Once removed, the user&amp;rsquo;s access to all data associated with the organization will be immediately revoked.
 If you want to remove yourself from the Organization, ensure that the Organization has at least one owner and navigate to the Organizations Account Settings page to leave the Organization.
   Click Your Dashboard at the top of any page.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/02-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/02-requirements/</guid>
+      <description>interface Requirement{ name: String! } type Any implements Requirement {name: String!} type Latest implements Requirement {name: String!} type GT implements Requirement{ name: String! version: String! } type GTE implements Requirement{ name: String! version: String! } type LT implements Requirement{ name: String! version: String! } type LTE implements Requirement{ name: String! version: String! } </description>
     </item>
     
     <item>
@@ -578,6 +626,15 @@ Travis currently provides only limited support for Windows builds, and Windows c
       
       <guid>https://activestate.github.io/documentation-public/organizations/billing/</guid>
       <description>Click Your Dashboard at the top of any page. Click the name of the organization you want to update billing details for. Click the Settings tab. Click Modify. You can add or update billing information including the cardholder name, billing address, contact email, and credit card details. To update or change your credit card information, click Update Card and reenter your credit card number, expiry date, and the CVC number on the back of your card.</description>
+    </item>
+    
+    <item>
+      <title>Versions</title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/03-versions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/03-versions/</guid>
+      <description>In previous examples we showed you how to add simple ingredients to the BuildGraph without any kind of lineage. Every edit we posted was a Revision to the single Ingredient. The revision you are given when asking for Artifacts depends entirely on the time stamp given. Software authors however often ship source for multiple versions of the same software. The BuildGraph models this as well and gives you powerful tools to choose the most appropriate version for your requirments.</description>
     </item>
     
   </channel>
