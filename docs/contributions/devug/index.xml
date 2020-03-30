@@ -40,6 +40,18 @@ This is a sample blank ingredient with an example of a possible extended toochai
     </item>
     
     <item>
+      <title>First principals</title>
+      <link>https://activestate.github.io/documentation-public/contributions/devug/01-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/devug/01-basics/</guid>
+      <description>Ingredient A whose source is the content &amp;ldquo;Hello World!&amp;rdquo; It uses the concat builder and sends the hello.txt argument
+Request
+mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data:,Hello%2C%20World!&amp;#34; builder : &amp;#34;activestate/builders/concat.sh@123&amp;#34; args: [ &amp;#34;hello.txt&amp;#34; ] ){ id revision timestamp } Response
+{ &amp;#34;data&amp;#34; : { &amp;#34;id&amp;#34;: &amp;#34;AAA-83838-03030-83838&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;timestamp&amp;#34;: 1234 } } A builder is just a shell script in a git repo Note the concat builder takes a url and saves it&amp;rsquo;s results to the name that was set as the first argument.</description>
+    </item>
+    
+    <item>
       <title>Packaging</title>
       <link>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

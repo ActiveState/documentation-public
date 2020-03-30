@@ -1,6 +1,8 @@
 User-agent: *
 
 
+Disallow: /documentation-public/contributions/guides/getting-started/
+
 Disallow: /documentation-public/contributions/changelog/
 
 Disallow: /documentation-public/start/
@@ -47,7 +49,19 @@ Disallow: /documentation-public/state/ci/
 
 Disallow: /documentation-public/contributions/
 
+Disallow: /documentation-public/contributions/guides/toc/
+
+Disallow: /documentation-public/contributions/reference/glossary/
+
+Disallow: /documentation-public/contributions/guides/builder/
+
 Disallow: /documentation-public/contributions/howto/
+
+Disallow: /documentation-public/contributions/howto/add-packages/
+
+Disallow: /documentation-public/contributions/reference/mutations/
+
+Disallow: /documentation-public/contributions/reference/queries/
 
 Disallow: /documentation-public/contributions/explorer/
 
@@ -96,6 +110,8 @@ Disallow: /documentation-public/state/commands/events/
 Disallow: /documentation-public/state/commands/export/
 
 Disallow: /documentation-public/projects/featured-projects/
+
+Disallow: /documentation-public/contributions/devug/01-basics/
 
 Disallow: /documentation-public/state/commands/fork/
 

@@ -6,10 +6,46 @@
     <description>Recent content in Guides on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Dec 2019 05:54:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://activestate.github.io/documentation-public/contributions/guides/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Started Guide</title>
+      <link>https://activestate.github.io/documentation-public/contributions/guides/getting-started/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/guides/getting-started/</guid>
+      <description>You can use the ActiveState Platform API to define repeatable, composable, serverless builds.
+Tutorial Step-by step instruction on how to start a project. The tutorial is written for developers without GraphQL experience.
+The tutorial covers:
+ Authentication Connecting to the GraphQL endpoint Your first query Understanding mutations Exploring the capabilities of the API  Quick Start A one page summary of how to start a new project.
+Where do I go next?</description>
+    </item>
+    
+    <item>
+      <title>Contents - Outline TOC</title>
+      <link>https://activestate.github.io/documentation-public/contributions/guides/toc/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/guides/toc/</guid>
+      <description>GraphQL &amp;amp; ActiveState Platform   &amp;ldquo;GraphQL allows you to declaratively express your data needs&amp;hellip;queries are the representation of the data you need.&amp;rdquo; &amp;ldquo;Notice how the query signature exactly matches the returned JSON signature. This is possible because in GraphQL, you query against a schema that is the representation of your available data.&amp;rdquo; &amp;ldquo;GraphiQL is a UI that lets you 1) run queries against your data in the browser, and 2) dig into the structure of data available to you through a data type explorer.</description>
+    </item>
+    
+    <item>
+      <title>Builder Fundamentals Guide</title>
+      <link>https://activestate.github.io/documentation-public/contributions/guides/builder/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/guides/builder/</guid>
+      <description>What is the ActiveState Platform Builder? ActiveState Platform architecture diagram Package Database (aka Ingredients) Dependancy Resolver (aka Head Chef) Build Wrapper Design methodology Structure Example Supported build images Reference: Image Strawman
+CircleCI provides quite detailed inforamtion about the configurations they support that your build will run on.
+Executors and Images
+Pre-Build CircleCI Docker Images
+Artifacts References:
+ Artifact Cache Key Components Artifacts Requirements Gathering  Best Practices Troubleshooting </description>
+    </item>
     
   </channel>
 </rss>

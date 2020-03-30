@@ -6,10 +6,40 @@
     <description>Recent content in Reference on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Dec 2019 05:53:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://activestate.github.io/documentation-public/contributions/reference/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Glossary</title>
+      <link>https://activestate.github.io/documentation-public/contributions/reference/glossary/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/reference/glossary/</guid>
+      <description>API Build Cache CLI Compiler Environment Environment Variables Package Query Runtime Schema Source Code </description>
+    </item>
+    
+    <item>
+      <title>Mutations</title>
+      <link>https://activestate.github.io/documentation-public/contributions/reference/mutations/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/reference/mutations/</guid>
+      <description>mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data:,Hello%2C%20World!&amp;#34; builder : &amp;#34;activestate/builders/concat.sh@123&amp;#34; args: [ &amp;#34;hello.txt&amp;#34; ] ){ id revision timestamp } Response { &amp;#34;data&amp;#34; : { &amp;#34;id&amp;#34;: &amp;#34;AAA-83838-03030-83838&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;timestamp&amp;#34;: 1234 } } </description>
+    </item>
+    
+    <item>
+      <title>Queries</title>
+      <link>https://activestate.github.io/documentation-public/contributions/reference/queries/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/contributions/reference/queries/</guid>
+      <description>{ timestamp artifacts(attime=1234, platform=macos requirements=[&amp;#34;activestate/A&amp;#34;]) { name status revision urls } } Response { &amp;#34;data&amp;#34; : { &amp;#34;timestamp&amp;#34;: 1234, &amp;#34;artifacts&amp;#34; : [{ &amp;#34;name&amp;#34;: &amp;#34;activestate/A&amp;#34;, &amp;#34;status&amp;#34;: &amp;#34;BUILT&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;version&amp;#34;: 0, &amp;#34;urls&amp;#34;: [&amp;#34;http://activestate.com/storage/AAA-83838-03030-83838-activestate-A/hello.txt&amp;#34;] }] } } You can query the schema to discover details about the API interactively.
+Run in GraphiQL
+{ __schema{ types { name kind fields{ name description } } } } Run in GraphiQL
+{ __type(name:&amp;#34;FilmPreviousValues&amp;#34;) { name kind description fields{ name type { kind name } } } } </description>
+    </item>
     
   </channel>
 </rss>

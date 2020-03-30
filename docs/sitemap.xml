@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/guides/getting-started/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/contributions/changelog/</loc>
-    <lastmod>2019-12-13T06:49:26+00:00</lastmod>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
@@ -118,23 +123,53 @@
   </url>
   
   <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/guides/toc/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/reference/glossary/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/guides/builder/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://activestate.github.io/documentation-public/contributions/howto/</loc>
-    <lastmod>2019-12-14T02:30:00+00:00</lastmod>
+    <lastmod>2020-03-30T16:02:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/howto/add-packages/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/reference/mutations/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/reference/queries/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/explorer/</loc>
-    <lastmod>2019-12-13T05:54:20+00:00</lastmod>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/guides/</loc>
-    <lastmod>2019-12-13T05:54:05+00:00</lastmod>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/reference/</loc>
-    <lastmod>2019-12-13T05:53:26+00:00</lastmod>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
@@ -218,6 +253,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/devug/</loc>
+    <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
@@ -238,6 +274,11 @@
   <url>
     <loc>https://activestate.github.io/documentation-public/projects/featured-projects/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://activestate.github.io/documentation-public/contributions/devug/01-basics/</loc>
+    <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
@@ -307,6 +348,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</loc>
+    <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
@@ -336,6 +378,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/devug/02-requirements/</loc>
+    <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
@@ -409,6 +452,7 @@
   
   <url>
     <loc>https://activestate.github.io/documentation-public/contributions/devug/03-versions/</loc>
+    <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
 </urlset>
