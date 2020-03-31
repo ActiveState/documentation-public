@@ -149,8 +149,12 @@ b, a, strong, label, th {
 	color: var(--MENU-HEADER-BORDER-color);
 }
 
+#header {
+	padding-top: 10px;
+}
+
 mark {
-    background: var(--MAIN-BG-color) !important;
+    background: #8aa3e9 !important;
     color: #333333;
 }
 
@@ -221,12 +225,16 @@ pre {
 pre code {
 	color: #2D52BD;
 	line-height: 1.6;
+	font-size: 13px
 }
 
 code {
 	background: var(--MAIN-BG-color);
 	color: #2D52BD;
 	border: 1px solid var(--MAIN-BG-color);
+	padding-bottom: 1px;
+	vertical-align: baseline;
+	font-size: 13px !important;
 }
 
 pre .copy-to-clipboard {
@@ -257,6 +265,16 @@ a {
 
 .anchor {
 	color: var(--MAIN-ANCHOR-color);
+}
+
+.autocomplete-suggestion.selected {
+    background: var(--MENU-HEADER-BG-color);
+    color: #fff;
+}
+
+.autocomplete-suggestion:hover {
+    background: var(--MENU-HEADER-BG-color);
+    color: #fff;
 }
 
 a:hover {
@@ -310,6 +328,7 @@ a:hover {
 
 #sidebar a:hover {
 	color: var(--MENU-SECTIONS-LINK-HOVER-color);
+	font-weight: bold !important;
 }
 
 #sidebar ul li.active > a {
