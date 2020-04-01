@@ -1,6 +1,6 @@
 # documenation-public README
 
-This is a test repo for the next version of ActiveState's documentation.
+This is a test repo for the next version of ActiveState Platform documentation.
 
 ## Setup
 
