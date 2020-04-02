@@ -5,7 +5,7 @@ weight: 7
 
 To create an account:
 
-1. Navigate to the **Create an Account** page:  <a href ="https://platform.activestate.com/create_account" target="\_blank">https://platform.activestate.com/create_account</a>.
+1. Navigate to the **Create an Account** page:  <a href ="https://platform.activestate.com/create-account" target="\_blank">https://platform.activestate.com/create_account</a>.
 2. Enter the following information:
     * **Email**: Enter a valid email. A confirmation email will be sent to activate your account.
     * **Username**: Enter a unique username for the ActiveState Platform.
