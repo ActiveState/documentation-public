@@ -56,7 +56,7 @@ The private key environment variable expects the contents of the `private.key` f
 1. Log in to Appveyor CI at http://appveyor.com.
 2. Click **New Project**.
 3. Click **Update Installations**
-4. On the **Install AppVeyor** page, select the organization your code repository belongs to, and follow the steps on screen to authenticate with GitHub and configure the selected repository integration with AppVeyor.<br><br>![]({{< ref "/state/ci/appveyor-permissions.png" >}})
+4. On the **Install AppVeyor** page, select the organization your code repository belongs to, and follow the steps on screen to authenticate with GitHub and configure the selected repository integration with AppVeyor.<br><br>![]({{< ref "state/ci/appveyor-permissions.png" >}})
 5. Click **Add** next to the new repository entry in AppVeyor.
 6. Click the **Settings** tab on the project page.å
 7. Click **Environment**.
