@@ -1,10 +1,6 @@
 User-agent: *
 
 
-Disallow: /documentation-public/contributions/guides/getting-started/
-
-Disallow: /documentation-public/contributions/changelog/
-
 Disallow: /documentation-public/start/
 
 Disallow: /documentation-public/start/platform/
@@ -29,13 +25,7 @@ Disallow: /documentation-public/user/prefs/
 
 Disallow: /documentation-public/organizations/
 
-Disallow: /documentation-public/projects/
-
-Disallow: /documentation-public/contributions/pull-requests/
-
-Disallow: /documentation-public/contributions/code/
-
-Disallow: /documentation-public/contributions/documentation/
+Disallow: /documentation-public/projects/custom/
 
 Disallow: /documentation-public/state/
 
@@ -45,41 +35,17 @@ Disallow: /documentation-public/state/commands/
 
 Disallow: /documentation-public/state/ci/
 
-Disallow: /documentation-public/contributions/
+Disallow: /documentation-public/projects/
 
-Disallow: /documentation-public/contributions/guides/toc/
-
-Disallow: /documentation-public/contributions/reference/glossary/
-
-Disallow: /documentation-public/contributions/guides/builder/
-
-Disallow: /documentation-public/contributions/howto/
-
-Disallow: /documentation-public/contributions/howto/add-packages/
-
-Disallow: /documentation-public/contributions/reference/mutations/
-
-Disallow: /documentation-public/contributions/reference/queries/
-
-Disallow: /documentation-public/contributions/explorer/
-
-Disallow: /documentation-public/contributions/guides/
-
-Disallow: /documentation-public/contributions/reference/
-
-Disallow: /documentation-public/contributions/devug/add-ingredient/
-
-Disallow: /documentation-public/contributions/devug/adding-dependencies/
-
-Disallow: /documentation-public/contributions/devug/extended-toolchain-example/
+Disallow: /documentation-public/changes/
 
 Disallow: /documentation-public/user/dashboard/
 
 Disallow: /documentation-public/state/commands/activate/
 
-Disallow: /documentation-public/changes/
-
 Disallow: /documentation-public/glossary/
+
+Disallow: /documentation-public/projects/secrets/
 
 Disallow: /documentation-public/state/ci/appveyor/
 
@@ -91,13 +57,15 @@ Disallow: /documentation-public/user/prefs/password/
 
 Disallow: /documentation-public/state/commands/clean/
 
+Disallow: /documentation-public/contributions/
+
 Disallow: /documentation-public/organizations/create/
+
+Disallow: /documentation-public/projects/requirements-txt/
 
 Disallow: /documentation-public/user/prefs/datetime/
 
 Disallow: /documentation-public/organizations/deleting/
-
-Disallow: /documentation-public/contributions/devug/
 
 Disallow: /documentation-public/user/prefs/email/
 
@@ -105,9 +73,11 @@ Disallow: /documentation-public/state/commands/events/
 
 Disallow: /documentation-public/state/commands/export/
 
-Disallow: /documentation-public/contributions/devug/01-basics/
+Disallow: /documentation-public/projects/featured-projects/
 
 Disallow: /documentation-public/state/commands/fork/
+
+Disallow: /documentation-public/projects/forks/
 
 Disallow: /documentation-public/state/ci/github-actions/
 
@@ -131,8 +101,6 @@ Disallow: /documentation-public/state/commands/organizations/
 
 Disallow: /documentation-public/state/commands/packages/
 
-Disallow: /documentation-public/contributions/devug/04-packaging/
-
 Disallow: /documentation-public/state/commands/platforms/
 
 Disallow: /documentation-public/state/commands/projects/
@@ -142,8 +110,6 @@ Disallow: /documentation-public/state/commands/pull/
 Disallow: /documentation-public/state/commands/push/
 
 Disallow: /documentation-public/organizations/users/
-
-Disallow: /documentation-public/contributions/devug/02-requirements/
 
 Disallow: /documentation-public/user/password_reset/
 
@@ -161,8 +127,6 @@ Disallow: /documentation-public/user/sign_in/
 
 Disallow: /documentation-public/user/sign_out/
 
-Disallow: /documentation-public/contributions/style/
-
 Disallow: /documentation-public/tags/
 
 Disallow: /documentation-public/state/ci/travis/
@@ -172,5 +136,3 @@ Disallow: /documentation-public/user/prefs/twofactor/
 Disallow: /documentation-public/state/commands/update/
 
 Disallow: /documentation-public/organizations/billing/
-
-Disallow: /documentation-public/contributions/devug/03-versions/

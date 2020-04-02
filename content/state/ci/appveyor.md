@@ -56,7 +56,7 @@ The private key environment variable expects the contents of the `private.key` f
 1. Log in to Appveyor CI at http://appveyor.com.
 2. Click **New Project**.
 3. Click **Update Installations**
-4. On the **Install AppVeyor** page, select the organization your code repository belongs to, and follow the steps on screen to authenticate with GitHub and configure the selected repository integration with AppVeyor.<br><br>![](images/appveyor-permissions.png)
+4. On the **Install AppVeyor** page, select the organization your code repository belongs to, and follow the steps on screen to authenticate with GitHub and configure the selected repository integration with AppVeyor.<br><br>![](/state/ci/appveyor-permissions.png)
 5. Click **Add** next to the new repository entry in AppVeyor.
 6. Click the **Settings** tab on the project page.
 7. Click **Environment**.
@@ -64,7 +64,7 @@ The private key environment variable expects the contents of the `private.key` f
 9. Enter the name and value for each API key you want to use and click the lock icon to encrypt the value. For information on the required values, see [Obtaining your API key](#obtaining-your-api-key) and, if applicable, [Obtaining your private key](#obtaining-your-private-key).
     **IMPORTANT**: The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.<br><br>
 
-![](images/appveyor-api-key.png)
+![](/state/ci/appveyor-api-key.png)
 
 
 ## ActiveState Platform project setup

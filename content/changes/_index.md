@@ -1,9 +1,7 @@
 ---
 title: ActiveState Platform Changelog
-draft: false
-outputs:
-    - HTML
-    - JSON
+menuTitle: Changelog
+weight: 999
 ---
 
 ## What's new
@@ -189,7 +187,7 @@ A new release of the State Tool is available which includes a number of exciting
 The addition of constants and secrets allows you to manage configuration settings and other information for your project in the `activestate.yaml` configuration file. Secrets provide a simple and secure way to store and optionally share sensitive information, such as API keys and passwords.
 Learn more about Secrets in this <a href="https://www.activestate.com/blog/developers-can-share-secrets-quickly-and-easily-without-sacrificing-security/" target="\_blank">blog post</a>.
 
-Scripts and events provide ways to run additional logic required to configure your development environment. For example, you could configure an event to start your database server each time you activate your project. Scripts are run manually; events run when you ``state activate` your project.
+Scripts and events provide ways to run additional logic required to configure your development environment. For example, you could configure an event to start your database server each time you activate your project. Scripts are run manually; events run when you `state activate` your project.
 
 **June 2019**
 

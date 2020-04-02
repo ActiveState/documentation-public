@@ -11,19 +11,6 @@
     
     
     <item>
-      <title>Getting Started Guide</title>
-      <link>//activestate.github.io/documentation-public/contributions/guides/getting-started/</link>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/guides/getting-started/</guid>
-      <description>You can use the ActiveState Platform API to define repeatable, composable, serverless builds.
-Tutorial Step-by step instruction on how to start a project. The tutorial is written for developers without GraphQL experience.
-The tutorial covers:
- Authentication Connecting to the GraphQL endpoint Your first query Understanding mutations Exploring the capabilities of the API  Quick Start A one page summary of how to start a new project.
-Where do I go next?</description>
-    </item>
-    
-    <item>
       <title>ActiveState Platform</title>
       <link>//activestate.github.io/documentation-public/start/platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -99,40 +86,13 @@ No. The invite email is specific to your email address and your organization. If
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>//activestate.github.io/documentation-public/projects/</link>
+      <title>Creating custom projects</title>
+      <link>//activestate.github.io/documentation-public/projects/custom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/projects/</guid>
-      <description>There are several distinct types of projects you can create or access on the ActiveState Platform:
- Public Projects: Custom projects or forked projects created by users and available to other Platform users. Private Projects: Custom projects or forked projects created by users that are restricted to the organization they are created in. Private projects are only available to organizations on paid tiers. Featured Projects: ActiveState&amp;rsquo;s Community Edition languages used by millions of developers to kickstart their development.</description>
-    </item>
-    
-    <item>
-      <title>Opening pull requests</title>
-      <link>//activestate.github.io/documentation-public/contributions/pull-requests/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/pull-requests/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code contributions</title>
-      <link>//activestate.github.io/documentation-public/contributions/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Documentation contributions</title>
-      <link>//activestate.github.io/documentation-public/contributions/documentation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/documentation/</guid>
-      <description></description>
+      <guid>//activestate.github.io/documentation-public/projects/custom/</guid>
+      <description>You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.
+ Open your web browser and navigate to http://platform.activestate.com and sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
     </item>
     
     <item>
@@ -145,98 +105,6 @@ No. The invite email is specific to your email address and your organization. If
 For information on installing the State Tool, see the installation section.
 Creating Your First Project The State Tool cannot do anything without a project, everything lives under your project.
 You can create your project either via the State Tool itself via the state init command or by going directly to the ActiveState Platform Dashboard and creating it there.</description>
-    </item>
-    
-    <item>
-      <title>Contents - Outline TOC</title>
-      <link>//activestate.github.io/documentation-public/contributions/guides/toc/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/guides/toc/</guid>
-      <description>GraphQL &amp;amp; ActiveState Platform   &amp;ldquo;GraphQL allows you to declaratively express your data needs&amp;hellip;queries are the representation of the data you need.&amp;rdquo; &amp;ldquo;Notice how the query signature exactly matches the returned JSON signature. This is possible because in GraphQL, you query against a schema that is the representation of your available data.&amp;rdquo; &amp;ldquo;GraphiQL is a UI that lets you 1) run queries against your data in the browser, and 2) dig into the structure of data available to you through a data type explorer.</description>
-    </item>
-    
-    <item>
-      <title>Glossary</title>
-      <link>//activestate.github.io/documentation-public/contributions/reference/glossary/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/reference/glossary/</guid>
-      <description>API Build Cache CLI Compiler Environment Environment Variables Package Query Runtime Schema Source Code </description>
-    </item>
-    
-    <item>
-      <title>Builder Fundamentals Guide</title>
-      <link>//activestate.github.io/documentation-public/contributions/guides/builder/</link>
-      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/guides/builder/</guid>
-      <description>What is the ActiveState Platform Builder? ActiveState Platform architecture diagram Package Database (aka Ingredients) Dependancy Resolver (aka Head Chef) Build Wrapper Design methodology Structure Example Supported build images Reference: Image Strawman
-CircleCI provides quite detailed inforamtion about the configurations they support that your build will run on.
-Executors and Images
-Pre-Build CircleCI Docker Images
-Artifacts References:
- Artifact Cache Key Components Artifacts Requirements Gathering  Best Practices Troubleshooting </description>
-    </item>
-    
-    <item>
-      <title>Add Packages</title>
-      <link>//activestate.github.io/documentation-public/contributions/howto/add-packages/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/howto/add-packages/</guid>
-      <description>Step 1: Get your authentication token/API key and organization id The Dashboard API service is responsible for authenticating a user and providing a token that will need to be included in all future API requests to this service and all other services the user needs to communicate with.
-This service is also responsible for knowing which organizations a user belongs to. In order to create a private ingredient, the ingredient needs to be associated with an organization, specifically an organization ID.</description>
-    </item>
-    
-    <item>
-      <title>Mutations</title>
-      <link>//activestate.github.io/documentation-public/contributions/reference/mutations/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/reference/mutations/</guid>
-      <description>mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data:,Hello%2C%20World!&amp;#34; builder : &amp;#34;activestate/builders/concat.sh@123&amp;#34; args: [ &amp;#34;hello.txt&amp;#34; ] ){ id revision timestamp } Response { &amp;#34;data&amp;#34; : { &amp;#34;id&amp;#34;: &amp;#34;AAA-83838-03030-83838&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;timestamp&amp;#34;: 1234 } } </description>
-    </item>
-    
-    <item>
-      <title>Queries</title>
-      <link>//activestate.github.io/documentation-public/contributions/reference/queries/</link>
-      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/reference/queries/</guid>
-      <description>{ timestamp artifacts(attime=1234, platform=macos requirements=[&amp;#34;activestate/A&amp;#34;]) { name status revision urls } } Response { &amp;#34;data&amp;#34; : { &amp;#34;timestamp&amp;#34;: 1234, &amp;#34;artifacts&amp;#34; : [{ &amp;#34;name&amp;#34;: &amp;#34;activestate/A&amp;#34;, &amp;#34;status&amp;#34;: &amp;#34;BUILT&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;version&amp;#34;: 0, &amp;#34;urls&amp;#34;: [&amp;#34;http://activestate.com/storage/AAA-83838-03030-83838-activestate-A/hello.txt&amp;#34;] }] } } You can query the schema to discover details about the API interactively.
-Run in GraphiQL
-{ __schema{ types { name kind fields{ name description } } } } Run in GraphiQL
-{ __type(name:&amp;#34;FilmPreviousValues&amp;#34;) { name kind description fields{ name type { kind name } } } } </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/add-ingredient/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/devug/add-ingredient/</guid>
-      <description>Chapter 1: Adding your first ingredient In order to add a new ingredient, it&amp;rsquo;s easiest to use the state tool to create a template ingredient file which you can add detail to. We&amp;rsquo;ll create an ingredient for a python module called mypymodule which we&amp;rsquo;ll suppose is ready for release. Run
-state ingredient new mypymodule --version 0.0.1 --namespace language/python This will create a mypymodule directory under your current working directory with a single template file mypymodule.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</guid>
-      <description>Chapter 2: Adding dependencies When writing our mypymodule python module, we decided to use some other open source modules to help out, specifically we decided to use the popular numpy and scipy modules. We need to tell the platform that these modules are required by anyone who wants to use mypymodule. If we have been preparing our module for installation with pip and have a requirements.txt, a pipfile or a pyproject.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</guid>
-      <description>Extended toolchain descriptor for an ingredient Composable toolchains Note: This document describes how an ingredient would describe the toolchain(s) required to build it, not how we would define a toolchain within the platform
-This is a sample blank ingredient with an example of a possible extended toochain descriptor. Note it has an executor toolchain which should be present on the build image and whose definition should contain the mechanism for running this kind of build.</description>
     </item>
     
     <item>
@@ -260,22 +128,23 @@ Finding your projects and organizations The main page on Your Dashboard lists yo
     </item>
     
     <item>
-      <title>ActiveState Platform Changelog</title>
-      <link>//activestate.github.io/documentation-public/changes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/changes/</guid>
-      <description>What&amp;rsquo;s new February - March 2020
-Enhancement: Python package catalog expanded to include the packages you need  We&amp;rsquo;ve added a large set of around 20,000 Python packages/versions. The ActiveState Platform now have coverage of the important packages/versions in the Python ecosystem, and they&amp;rsquo;re available for you to add to your projects.  New Feature: State tool now supports requirements.txt When you add packages to a Python project using the State Tool, you now have the option to specify the package requirements for the project in a requirements.</description>
-    </item>
-    
-    <item>
       <title>ActiveState Platform Glossary</title>
       <link>//activestate.github.io/documentation-public/glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//activestate.github.io/documentation-public/glossary/</guid>
       <description>Commit       Dashboard       Fork       Open source       Organization       Private project       Project       Tier       User   Users are personal ActiveState Platform accounts. Each user has a personal profile and can create projects and organizations.</description>
+    </item>
+    
+    <item>
+      <title>Adding Secrets to your project</title>
+      <link>//activestate.github.io/documentation-public/projects/secrets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//activestate.github.io/documentation-public/projects/secrets/</guid>
+      <description>Secrets are for sensitive information that needs to be shared between environments and people working on a project. For example, you can securely store API keys and database passwords using secrets. Secrets are client-side encrypted values, meaning that they are not stored on our servers and ActiveState cannot access your secret values.
+To add a secret to your project:
+ In Your Dashboard, select the organization that contains the project you want to add a secret to and then click the Projects tab, or click the Projects tab in your dashboard to add a secret to a personal project.</description>
     </item>
     
     <item>
@@ -316,6 +185,15 @@ Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
+      <title>Contributing</title>
+      <link>//activestate.github.io/documentation-public/contributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//activestate.github.io/documentation-public/contributions/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
       <title>Creating Organizations</title>
       <link>//activestate.github.io/documentation-public/organizations/create/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -323,6 +201,17 @@ Gathering environment variable settings Before you begin:</description>
       <guid>//activestate.github.io/documentation-public/organizations/create/</guid>
       <description>Organizations allow you to group your projects and the users permitted access to those projects. Every project belongs to an organization, and each organization is separate. An organization has one or more members. You can create, or be invited to, more than one organization. For example, you could create an organization for your personal work or side project, and also be invited to join your company&amp;rsquo;s organization.
 To create an organization:</description>
+    </item>
+    
+    <item>
+      <title>Creating projects from requirements.txt files</title>
+      <link>//activestate.github.io/documentation-public/projects/requirements-txt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//activestate.github.io/documentation-public/projects/requirements-txt/</guid>
+      <description>If you have an existing Python project that you want to add to the Platform, you can export a requirements.txt file to get a list of packages and versions to import into your Platform project, or you can type in the list of packages and versions manually.
+Generating requirements.txt files To generate a requirements.txt file:
+  You can write out the requirements for an existing project to a requirements.txt file using one of the following commands at your command prompt:</description>
     </item>
     
     <item>
@@ -372,15 +261,15 @@ To create an organization:</description>
     </item>
     
     <item>
-      <title>First principals</title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/01-basics/</link>
+      <title>Featured Projects: ActiveState Community Edition projects</title>
+      <link>//activestate.github.io/documentation-public/projects/featured-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/contributions/devug/01-basics/</guid>
-      <description>Ingredient A whose source is the content &amp;ldquo;Hello World!&amp;rdquo; It uses the concat builder and sends the hello.txt argument
-Request
-mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data:,Hello%2C%20World!&amp;#34; builder : &amp;#34;activestate/builders/concat.sh@123&amp;#34; args: [ &amp;#34;hello.txt&amp;#34; ] ){ id revision timestamp } Response
-{ &amp;#34;data&amp;#34; : { &amp;#34;id&amp;#34;: &amp;#34;AAA-83838-03030-83838&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;timestamp&amp;#34;: 1234 } } A builder is just a shell script in a git repo Note the concat builder takes a url and saves it&amp;rsquo;s results to the name that was set as the first argument.</description>
+      <guid>//activestate.github.io/documentation-public/projects/featured-projects/</guid>
+      <description>A number of Community Edition language distributions are available on the Featured Projects page for ActivePerl, ActivePython, and ActiveTcl. These are ActiveState Platform projects, maintained by ActiveState.
+  Navigate to the Featured Projects page at https://platform.activestate.com/featured-projects.
+  Browse the list of available projects and click the operating system image for the language distribution you want to download.
+  If you are not signed in to the Platform, you will be redirected to the Sign In page:</description>
     </item>
     
     <item>
@@ -390,6 +279,16 @@ mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data
       
       <guid>//activestate.github.io/documentation-public/state/commands/fork/</guid>
       <description>&lt;p&gt;Create a fork of an existing Platform project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Forking projects</title>
+      <link>//activestate.github.io/documentation-public/projects/forks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//activestate.github.io/documentation-public/projects/forks/</guid>
+      <description>Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.
+To fork a project:</description>
     </item>
     
     <item>
@@ -489,16 +388,6 @@ Contact support Via messaging If you run into an issue or have a question while 
     </item>
     
     <item>
-      <title>Packaging</title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/04-packaging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/devug/04-packaging/</guid>
-      <description>We provide several Packagers that will take Artifacts out of the Build Graph and convert them to a format that you can use natively. Packagers have an number of common required arguments and fields in common. These describe the Artifacts that the packager needs.
-Common query { ; packager using atTime/requirements packager(atTime=1234, platform=&amp;#34;II-X&amp;#34;) { fields... } ; packager referencing an order packager(commitId = &amp;#34;AA7-IXX...&amp;#34;) { fields... } } Common arguments In addition to packager specific arguments all packagers require one of more of the following attributes.</description>
-    </item>
-    
-    <item>
       <title>platforms</title>
       <link>//activestate.github.io/documentation-public/state/commands/platforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -543,15 +432,6 @@ Common query { ; packager using atTime/requirements packager(atTime=1234, platfo
       <description>If you are an Owner of an organization, you can remove users that belong to that organization. Once removed, the user&amp;rsquo;s access to all data associated with the organization will be immediately revoked.
 If you want to remove yourself from the Organization, ensure that the Organization has at least one owner and navigate to the Organizations Account Settings page to leave the Organization.
   Click Your Dashboard at the top of any page.</description>
-    </item>
-    
-    <item>
-      <title>Requirements</title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/02-requirements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/devug/02-requirements/</guid>
-      <description>interface Requirement{ name: String! } type Any implements Requirement {name: String!} type Latest implements Requirement {name: String!} type GT implements Requirement{ name: String! version: String! } type GTE implements Requirement{ name: String! version: String! } type LT implements Requirement{ name: String! version: String! } type LTE implements Requirement{ name: String! version: String! } </description>
     </item>
     
     <item>
@@ -633,19 +513,6 @@ Invited users are listed in the Pending Invites list until they accept the invit
     </item>
     
     <item>
-      <title>Style guide</title>
-      <link>//activestate.github.io/documentation-public/contributions/style/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/style/</guid>
-      <description>Admonitions This is a note.
- This is a tip.
- This is an informational message.
- This is a note.
- Diagrams Example 1 graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] Example 2 graph LR A --- B B--&amp;gt;C[fa:fa-ban forbidden] B--&amp;gt;D(fa:fa-spinner); Example 3 sequenceDiagram participant Alice participant Bob Alice-&amp;gt;&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail.</description>
-    </item>
-    
-    <item>
       <title>Travis</title>
       <link>//activestate.github.io/documentation-public/state/ci/travis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -680,15 +547,6 @@ Travis currently provides only limited support for Windows builds, and Windows c
       
       <guid>//activestate.github.io/documentation-public/organizations/billing/</guid>
       <description>Click Your Dashboard at the top of any page. Click the name of the organization you want to update billing details for. Click the Settings tab. Click Modify. You can add or update billing information including the cardholder name, billing address, contact email, and credit card details. To update or change your credit card information, click Update Card and reenter your credit card number, expiry date, and the CVC number on the back of your card.</description>
-    </item>
-    
-    <item>
-      <title>Versions</title>
-      <link>//activestate.github.io/documentation-public/contributions/devug/03-versions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/contributions/devug/03-versions/</guid>
-      <description>In previous examples we showed you how to add simple ingredients to the BuildGraph without any kind of lineage. Every edit we posted was a Revision to the single Ingredient. The revision you are given when asking for Artifacts depends entirely on the time stamp given. Software authors however often ship source for multiple versions of the same software. The BuildGraph models this as well and gives you powerful tools to choose the most appropriate version for your requirments.</description>
     </item>
     
   </channel>

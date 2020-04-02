@@ -64,7 +64,7 @@ The private key environment variable expects the contents of the `private.key` f
     * **Kind**: Secret text
     * **Secret**: The API key generated in [Obtaining your API key](#obtaining-your-api-key).
     * **ID**: ACTIVESTATE_API_KEY<BR><BR>
-    ![](images/jenkins-api-key.png)
+    ![](jenkins-api-key.png)
 
 7. If you want to use secrets, click **Add** > **Jenkins** to add your ACTIVESTATE_PRIVATE_KEY and enter the following settings:
 
@@ -89,7 +89,7 @@ You need to open the `private.key` file and copy the contents.
 
 8. If you are setting up a private repository, you will need to configure access for the repository for Jenkins.
 
-![Jenkins pipeline setup](images/jenkins-pipeline-setup.png)
+![Jenkins pipeline setup](jenkins-pipeline-setup.png)
 
 ## ActiveState Platform project setup
 
@@ -190,8 +190,8 @@ If you want Jenkins to create a new build each time code changes are checked in 
 3. Click **Web Hooks**, and then click **Add Webhook**.
 4. In **Payload URL**, enter the URL for your Jenkins instance with the path `/github-webhook/`. For example: `https://jenkins.acme-tech.com/github-webhook/` 
 
-![Jenkins Github webhook](images/jenkins-github-webhook.png)
+![Jenkins Github webhook](jenkins-github-webhook.png)
 
 If your Jenkins pipeline is configured correctly, you will see a job start and complete successfully each time someone pushes new code changes to the repository.
 
-![](images/jenkins-build-states.png)
+![](jenkins-build-states.png)

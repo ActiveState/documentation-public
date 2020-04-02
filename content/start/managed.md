@@ -29,4 +29,4 @@ To access your managed projects:
    * Review the list of packages and versions included in the project.
    * Click any of the buttons in the **Download Builds**  panel to download the installer for your operating system.
    * Copy the command to install the project using the State Tool.
-   * Click the **Fork It** link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see [Forking Projects]({{< ref "/projects/forks.md" >}}).
+   * Click the **Fork It** link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see [Forking Projects]().
