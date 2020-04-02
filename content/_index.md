@@ -1,7 +1,6 @@
 ---
 title: Home
 disableNextPrev: true
-disableToc: true
 ---
 
 Welcome to the documentation site for the ActiveState Platform.
