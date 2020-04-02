@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on ActiveState Platform Documentation</title>
-    <link>https://activestate.github.io/documentation-public/</link>
+    <link>//activestate.github.io/documentation-public/</link>
     <description>Recent content in Home on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://activestate.github.io/documentation-public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//activestate.github.io/documentation-public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started Guide</title>
-      <link>https://activestate.github.io/documentation-public/contributions/guides/getting-started/</link>
+      <link>//activestate.github.io/documentation-public/contributions/guides/getting-started/</link>
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/guides/getting-started/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/guides/getting-started/</guid>
       <description>You can use the ActiveState Platform API to define repeatable, composable, serverless builds.
 Tutorial Step-by step instruction on how to start a project. The tutorial is written for developers without GraphQL experience.
 The tutorial covers:
@@ -25,122 +25,122 @@ Where do I go next?</description>
     
     <item>
       <title>ActiveState Platform</title>
-      <link>https://activestate.github.io/documentation-public/start/platform/</link>
+      <link>//activestate.github.io/documentation-public/start/platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/platform/</guid>
+      <guid>//activestate.github.io/documentation-public/start/platform/</guid>
       <description>&lt;p&gt;This quick start covers the first steps to take after you sign up for the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ActiveState managed projects</title>
-      <link>https://activestate.github.io/documentation-public/start/managed/</link>
+      <link>//activestate.github.io/documentation-public/start/managed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/managed/</guid>
+      <guid>//activestate.github.io/documentation-public/start/managed/</guid>
       <description>&lt;p&gt;Managed projects provide access to the ActiveState language distributions that are available to your organization.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Custom language runtimes</title>
-      <link>https://activestate.github.io/documentation-public/start/build/</link>
+      <link>//activestate.github.io/documentation-public/start/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/build/</guid>
+      <guid>//activestate.github.io/documentation-public/start/build/</guid>
       <description>&lt;p&gt;You can build a custom language runtime with the language, packages, and platforms you need.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>State Tool CLI</title>
-      <link>https://activestate.github.io/documentation-public/start/state-tool/</link>
+      <link>//activestate.github.io/documentation-public/start/state-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/start/state-tool/</guid>
+      <guid>//activestate.github.io/documentation-public/start/state-tool/</guid>
       <description>&lt;p&gt;This quick start is for intermediate or advanced developers who want to get up and running right away.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Creating an account</title>
-      <link>https://activestate.github.io/documentation-public/user/create_account/</link>
+      <link>//activestate.github.io/documentation-public/user/create_account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/create_account/</guid>
+      <guid>//activestate.github.io/documentation-public/user/create_account/</guid>
       <description>To create an account:
  Navigate to the Create an Account page: https://platform.activestate.com/create_account. Enter the following information:  Email: Enter a valid email. A confirmation email will be sent to activate your account. Username: Enter a unique username for the ActiveState Platform. Password: Enter a password with at least 8 characters, and then enter the same password in the Confirm Password text box.   Click Create Account. By clicking the &amp;ldquo;Create Account&amp;rdquo; button, you accept the Platform Terms of Use and Service Agreement.</description>
     </item>
     
     <item>
       <title>Troubleshooting</title>
-      <link>https://activestate.github.io/documentation-public/troubleshooting/</link>
+      <link>//activestate.github.io/documentation-public/troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/troubleshooting/</guid>
+      <guid>//activestate.github.io/documentation-public/troubleshooting/</guid>
       <description>Troubleshooting FAQ Reporting Errors  Troubleshooting FAQ Can I pass my invite on to someone else in my organization?
 No. The invite email is specific to your email address and your organization. If you would like to provide access to other people in your organization you can either 1) sign up for the Platform yourself and invite them, or 2) contact us with the email addresses of the users to invite, and we will send them individual invites.</description>
     </item>
     
     <item>
       <title>Trademarks</title>
-      <link>https://activestate.github.io/documentation-public/trademarks/</link>
+      <link>//activestate.github.io/documentation-public/trademarks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/trademarks/</guid>
+      <guid>//activestate.github.io/documentation-public/trademarks/</guid>
       <description>ActiveState®, Komodo®, ActiveState Perl Dev Kit®, ActiveState Tcl Dev Kit®, ActivePerl®, ActivePython®, and ActiveTcl® are registered trademarks of ActiveState. All other marks are property of their respective owners.</description>
     </item>
     
     <item>
       <title>Terms of Use and Service Agreement</title>
-      <link>https://activestate.github.io/documentation-public/terms/</link>
+      <link>//activestate.github.io/documentation-public/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/terms/</guid>
+      <guid>//activestate.github.io/documentation-public/terms/</guid>
       <description> ActiveState Platform Terms of Use and Service Agreement  Community Edition terms  ActiveState Community Edition License Agreement  Additional terms If you have signed up for an addendum then such addendum applies to you, and you agree to its provisions.
  Business Edition Enterprise Edition Enterprise Edition Limited ActiveState Platform Enterprise Tier ActiveState Platform OEM Distribution License  </description>
     </item>
     
     <item>
       <title>Creating custom projects</title>
-      <link>https://activestate.github.io/documentation-public/projects/custom/</link>
+      <link>//activestate.github.io/documentation-public/projects/custom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/custom/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/custom/</guid>
       <description>You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.
  Open your web browser and navigate to http://platform.activestate.comand sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
     </item>
     
     <item>
       <title>Opening pull requests</title>
-      <link>https://activestate.github.io/documentation-public/contributions/pull-requests/</link>
+      <link>//activestate.github.io/documentation-public/contributions/pull-requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/pull-requests/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/pull-requests/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code contributions</title>
-      <link>https://activestate.github.io/documentation-public/contributions/code/</link>
+      <link>//activestate.github.io/documentation-public/contributions/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/code/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Documentation contributions</title>
-      <link>https://activestate.github.io/documentation-public/contributions/documentation/</link>
+      <link>//activestate.github.io/documentation-public/contributions/documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/documentation/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/documentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting Started</title>
-      <link>https://activestate.github.io/documentation-public/state/start/</link>
+      <link>//activestate.github.io/documentation-public/state/start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/start/</guid>
+      <guid>//activestate.github.io/documentation-public/state/start/</guid>
       <description>The State Tool offers a number of methods for simplifying and securing your Project configuration and integrating it with your development environment.
 For information on installing the State Tool, see the installation section.
 Creating Your First Project The State Tool cannot do anything without a project, everything lives under your project.
@@ -149,28 +149,28 @@ You can create your project either via the State Tool itself via the state init 
     
     <item>
       <title>Contents - Outline TOC</title>
-      <link>https://activestate.github.io/documentation-public/contributions/guides/toc/</link>
+      <link>//activestate.github.io/documentation-public/contributions/guides/toc/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/guides/toc/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/guides/toc/</guid>
       <description>GraphQL &amp;amp; ActiveState Platform   &amp;ldquo;GraphQL allows you to declaratively express your data needs&amp;hellip;queries are the representation of the data you need.&amp;rdquo; &amp;ldquo;Notice how the query signature exactly matches the returned JSON signature. This is possible because in GraphQL, you query against a schema that is the representation of your available data.&amp;rdquo; &amp;ldquo;GraphiQL is a UI that lets you 1) run queries against your data in the browser, and 2) dig into the structure of data available to you through a data type explorer.</description>
     </item>
     
     <item>
       <title>Glossary</title>
-      <link>https://activestate.github.io/documentation-public/contributions/reference/glossary/</link>
+      <link>//activestate.github.io/documentation-public/contributions/reference/glossary/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/reference/glossary/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/reference/glossary/</guid>
       <description>API Build Cache CLI Compiler Environment Environment Variables Package Query Runtime Schema Source Code </description>
     </item>
     
     <item>
       <title>Builder Fundamentals Guide</title>
-      <link>https://activestate.github.io/documentation-public/contributions/guides/builder/</link>
+      <link>//activestate.github.io/documentation-public/contributions/guides/builder/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/guides/builder/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/guides/builder/</guid>
       <description>What is the ActiveState Platform Builder? ActiveState Platform architecture diagram Package Database (aka Ingredients) Dependancy Resolver (aka Head Chef) Build Wrapper Design methodology Structure Example Supported build images Reference: Image Strawman
 CircleCI provides quite detailed inforamtion about the configurations they support that your build will run on.
 Executors and Images
@@ -181,29 +181,29 @@ Artifacts References:
     
     <item>
       <title>Add Packages</title>
-      <link>https://activestate.github.io/documentation-public/contributions/howto/add-packages/</link>
+      <link>//activestate.github.io/documentation-public/contributions/howto/add-packages/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/howto/add-packages/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/howto/add-packages/</guid>
       <description>Step 1: Get your authentication token/API key and organization id The Dashboard API service is responsible for authenticating a user and providing a token that will need to be included in all future API requests to this service and all other services the user needs to communicate with.
 This service is also responsible for knowing which organizations a user belongs to. In order to create a private ingredient, the ingredient needs to be associated with an organization, specifically an organization ID.</description>
     </item>
     
     <item>
       <title>Mutations</title>
-      <link>https://activestate.github.io/documentation-public/contributions/reference/mutations/</link>
+      <link>//activestate.github.io/documentation-public/contributions/reference/mutations/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/reference/mutations/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/reference/mutations/</guid>
       <description>mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data:,Hello%2C%20World!&amp;#34; builder : &amp;#34;activestate/builders/concat.sh@123&amp;#34; args: [ &amp;#34;hello.txt&amp;#34; ] ){ id revision timestamp } Response { &amp;#34;data&amp;#34; : { &amp;#34;id&amp;#34;: &amp;#34;AAA-83838-03030-83838&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;timestamp&amp;#34;: 1234 } } </description>
     </item>
     
     <item>
       <title>Queries</title>
-      <link>https://activestate.github.io/documentation-public/contributions/reference/queries/</link>
+      <link>//activestate.github.io/documentation-public/contributions/reference/queries/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/reference/queries/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/reference/queries/</guid>
       <description>{ timestamp artifacts(attime=1234, platform=macos requirements=[&amp;#34;activestate/A&amp;#34;]) { name status revision urls } } Response { &amp;#34;data&amp;#34; : { &amp;#34;timestamp&amp;#34;: 1234, &amp;#34;artifacts&amp;#34; : [{ &amp;#34;name&amp;#34;: &amp;#34;activestate/A&amp;#34;, &amp;#34;status&amp;#34;: &amp;#34;BUILT&amp;#34;, &amp;#34;revision&amp;#34;: 0, &amp;#34;version&amp;#34;: 0, &amp;#34;urls&amp;#34;: [&amp;#34;http://activestate.com/storage/AAA-83838-03030-83838-activestate-A/hello.txt&amp;#34;] }] } } You can query the schema to discover details about the API interactively.
 Run in GraphiQL
 { __schema{ types { name kind fields{ name description } } } } Run in GraphiQL
@@ -212,39 +212,39 @@ Run in GraphiQL
     
     <item>
       <title></title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/add-ingredient/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/add-ingredient/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/add-ingredient/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/add-ingredient/</guid>
       <description>Chapter 1: Adding your first ingredient In order to add a new ingredient, it&amp;rsquo;s easiest to use the state tool to create a template ingredient file which you can add detail to. We&amp;rsquo;ll create an ingredient for a python module called mypymodule which we&amp;rsquo;ll suppose is ready for release. Run
 state ingredient new mypymodule --version 0.0.1 --namespace language/python This will create a mypymodule directory under your current working directory with a single template file mypymodule.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</guid>
       <description>Chapter 2: Adding dependencies When writing our mypymodule python module, we decided to use some other open source modules to help out, specifically we decided to use the popular numpy and scipy modules. We need to tell the platform that these modules are required by anyone who wants to use mypymodule. If we have been preparing our module for installation with pip and have a requirements.txt, a pipfile or a pyproject.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</guid>
       <description>Extended toolchain descriptor for an ingredient Composable toolchains Note: This document describes how an ingredient would describe the toolchain(s) required to build it, not how we would define a toolchain within the platform
 This is a sample blank ingredient with an example of a possible extended toochain descriptor. Note it has an executor toolchain which should be present on the build image and whose definition should contain the mechanism for running this kind of build.</description>
     </item>
     
     <item>
       <title>About Your Dashboard</title>
-      <link>https://activestate.github.io/documentation-public/user/dashboard/</link>
+      <link>//activestate.github.io/documentation-public/user/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/dashboard/</guid>
+      <guid>//activestate.github.io/documentation-public/user/dashboard/</guid>
       <description>Accessing Your Dashboard Your Dashboard is the first page you see when you sign in to the ActiveState Platform.
 To access Your Dashboard anytime after you&amp;rsquo;re signed in, click Your Dashboard at the top center of any page.
 Finding your projects and organizations The main page on Your Dashboard lists your most recently modified projects and the organizations you belong to. Click on the Projects tab to view a complete list of your projects.</description>
@@ -252,38 +252,38 @@ Finding your projects and organizations The main page on Your Dashboard lists yo
     
     <item>
       <title>activate</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/activate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/activate/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/activate/</guid>
       <description>&lt;p&gt;Activate an ActiveState Platform project on your local computer.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ActiveState Platform Changelog</title>
-      <link>https://activestate.github.io/documentation-public/changes/</link>
+      <link>//activestate.github.io/documentation-public/changes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/changes/</guid>
+      <guid>//activestate.github.io/documentation-public/changes/</guid>
       <description>What&amp;rsquo;s new February - March 2020
 Enhancement: Python package catalog expanded to include the packages you need  We&amp;rsquo;ve added a large set of around 20,000 Python packages/versions. The ActiveState Platform now have coverage of the important packages/versions in the Python ecosystem, and they&amp;rsquo;re available for you to add to your projects.  New Feature: State tool now supports requirements.txt When you add packages to a Python project using the State Tool, you now have the option to specify the package requirements for the project in a requirements.</description>
     </item>
     
     <item>
       <title>ActiveState Platform Glossary</title>
-      <link>https://activestate.github.io/documentation-public/glossary/</link>
+      <link>//activestate.github.io/documentation-public/glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/glossary/</guid>
+      <guid>//activestate.github.io/documentation-public/glossary/</guid>
       <description>Commit       Dashboard       Fork       Open source       Organization       Private project       Project       Tier       User   Users are personal ActiveState Platform accounts. Each user has a personal profile and can create projects and organizations.</description>
     </item>
     
     <item>
       <title>Adding Secrets to your project</title>
-      <link>https://activestate.github.io/documentation-public/projects/secrets/</link>
+      <link>//activestate.github.io/documentation-public/projects/secrets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/secrets/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/secrets/</guid>
       <description>Secrets are for sensitive information that needs to be shared between environments and people working on a project. For example, you can securely store API keys and database passwords using secrets. Secrets are client-side encrypted values, meaning that they are not stored on our servers and ActiveState cannot access your secret values.
 To add a secret to your project:
  In Your Dashboard, select the organization that contains the project you want to add a secret to and then click the Projects tab, or click the Projects tab in your dashboard to add a secret to a personal project.</description>
@@ -291,57 +291,57 @@ To add a secret to your project:
     
     <item>
       <title>AppVeyor</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/appveyor/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/appveyor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/ci/appveyor/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/appveyor/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with AppVeyor, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
       <title>auth</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/auth/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/auth/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/auth/</guid>
       <description>&lt;p&gt;Authenticate your account on the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Change Password</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/password/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/password/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/password/</guid>
       <description>&lt;p&gt;You can change your password at any time in the &lt;strong&gt;Change Password&lt;/strong&gt; page.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>clean</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/clean/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/clean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/clean/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/clean/</guid>
       <description>&lt;p&gt;Remove the State Tool, any installed languages, and any configuration files.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Creating Organizations</title>
-      <link>https://activestate.github.io/documentation-public/organizations/create/</link>
+      <link>//activestate.github.io/documentation-public/organizations/create/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/organizations/create/</guid>
+      <guid>//activestate.github.io/documentation-public/organizations/create/</guid>
       <description>Organizations allow you to group your projects and the users permitted access to those projects. Every project belongs to an organization, and each organization is separate. An organization has one or more members. You can create, or be invited to, more than one organization. For example, you could create an organization for your personal work or side project, and also be invited to join your company&amp;rsquo;s organization.
 To create an organization:</description>
     </item>
     
     <item>
       <title>Creating projects from requirements.txt files</title>
-      <link>https://activestate.github.io/documentation-public/projects/requirements-txt/</link>
+      <link>//activestate.github.io/documentation-public/projects/requirements-txt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/requirements-txt/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/requirements-txt/</guid>
       <description>If you have an existing Python project that you want to add to the Platform, you can export a requirements.txt file to get a list of packages and versions to import into your Platform project, or you can type in the list of packages and versions manually.
 Generating requirements.txt files To generate a requirements.txt file:
   You can write out the requirements for an existing project to a requirements.txt file using one of the following commands at your command prompt:</description>
@@ -349,56 +349,56 @@ Generating requirements.txt files To generate a requirements.txt file:
     
     <item>
       <title>Date &amp; Time</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/datetime/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/datetime/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/datetime/</guid>
       <description>&lt;p&gt;You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Deleting Organizations</title>
-      <link>https://activestate.github.io/documentation-public/organizations/deleting/</link>
+      <link>//activestate.github.io/documentation-public/organizations/deleting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/organizations/deleting/</guid>
+      <guid>//activestate.github.io/documentation-public/organizations/deleting/</guid>
       <description>You can delete an organization if you are an Owner of the organization.
  Click Your Dashboard at the top of any page. Click the name of the organization you want to delete in the Your Organizations list. Click Settings. Click Delete this Organization. Click Yes to permanently delete the organization.  </description>
     </item>
     
     <item>
       <title>Email Addresses</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/email/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/email/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/email/</guid>
       <description>&lt;p&gt;You can add or change the email addresses associated with your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>events</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/events/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/events/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/events/</guid>
       <description>&lt;p&gt;List the configured events for your project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>export</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/export/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/export/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/export/</guid>
       <description>&lt;p&gt;Export JWT or recipe information.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Featured Projects: ActiveState Community Edition projects</title>
-      <link>https://activestate.github.io/documentation-public/projects/featured-projects/</link>
+      <link>//activestate.github.io/documentation-public/projects/featured-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/featured-projects/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/featured-projects/</guid>
       <description>A number of Community Edition language distributions are available on the Featured Projects page for ActivePerl, ActivePython, and ActiveTcl. These are ActiveState Platform projects, maintained by ActiveState.
   Navigate to the Featured Projects page at https://platform.activestate.com/featured-projects.
   Browse the list of available projects and click the operating system image for the language distribution you want to download.
@@ -407,10 +407,10 @@ Generating requirements.txt files To generate a requirements.txt file:
     
     <item>
       <title>First principals</title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/01-basics/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/01-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/01-basics/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/01-basics/</guid>
       <description>Ingredient A whose source is the content &amp;ldquo;Hello World!&amp;rdquo; It uses the concat builder and sends the hello.txt argument
 Request
 mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data:,Hello%2C%20World!&amp;#34; builder : &amp;#34;activestate/builders/concat.sh@123&amp;#34; args: [ &amp;#34;hello.txt&amp;#34; ] ){ id revision timestamp } Response
@@ -419,29 +419,29 @@ mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data
     
     <item>
       <title>fork</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/fork/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/fork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/fork/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/fork/</guid>
       <description>&lt;p&gt;Create a fork of an existing Platform project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Forking projects</title>
-      <link>https://activestate.github.io/documentation-public/projects/forks/</link>
+      <link>//activestate.github.io/documentation-public/projects/forks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/forks/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/forks/</guid>
       <description>Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.
 To fork a project:</description>
     </item>
     
     <item>
       <title>GitHub Actions</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/github-actions/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/github-actions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/ci/github-actions/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/github-actions/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process for a Python project with GitHub, GitHub Actions, and the ActiveState Platform.
 Gathering environment variable settings Before you begin:
  You need an ActiveState Platform account. If you do not currently have an account you can sign up for free at: https://platform.activestate.com/create-account. You need to have the State Tool installed on your computer, and authorized with the Platform using the state auth command, in order to run the command to retrieve the API key, and to access your private.</description>
@@ -449,57 +449,57 @@ Gathering environment variable settings Before you begin:
     
     <item>
       <title>history</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/history/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/history/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/history/</guid>
       <description>&lt;p&gt;List the commit history for your project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>init</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/init/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/init/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/init/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/init/</guid>
       <description>&lt;p&gt;Create a new ActiveState Platform project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Jenkins</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/jenkins/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/ci/jenkins/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/jenkins/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Jenkins, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Gathering environment variable settings Before you begin:</description>
     </item>
     
     <item>
       <title>languages</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/languages/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/languages/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/languages/</guid>
       <description>&lt;p&gt;List the languages in your project, and allows you to update the specified languages.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Leaving Organizations</title>
-      <link>https://activestate.github.io/documentation-public/organizations/leaving/</link>
+      <link>//activestate.github.io/documentation-public/organizations/leaving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/organizations/leaving/</guid>
+      <guid>//activestate.github.io/documentation-public/organizations/leaving/</guid>
       <description>You can leave any organization you are a member of. If you are the owner of an Organization, you can leave the organization if you are not the user that created the organization.
  Click menu at the top right of the page that displays your username, and select Account Settings. Click the Organizations link. Click Leave next to the organization you want to leave. Click Yes to confirm your selection.</description>
     </item>
     
     <item>
       <title>Need Help?</title>
-      <link>https://activestate.github.io/documentation-public/support/</link>
+      <link>//activestate.github.io/documentation-public/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/support/</guid>
+      <guid>//activestate.github.io/documentation-public/support/</guid>
       <description>Documentation Get help with the ActiveState platform by clicking your username in the top-right menu and selecting Documentation. Help for the ActiveState Platform will open in a new browser tab or window.
 You can also access the latest documentation directly at http://docs.activestate.com/platform/.
 Contact support Via messaging If you run into an issue or have a question while you are navigating the ActiveState website, you can open a chat window and send a message by clicking on the messenger at the bottom right of each page.</description>
@@ -507,83 +507,83 @@ Contact support Via messaging If you run into an issue or have a question while 
     
     <item>
       <title>Organizations</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/organizations/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/organizations/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/organizations/</guid>
       <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>organizations</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/organizations/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/organizations/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/organizations/</guid>
       <description>&lt;p&gt;Lists the organizations you are a member of.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>packages</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/packages/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/packages/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/packages/</guid>
       <description>&lt;p&gt;Manage the packages within an ActiveState Platform project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Packaging</title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/04-packaging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/04-packaging/</guid>
       <description>We provide several Packagers that will take Artifacts out of the Build Graph and convert them to a format that you can use natively. Packagers have an number of common required arguments and fields in common. These describe the Artifacts that the packager needs.
 Common query { ; packager using atTime/requirements packager(atTime=1234, platform=&amp;#34;II-X&amp;#34;) { fields... } ; packager referencing an order packager(commitId = &amp;#34;AA7-IXX...&amp;#34;) { fields... } } Common arguments In addition to packager specific arguments all packagers require one of more of the following attributes.</description>
     </item>
     
     <item>
       <title>platforms</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/platforms/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/platforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/platforms/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/platforms/</guid>
       <description>&lt;p&gt;List the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/projects/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/projects/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/projects/</guid>
       <description>&lt;p&gt;List the projects you have access to from all of the Organizations you belong to.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>pull</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/pull/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/pull/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/pull/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/pull/</guid>
       <description>&lt;p&gt;Update your &lt;code&gt;activestate.yaml&lt;/code&gt; so that it references the latest version of your platform runtime environment.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>push</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/push/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/push/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/push/</guid>
       <description>&lt;p&gt;Push your local changes to the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Removing Users</title>
-      <link>https://activestate.github.io/documentation-public/organizations/users/</link>
+      <link>//activestate.github.io/documentation-public/organizations/users/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/organizations/users/</guid>
+      <guid>//activestate.github.io/documentation-public/organizations/users/</guid>
       <description>If you are an Owner of an organization, you can remove users that belong to that organization. Once removed, the user&amp;rsquo;s access to all data associated with the organization will be immediately revoked.
 If you want to remove yourself from the Organization, ensure that the Organization has at least one owner and navigate to the Organizations Account Settings page to leave the Organization.
   Click Your Dashboard at the top of any page.</description>
@@ -591,19 +591,19 @@ If you want to remove yourself from the Organization, ensure that the Organizati
     
     <item>
       <title>Requirements</title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/02-requirements/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/02-requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/02-requirements/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/02-requirements/</guid>
       <description>interface Requirement{ name: String! } type Any implements Requirement {name: String!} type Latest implements Requirement {name: String!} type GT implements Requirement{ name: String! version: String! } type GTE implements Requirement{ name: String! version: String! } type LT implements Requirement{ name: String! version: String! } type LTE implements Requirement{ name: String! version: String! } </description>
     </item>
     
     <item>
       <title>Resetting your password</title>
-      <link>https://activestate.github.io/documentation-public/user/password_reset/</link>
+      <link>//activestate.github.io/documentation-public/user/password_reset/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/password_reset/</guid>
+      <guid>//activestate.github.io/documentation-public/user/password_reset/</guid>
       <description>If you cannot remember your password or you need to reset it for security reasons, you can reset it.
 If you are signed into the Platform and want to change your password, you can do so in the Change Password preferences page.
  To reset your password:
@@ -612,76 +612,76 @@ If you are signed into the Platform and want to change your password, you can do
     
     <item>
       <title>run</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/run/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/run/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/run/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/run/</guid>
       <description>&lt;p&gt;Manually run scripts you have defined for your projects by name.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scripts</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/scripts/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/scripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/scripts/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/scripts/</guid>
       <description>&lt;p&gt;List all available scripts.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>secrets</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/secrets/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/secrets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/secrets/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/secrets/</guid>
       <description>&lt;p&gt;Manage secrets within a Project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sending Invites</title>
-      <link>https://activestate.github.io/documentation-public/organizations/invite/</link>
+      <link>//activestate.github.io/documentation-public/organizations/invite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/organizations/invite/</guid>
+      <guid>//activestate.github.io/documentation-public/organizations/invite/</guid>
       <description>You can invite other users to join your organization. Each user you invite will receive an email with a unique link that allows them to accept your invitation and access the data associated with your organization. If they are not already users of the ActiveState Platform they will need to create an account.
 Invited users are listed in the Pending Invites list until they accept the invite to the organization. You can resend the email, if necessary, by clicking the Resend link.</description>
     </item>
     
     <item>
       <title>show</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/show/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/show/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/show/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/show/</guid>
       <description>&lt;p&gt;Display information about the current project, or a specified remote project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Signing In</title>
-      <link>https://activestate.github.io/documentation-public/user/sign_in/</link>
+      <link>//activestate.github.io/documentation-public/user/sign_in/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/sign_in/</guid>
+      <guid>//activestate.github.io/documentation-public/user/sign_in/</guid>
       <description>To sign in to the ActiveState Platform:
  Navigate to platform.activestate.com. In the Sign In page, enter your username or email address and password. Click Sign in. If you have Two-factor authentication enabled, you will be prompted to enter your 6-digit code. Enter your two-factor code and click Sign In again.  If you don&amp;rsquo;t remember your password, you can reset it by clicking the Forgot your password? link on the Sign In page.</description>
     </item>
     
     <item>
       <title>Signing Out</title>
-      <link>https://activestate.github.io/documentation-public/user/sign_out/</link>
+      <link>//activestate.github.io/documentation-public/user/sign_out/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/sign_out/</guid>
+      <guid>//activestate.github.io/documentation-public/user/sign_out/</guid>
       <description>To sign out from the ActiveState Platform:
  Click menu at the top right of the page that displays your username, and select Sign Out.  Your account is signed out, and your browser is redirected to the Sign Inpage.</description>
     </item>
     
     <item>
       <title>Style guide</title>
-      <link>https://activestate.github.io/documentation-public/contributions/style/</link>
+      <link>//activestate.github.io/documentation-public/contributions/style/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/style/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/style/</guid>
       <description>Admonitions This is a note.
  This is a tip.
  This is an informational message.
@@ -691,47 +691,47 @@ Invited users are listed in the Pending Invites list until they accept the invit
     
     <item>
       <title>Travis</title>
-      <link>https://activestate.github.io/documentation-public/state/ci/travis/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/travis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/ci/travis/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/travis/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
     </item>
     
     <item>
       <title>Two-factor Authentication</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/twofactor/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/twofactor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/twofactor/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/twofactor/</guid>
       <description>&lt;p&gt;You can use two-factor authentication to secure your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>update</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/update/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/update/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/update/</guid>
       <description>&lt;p&gt;Update the State Tool to the latest available version.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Updating Billing Details</title>
-      <link>https://activestate.github.io/documentation-public/organizations/billing/</link>
+      <link>//activestate.github.io/documentation-public/organizations/billing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/organizations/billing/</guid>
+      <guid>//activestate.github.io/documentation-public/organizations/billing/</guid>
       <description>Click Your Dashboard at the top of any page. Click the name of the organization you want to update billing details for. Click the Settings tab. Click Modify. You can add or update billing information including the cardholder name, billing address, contact email, and credit card details. To update or change your credit card information, click Update Card and reenter your credit card number, expiry date, and the CVC number on the back of your card.</description>
     </item>
     
     <item>
       <title>Versions</title>
-      <link>https://activestate.github.io/documentation-public/contributions/devug/03-versions/</link>
+      <link>//activestate.github.io/documentation-public/contributions/devug/03-versions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/devug/03-versions/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/devug/03-versions/</guid>
       <description>In previous examples we showed you how to add simple ingredients to the BuildGraph without any kind of lineage. Every edit we posted was a Revision to the single Ingredient. The revision you are given when asking for Artifacts depends entirely on the time stamp given. Software authors however often ship source for multiple versions of the same software. The BuildGraph models this as well and gives you powerful tools to choose the most appropriate version for your requirments.</description>
     </item>
     

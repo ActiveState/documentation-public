@@ -3,460 +3,460 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/guides/getting-started/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/guides/getting-started/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/changelog/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/changelog/</loc>
     <lastmod>2020-03-30T16:17:40-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/</loc>
+    <loc>//activestate.github.io/documentation-public/start/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/platform/</loc>
+    <loc>//activestate.github.io/documentation-public/start/platform/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/managed/</loc>
+    <loc>//activestate.github.io/documentation-public/start/managed/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/build/</loc>
+    <loc>//activestate.github.io/documentation-public/start/build/</loc>
     <lastmod>2020-03-23T16:20:33-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/start/state-tool/</loc>
+    <loc>//activestate.github.io/documentation-public/start/state-tool/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/</loc>
+    <loc>//activestate.github.io/documentation-public/user/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/create_account/</loc>
+    <loc>//activestate.github.io/documentation-public/user/create_account/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/troubleshooting/</loc>
+    <loc>//activestate.github.io/documentation-public/troubleshooting/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/trademarks/</loc>
+    <loc>//activestate.github.io/documentation-public/trademarks/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/terms/</loc>
+    <loc>//activestate.github.io/documentation-public/terms/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/prefs/</loc>
+    <loc>//activestate.github.io/documentation-public/user/prefs/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/projects/custom/</loc>
+    <loc>//activestate.github.io/documentation-public/projects/custom/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/projects/</loc>
+    <loc>//activestate.github.io/documentation-public/projects/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/pull-requests/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/pull-requests/</loc>
     <lastmod>2020-02-18T21:37:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/code/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/code/</loc>
     <lastmod>2020-02-18T21:37:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/documentation/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/documentation/</loc>
     <lastmod>2020-02-18T21:37:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/</loc>
+    <loc>//activestate.github.io/documentation-public/state/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/start/</loc>
+    <loc>//activestate.github.io/documentation-public/state/start/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/ci/</loc>
+    <loc>//activestate.github.io/documentation-public/state/ci/</loc>
     <lastmod>2020-03-30T14:17:33-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/guides/toc/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/guides/toc/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/reference/glossary/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/reference/glossary/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/guides/builder/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/guides/builder/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/howto/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/howto/</loc>
     <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/howto/add-packages/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/howto/add-packages/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/reference/mutations/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/reference/mutations/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/reference/queries/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/reference/queries/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/explorer/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/explorer/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/guides/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/guides/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/reference/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/reference/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/add-ingredient/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/add-ingredient/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/adding-dependencies/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/extended-toolchain-example/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/dashboard/</loc>
+    <loc>//activestate.github.io/documentation-public/user/dashboard/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/activate/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/activate/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/changes/</loc>
+    <loc>//activestate.github.io/documentation-public/changes/</loc>
     <lastmod>2020-04-02T10:33:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/glossary/</loc>
+    <loc>//activestate.github.io/documentation-public/glossary/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/projects/secrets/</loc>
+    <loc>//activestate.github.io/documentation-public/projects/secrets/</loc>
     <lastmod>2020-03-20T15:01:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/ci/appveyor/</loc>
+    <loc>//activestate.github.io/documentation-public/state/ci/appveyor/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/auth/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/auth/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/categories/</loc>
+    <loc>//activestate.github.io/documentation-public/categories/</loc>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/prefs/password/</loc>
+    <loc>//activestate.github.io/documentation-public/user/prefs/password/</loc>
     <lastmod>2020-03-23T12:13:38-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/clean/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/clean/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/create/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/create/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/projects/requirements-txt/</loc>
+    <loc>//activestate.github.io/documentation-public/projects/requirements-txt/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/prefs/datetime/</loc>
+    <loc>//activestate.github.io/documentation-public/user/prefs/datetime/</loc>
     <lastmod>2020-03-23T12:13:38-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/deleting/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/deleting/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/</loc>
     <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/prefs/email/</loc>
+    <loc>//activestate.github.io/documentation-public/user/prefs/email/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/events/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/events/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/export/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/export/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/projects/featured-projects/</loc>
+    <loc>//activestate.github.io/documentation-public/projects/featured-projects/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/01-basics/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/01-basics/</loc>
     <lastmod>2020-03-30T16:16:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/fork/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/fork/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/projects/forks/</loc>
+    <loc>//activestate.github.io/documentation-public/projects/forks/</loc>
     <lastmod>2020-03-20T15:01:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/ci/github-actions/</loc>
+    <loc>//activestate.github.io/documentation-public/state/ci/github-actions/</loc>
     <lastmod>2020-03-30T14:39:30-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/history/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/history/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/</loc>
-    <lastmod>2020-04-02T11:04:43-07:00</lastmod>
+    <loc>//activestate.github.io/documentation-public/</loc>
+    <lastmod>2020-04-02T11:16:25-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/init/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/init/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/ci/jenkins/</loc>
+    <loc>//activestate.github.io/documentation-public/state/ci/jenkins/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/languages/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/languages/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/leaving/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/leaving/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/support/</loc>
+    <loc>//activestate.github.io/documentation-public/support/</loc>
     <lastmod>2020-03-23T12:02:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/prefs/organizations/</loc>
+    <loc>//activestate.github.io/documentation-public/user/prefs/organizations/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/organizations/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/organizations/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/packages/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/packages/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/04-packaging/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/04-packaging/</loc>
     <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/platforms/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/platforms/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/projects/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/projects/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/pull/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/pull/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/push/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/push/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/users/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/users/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/02-requirements/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/02-requirements/</loc>
     <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/password_reset/</loc>
+    <loc>//activestate.github.io/documentation-public/user/password_reset/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/run/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/run/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/scripts/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/scripts/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/secrets/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/secrets/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/invite/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/invite/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/show/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/show/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/sign_in/</loc>
+    <loc>//activestate.github.io/documentation-public/user/sign_in/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/sign_out/</loc>
+    <loc>//activestate.github.io/documentation-public/user/sign_out/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/style/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/style/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/tags/</loc>
+    <loc>//activestate.github.io/documentation-public/tags/</loc>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/ci/travis/</loc>
+    <loc>//activestate.github.io/documentation-public/state/ci/travis/</loc>
     <lastmod>2020-03-23T11:46:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/user/prefs/twofactor/</loc>
+    <loc>//activestate.github.io/documentation-public/user/prefs/twofactor/</loc>
     <lastmod>2020-03-23T12:13:38-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/state/commands/update/</loc>
+    <loc>//activestate.github.io/documentation-public/state/commands/update/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/organizations/billing/</loc>
+    <loc>//activestate.github.io/documentation-public/organizations/billing/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://activestate.github.io/documentation-public/contributions/devug/03-versions/</loc>
+    <loc>//activestate.github.io/documentation-public/contributions/devug/03-versions/</loc>
     <lastmod>2020-03-30T16:02:41-07:00</lastmod>
   </url>
   

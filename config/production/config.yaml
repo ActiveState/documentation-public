@@ -1,3 +1,3 @@
-baseUrl: https://activestate.github.io/documentation-public/
+baseUrl: //activestate.github.io/documentation-public
 enableRobotsTXT: true
 minify: true

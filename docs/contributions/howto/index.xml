@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How Do I... on ActiveState Platform Documentation</title>
-    <link>https://activestate.github.io/documentation-public/contributions/howto/</link>
+    <link>//activestate.github.io/documentation-public/contributions/howto/</link>
     <description>Recent content in How Do I... on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Dec 2019 02:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://activestate.github.io/documentation-public/contributions/howto/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//activestate.github.io/documentation-public/contributions/howto/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Add Packages</title>
-      <link>https://activestate.github.io/documentation-public/contributions/howto/add-packages/</link>
+      <link>//activestate.github.io/documentation-public/contributions/howto/add-packages/</link>
       <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/contributions/howto/add-packages/</guid>
+      <guid>//activestate.github.io/documentation-public/contributions/howto/add-packages/</guid>
       <description>Step 1: Get your authentication token/API key and organization id The Dashboard API service is responsible for authenticating a user and providing a token that will need to be included in all future API requests to this service and all other services the user needs to communicate with.
 This service is also responsible for knowing which organizations a user belongs to. In order to create a private ingredient, the ingredient needs to be associated with an organization, specifically an organization ID.</description>
     </item>

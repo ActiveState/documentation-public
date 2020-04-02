@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preferences on ActiveState Platform Documentation</title>
-    <link>https://activestate.github.io/documentation-public/user/prefs/</link>
+    <link>//activestate.github.io/documentation-public/user/prefs/</link>
     <description>Recent content in Preferences on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://activestate.github.io/documentation-public/user/prefs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//activestate.github.io/documentation-public/user/prefs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Change Password</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/password/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/password/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/password/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/password/</guid>
       <description>&lt;p&gt;You can change your password at any time in the &lt;strong&gt;Change Password&lt;/strong&gt; page.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Date &amp; Time</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/datetime/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/datetime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/datetime/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/datetime/</guid>
       <description>&lt;p&gt;You can change the way dates and times are displayed in the ActiveState Platform and the timezone that is used.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Email Addresses</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/email/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/email/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/email/</guid>
       <description>&lt;p&gt;You can add or change the email addresses associated with your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Organizations</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/organizations/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/organizations/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/organizations/</guid>
       <description>&lt;p&gt;You can add new Organizations or leave Organizations you are a member of in the &lt;strong&gt;Organizations&lt;/strong&gt; account settings page.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Two-factor Authentication</title>
-      <link>https://activestate.github.io/documentation-public/user/prefs/twofactor/</link>
+      <link>//activestate.github.io/documentation-public/user/prefs/twofactor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/user/prefs/twofactor/</guid>
+      <guid>//activestate.github.io/documentation-public/user/prefs/twofactor/</guid>
       <description>&lt;p&gt;You can use two-factor authentication to secure your ActiveState Platform account.&lt;/p&gt;</description>
     </item>
     

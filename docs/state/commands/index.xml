@@ -2,191 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Command Reference on ActiveState Platform Documentation</title>
-    <link>https://activestate.github.io/documentation-public/state/commands/</link>
+    <link>//activestate.github.io/documentation-public/state/commands/</link>
     <description>Recent content in Command Reference on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://activestate.github.io/documentation-public/state/commands/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//activestate.github.io/documentation-public/state/commands/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>activate</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/activate/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/activate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/activate/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/activate/</guid>
       <description>&lt;p&gt;Activate an ActiveState Platform project on your local computer.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>auth</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/auth/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/auth/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/auth/</guid>
       <description>&lt;p&gt;Authenticate your account on the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>clean</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/clean/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/clean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/clean/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/clean/</guid>
       <description>&lt;p&gt;Remove the State Tool, any installed languages, and any configuration files.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>events</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/events/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/events/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/events/</guid>
       <description>&lt;p&gt;List the configured events for your project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>export</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/export/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/export/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/export/</guid>
       <description>&lt;p&gt;Export JWT or recipe information.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>fork</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/fork/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/fork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/fork/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/fork/</guid>
       <description>&lt;p&gt;Create a fork of an existing Platform project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>history</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/history/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/history/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/history/</guid>
       <description>&lt;p&gt;List the commit history for your project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>init</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/init/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/init/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/init/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/init/</guid>
       <description>&lt;p&gt;Create a new ActiveState Platform project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>languages</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/languages/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/languages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/languages/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/languages/</guid>
       <description>&lt;p&gt;List the languages in your project, and allows you to update the specified languages.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>organizations</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/organizations/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/organizations/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/organizations/</guid>
       <description>&lt;p&gt;Lists the organizations you are a member of.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>packages</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/packages/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/packages/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/packages/</guid>
       <description>&lt;p&gt;Manage the packages within an ActiveState Platform project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>platforms</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/platforms/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/platforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/platforms/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/platforms/</guid>
       <description>&lt;p&gt;List the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/projects/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/projects/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/projects/</guid>
       <description>&lt;p&gt;List the projects you have access to from all of the Organizations you belong to.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>pull</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/pull/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/pull/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/pull/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/pull/</guid>
       <description>&lt;p&gt;Update your &lt;code&gt;activestate.yaml&lt;/code&gt; so that it references the latest version of your platform runtime environment.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>push</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/push/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/push/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/push/</guid>
       <description>&lt;p&gt;Push your local changes to the ActiveState Platform.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>run</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/run/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/run/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/run/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/run/</guid>
       <description>&lt;p&gt;Manually run scripts you have defined for your projects by name.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scripts</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/scripts/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/scripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/scripts/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/scripts/</guid>
       <description>&lt;p&gt;List all available scripts.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>secrets</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/secrets/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/secrets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/secrets/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/secrets/</guid>
       <description>&lt;p&gt;Manage secrets within a Project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>show</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/show/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/show/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/show/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/show/</guid>
       <description>&lt;p&gt;Display information about the current project, or a specified remote project.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>update</title>
-      <link>https://activestate.github.io/documentation-public/state/commands/update/</link>
+      <link>//activestate.github.io/documentation-public/state/commands/update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/state/commands/update/</guid>
+      <guid>//activestate.github.io/documentation-public/state/commands/update/</guid>
       <description>&lt;p&gt;Update the State Tool to the latest available version.&lt;/p&gt;</description>
     </item>
     

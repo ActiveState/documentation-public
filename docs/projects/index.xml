@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on ActiveState Platform Documentation</title>
-    <link>https://activestate.github.io/documentation-public/projects/</link>
+    <link>//activestate.github.io/documentation-public/projects/</link>
     <description>Recent content in Projects on ActiveState Platform Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://activestate.github.io/documentation-public/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//activestate.github.io/documentation-public/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating custom projects</title>
-      <link>https://activestate.github.io/documentation-public/projects/custom/</link>
+      <link>//activestate.github.io/documentation-public/projects/custom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/custom/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/custom/</guid>
       <description>You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.
  Open your web browser and navigate to http://platform.activestate.comand sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
     </item>
     
     <item>
       <title>Adding Secrets to your project</title>
-      <link>https://activestate.github.io/documentation-public/projects/secrets/</link>
+      <link>//activestate.github.io/documentation-public/projects/secrets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/secrets/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/secrets/</guid>
       <description>Secrets are for sensitive information that needs to be shared between environments and people working on a project. For example, you can securely store API keys and database passwords using secrets. Secrets are client-side encrypted values, meaning that they are not stored on our servers and ActiveState cannot access your secret values.
 To add a secret to your project:
  In Your Dashboard, select the organization that contains the project you want to add a secret to and then click the Projects tab, or click the Projects tab in your dashboard to add a secret to a personal project.</description>
@@ -33,10 +33,10 @@ To add a secret to your project:
     
     <item>
       <title>Creating projects from requirements.txt files</title>
-      <link>https://activestate.github.io/documentation-public/projects/requirements-txt/</link>
+      <link>//activestate.github.io/documentation-public/projects/requirements-txt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/requirements-txt/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/requirements-txt/</guid>
       <description>If you have an existing Python project that you want to add to the Platform, you can export a requirements.txt file to get a list of packages and versions to import into your Platform project, or you can type in the list of packages and versions manually.
 Generating requirements.txt files To generate a requirements.txt file:
   You can write out the requirements for an existing project to a requirements.txt file using one of the following commands at your command prompt:</description>
@@ -44,10 +44,10 @@ Generating requirements.txt files To generate a requirements.txt file:
     
     <item>
       <title>Featured Projects: ActiveState Community Edition projects</title>
-      <link>https://activestate.github.io/documentation-public/projects/featured-projects/</link>
+      <link>//activestate.github.io/documentation-public/projects/featured-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/featured-projects/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/featured-projects/</guid>
       <description>A number of Community Edition language distributions are available on the Featured Projects page for ActivePerl, ActivePython, and ActiveTcl. These are ActiveState Platform projects, maintained by ActiveState.
   Navigate to the Featured Projects page at https://platform.activestate.com/featured-projects.
   Browse the list of available projects and click the operating system image for the language distribution you want to download.
@@ -56,10 +56,10 @@ Generating requirements.txt files To generate a requirements.txt file:
     
     <item>
       <title>Forking projects</title>
-      <link>https://activestate.github.io/documentation-public/projects/forks/</link>
+      <link>//activestate.github.io/documentation-public/projects/forks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://activestate.github.io/documentation-public/projects/forks/</guid>
+      <guid>//activestate.github.io/documentation-public/projects/forks/</guid>
       <description>Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.
 To fork a project:</description>
     </item>
