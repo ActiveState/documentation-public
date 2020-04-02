@@ -14,13 +14,13 @@ The distributions available to your Organization, and how you can use them in pr
 * **OEM** customers: You get access to the language distribution builds you are licensed to redistribute.
 
 Important: ActiveState language distributions are licensed solely in accordance with the terms of their respective license agreements and or 
-support level agreements, available at <a href="https://www.activestate.com/eulas/" target="\_blank">https://www.activestate.com/eulas/</a> or by logging in to <a href="https://account.activestate.com">My Account</a> for your account details.
+support level agreements, available at [https://www.activestate.com/eulas/](https://www.activestate.com/eulas/) or by logging in to [My Account](https://account.activestate.com) for your account details.
 
-If you do not have access to the builds you expect to see, contact <a href="mailto:support@activestate.com">support@activestate.com</a>. If you previously accessed your installers through My Account, you can continue to access them there through 2019 at <a href="https://account.activestate.com">account.activestate.com</a>.
+If you do not have access to the builds you expect to see, contact <a href="mailto:support@activestate.com">support@activestate.com</a>. If you previously accessed your installers through My Account, you can continue to access them there through 2019 at [account.activestate.com](https://account.activestate.com).
 
 To access your managed projects:
 
-1. Open your web browser and navigate to <a href ="https://platform.activestate.com" target="\_blank">http://platform.activestate.com</a> and sign in.
+1. Open your web browser and navigate to [https://platform.activestate.com](http://platform.activestate.com) and sign in.
 2. Click **Your Dashboard** at the top of the page.
 3. In the **Your Organizations** panel, select an organization that contains managed projects.
 4. Click the **Projects** tab.
@@ -29,4 +29,4 @@ To access your managed projects:
    * Review the list of packages and versions included in the project.
    * Click any of the buttons in the **Download Builds**  panel to download the installer for your operating system.
    * Copy the command to install the project using the State Tool.
-   * Click the **Fork It** link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see [Forking Projects](/projects/forks/).
+   * Click the **Fork It** link to create a copy of the project. Forking a project allows you to get the latest changes as commits are added to the original project. For more information, see [Forking Projects]({{< ref "../projects/forks.md" >}}).
