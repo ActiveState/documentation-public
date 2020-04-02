@@ -160,9 +160,9 @@ The form for creating new projects has been streamlined and simplified so you ca
 
 **Note**: Private projects are only available for paid accounts.
 
-![New project](images/projects-new.png)
+![New project](../images/projects-new.png)
 
-![New project form](images/projects-new-form.png)
+![New project form](../images/projects-new-form.png)
 
 ### Enhancement: More help options for failed builds
 
@@ -174,13 +174,13 @@ If your build fails, you have a few options for moving forward:
 
 The failed build page now provides more information and links for these options.
 
-![Failed build options](images/failed-build-options.png)
+![Failed build options](../images/failed-build-options.png)
 
 ### New Feature: Success/Failure Build Notification Emails
 
 You no longer need to keep checking on the status of your build. We'll let you know when it's done. The Platform now notifies you by email when a build finishes indicating whether the build succeeded or failed. If the build succeeded, you can click on a link in the email to return to the project page to download your build.
 
-![Build Notification Email - Success!](images/success-notifications.png)
+![Build Notification Email - Success!](../images/success-notifications.png)
 
 ### Release: State Tool update: Secrets, Scripts, Events, and more
 
@@ -203,40 +203,40 @@ Scripts and events provide ways to run additional logic required to configure yo
 
 - A preview release of the State Tool is now available on Windows and Linux. The State Tool is the command line tool for the ActiveState Platform. Create a custom build or fork an ActiveState build, and then use the State Tool to download it and activate your project in a virtual environment. For details on getting started, see the [State Tool documentation](/state/).
 
-    ![State Tool on Windows](images/state-tool-windows.png)
+    ![State Tool on Windows](../images/state-tool-windows.png)
 
 ### New Feature: Private Projects
 
 - Paid users can create private projects. Users on the Coder, Team, Business, and Enterprise tiers can now create private projects. Private projects are restricted to members of the organization the project belongs to. Users on the Coder tier can create private projects that are only visible to themselves in their personal org. By default new projects on all tiers are public projects, which are visible to all users on the Platform.
 
-    ![Private projects](images/private-projects.png)
+    ![Private projects](../images/private-projects.png)
 
 ### New Feature: ActiveTcl Community Editions added to the Platform
 
 - New language added! You can now download ActiveTcl builds from the **Featured Projects** page.
     
-    ![ActiveTcl Projects](images/activetcl-projects.png)
+    ![ActiveTcl Projects](../images/activetcl-projects.png)
 
 **May 2019**
 
 - Improved **Build Status** information: You can now monitor the progress of your build including the total elapsed time, the success or failure of individual packages included in your build, and how long each package took to build. 
 
-    ![Build status](images/build-status.png)
+    ![Build status](../images/build-status.png)
     <br><br>
-    ![Build success](images/build-success.png)
+    ![Build success](../images/build-success.png)
 
 - New top-level navigation menu for quickly accessing **Your Dashboard**, **Featured Projects**, and **Dev Tools** from anywhere in the Platform.<br> 
 
-    ![Top-level navigation](images/top-level-navbar.png)
+    ![Top-level navigation](../images/top-level-navbar.png)
 
 - Red Hat Enterprise Linux 7 support: The Platform now supports builds with the latest Glibc version supported on RHEL 7 (glibc 2.17) and the latest kernel. Glibc is the main C library used by the Linux operating system, and the 2.17 release includes enhancements an bug fixes summarized <a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/7.0_release_notes/sect-red_hat_enterprise_linux-7.0_release_notes-compiler_and_tools-glibc" target="\_blank">here</a>. 
 - New **Featured Projects** tab: Provides access to the latest ActivePython and ActivePerl managed projects -- projects that are curated and maintained by ActiveState. Currently available for Linux, these projects are the latest evolution of ActiveState Community Edition language distributions. You can view these projects to see the packages they contain, or fork them to make them accessible in your personal projects, or the projects that belong to any of the organizations you belong to. 
 
-    ![Featured projects](images/featured-projects.png)
+    ![Featured projects](../images/featured-projects.png)
 
 - New **Dev Tools** tab: Access the latest edition of the Komodo IDE. For a limited time it's available to all Platform users. You can also try out the preview release of the State Tool, which enables you to work with your Platform projects in an isolated virtual environment. 
 
-    ![Dev Tools](images/dev-tools.png)
+    ![Dev Tools](../images/dev-tools.png)
 
 - Your **Dashboard** tab: Provides quick access to your personal homepage on the Platform.
 - Delete projects: Added the ability to delete a project in the project **Settings** tab. 
@@ -246,13 +246,13 @@ Scripts and events provide ways to run additional logic required to configure yo
 - You can rename your projects in the project **Settings** tab.
 - You can create your own customized ActivePerl distributions on Linux.
 
-    ![Customized ActivePerl project](images/perl_custom_project.png) <br><br>
+    ![Customized ActivePerl project](../images/perl_custom_project.png) <br><br>
 
-    ![Download customized build](images/perl_download.png) 
+    ![Download customized build](../images/perl_download.png) 
 
 - For ActivePerl projects, you can search by either package name or module name. For example, you can search for `mysql` and locate packages that include this search term in their name, or you can enter the `DateTime::Format::MySQL` to locate the exact package you need based on the module name.
 
-    ![Perl package search](images/package_search.png)
+    ![Perl package search](../images/package_search.png)
 
 - You're sent directly to the **Build** tab your new project when you create a copy of a project, or a fork, from the ActiveState.com downloads page.
 - Installer files are clearly differentiated from other files you can download from the **Project** > **Builds** tab. 
