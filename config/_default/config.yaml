@@ -4,7 +4,7 @@ theme: github.com/matcornic/hugo-theme-learn
 publishDir: docs
 enableGitInfo: true
 enableRobotsTXT: true
-relativeURLs: true
+
 
 outputs:
   home: 
