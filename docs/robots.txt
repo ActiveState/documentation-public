@@ -79,6 +79,8 @@ Disallow: /documentation-public/user/dashboard/
 
 Disallow: /documentation-public/state/commands/activate/
 
+Disallow: /documentation-public/changes/
+
 Disallow: /documentation-public/glossary/
 
 Disallow: /documentation-public/projects/secrets/

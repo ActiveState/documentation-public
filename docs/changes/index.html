@@ -9,7 +9,7 @@
 <meta name="author" content="ActiveState">
 
     <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon" />
-    <title>Manage your account :: ActiveState Platform Documentation</title>
+    <title>ActiveState Platform Changelog :: ActiveState Platform Documentation</title>
 
     
     <link href="/documentation-public/css/nucleus.css?1585848780" rel="stylesheet">
@@ -55,7 +55,7 @@
     
 </head>
 
-<body class="" data-url="/documentation-public/user/">
+<body class="" data-url="/documentation-public/changes/">
     <nav id="sidebar" class="">
 
 
@@ -302,8 +302,8 @@
   
     
     <li data-nav-id="/documentation-public/user/" title="Manage your account" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/documentation-public/user/">
@@ -2004,7 +2004,7 @@
                     
                     <div id="top-github-link">
                         <a class="github-link" title='Edit this page'
-                            href="https://github.com/ActiveState/documentation-public/tree/master/content/user/_index.md"
+                            href="https://github.com/ActiveState/documentation-public/tree/master/content//changes.md"
                             target="blank">
                             <i class="fas fa-pencil-alt"></i>
                             <span id="top-github-link-text">Edit this page</span>
@@ -2032,7 +2032,7 @@
                     
                     
                     
-                    <a href='/documentation-public/'>Home</a> > Manage your account
+                    <a href='/documentation-public/'>Home</a> > ActiveState Platform Changelog
                     
                     
                     
@@ -2043,7 +2043,48 @@
                     
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#whats-new">What&rsquo;s new</a>
+      <ul>
+        <li><a href="#enhancement-python-package-catalog-expanded-to-include-the-packages-you-need">Enhancement: Python package catalog expanded to include the packages you need</a></li>
+        <li><a href="#new-feature-state-tool-now-supports-requirementstxt">New Feature: State tool now supports requirements.txt</a></li>
+        <li><a href="#new-feature-uploading-requirementstxt-now-supported">New Feature: Uploading requirements.txt now supported</a></li>
+        <li><a href="#new-feature-macos-now-supported-for-custom-runtimes">New Feature: macOS now supported for custom runtimes</a></li>
+        <li><a href="#new-feature-state-tool-integration-with-popular-cicd-platforms">New Feature: State Tool integration with popular CI/CD platforms</a></li>
+        <li><a href="#komodo-1201">Komodo 12.0.1</a></li>
+      </ul>
+    </li>
+    <li><a href="#previous-changes">Previous changes</a>
+      <ul>
+        <li><a href="#new-feature-state-tool-adds-package-command">New Feature: State Tool adds package command</a></li>
+        <li><a href="#enhancement-python-catalog-exceeds-20000-packagesversions">Enhancement: Python catalog exceeds 20,000 packages/versions</a></li>
+        <li><a href="#enhancement-request-specific-dependency-versions">Enhancement: Request specific dependency versions</a></li>
+        <li><a href="#enhancement-commit-messages">Enhancement: Commit messages</a></li>
+        <li><a href="#new-feature-komodo-12-available-and-integrated-with-the-platform">New Feature: Komodo 12 available and integrated with the Platform</a></li>
+        <li><a href="#new-feature-activetcl-added">New Feature: ActiveTcl added</a></li>
+        <li><a href="#enhancement-activepython-27-updated-to-version-2717">Enhancement: ActivePython 2.7 updated to version 2.7.17</a></li>
+        <li><a href="#enhancement-activepython-2-now-supports-a-win32-option">Enhancement: ActivePython 2 now supports a win32 option</a></li>
+        <li><a href="#enhancement-new-python-2-and-python-3-packages-now-available">Enhancement: New Python 2 and Python 3 packages now available</a></li>
+        <li><a href="#new-feature-github-authorization-option-added">New Feature: GitHub authorization option added</a></li>
+        <li><a href="#enhancement-organization-members-list-now-searchable">Enhancement: Organization Members list now searchable</a></li>
+        <li><a href="#enhancement-project-history-now-includes-commit-changes">Enhancement: Project History now includes commit changes</a></li>
+        <li><a href="#enhancement-search-added-to-projects-tab">Enhancement: Search added to Projects tab</a></li>
+        <li><a href="#enhancement-builds-tab-displays-platform-specific-links">Enhancement: Builds tab displays platform specific links</a></li>
+        <li><a href="#enhancement-activeperl-and-activepython-community-editions-projects-are-now-editable">Enhancement: ActivePerl and ActivePython Community Editions projects are now editable</a></li>
+        <li><a href="#enhancement-state-tool-now-integrates-with-cicd-tools">Enhancement: State tool now integrates with CI/CD tools</a></li>
+        <li><a href="#enhancement-streamlined-form-for-creating-projects">Enhancement: Streamlined form for creating projects</a></li>
+        <li><a href="#enhancement-more-help-options-for-failed-builds">Enhancement: More help options for failed builds</a></li>
+        <li><a href="#new-feature-successfailure-build-notification-emails">New Feature: Success/Failure Build Notification Emails</a></li>
+        <li><a href="#release-state-tool-update-secrets-scripts-events-and-more">Release: State Tool update: Secrets, Scripts, Events, and more</a></li>
+        <li><a href="#new-feature-custom-windows-builds-for-activeperl-and-activepython">New Feature: Custom Windows builds for ActivePerl and ActivePython</a></li>
+        <li><a href="#release-state-tool-preview">Release: State Tool Preview</a></li>
+        <li><a href="#new-feature-private-projects">New Feature: Private Projects</a></li>
+        <li><a href="#new-feature-activetcl-community-editions-added-to-the-platform">New Feature: ActiveTcl Community Editions added to the Platform</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -2059,125 +2100,231 @@
                     
                     <h1>
                         
-                        Manage your account
+                        ActiveState Platform Changelog
                     </h1>
                     
 
                     
 
-
-	
-
-
-
-
-
-
-<ul class="children children-li">
-	
-
-	
-		
-			
-		
-	
-
-	
-
-	
-		
-	
-		
-			
-				
+<h2 id="whats-new">What&rsquo;s new</h2>
+<p><strong>February - March 2020</strong></p>
+<h3 id="enhancement-python-package-catalog-expanded-to-include-the-packages-you-need">Enhancement: Python package catalog expanded to include the packages you need</h3>
+<ul>
+<li>We&rsquo;ve added a large set of around 20,000 Python packages/versions. The ActiveState Platform now have coverage of the important packages/versions in the Python ecosystem, and they&rsquo;re available for you to add to your projects.</li>
+</ul>
+<h3 id="new-feature-state-tool-now-supports-requirementstxt">New Feature: State tool now supports requirements.txt</h3>
+<p>When you add packages to a Python project using the State Tool, you now have the option to specify the package requirements for the project in a <code>requirements.txt</code> file using the new <code>state packages import</code> command. For details, see the <a href="/state/packages.html">packages Command</a> reference and <a href="/projects/requirements-txt.html">Creating projects from requirements.txt files</a> for more general information on this feature.</p>
+<h3 id="new-feature-uploading-requirementstxt-now-supported">New Feature: Uploading requirements.txt now supported</h3>
+<p>When you create or update a Python project on the platform, you now have the option to provide the package and version requirements for the project in <code>requirements.txt</code> file format. You can copy and paste the contents of an existing requirements text file, or type in your project&rsquo;s requirements.</p>
+<p><img src="/images/requirements-txt.png" alt="requirements.txt" title="requirements.txt support"></p>
+<h3 id="new-feature-macos-now-supported-for-custom-runtimes">New Feature: macOS now supported for custom runtimes</h3>
+<p>When you create a new custom project, or update an existing one, you can now specify macOS as a platform to build your language runtime for. When your build completes, you can download your custom runtime as a standard package installer.</p>
+<p><img src="/images/macos-runtime-support.png" alt="macOS support" title="macOS runtime support"></p>
+<p><strong>NOTE</strong>: Support for working with macOS projects with the State Tool is not yet supported. This feature is comming soon for the State Tool.</p>
+<h3 id="new-feature-state-tool-integration-with-popular-cicd-platforms">New Feature: State Tool integration with popular CI/CD platforms</h3>
+<p>The State Tool is compatible with several popular continuous integration/continuous deployment tools to enable the setup of more secure, consistent, and up-to-date CI/CD pipelines.</p>
+<p>The compatible CI/CD platforms are:</p>
+<ul>
+<li>Jenkins - See the <a href="/state/jenkins.html">documentation</a>.</li>
+<li>Travis CI - See the <a href="https://www.activestate.com/blog/how-to-build-a-ci-cd-pipeline-for-python/">blog post</a> and <a href="/state/travis.html">documentation</a>.</li>
+<li>AppVeyor - See the <a href="https://www.activestate.com/blog/how-to-simplify-ci-cd-pipelines-for-windows/">blog post</a> and <a href="/state/appveyor.html">documentation</a>.</li>
+<li>Github Actions - See the <a href="https://www.activestate.com/blog/optimizing-ci-cd-pipelines-in-github-actions/">blog post</a></li>
+</ul>
+<h3 id="komodo-1201">Komodo 12.0.1</h3>
+<p>A maintenance release for Komodo 12 that resolves issues with State Tool integration identified in version 12.0, including a fix for login issues encountered due to State Tool failures. For the complete list of fixes, see <!-- raw HTML omitted -->Komodo 12 release notes<!-- raw HTML omitted -->.</p>
+<h2 id="previous-changes">Previous changes</h2>
+<p><strong>January 2020</strong></p>
+<h3 id="new-feature-state-tool-adds-package-command">New Feature: State Tool adds <code>package</code> command</h3>
+<p>The State Tool, the command line utility for the ActiveState Platform, includes a new <code>package</code> command you can use to manage packages in your projects. You can view, add, remove, and change the packages included in your project, and update your project on the Platform.</p>
+<p>For more information about the <code>package</code> command, see the <a href="/state/packages.html">command reference</a></p>
+<h3 id="enhancement-python-catalog-exceeds-20000-packagesversions">Enhancement: Python catalog exceeds 20,000 packages/versions</h3>
+<p>You can now choose from over 20,000 unique packages/versions to add to your custom Python 2 and Python 3 projects.</p>
+<h3 id="enhancement-request-specific-dependency-versions">Enhancement: Request specific dependency versions</h3>
+<p>You now have selective control over the versions of dependencies that are included in your project. For example, if you include pandas in your project, numpy will be included as a dependency with a specific version.  You can now independently change the version of numpy to use.</p>
+<p><img src="/images/request-specific-version.png" alt="Request dependency"></p>
+<h3 id="enhancement-commit-messages">Enhancement: Commit messages</h3>
+<p>You can now optionally add commit messages to record your changes to a project with each commit.</p>
+<p><img src="/images/commit-message.png" alt="Commit message"></p>
+<h3 id="new-feature-komodo-12-available-and-integrated-with-the-platform">New Feature: Komodo 12 available and integrated with the Platform</h3>
+<p>Komodo 12, the new release of ActiveState&rsquo;s Komodo IDE, includes the State Tool which enables seamless integration with the ActiveState Platform.</p>
+<p>Key features:</p>
+<ul>
+<li>Associate your new or existing Komodo project with an ActiveState Platform project. The Komodo project manages your source code, while the Platform project manages the core language distribution (e.g. Python 3.6.6) and the specific packages you have chosen to use with the runtime (e.g. Requests 2.18.4).</li>
+<li>Run State Tool commands from within Komodo using the toolbar or Commando. You can access the variety of commands the State Tool supports for viewing and working with Platform projects without leaving your editor.</li>
+<li>Work in the isolated &ldquo;activated&rdquo; environment created by the State Tool. When a project is activated, the State Tool downloads the language runtime, the packages you have selected and any dependencies, and sets up the activated virtual environment. When you run your code in Komodo you are using the ActiveState project language runtime isolated from any other runtimes you may have installed on your computer.</li>
+</ul>
+<p>For more detailed information on these new features, see the State Tool integration section in the <a href="http://docs.activestate.com/komodo/12/state-integration/">Komodo 12 documentation</a>.</p>
+<p><strong>December 2019</strong></p>
+<h3 id="new-feature-activetcl-added">New Feature: ActiveTcl added</h3>
+<p>You can now create and build custom runtimes for Tcl 8.6.9 for Linux and Windows.</p>
+<h3 id="enhancement-activepython-27-updated-to-version-2717">Enhancement: ActivePython 2.7 updated to version 2.7.17</h3>
+<p>Python version 2.7.17, the penultimate release of Python 2, is now available on the Platform for creating custom builds. A Featured Project (Community Edition) for Python 2.7.17 will be available soon.</p>
+<h3 id="enhancement-activepython-2-now-supports-a-win32-option">Enhancement: ActivePython 2 now supports a win32 option</h3>
+<p>When you add the Windows operating system to your build you have the option of selecting the 32-bit version for your operating system release. This is included for backwards compatibilty with older desktop computers and servers.</p>
+<h3 id="enhancement-new-python-2-and-python-3-packages-now-available">Enhancement: New Python 2 and Python 3 packages now available</h3>
+<p>We&rsquo;ve expanded our catalog of Python packages that you can use in your custom projects. The Platform currently supports over 3500 packages and we&rsquo;re adding more each week.</p>
+<p><strong>November 2019</strong></p>
+<h3 id="new-feature-github-authorization-option-added">New Feature: GitHub authorization option added</h3>
+<p>You now have the option to use your GitHub credentials to create your ActiveState Platform account and authenticate with the Platform when you log in. When you authorize the ActiveState Platform to use your GitHub account for authentication, GitHub provides your email address, which ActiveState uses it to create your unique user account and link it with GitHub.</p>
+<p><img src="/images/github-auth.png" alt="GitHub authorization"></p>
+<p>Note: Signing up for GitHub authentication requires that your email address and username are unique on the Platform. If you previously signed up for the Platform with the email you have associated with your GitHub account, or your GitHub username is already in use on the Platform, you cannot successfuly set up GitHub authentication at this time.</p>
+<p><strong>October 2019</strong></p>
+<h3 id="enhancement-organization-members-list-now-searchable">Enhancement: Organization Members list now searchable</h3>
+<p>You can search for users in the <strong>Members</strong> tab by entering a full or partial username or email address. This helps you avoid scrolling through a long list of users to find the user or users you are looking for.</p>
+<p><img src="/images/member-search.png" alt="Search the members tab"></p>
+<p><strong>September 2019</strong></p>
+<h3 id="enhancement-project-history-now-includes-commit-changes">Enhancement: Project History now includes commit changes</h3>
+<p>The Project History now lists the packages, languages, and platforms that were added, updated, or removed in each commit allowing you to view the full history for the project&rsquo;s last 10 commits.</p>
+<p><img src="/images/project-history.png" alt="Enhanced Project history"></p>
+<h3 id="enhancement-search-added-to-projects-tab">Enhancement: Search added to Projects tab</h3>
+<p>You can now enter a partial name for a project in the new search text box to filter the projects listed in the projects tab. This allows you to quickly find the project you are interested in if you have a long list of projects.</p>
+<p><img src="/images/project-search.png" alt="Enhanced Project search"></p>
+<h3 id="enhancement-builds-tab-displays-platform-specific-links">Enhancement: Builds tab displays platform specific links</h3>
+<p>You can now link directly to a specific platform on the Builds tab, which makes it easier to share builds with other users. For example, you can link directly to the Windows 10 build for a project. Previously you were only able to link to the default platform on Builds tab. To share a link to a particular platform, switch to the desired platform and copy the URL from your browser address bar.</p>
+<p><img src="/images/builds-platform-id.png" alt="Enhanced Build tab links"></p>
+<p><strong>August 2019</strong></p>
+<h3 id="enhancement-activeperl-and-activepython-community-editions-projects-are-now-editable">Enhancement: ActivePerl and ActivePython Community Editions projects are now editable</h3>
+<p>You can now add or remove packages from ActivePerl 5.26 and 5.28, and ActivePython 3.6, on both Windows and Linux. This allows you to tailor our language distributions to your exact requirements. You can pick the packages and versions you need from our extensive catalog and create your own unique build.</p>
+<h3 id="enhancement-state-tool-now-integrates-with-cicd-tools">Enhancement: State tool now integrates with CI/CD tools</h3>
+<p>The State Tool now runs without any interactive prompts, enabling you to install and configure it in Continuous Integration/Continuous Deployment workflows. For more information, see the State Tool <a href="/state/ci.html">documentation</a>.</p>
+<p><strong>July 2019</strong></p>
+<h3 id="enhancement-streamlined-form-for-creating-projects">Enhancement: Streamlined form for creating projects</h3>
+<p>The form for creating new projects has been streamlined and simplified so you can quickly select the operating systems and language to include in your project, and choose if your project is public or private.</p>
+<p><strong>Note</strong>: Private projects are only available for paid accounts.</p>
+<p><img src="/images/projects-new.png" alt="New project"></p>
+<p><img src="/images/projects-new-form.png" alt="New project form"></p>
+<h3 id="enhancement-more-help-options-for-failed-builds">Enhancement: More help options for failed builds</h3>
+<p>If your build fails, you have a few options for moving forward:</p>
+<ul>
+<li>You can edit your project and try building it again.</li>
+<li>You can contact ActiveState for help with troubleshooting your build failure.</li>
+<li>You can download the ActiveState-managed project, or featured project, that is most similar to the build you are creating.</li>
+</ul>
+<p>The failed build page now provides more information and links for these options.</p>
+<p><img src="/images/failed-build-options.png" alt="Failed build options"></p>
+<h3 id="new-feature-successfailure-build-notification-emails">New Feature: Success/Failure Build Notification Emails</h3>
+<p>You no longer need to keep checking on the status of your build. We&rsquo;ll let you know when it&rsquo;s done. The Platform now notifies you by email when a build finishes indicating whether the build succeeded or failed. If the build succeeded, you can click on a link in the email to return to the project page to download your build.</p>
+<p><img src="/images/success-notifications.png" alt="Build Notification Email - Success!"></p>
+<h3 id="release-state-tool-update-secrets-scripts-events-and-more">Release: State Tool update: Secrets, Scripts, Events, and more</h3>
+<p>A new release of the State Tool is available which includes a number of exciting new features for integrating the State Tool and Platform builds with your development environment.</p>
+<p>The addition of constants and secrets allows you to manage configuration settings and other information for your project in the <code>activestate.yaml</code> configuration file. Secrets provide a simple and secure way to store and optionally share sensitive information, such as API keys and passwords.
+Learn more about Secrets in this <!-- raw HTML omitted -->blog post<!-- raw HTML omitted -->.</p>
+<p>Scripts and events provide ways to run additional logic required to configure your development environment. For example, you could configure an event to start your database server each time you activate your project. Scripts are run manually; events run when you ``state activate` your project.</p>
+<p><strong>June 2019</strong></p>
+<h3 id="new-feature-custom-windows-builds-for-activeperl-and-activepython">New Feature: Custom Windows builds for ActivePerl and ActivePython</h3>
+<ul>
 <li>
-<a href="/documentation-public/user/create_account/" >Creating an account</a>
+<p>You can now create you own customized ActivePerl and ActivePython distributions on Windows from scratch, or you can fork an existing project and customize it for you specific needs. After you build your project you can download the Windows installer (.msi) for your project, or use the State Tool to install it in a virtual environment.</p>
+<p>Note: Builds that are Managed by ActiveState cannot be customized. They are maintained by ActiveState, and if you fork these projects you regularly get the updated packages and dependencies as they are available.</p>
 </li>
-				
-
-				
-			
-			
-		
-	
-		
-			
-				
+</ul>
+<h3 id="release-state-tool-preview">Release: State Tool Preview</h3>
+<ul>
 <li>
-<a href="/documentation-public/user/prefs/" >Preferences</a>
+<p>A preview release of the State Tool is now available on Windows and Linux. The State Tool is the command line tool for the ActiveState Platform. Create a custom build or fork an ActiveState build, and then use the State Tool to download it and activate your project in a virtual environment. For details on getting started, see the <a href="/state/">State Tool documentation</a>.</p>
+<p><img src="/images/state-tool-windows.png" alt="State Tool on Windows"></p>
 </li>
-				
-
-				
-			
-			
-		
-	
-		
-			
-				
+</ul>
+<h3 id="new-feature-private-projects">New Feature: Private Projects</h3>
+<ul>
 <li>
-<a href="/documentation-public/user/dashboard/" >About Your Dashboard</a>
+<p>Paid users can create private projects. Users on the Coder, Team, Business, and Enterprise tiers can now create private projects. Private projects are restricted to members of the organization the project belongs to. Users on the Coder tier can create private projects that are only visible to themselves in their personal org. By default new projects on all tiers are public projects, which are visible to all users on the Platform.</p>
+<p><img src="/images/private-projects.png" alt="Private projects"></p>
 </li>
-				
-
-				
-			
-			
-		
-	
-		
-			
-				
+</ul>
+<h3 id="new-feature-activetcl-community-editions-added-to-the-platform">New Feature: ActiveTcl Community Editions added to the Platform</h3>
+<ul>
 <li>
-<a href="/documentation-public/user/password_reset/" >Resetting your password</a>
+<p>New language added! You can now download ActiveTcl builds from the <strong>Featured Projects</strong> page.</p>
+<p><img src="/images/activetcl-projects.png" alt="ActiveTcl Projects"></p>
 </li>
-				
-
-				
-			
-			
-		
-	
-		
-			
-				
+</ul>
+<p><strong>May 2019</strong></p>
+<ul>
 <li>
-<a href="/documentation-public/user/sign_in/" >Signing In</a>
+<p>Improved <strong>Build Status</strong> information: You can now monitor the progress of your build including the total elapsed time, the success or failure of individual packages included in your build, and how long each package took to build.</p>
+<p><img src="/images/build-status.png" alt="Build status">
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<img src="/images/build-success.png" alt="Build success"></p>
 </li>
-				
-
-				
-			
-			
-		
-	
-		
-			
-				
 <li>
-<a href="/documentation-public/user/sign_out/" >Signing Out</a>
+<p>New top-level navigation menu for quickly accessing <strong>Your Dashboard</strong>, <strong>Featured Projects</strong>, and <strong>Dev Tools</strong> from anywhere in the Platform.<!-- raw HTML omitted --></p>
+<p><img src="/images/top-level-navbar.png" alt="Top-level navigation"></p>
 </li>
-				
-
-				
-			
-			
-		
-	
-
-	
+<li>
+<p>Red Hat Enterprise Linux 7 support: The Platform now supports builds with the latest Glibc version supported on RHEL 7 (glibc 2.17) and the latest kernel. Glibc is the main C library used by the Linux operating system, and the 2.17 release includes enhancements an bug fixes summarized <!-- raw HTML omitted -->here<!-- raw HTML omitted -->.</p>
+</li>
+<li>
+<p>New <strong>Featured Projects</strong> tab: Provides access to the latest ActivePython and ActivePerl managed projects &ndash; projects that are curated and maintained by ActiveState. Currently available for Linux, these projects are the latest evolution of ActiveState Community Edition language distributions. You can view these projects to see the packages they contain, or fork them to make them accessible in your personal projects, or the projects that belong to any of the organizations you belong to.</p>
+<p><img src="/images/featured-projects.png" alt="Featured projects"></p>
+</li>
+<li>
+<p>New <strong>Dev Tools</strong> tab: Access the latest edition of the Komodo IDE. For a limited time it&rsquo;s available to all Platform users. You can also try out the preview release of the State Tool, which enables you to work with your Platform projects in an isolated virtual environment.</p>
+<p><img src="/images/dev-tools.png" alt="Dev Tools"></p>
+</li>
+<li>
+<p>Your <strong>Dashboard</strong> tab: Provides quick access to your personal homepage on the Platform.</p>
+</li>
+<li>
+<p>Delete projects: Added the ability to delete a project in the project <strong>Settings</strong> tab.</p>
+</li>
+</ul>
+<p><strong>April 2019</strong></p>
+<ul>
+<li>
+<p>You can rename your projects in the project <strong>Settings</strong> tab.</p>
+</li>
+<li>
+<p>You can create your own customized ActivePerl distributions on Linux.</p>
+<p><img src="/images/perl_custom_project.png" alt="Customized ActivePerl project"> <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><img src="/images/perl_download.png" alt="Download customized build"></p>
+</li>
+<li>
+<p>For ActivePerl projects, you can search by either package name or module name. For example, you can search for <code>mysql</code> and locate packages that include this search term in their name, or you can enter the <code>DateTime::Format::MySQL</code> to locate the exact package you need based on the module name.</p>
+<p><img src="/images/package_search.png" alt="Perl package search"></p>
+</li>
+<li>
+<p>You&rsquo;re sent directly to the <strong>Build</strong> tab your new project when you create a copy of a project, or a fork, from the ActiveState.com downloads page.</p>
+</li>
+<li>
+<p>Installer files are clearly differentiated from other files you can download from the <strong>Project</strong> &gt; <strong>Builds</strong> tab.</p>
+</li>
+</ul>
+<p><strong>March 2019</strong></p>
+<ul>
+<li>
+<p>Fork Community Editions of <!-- raw HTML omitted -->ActivePython 3.6.6<!-- raw HTML omitted --> and  <!-- raw HTML omitted -->ActivePerl 5.26.3<!-- raw HTML omitted --> directly from the activestate.com downloads page.</p>
+</li>
+<li>
+<p>First release of the <code>state</code> tool, a command line interface for interacting with the ActiveState Platform and setting up projects in a local virtual environment.</p>
+</li>
+<li>
+<p>Copying, or forking, projects supported. For all projects, forking a project enables you to track updates to the project. For example, when ActiveState updates a managed project, such as ActivePerl-5.24, the changes including bug fixes and updated packages will be automatically available in your forked project. Currently, you can fork and modify two ActiveState Community Edition projects and add or remove packages, and then create your own custom distributions. This is a beta feature available now for ActivePython 3.6.6 and ActivePerl 5.26.3 on Linux.</p>
+</li>
+<li>
+<p>All users are now able to create and build projects.</p>
+</li>
+<li>
+<p>Recommended languages and platforms for creating builds are highlighted. Builds of projects created for Python 3.6.6 on Linux are the most likely to succeed.</p>
+</li>
+<li>
+<p>Build catalog increased to over 400 Python packages.</p>
+</li>
+</ul>
+<p><strong>February 2019</strong></p>
+<ul>
+<li>ActivePython 3.7.0 and 3.7.1 custom builds supported.</li>
+<li>Build catalog increased to over 300 Python packages available for selection.</li>
+<li>Dashboard <strong>Latest Activity</strong> now shows the 20 most recent activities.</li>
+</ul>
+<p><strong>January 2019</strong></p>
+<ul>
+<li>Improved experience of creating a build by simplifying some of the language &amp; platform options as well as guiding the user through the flow of getting to their first build.</li>
+<li>Our beta functionality of being able to make your own language builds are available for Python 2.7, 3.5 and 3.6 on Linux 64 (RHEL, CentOS, Ubuntu, Debian, and most other flavors using Glibc 2.12).</li>
 </ul>
 
 
-
-
-
-
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -2295,7 +2442,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -2310,9 +2456,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -3557,10 +3700,8 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/documentation-public/start/state-tool/" title="State Tool CLI"> <i class="fa fa-chevron-left"></i></a>
 		
-		
-			<a class="nav nav-next" href="/documentation-public/user/create_account/" title="Creating an account" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/documentation-public/start/" title="Quick start guides" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3590,3 +3731,4 @@
 
   </body>
 </html>
+

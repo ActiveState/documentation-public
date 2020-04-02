@@ -260,6 +260,16 @@ Finding your projects and organizations The main page on Your Dashboard lists yo
     </item>
     
     <item>
+      <title>ActiveState Platform Changelog</title>
+      <link>https://activestate.github.io/documentation-public/changes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://activestate.github.io/documentation-public/changes/</guid>
+      <description>What&amp;rsquo;s new February - March 2020
+Enhancement: Python package catalog expanded to include the packages you need  We&amp;rsquo;ve added a large set of around 20,000 Python packages/versions. The ActiveState Platform now have coverage of the important packages/versions in the Python ecosystem, and they&amp;rsquo;re available for you to add to your projects.  New Feature: State tool now supports requirements.txt When you add packages to a Python project using the State Tool, you now have the option to specify the package requirements for the project in a requirements.</description>
+    </item>
+    
+    <item>
       <title>ActiveState Platform Glossary</title>
       <link>https://activestate.github.io/documentation-public/glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
