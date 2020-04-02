@@ -22,13 +22,13 @@ When you add packages to a Python project using the State Tool, you now have the
 
 When you create or update a Python project on the platform, you now have the option to provide the package and version requirements for the project in `requirements.txt` file format. You can copy and paste the contents of an existing requirements text file, or type in your project's requirements. 
 
-![requirements.txt](images/requirements-txt.png "requirements.txt support")
+![requirements.txt](../images/requirements-txt.png "requirements.txt support")
 
 ### New Feature: macOS now supported for custom runtimes
 
 When you create a new custom project, or update an existing one, you can now specify macOS as a platform to build your language runtime for. When your build completes, you can download your custom runtime as a standard package installer.
 
-![macOS support](images/macos-runtime-support.png "macOS runtime support")
+![macOS support](../images/macos-runtime-support.png "macOS runtime support")
 
 **NOTE**: Support for working with macOS projects with the State Tool is not yet supported. This feature is comming soon for the State Tool.
 
@@ -65,13 +65,13 @@ You can now choose from over 20,000 unique packages/versions to add to your cust
 
 You now have selective control over the versions of dependencies that are included in your project. For example, if you include pandas in your project, numpy will be included as a dependency with a specific version.  You can now independently change the version of numpy to use.
 
-![Request dependency](images/request-specific-version.png)
+![Request dependency](../images/request-specific-version.png)
 
 ### Enhancement: Commit messages
 
 You can now optionally add commit messages to record your changes to a project with each commit.
 
-![Commit message](images/commit-message.png)
+![Commit message](../images/commit-message.png)
 
 ### New Feature: Komodo 12 available and integrated with the Platform
 
@@ -109,7 +109,7 @@ We've expanded our catalog of Python packages that you can use in your custom pr
 
 You now have the option to use your GitHub credentials to create your ActiveState Platform account and authenticate with the Platform when you log in. When you authorize the ActiveState Platform to use your GitHub account for authentication, GitHub provides your email address, which ActiveState uses it to create your unique user account and link it with GitHub.
 
-![GitHub authorization](images/github-auth.png)
+![GitHub authorization](../images/github-auth.png)
 
 Note: Signing up for GitHub authentication requires that your email address and username are unique on the Platform. If you previously signed up for the Platform with the email you have associated with your GitHub account, or your GitHub username is already in use on the Platform, you cannot successfuly set up GitHub authentication at this time.  
 
@@ -119,7 +119,7 @@ Note: Signing up for GitHub authentication requires that your email address and 
 
 You can search for users in the **Members** tab by entering a full or partial username or email address. This helps you avoid scrolling through a long list of users to find the user or users you are looking for.
 
-![Search the members tab](images/member-search.png)
+![Search the members tab](../images/member-search.png)
 
 **September 2019**
 
@@ -127,20 +127,20 @@ You can search for users in the **Members** tab by entering a full or partial us
 
 The Project History now lists the packages, languages, and platforms that were added, updated, or removed in each commit allowing you to view the full history for the project's last 10 commits.
 
-![Enhanced Project history](images/project-history.png)
+![Enhanced Project history](../images/project-history.png)
 
 ### Enhancement: Search added to Projects tab
 
 You can now enter a partial name for a project in the new search text box to filter the projects listed in the projects tab. This allows you to quickly find the project you are interested in if you have a long list of projects.
 
-![Enhanced Project search](images/project-search.png)
+![Enhanced Project search](../images/project-search.png)
 
 
 ### Enhancement: Builds tab displays platform specific links
 
 You can now link directly to a specific platform on the Builds tab, which makes it easier to share builds with other users. For example, you can link directly to the Windows 10 build for a project. Previously you were only able to link to the default platform on Builds tab. To share a link to a particular platform, switch to the desired platform and copy the URL from your browser address bar.
 
-![Enhanced Build tab links](images/builds-platform-id.png)
+![Enhanced Build tab links](../images/builds-platform-id.png)
 
 **August 2019**
 

@@ -1,3 +1,4 @@
+baseUrl: "/"
 enableRobotsTXT: false
 minify: false
 buildDrafts: true

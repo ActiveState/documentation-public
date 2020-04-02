@@ -105,7 +105,7 @@ No. The invite email is specific to your email address and your organization. If
       
       <guid>//activestate.github.io/documentation-public/projects/custom/</guid>
       <description>You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.
- Open your web browser and navigate to http://platform.activestate.comand sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
+ Open your web browser and navigate to http://platform.activestate.com and sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
     </item>
     
     <item>
@@ -607,7 +607,7 @@ If you want to remove yourself from the Organization, ensure that the Organizati
       <description>If you cannot remember your password or you need to reset it for security reasons, you can reset it.
 If you are signed into the Platform and want to change your password, you can do so in the Change Password preferences page.
  To reset your password:
- Open your browser and navigate to https://platform.activestate.com. On the Sign In page, click the Forgot your password?link. Enter the email address associated with your account and click Send Reset Link.</description>
+ Open your browser and navigate to https://platform.activestate.com. On the Sign In page, click the Forgot your password? link. Enter the email address associated with your account and click Send Reset Link.</description>
     </item>
     
     <item>
