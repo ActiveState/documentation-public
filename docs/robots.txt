@@ -1,138 +1,138 @@
 User-agent: *
 
 
-Disallow: /documentation-public/start/
+Disallow: /start/
 
-Disallow: /documentation-public/start/platform/
+Disallow: /start/platform/
 
-Disallow: /documentation-public/start/managed/
+Disallow: /start/managed/
 
-Disallow: /documentation-public/start/build/
+Disallow: /start/build/
 
-Disallow: /documentation-public/start/state-tool/
+Disallow: /start/state-tool/
 
-Disallow: /documentation-public/user/
+Disallow: /user/
 
-Disallow: /documentation-public/user/create_account/
+Disallow: /user/create_account/
 
-Disallow: /documentation-public/troubleshooting/
+Disallow: /troubleshooting/
 
-Disallow: /documentation-public/trademarks/
+Disallow: /trademarks/
 
-Disallow: /documentation-public/terms/
+Disallow: /terms/
 
-Disallow: /documentation-public/user/prefs/
+Disallow: /user/prefs/
 
-Disallow: /documentation-public/organizations/
+Disallow: /organizations/
 
-Disallow: /documentation-public/projects/custom/
+Disallow: /projects/custom/
 
-Disallow: /documentation-public/state/
+Disallow: /state/
 
-Disallow: /documentation-public/state/start/
+Disallow: /state/start/
 
-Disallow: /documentation-public/state/commands/
+Disallow: /state/commands/
 
-Disallow: /documentation-public/state/ci/
+Disallow: /state/ci/
 
-Disallow: /documentation-public/projects/
+Disallow: /projects/
 
-Disallow: /documentation-public/changes/
+Disallow: /changes/
 
-Disallow: /documentation-public/user/dashboard/
+Disallow: /user/dashboard/
 
-Disallow: /documentation-public/state/commands/activate/
+Disallow: /state/commands/activate/
 
-Disallow: /documentation-public/glossary/
+Disallow: /glossary/
 
-Disallow: /documentation-public/projects/secrets/
+Disallow: /projects/secrets/
 
-Disallow: /documentation-public/state/ci/appveyor/
+Disallow: /state/ci/appveyor/
 
-Disallow: /documentation-public/state/commands/auth/
+Disallow: /state/commands/auth/
 
-Disallow: /documentation-public/categories/
+Disallow: /categories/
 
-Disallow: /documentation-public/user/prefs/password/
+Disallow: /user/prefs/password/
 
-Disallow: /documentation-public/state/commands/clean/
+Disallow: /state/commands/clean/
 
-Disallow: /documentation-public/contributions/
+Disallow: /contributions/
 
-Disallow: /documentation-public/organizations/create/
+Disallow: /organizations/create/
 
-Disallow: /documentation-public/projects/requirements-txt/
+Disallow: /projects/requirements-txt/
 
-Disallow: /documentation-public/user/prefs/datetime/
+Disallow: /user/prefs/datetime/
 
-Disallow: /documentation-public/organizations/deleting/
+Disallow: /organizations/deleting/
 
-Disallow: /documentation-public/user/prefs/email/
+Disallow: /user/prefs/email/
 
-Disallow: /documentation-public/state/commands/events/
+Disallow: /state/commands/events/
 
-Disallow: /documentation-public/state/commands/export/
+Disallow: /state/commands/export/
 
-Disallow: /documentation-public/projects/featured-projects/
+Disallow: /projects/featured-projects/
 
-Disallow: /documentation-public/state/commands/fork/
+Disallow: /state/commands/fork/
 
-Disallow: /documentation-public/projects/forks/
+Disallow: /projects/forks/
 
-Disallow: /documentation-public/state/ci/github-actions/
+Disallow: /state/ci/github-actions/
 
-Disallow: /documentation-public/state/commands/history/
+Disallow: /state/commands/history/
 
-Disallow: /documentation-public/
+Disallow: /
 
-Disallow: /documentation-public/state/commands/init/
+Disallow: /state/commands/init/
 
-Disallow: /documentation-public/state/ci/jenkins/
+Disallow: /state/ci/jenkins/
 
-Disallow: /documentation-public/state/commands/languages/
+Disallow: /state/commands/languages/
 
-Disallow: /documentation-public/organizations/leaving/
+Disallow: /organizations/leaving/
 
-Disallow: /documentation-public/support/
+Disallow: /support/
 
-Disallow: /documentation-public/user/prefs/organizations/
+Disallow: /user/prefs/organizations/
 
-Disallow: /documentation-public/state/commands/organizations/
+Disallow: /state/commands/organizations/
 
-Disallow: /documentation-public/state/commands/packages/
+Disallow: /state/commands/packages/
 
-Disallow: /documentation-public/state/commands/platforms/
+Disallow: /state/commands/platforms/
 
-Disallow: /documentation-public/state/commands/projects/
+Disallow: /state/commands/projects/
 
-Disallow: /documentation-public/state/commands/pull/
+Disallow: /state/commands/pull/
 
-Disallow: /documentation-public/state/commands/push/
+Disallow: /state/commands/push/
 
-Disallow: /documentation-public/organizations/users/
+Disallow: /organizations/users/
 
-Disallow: /documentation-public/user/password_reset/
+Disallow: /user/password_reset/
 
-Disallow: /documentation-public/state/commands/run/
+Disallow: /state/commands/run/
 
-Disallow: /documentation-public/state/commands/scripts/
+Disallow: /state/commands/scripts/
 
-Disallow: /documentation-public/state/commands/secrets/
+Disallow: /state/commands/secrets/
 
-Disallow: /documentation-public/organizations/invite/
+Disallow: /organizations/invite/
 
-Disallow: /documentation-public/state/commands/show/
+Disallow: /state/commands/show/
 
-Disallow: /documentation-public/user/sign_in/
+Disallow: /user/sign_in/
 
-Disallow: /documentation-public/user/sign_out/
+Disallow: /user/sign_out/
 
-Disallow: /documentation-public/tags/
+Disallow: /tags/
 
-Disallow: /documentation-public/state/ci/travis/
+Disallow: /state/ci/travis/
 
-Disallow: /documentation-public/user/prefs/twofactor/
+Disallow: /user/prefs/twofactor/
 
-Disallow: /documentation-public/state/commands/update/
+Disallow: /state/commands/update/
 
-Disallow: /documentation-public/organizations/billing/
+Disallow: /organizations/billing/

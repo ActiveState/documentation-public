@@ -1,3 +1,4 @@
 baseUrl: "//activestate.github.io/documentation-public/"
+canonifyURLs: true
 enableRobotsTXT: true
 minify: true
