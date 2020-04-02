@@ -22,13 +22,13 @@ When you add packages to a Python project using the State Tool, you now have the
 
 When you create or update a Python project on the platform, you now have the option to provide the package and version requirements for the project in `requirements.txt` file format. You can copy and paste the contents of an existing requirements text file, or type in your project's requirements. 
 
-![requirements.txt](../images/requirements-txt.png "requirements.txt support")
+![requirements.txt](requirements-txt.png)
 
 ### New Feature: macOS now supported for custom runtimes
 
 When you create a new custom project, or update an existing one, you can now specify macOS as a platform to build your language runtime for. When your build completes, you can download your custom runtime as a standard package installer.
 
-![macOS support](../images/macos-runtime-support.png "macOS runtime support")
+![macOS support](macos-runtime-support.png)
 
 **NOTE**: Support for working with macOS projects with the State Tool is not yet supported. This feature is comming soon for the State Tool.
 
@@ -65,13 +65,13 @@ You can now choose from over 20,000 unique packages/versions to add to your cust
 
 You now have selective control over the versions of dependencies that are included in your project. For example, if you include pandas in your project, numpy will be included as a dependency with a specific version.  You can now independently change the version of numpy to use.
 
-![Request dependency](../images/request-specific-version.png)
+![Request dependency](request-specific-version.png)
 
 ### Enhancement: Commit messages
 
 You can now optionally add commit messages to record your changes to a project with each commit.
 
-![Commit message](../images/commit-message.png)
+![Commit message](commit-message.png)
 
 ### New Feature: Komodo 12 available and integrated with the Platform
 

@@ -15,4 +15,5 @@ To create an organization:
     
     When you create an organization, you are automatically assigned ownership of the Organization, which allows you to invite and manage users for the Organization.
 
-7. The next step after creating a new Organization is to invite users. For more information, see [Sending invites](#sending-invites).
+7. The next step after creating a new Organization is to invite users. For more information, see [Sending invites]({{< relref "invite.md" >}}).
+

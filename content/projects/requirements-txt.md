@@ -26,12 +26,12 @@ To create a project from `requirements.txt`:
 2. Click **Import from requirements.txt**  in the **Requested Packages** panel.
 3. Open the `requirements.txt` to use and copy and paste the content, or type in your requirements individually.
 
-![requirements.txt](images/requirements-txt.png "requirements.txt entries for import")
+![requirements.txt](../../images/requirements-txt.png "requirements.txt entries for import")
 
 4. Click **Import**.
     <br><br>The Platform parses each entry in your `requirements.txt` file and validates the syntax, and identifies any issues. When the file is valid, the platform attempts to match each package requirement with a package and version available on the platform. For supported syntax, see [requirements.txt syntax](#requirements-txt-syntax).
     
-   ![Parsed packages](images/parsed-packages.png)
+   ![Parsed packages](../../images/parsed-packages.png)
 
 5. If any errors or mismatches are identified between the requirements you have defined in your `requirements.txt` file and the package and versions available on the Platform, you may be able to adjust the package versions individually to create a valid build request.
 6. Click **Commit Changes**.
@@ -51,7 +51,7 @@ To update an existing project using `requirements.txt`:
 2. Click **Import from requirements.txt**  in the **Requested Packages** panel.
 3. Open the `requirements.txt` to use and copy and paste the content, or type in your requirements individually.
 
-![requirements.txt](images/requirements-txt.png "requirements.txt entries for import")
+![requirements.txt](../../images/requirements-txt.png "requirements.txt entries for import")
 
 4. Click **Import**.
 

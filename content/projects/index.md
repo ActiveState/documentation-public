@@ -12,7 +12,7 @@ There are several distinct types of projects you can create or access on the Act
 
 ## Project pages
 
-![Projects View](images/projects_view.png)
+![Projects View](../../images/projects_view.png)
 
 * **Overview**: This page lists the platforms, or specific operating system and hardware the build is compatible with, the open source language release included, and the list of packages included. 
 * **Configuration**: Use this page to modify the language, platforms, and packages for your project. You can create and submit a new commit with your changes. 

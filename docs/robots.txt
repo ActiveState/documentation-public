@@ -29,8 +29,6 @@ Disallow: /documentation-public/user/prefs/
 
 Disallow: /documentation-public/organizations/
 
-Disallow: /documentation-public/projects/custom/
-
 Disallow: /documentation-public/projects/
 
 Disallow: /documentation-public/contributions/pull-requests/
@@ -83,8 +81,6 @@ Disallow: /documentation-public/changes/
 
 Disallow: /documentation-public/glossary/
 
-Disallow: /documentation-public/projects/secrets/
-
 Disallow: /documentation-public/state/ci/appveyor/
 
 Disallow: /documentation-public/state/commands/auth/
@@ -96,8 +92,6 @@ Disallow: /documentation-public/user/prefs/password/
 Disallow: /documentation-public/state/commands/clean/
 
 Disallow: /documentation-public/organizations/create/
-
-Disallow: /documentation-public/projects/requirements-txt/
 
 Disallow: /documentation-public/user/prefs/datetime/
 
@@ -111,13 +105,9 @@ Disallow: /documentation-public/state/commands/events/
 
 Disallow: /documentation-public/state/commands/export/
 
-Disallow: /documentation-public/projects/featured-projects/
-
 Disallow: /documentation-public/contributions/devug/01-basics/
 
 Disallow: /documentation-public/state/commands/fork/
-
-Disallow: /documentation-public/projects/forks/
 
 Disallow: /documentation-public/state/ci/github-actions/
 

@@ -99,13 +99,13 @@ No. The invite email is specific to your email address and your organization. If
     </item>
     
     <item>
-      <title>Creating custom projects</title>
-      <link>//activestate.github.io/documentation-public/projects/custom/</link>
+      <title>Projects</title>
+      <link>//activestate.github.io/documentation-public/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/projects/custom/</guid>
-      <description>You can create custom projects that include only the ActiveState programming language distributions and packages you need for the specific operating systems you are working on. The Platform currently supports a wide variety of ActivePython and ActivePerl versions on Linux, Windows, and macOS.
- Open your web browser and navigate to http://platform.activestate.com and sign in. In the Your Organizations list, select the organization to create a custom build for, or click the Projects tab to create a personal project.</description>
+      <guid>//activestate.github.io/documentation-public/projects/</guid>
+      <description>There are several distinct types of projects you can create or access on the ActiveState Platform:
+ Public Projects: Custom projects or forked projects created by users and available to other Platform users. Private Projects: Custom projects or forked projects created by users that are restricted to the organization they are created in. Private projects are only available to organizations on paid tiers. Featured Projects: ActiveState&amp;rsquo;s Community Edition languages used by millions of developers to kickstart their development.</description>
     </item>
     
     <item>
@@ -279,17 +279,6 @@ Enhancement: Python package catalog expanded to include the packages you need  W
     </item>
     
     <item>
-      <title>Adding Secrets to your project</title>
-      <link>//activestate.github.io/documentation-public/projects/secrets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/projects/secrets/</guid>
-      <description>Secrets are for sensitive information that needs to be shared between environments and people working on a project. For example, you can securely store API keys and database passwords using secrets. Secrets are client-side encrypted values, meaning that they are not stored on our servers and ActiveState cannot access your secret values.
-To add a secret to your project:
- In Your Dashboard, select the organization that contains the project you want to add a secret to and then click the Projects tab, or click the Projects tab in your dashboard to add a secret to a personal project.</description>
-    </item>
-    
-    <item>
       <title>AppVeyor</title>
       <link>//activestate.github.io/documentation-public/state/ci/appveyor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -334,17 +323,6 @@ Gathering environment variable settings Before you begin:</description>
       <guid>//activestate.github.io/documentation-public/organizations/create/</guid>
       <description>Organizations allow you to group your projects and the users permitted access to those projects. Every project belongs to an organization, and each organization is separate. An organization has one or more members. You can create, or be invited to, more than one organization. For example, you could create an organization for your personal work or side project, and also be invited to join your company&amp;rsquo;s organization.
 To create an organization:</description>
-    </item>
-    
-    <item>
-      <title>Creating projects from requirements.txt files</title>
-      <link>//activestate.github.io/documentation-public/projects/requirements-txt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/projects/requirements-txt/</guid>
-      <description>If you have an existing Python project that you want to add to the Platform, you can export a requirements.txt file to get a list of packages and versions to import into your Platform project, or you can type in the list of packages and versions manually.
-Generating requirements.txt files To generate a requirements.txt file:
-  You can write out the requirements for an existing project to a requirements.txt file using one of the following commands at your command prompt:</description>
     </item>
     
     <item>
@@ -394,18 +372,6 @@ Generating requirements.txt files To generate a requirements.txt file:
     </item>
     
     <item>
-      <title>Featured Projects: ActiveState Community Edition projects</title>
-      <link>//activestate.github.io/documentation-public/projects/featured-projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/projects/featured-projects/</guid>
-      <description>A number of Community Edition language distributions are available on the Featured Projects page for ActivePerl, ActivePython, and ActiveTcl. These are ActiveState Platform projects, maintained by ActiveState.
-  Navigate to the Featured Projects page at https://platform.activestate.com/featured-projects.
-  Browse the list of available projects and click the operating system image for the language distribution you want to download.
-  If you are not signed in to the Platform, you will be redirected to the Sign In page:</description>
-    </item>
-    
-    <item>
       <title>First principals</title>
       <link>//activestate.github.io/documentation-public/contributions/devug/01-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -424,16 +390,6 @@ mutation Ingredient ( name : &amp;#34;activestate/A&amp;#34; src : &amp;#34;data
       
       <guid>//activestate.github.io/documentation-public/state/commands/fork/</guid>
       <description>&lt;p&gt;Create a fork of an existing Platform project.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Forking projects</title>
-      <link>//activestate.github.io/documentation-public/projects/forks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//activestate.github.io/documentation-public/projects/forks/</guid>
-      <description>Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.
-To fork a project:</description>
     </item>
     
     <item>
