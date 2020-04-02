@@ -33,7 +33,7 @@ Disallow: /documentation-public/state/start/
 
 Disallow: /documentation-public/state/commands/
 
-Disallow: /documentation-public/state/ci/
+Disallow: /documentation-public/ci/
 
 Disallow: /documentation-public/projects/
 
@@ -47,7 +47,7 @@ Disallow: /documentation-public/glossary/
 
 Disallow: /documentation-public/projects/secrets/
 
-Disallow: /documentation-public/state/ci/appveyor/
+Disallow: /documentation-public/ci/appveyor/
 
 Disallow: /documentation-public/state/commands/auth/
 
@@ -79,7 +79,7 @@ Disallow: /documentation-public/state/commands/fork/
 
 Disallow: /documentation-public/projects/forks/
 
-Disallow: /documentation-public/state/ci/github-actions/
+Disallow: /documentation-public/ci/github-actions/
 
 Disallow: /documentation-public/state/commands/history/
 
@@ -87,7 +87,7 @@ Disallow: /documentation-public/
 
 Disallow: /documentation-public/state/commands/init/
 
-Disallow: /documentation-public/state/ci/jenkins/
+Disallow: /documentation-public/ci/jenkins/
 
 Disallow: /documentation-public/state/commands/languages/
 
@@ -129,7 +129,7 @@ Disallow: /documentation-public/user/sign_out/
 
 Disallow: /documentation-public/tags/
 
-Disallow: /documentation-public/state/ci/travis/
+Disallow: /documentation-public/ci/travis/
 
 Disallow: /documentation-public/user/prefs/twofactor/
 
