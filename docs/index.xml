@@ -149,10 +149,10 @@ To add a secret to your project:
     
     <item>
       <title>AppVeyor</title>
-      <link>//activestate.github.io/documentation-public/ci/appveyor/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/appveyor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/ci/appveyor/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/appveyor/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with AppVeyor, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Gathering environment variable settings Before you begin:</description>
     </item>
@@ -293,10 +293,10 @@ To fork a project:</description>
     
     <item>
       <title>GitHub Actions</title>
-      <link>//activestate.github.io/documentation-public/ci/github-actions/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/github-actions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/ci/github-actions/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/github-actions/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process for a Python project with GitHub, GitHub Actions, and the ActiveState Platform.
 Gathering environment variable settings Before you begin:
  You need an ActiveState Platform account. If you do not currently have an account you can sign up for free at: https://platform.activestate.com/create-account. You need to have the State Tool installed on your computer, and authorized with the Platform using the state auth command, in order to run the command to retrieve the API key, and to access your private.</description>
@@ -322,10 +322,10 @@ Gathering environment variable settings Before you begin:
     
     <item>
       <title>Jenkins</title>
-      <link>//activestate.github.io/documentation-public/ci/jenkins/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/ci/jenkins/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/jenkins/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Jenkins, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Gathering environment variable settings Before you begin:</description>
     </item>
@@ -514,10 +514,10 @@ Invited users are listed in the Pending Invites list until they accept the invit
     
     <item>
       <title>Travis</title>
-      <link>//activestate.github.io/documentation-public/ci/travis/</link>
+      <link>//activestate.github.io/documentation-public/state/ci/travis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//activestate.github.io/documentation-public/ci/travis/</guid>
+      <guid>//activestate.github.io/documentation-public/state/ci/travis/</guid>
       <description>The following sections describe the tasks you need to complete to set up a CI/CD process with Travis CI, your version control system (VCS), and the ActiveState Platform. You need the appropriate access to these systems to complete the setup. In the examples below, we show configuration steps for GitHub specifically. You may need to adjust some of the tasks if you are using a different VCS.
 Travis currently provides only limited support for Windows builds, and Windows configuration won&amp;rsquo;t be covered in this guide.</description>
     </item>

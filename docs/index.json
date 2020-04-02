@@ -112,7 +112,7 @@
 	"content": "  activate  Activate an ActiveState Platform project on your local computer.\n auth  Authenticate your account on the ActiveState Platform.\n clean  Remove the State Tool, any installed languages, and any configuration files.\n events  List the configured events for your project.\n export  Export JWT or recipe information.\n fork  Create a fork of an existing Platform project.\n history  List the commit history for your project.\n init  Create a new ActiveState Platform project.\n languages  List the languages in your project, and allows you to update the specified languages.\n organizations  Lists the organizations you are a member of.\n packages  Manage the packages within an ActiveState Platform project.\n platforms  List the platforms in your project, and allows you to add and remove platforms, and search for available platforms on the ActiveState Platform.\n projects  List the projects you have access to from all of the Organizations you belong to.\n pull  Update your activestate.yaml so that it references the latest version of your platform runtime environment.\n push  Push your local changes to the ActiveState Platform.\n run  Manually run scripts you have defined for your projects by name.\n scripts  List all available scripts.\n secrets  Manage secrets within a Project.\n show  Display information about the current project, or a specified remote project.\n update  Update the State Tool to the latest available version.\n "
 },
 {
-	"uri": "//activestate.github.io/documentation-public/ci/",
+	"uri": "//activestate.github.io/documentation-public/state/ci/",
 	"title": "Using State Tool on CI/CD",
 	"tags": [],
 	"description": "",
@@ -161,7 +161,7 @@
 	"content": "Secrets are for sensitive information that needs to be shared between environments and people working on a project. For example, you can securely store API keys and database passwords using secrets. Secrets are client-side encrypted values, meaning that they are not stored on our servers and ActiveState cannot access your secret values.\nTo add a secret to your project:\n In Your Dashboard, select the organization that contains the project you want to add a secret to and then click the Projects tab, or click the Projects tab in your dashboard to add a secret to a personal project. Click the project to open. Click the Scripts tab. Click Secrets in the Scripts menu. Click Add a Secret. Enter a name for the secret, and optionally enter a description. Select the scope of the secret:  Project: The secret is visible to all users who have permissions to activate the project. The value of the secret is shared between members of the organization. User: Each user sets their own value and only that user can see it.   Click Add Secret.  When you activate a project that contains a secret with no value defined, you will be prompted for the value. Alternatively, click on the arrow next to the secret name on the Secrets page to expand the instructions for setting the secret value manually using the State Tool.\n"
 },
 {
-	"uri": "//activestate.github.io/documentation-public/ci/appveyor/",
+	"uri": "//activestate.github.io/documentation-public/state/ci/appveyor/",
 	"title": "AppVeyor",
 	"tags": [],
 	"description": "",
@@ -273,7 +273,7 @@
 	"content": "Forking a project allows you to copy an edit a project, and share that project and the builds it contains between organizations you belong to. For example, you can create a project in your personal organization and test to ensure that it is exactly what you need, and then fork it to an organization you belong to and share it with all of the members of that organization.\nTo fork a project:\n Open your web browser and navigate to http://platform.activestate.com and sign in. In Your Dashboard, select the organization that contains the project you want to fork and then click the Projects tab, or click the Projects tab in your dashboard to fork a personal project. Select the project to fork from your Custom Projects list or the Managed Projects list, if available. Custom projects are projects specific to your organization that you can modify as needed. Managed projects are created and maintained by ActiveState. Click Fork It next to the project title. Note: Forking a project always creates the fork from the most recent commit for the project. Enter a name for the forked project. You can leave it the same as the original project or provide a custom name to indicate that it is forked. Select the organization to fork the project to. You can select any organization you belong to or your personal organization. Click Fork Project.  The project is forked and you are redirected to the new forked project page. You can tell that you are in the forked project because a Forked from project name message is displayed under the project name.\n"
 },
 {
-	"uri": "//activestate.github.io/documentation-public/ci/github-actions/",
+	"uri": "//activestate.github.io/documentation-public/state/ci/github-actions/",
 	"title": "GitHub Actions",
 	"tags": [],
 	"description": "",
@@ -301,7 +301,7 @@
 	"content": "Create a new ActiveState Platform project.\nOnce the project is created locally, use the push command to push your local changes to the ActiveState Platform so that you project is available in the Dashboard and to enable all project features, such as secrets.\nUsage state init \u0026lt;owner\u0026gt;/\u0026lt;project_name\u0026gt; \u0026lt;Language[@version]\u0026gt; [--path \u0026lt;path\u0026gt;] The \u0026ldquo;owner\u0026rdquo; argument is your username or the organization name that the project belongs to.\nUse the Language argument to specify the language distribution the project should use. You must specify one of the following:\n perl python3 python2  You can also optionally specify the version to use by appending @version to the language with the specific version number you want to use. If you don\u0026rsquo;t specify a version, the latest available version for that language will be used.\nUse the --path flag to specify the local directory where the project will be created.\nExample You can use the state init command followed by the state push command to create a new project on the ActiveState Platform.\nstate init jsmith/johnspython3.6 python3@3.6.6 --path C:\\state_projects\\mypython cd C:\\state_projects\\mypython state push Related Information push Command\n"
 },
 {
-	"uri": "//activestate.github.io/documentation-public/ci/jenkins/",
+	"uri": "//activestate.github.io/documentation-public/state/ci/jenkins/",
 	"title": "Jenkins",
 	"tags": [],
 	"description": "",
@@ -448,7 +448,7 @@
 	"content": ""
 },
 {
-	"uri": "//activestate.github.io/documentation-public/ci/travis/",
+	"uri": "//activestate.github.io/documentation-public/state/ci/travis/",
 	"title": "Travis",
 	"tags": [],
 	"description": "",
