@@ -59,7 +59,7 @@ The private key environment variable expects the contents of the `private.key` f
 4. In the **Secrets** page, click **Add a new secret** enter the name and value for each environment variable and click **Add secret**. For information on the required values, see [Generating an API key](#generating-an-api-key) and, if applicable, [Configuring your private key](#configuring-your-private-key).
 **IMPORTANT**: The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.<br><br>
 
-![GitHub Action Secrets](/images/github-action-secrets.png)
+![GitHub Action Secrets](images/github-action-secrets.png)
 
 If you're adding the ACTIVESTATE_PRIVATE_KEY environment variable, you need to open the `private.key` file and copy the contents.
 
@@ -94,7 +94,7 @@ After you create an ActiveState project, complete the following steps to activat
 1. Click the Actions tab.
 2. Click **Set up a workflow yourself**.
 
-    ![Setup a workflow yourself](/images/github-actions-setup-workflow.png)
+    ![Setup a workflow yourself](images/github-actions-setup-workflow.png)
 3. Replace the default script with State Tool specific configuration settings. The following example demonstrates how to install the State Tool on both Linux and Windows, and how to run scripts for linting the code and for tests using the State Tool.
 
     ```text
@@ -165,4 +165,4 @@ After you create an ActiveState project, complete the following steps to activat
 
 You can view details for each time the workflow runs in GitHub by clicking the Actions tab, selecting the workflow, and then choosing clicking the title of the event to view. The logs for that event are then displayed.
 
-![](/images/github-actions-logs.png)
+![](images/github-actions-logs.png)

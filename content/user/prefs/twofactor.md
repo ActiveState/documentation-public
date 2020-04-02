@@ -13,7 +13,7 @@ To turn on two-factor authentication:
 1. Click menu at the top right of the page that displays your username, and select **Account Settings**.
 2. Click the **Two-factor Authentication** link and then click **Enable**.
 3. Open the two-factor authentication app on your mobile device and scan the QR code that is displayed on screen.
-  ![QR Code Example](/images/qrcode.png)
+  ![QR Code Example](images/qrcode.png)
 4. Enter your six-digit code in the text box and click **Confirm**.
 
 If you six-digit code is validated, two-factor authentication is enabled for your account. Two-factor authentication requires that you enter both your password and the current six-digit code displayed in your two-factor authentication app each time you log in.

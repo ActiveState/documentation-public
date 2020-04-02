@@ -69,7 +69,7 @@ The private key environment variable expects the contents of the `private.key` f
 The ACTIVESTATE_API_KEY is used to authenticate the State Tool automatically whenever required by the CI/CD build steps.
 {{% /notice %}}
 
-![](/images/travis-env-var.png)
+![](images/travis-env-var.png)
 
 {{% notice note %}}
 In some cases you may need to escape certain characters in your private key. 

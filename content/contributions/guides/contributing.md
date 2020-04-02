@@ -8,7 +8,7 @@ draft: true
 
 Gatsby.js has a really solid [contribution section](https://www.gatsbyjs.org/contributing/).
 
-![Gatsby contribution page](/images/gatsby-contribution.png)
+![Gatsby contribution page](images/gatsby-contribution.png)
 
 [Opensource contributor guidelines template](https://opensource.com/life/16/3/contributor-guidelines-template-and-tips)
 

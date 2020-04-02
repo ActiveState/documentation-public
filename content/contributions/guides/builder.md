@@ -17,7 +17,7 @@ date: 2019-12-19
 
 ### Structure
 
-![Build Wrapper diagram](/images/build-wrapper.png)
+![Build Wrapper diagram](images/build-wrapper.png)
 
 ### Example
 
