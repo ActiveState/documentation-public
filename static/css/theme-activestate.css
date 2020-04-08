@@ -57,8 +57,12 @@ h1, h2, h3, h4, h5 {
 	line-height: 1.2;
 }
 
-h1, h2, h3 {
+h1, h3 {
  	padding-top: 2.5rem !important;
+}
+
+h2 {
+	padding-top: 1rem !important;
 }
 
 h4 {
@@ -177,6 +181,10 @@ li {
 	padding: 0 0 1.25rem 0;
 }
 
+li:last-child {
+	padding: 0 0 .5rem 0;
+}
+
 ol{
 	padding-top: 0;
 	margin-top: 0;
@@ -184,10 +192,6 @@ ol{
 
 ol ul {
 	margin-top: 1rem;
-}
-
-.children li a {
-	padding-bottom: 1rem;
 }
 
 .hljs {
@@ -233,8 +237,9 @@ code {
 	color: #2D52BD;
 	border: 1px solid var(--MAIN-BG-color);
 	padding-bottom: 1px;
+	padding-top: 1px;
 	vertical-align: baseline;
-	font-size: 13px !important;
+	font-size: .9rem !important;
 }
 
 pre .copy-to-clipboard {
@@ -277,12 +282,28 @@ a {
     color: #fff;
 }
 
+.searchbox label {
+	left: 0px !important;
+}
+.searchbox span {
+	right: 2px;
+}
+
+.searchbox input {
+	padding: 0 25px 0 20px;
+}
+
 a:hover {
 	color: var(--MAIN-LINK-HOVER-color);
 }
 
 #sidebar ul li.visited > a .read-icon {
 	color: var(--MENU-VISITED-color);
+}
+
+#body a.highlight {
+    line-height: 1.6;
+    display: inline-block;
 }
 
 #body a.highlight:hover {
