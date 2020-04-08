@@ -1,4 +1,7 @@
-# Markdown: Syntax
+---
+title: "Markdown: Syntax"
+weight: 999
+---
 
 *   [Overview](#overview)
     *   [Philosophy](#philosophy)
