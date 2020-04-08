@@ -39,6 +39,8 @@ Disallow: /projects/
 
 Disallow: /changes/
 
+Disallow: /test/
+
 Disallow: /user/dashboard/
 
 Disallow: /state/commands/activate/

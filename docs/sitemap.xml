@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>//activestate.github.io/documentation-public/test/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//activestate.github.io/documentation-public/user/dashboard/</loc>
     <lastmod>2020-03-23T16:15:43-07:00</lastmod>
   </url>
@@ -198,7 +203,7 @@
   
   <url>
     <loc>//activestate.github.io/documentation-public/state/ci/github-actions/</loc>
-    <lastmod>2020-04-02T16:53:24-07:00</lastmod>
+    <lastmod>2020-04-02T17:01:52-07:00</lastmod>
   </url>
   
   <url>
