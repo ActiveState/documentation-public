@@ -208,6 +208,14 @@ ol ul {
 	color: #2D52BD;
 }
 
+.hljs-variable {
+	color: #45965A;
+}
+
+.hljs-keyword {
+	color: #FF2F4C;
+}
+
 #sidebar a {
 	font-weight: normal !important;
 }
@@ -349,7 +357,6 @@ a:hover {
 
 #sidebar a:hover {
 	color: var(--MENU-SECTIONS-LINK-HOVER-color);
-	font-weight: bold !important;
 }
 
 #sidebar ul li.active > a {
