@@ -170,19 +170,19 @@ mark {
 	color: var(--MENU-HEADER-BORDER-color);
 }
 
-.children-li p {
+.children-li li + p + p {
 	font-size: small;
 	font-style: normal !important;
-	margin-top: -24px !important;
 	padding-bottom: 24px !important;
+	margin-top: -12px !important;
 }
 
 li {
-	padding: 0 0 1.25rem 0;
+	padding: 0 0 1rem 0;
 }
 
 li:last-child {
-	padding: 0 0 .5rem 0;
+	padding: 0 0 0 0;
 }
 
 ol{
@@ -190,8 +190,16 @@ ol{
 	margin-top: 0;
 }
 
+p:empty {
+	display: none;
+}
+
 ol ul {
 	margin-top: 1rem;
+}
+
+ul ul {
+	margin: 1.7rem 0;
 }
 
 .hljs {
@@ -224,10 +232,11 @@ div.notices.note p {
 	border-top: 30px solid #2D52BD;
 	color: #2D52BD;
 	background: var(--MAIN-BG-color);
+	border-radius: 2px;
 }
 
 pre {
-	padding: 1.25rem;
+	padding: 1rem;
 	background: var(--MAIN-BG-color)  !important;
 	border: 0;
 	border-radius: 2px;
@@ -344,6 +353,21 @@ a:hover {
 
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
 	background: var(--MENU-SECTIONS-ACTIVE-BG-color);
+}
+
+#sidebar ul.topics > li {
+	position: relative;
+}
+
+#sidebar ul.topics > li:hover:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -1rem;
+	height: 100%;
+	display: block;
+	background: white;
+	width: 4px;
 }
 
 #sidebar .searchbox * {
