@@ -32,3 +32,5 @@ chmod +x .git/hooks/pre-commit
   The minimum requirement is v0.60.0 extended.
 
 5. Run `hugo server` from the root of the repostory to run the server locally, or commit changes and see the updates at [https://activestate.github.io/documentation-public](ttps://activestate.github.io/documentation-public).
+
+Last updated: April 17, 2020

@@ -57,8 +57,12 @@ h1, h2, h3, h4, h5 {
 	line-height: 1.2;
 }
 
-h1, h2, h3 {
+h1, h3 {
  	padding-top: 2.5rem !important;
+}
+
+h2 {
+	padding-top: 1rem !important;
 }
 
 h4 {
@@ -166,15 +170,19 @@ mark {
 	color: var(--MENU-HEADER-BORDER-color);
 }
 
-.children-li p {
+.children-li li + p + p {
 	font-size: small;
 	font-style: normal !important;
-	margin-top: -24px !important;
 	padding-bottom: 24px !important;
+	margin-top: -12px !important;
 }
 
 li {
-	padding: 0 0 1.25rem 0;
+	padding: 0 0 1rem 0;
+}
+
+li:last-child {
+	padding: 0 0 0 0;
 }
 
 ol{
@@ -182,12 +190,16 @@ ol{
 	margin-top: 0;
 }
 
+p:empty {
+	display: none;
+}
+
 ol ul {
 	margin-top: 1rem;
 }
 
-.children li a {
-	padding-bottom: 1rem;
+ul ul {
+	margin: 1.7rem 0;
 }
 
 .hljs {
@@ -204,6 +216,14 @@ ol ul {
 	color: #2D52BD;
 }
 
+.hljs-variable {
+	color: #45965A;
+}
+
+.hljs-keyword {
+	color: #FF2F4C;
+}
+
 #sidebar a {
 	font-weight: normal !important;
 }
@@ -212,10 +232,11 @@ div.notices.note p {
 	border-top: 30px solid #2D52BD;
 	color: #2D52BD;
 	background: var(--MAIN-BG-color);
+	border-radius: 2px;
 }
 
 pre {
-	padding: 1.25rem;
+	padding: 1rem;
 	background: var(--MAIN-BG-color)  !important;
 	border: 0;
 	border-radius: 2px;
@@ -233,8 +254,9 @@ code {
 	color: #2D52BD;
 	border: 1px solid var(--MAIN-BG-color);
 	padding-bottom: 1px;
+	padding-top: 1px;
 	vertical-align: baseline;
-	font-size: 13px !important;
+	font-size: .9rem !important;
 }
 
 pre .copy-to-clipboard {
@@ -277,12 +299,28 @@ a {
     color: #fff;
 }
 
+.searchbox label {
+	left: 0px !important;
+}
+.searchbox span {
+	right: 2px;
+}
+
+.searchbox input {
+	padding: 0 25px 0 20px;
+}
+
 a:hover {
 	color: var(--MAIN-LINK-HOVER-color);
 }
 
 #sidebar ul li.visited > a .read-icon {
 	color: var(--MENU-VISITED-color);
+}
+
+#body a.highlight {
+    line-height: 1.6;
+    display: inline-block;
 }
 
 #body a.highlight:hover {
@@ -317,6 +355,21 @@ a:hover {
 	background: var(--MENU-SECTIONS-ACTIVE-BG-color);
 }
 
+#sidebar ul.topics > li {
+	position: relative;
+}
+
+#sidebar ul.topics > li:hover:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -1rem;
+	height: 100%;
+	display: block;
+	background: white;
+	width: 4px;
+}
+
 #sidebar .searchbox * {
 	color: var(--MENU-SEARCH-BOX-ICONS-color);
 }
@@ -328,7 +381,6 @@ a:hover {
 
 #sidebar a:hover {
 	color: var(--MENU-SECTIONS-LINK-HOVER-color);
-	font-weight: bold !important;
 }
 
 #sidebar ul li.active > a {
