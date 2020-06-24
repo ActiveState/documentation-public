@@ -3,6 +3,10 @@ shortcuts:                                       # external links
   identifier: "platform"
   url: "https://platform.activestate.com/"
   weight: 10
+- name: "ActiveState Forums"
+  identifier: "forums"
+  url: "https://community.activestate.com/"
+  weight: 15
 # - name: "Hugo docs"
 #   identifier: "hugodoc"
 #   url: "https://gohugo.io/documentation/"
